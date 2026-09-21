@@ -1,1 +1,42 @@
+name: Build Android APK
 
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Java JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build Android APK with Android CLI
+        run: |
+          npm install -g @bubblewrap/cli
+          # Utilisation des drapeaux non-interactifs pour ignorer toutes les questions du CLI
+          printf 'y\ny\ny\ny\n' | bubblewrap init --manifest=https://taha-mht.github.io/TAALIM_IA/manifest.json --directory=android-app || true
+          cd android-app
+          printf 'y\ny\ny\ny\n' | bubblewrap build || true
+
+      - name: Upload APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: TAALIM_IA_Android_APK
+          path: |
+            android-app/*.apk
+            *.apk
+            **/*.apk
