@@ -31,8 +31,10 @@ jobs:
 
       - name: Build APK
         run: |
-          flutter build apk --release --verbose > build_log.txt 2>&1 || true
-          tail -200 build_log.txt
+          flutter build apk --release > build_log.txt 2>&1 || true
+          echo "----- ERROR SUMMARY -----"
+          grep -inE "FAILURE|error:|Exception|what went wrong" -A 5 build_log.txt || echo "No obvious error markers found, showing last 150 lines:"
+          tail -150 build_log.txt
 
       - name: Upload full build log
         if: always()
