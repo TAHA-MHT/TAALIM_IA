@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalam — Mathématiques CP1/CP2</title>
+  <style>
+    :root {
+      --primary: #4A90E2;
+      --secondary: #50E3C2;
+      --accent: #FF6B6B;
+      --bg: #F7F9FC;
+      --card-bg: #FFFFFF;
+      --text: #2C3E50;
+    }
+
+    * { box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    body { background-color: var(--bg); color: var(--text); margin: 0; padding: 15px; display: flex; flex-direction: column; align-items: center; }
+    
+    .app-header { text-align: center; margin-bottom: 20px; }
+    .app-title { font-size: 22px; font-weight: bold; color: var(--primary); margin: 0; }
+    .app-subtitle { font-size: 14px; color: #7F8C8D; margin-top: 4px; }
+
+    .level-selector { display: flex; gap: 10px; margin-bottom: 20px; }
+    .btn-level { padding: 8px 16px; border: 2px solid var(--primary); background: transparent; color: var(--primary); font-weight: bold; border-radius: 20px; cursor: pointer; transition: 0.2s; }
+    .btn-level.active { background: var(--primary); color: white; }
+
+    .card { background: var(--card-bg); border-radius: 16px; padding: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); width: 100%; max-width: 450px; text-align: center; }
+    
+    .question-box { font-size: 18px; font-weight: bold; margin-bottom: 15px; min-height: 50px; display: flex; align-items: center; justify-content: center; }
+    
+    /* Zone visuelle pour le comptage CP1 */
+    .objects-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 20px; min-height: 100px; }
+    .item-icon { font-size: 32px; animation: pop 0.3s ease-out; }
+
+    /* Zone d'équation pour CP2 */
+    .equation { font-size: 36px; font-weight: bold; color: var(--primary); margin-bottom: 20px; }
+
+    /* Boutons de réponses */
+    .options-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 15px; }
+    .btn-option { background: #EDF2F7; border: 2px solid #CBD5E0; border-radius: 12px; padding: 15px; font-size: 22px; font-weight: bold; color: var(--text); cursor: pointer; transition: 0.1s; }
+    .btn-option:active { transform: scale(0.96); }
+    .btn-option.correct { background: #C6F6D5; border-color: #38A169; color: #22543D; }
+    .btn-option.wrong { background: #FED7D7; border-color: #E53E3E; color: #742A2A; }
+
+    .feedback { font-size: 16px; font-weight: bold; height: 24px; margin-bottom: 10px; }
+    .btn-next { background: var(--secondary); color: white; border: none; padding: 12px 24px; font-size: 16px; font-weight: bold; border-radius: 25px; cursor: pointer; display: none; margin: 0 auto; }
+
+    @keyframes pop {
+      0% { transform: scale(0); }
+      80% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="app-header">
+    <div class="app-title">Kalam — Module Mathématiques</div>
+    <div class="app-subtitle">Apprendre en s'amusant</div>
+  </div>
+
+  <div class="level-selector">
+    <button class="btn-level active" onclick="setLevel('cp1')">CP1 (Comptage)</button>
+    <button class="btn-level" onclick="setLevel('cp2')">CP2 (Calcul)</button>
+  </div>
+
+  <div class="card">
+    <div class="question-box" id="questionText">Combien y a-t-il d'objets ?</div>
+    
+    <!-- Zone visuelle CP1 -->
+    <div class="objects-grid" id="objectsGrid"></div>
+
+    <!-- Zone équation CP2 -->
+    <div class="equation" id="equationBox" style="display: none;"></div>
+
+    <!-- Choix de réponses -->
+    <div class="options-grid" id="optionsGrid"></div>
+
+    <div class="feedback" id="feedback"></div>
+    <button class="btn-next" id="btnNext" onclick="generateQuestion()">Question suivante ➔</button>
+  </div>
+
+  <script>
+    let currentLevel = 'cp1';
+    let correctAnswer = 0;
+    const icons = ['🍎', '⭐', '🎈', '🐱', '🚗', '🍓', '🐶'];
+
+    function setLevel(level) {
+      currentLevel = level;
+      document.querySelectorAll('.btn-level').forEach(btn => btn.classList.remove('active'));
+      event.target.classList.add('active');
+      generateQuestion();
+    }
+
+    function getRandomInt(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    function generateQuestion() {
+      const feedback = document.getElementById('feedback');
+      const btnNext = document.getElementById('btnNext');
+      const objectsGrid = document.getElementById('objectsGrid');
+      const equationBox = document.getElementById('equationBox');
+      const optionsGrid = document.getElementById('optionsGrid');
+      
+      feedback.textContent = '';
+      btnNext.style.display = 'none';
+      optionsGrid.innerHTML = '';
+
+      if (currentLevel === 'cp1') {
+        // Module CP1 : Compter les objets (1 à 10)
+        document.getElementById('questionText').textContent = "Combien y a-t-il d'éléments ?";
+        objectsGrid.style.display = 'flex';
+        equationBox.style.display = 'none';
+        
+        correctAnswer = getRandomInt(2, 9);
+        const icon = icons[getRandomInt(0, icons.length - 1)];
+        objectsGrid.innerHTML = '';
+        
+        for (let i = 0; i < correctAnswer; i++) {
+          const span = document.createElement('span');
+          span.className = 'item-icon';
+          span.textContent = icon;
+          objectsGrid.appendChild(span);
+        }
+      } else {
+        // Module CP2 : Petites additions et soustractions
+        document.getElementById('questionText').textContent = "Calcule le résultat :";
+        objectsGrid.style.display = 'none';
+        equationBox.style.display = 'block';
+
+        const isAddition = Math.random() > 0.5;
+        if (isAddition) {
+          const num1 = getRandomInt(2, 10);
+          const num2 = getRandomInt(1, 10);
+          correctAnswer = num1 + num2;
+          equationBox.textContent = `${num1} + ${num2} = ?`;
+        } else {
+          const num1 = getRandomInt(5, 15);
+          const num2 = getRandomInt(1, num1);
+          correctAnswer = num1 - num2;
+          equationBox.textContent = `${num1} - ${num2} = ?`;
+        }
+      }
+
+      // Génération des options (1 bonne réponse + 3 fausses)
+      let options = [correctAnswer];
+      while (options.length < 4) {
+        let wrong = correctAnswer + getRandomInt(-3, 3);
+        if (wrong >= 0 && !options.includes(wrong)) {
+          options.push(wrong);
+        }
+      }
+      options.sort(() => Math.random() - 0.5);
+
+      options.forEach(opt => {
+        const btn = document.createElement('button');
+        btn.className = 'btn-option';
+        btn.textContent = opt;
+        btn.onclick = () => checkAnswer(btn, opt);
+        optionsGrid.appendChild(btn);
+      });
+    }
+
+    function checkAnswer(selectedBtn, val) {
+      const feedback = document.getElementById('feedback');
+      const btnNext = document.getElementById('btnNext');
+      const allBtns = document.querySelectorAll('.btn-option');
+
+      allBtns.forEach(btn => btn.disabled = true);
+
+      if (val === correctAnswer) {
+        selectedBtn.classList.add('correct');
+        feedback.textContent = "🎉 Bravo ! Bonne réponse !";
+        feedback.style.color = "#38A169";
+      } else {
+        selectedBtn.classList.add('wrong');
+        feedback.textContent = `❌ Dommage ! La réponse était ${correctAnswer}.`;
+        feedback.style.color = "#E53E3E";
+        
+        allBtns.forEach(btn => {
+          if (parseInt(btn.textContent) === correctAnswer) {
+            btn.classList.add('correct');
+          }
+        });
+      }
+
+      btnNext.style.display = 'block';
+    }
+
+    // Lancement au chargement
+    generateQuestion();
+  </script>
+</body>
+</html>
 
