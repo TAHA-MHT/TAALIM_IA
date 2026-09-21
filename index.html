@@ -1,1 +1,656 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#1B2A4A">
+<title>TAALIM_IA</title>
+<link rel="manifest" href="manifest.json">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Nunito:wght@500;700;800&family=Tajawal:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#EAF6FF;
+    --surface:#FFFFFF;
+    --ink:#1B2A4A;
+    --ink-soft:#4C5E82;
+    --lecture:#FF9F1C;
+    --lecture-soft:#FFE7C2;
+    --calcul:#2EC4B6;
+    --calcul-soft:#CFF3F0;
+    --cp1:#E84855;
+    --cp2:#7A5CFA;
+    --success:#2EC4B6;
+    --error:#E84855;
+    --radius-lg:28px;
+    --radius-md:16px;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Nunito',system-ui,sans-serif;
+    min-height:100vh;
+    -webkit-tap-highlight-color:transparent;
+  }
+  body.lang-ar{font-family:'Tajawal',system-ui,sans-serif;}
+  h1,h2,h3,.display{font-family:'Baloo 2',system-ui,sans-serif;}
+  body.lang-ar h1, body.lang-ar h2, body.lang-ar h3, body.lang-ar .display{font-family:'Tajawal',system-ui,sans-serif;}
+
+  .app{max-width:520px;margin:0 auto;min-height:100vh;display:flex;flex-direction:column;padding:20px 18px 40px;}
+
+  /* Top bar */
+  .topbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;}
+  .brand{display:flex;align-items:center;gap:10px;}
+  .brand-badge{width:42px;height:42px;border-radius:14px;background:var(--ink);display:flex;align-items:center;justify-content:center;font-size:22px;}
+  .brand-name{font-family:'Baloo 2','Tajawal',system-ui,sans-serif;font-weight:800;font-size:20px;}
+  .lang-toggle{display:flex;background:var(--surface);border-radius:999px;padding:4px;gap:4px;box-shadow:0 4px 14px rgba(27,42,74,0.12);}
+  .lang-btn{border:none;background:transparent;padding:7px 14px;border-radius:999px;font-weight:800;font-size:14px;cursor:pointer;color:var(--ink-soft);font-family:inherit;}
+  .lang-btn.active{background:var(--ink);color:#fff;}
+
+  .screen{display:none;flex:1;flex-direction:column;}
+  .screen.active{display:flex;}
+
+  /* Home */
+  .home-title{font-size:26px;font-weight:800;margin:6px 0 4px;line-height:1.25;}
+  .home-sub{color:var(--ink-soft);font-size:15px;margin:0 0 22px;}
+  .level-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+  .level-card{
+    border:none;cursor:pointer;border-radius:var(--radius-lg);padding:26px 14px;
+    display:flex;flex-direction:column;align-items:center;gap:10px;
+    font-family:inherit;color:#fff;
+  }
+  .level-card .lv-emoji{font-size:38px;}
+  .level-card .lv-name{font-family:'Baloo 2','Tajawal',system-ui,sans-serif;font-weight:800;font-size:22px;}
+  .level-card .lv-hint{font-size:13px;opacity:.9;}
+  .level-card.cp1{background:var(--cp1);box-shadow:0 14px 30px -10px rgba(232,72,85,0.55);}
+  .level-card.cp2{background:var(--cp2);box-shadow:0 14px 30px -10px rgba(122,92,250,0.55);}
+
+  /* Subject screen */
+  .back-row{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
+  .back-btn{border:none;background:var(--surface);width:40px;height:40px;border-radius:12px;font-size:18px;cursor:pointer;box-shadow:0 4px 14px rgba(27,42,74,0.10);}
+  .subject-grid{display:flex;flex-direction:column;gap:16px;margin-top:16px;}
+  .subject-card{
+    border:none;cursor:pointer;text-align:inherit;border-radius:var(--radius-lg);padding:22px;
+    display:flex;align-items:center;gap:16px;font-family:inherit;
+  }
+  .subject-card.lecture{background:var(--lecture-soft);box-shadow:0 10px 26px -12px rgba(255,159,28,0.6);}
+  .subject-card.calcul{background:var(--calcul-soft);box-shadow:0 10px 26px -12px rgba(46,196,182,0.6);}
+  .subject-emoji{font-size:34px;width:56px;height:56px;border-radius:16px;display:flex;align-items:center;justify-content:center;flex-shrink:0;background:rgba(255,255,255,0.6);}
+  .subject-name{font-weight:800;font-size:19px;color:var(--ink);font-family:'Baloo 2','Tajawal',system-ui,sans-serif;}
+  .subject-best{font-size:13px;color:var(--ink-soft);margin-top:2px;}
+
+  /* Game screen */
+  .progress-row{display:flex;gap:6px;margin:6px 0 20px;}
+  .dot{flex:1;height:8px;border-radius:6px;background:#DCE6F5;}
+  .dot.done{background:var(--success);}
+  .dot.current{background:var(--ink);}
+  .score-pill{align-self:flex-end;background:var(--surface);padding:6px 14px;border-radius:999px;font-weight:800;font-size:14px;box-shadow:0 4px 14px rgba(27,42,74,0.10);margin-bottom:10px;}
+
+  .card{background:var(--surface);border-radius:var(--radius-lg);padding:24px 20px;box-shadow:0 14px 34px -18px rgba(27,42,74,0.35);}
+  .prompt{font-size:20px;font-weight:800;line-height:1.4;margin:0 0 20px;font-family:'Baloo 2','Tajawal',system-ui,sans-serif;}
+
+  .options-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+  .opt-btn{
+    border:2px solid #E3EAF6;background:#fff;border-radius:var(--radius-md);
+    padding:18px 10px;font-size:17px;font-weight:800;cursor:pointer;font-family:inherit;color:var(--ink);
+    min-height:64px;
+  }
+  .opt-btn:active{transform:scale(0.97);}
+  .opt-btn.correct{background:var(--success);border-color:var(--success);color:#fff;}
+  .opt-btn.wrong{background:var(--error);border-color:var(--error);color:#fff;}
+  .opt-btn.dim{opacity:0.45;}
+
+  .match-instruction{font-size:14px;color:var(--ink-soft);margin:-10px 0 16px;}
+  .match-cols{display:flex;gap:12px;}
+  .match-col{flex:1;display:flex;flex-direction:column;gap:10px;}
+  .match-btn{
+    border:2px solid #E3EAF6;background:#fff;border-radius:var(--radius-md);
+    padding:14px 8px;font-size:16px;font-weight:800;cursor:pointer;font-family:inherit;color:var(--ink);
+    min-height:56px;
+  }
+  .match-btn.selected{border-color:var(--ink);background:#EEF2FB;}
+  .match-btn.matched{background:var(--success);border-color:var(--success);color:#fff;opacity:0.85;cursor:default;}
+  .match-btn.wrong{background:var(--error);border-color:var(--error);color:#fff;}
+
+  .feedback{margin-top:16px;font-weight:800;font-size:15px;min-height:20px;}
+  .feedback.ok{color:var(--success);}
+  .feedback.ko{color:var(--error);}
+
+  .primary-btn{
+    margin-top:20px;border:none;background:var(--ink);color:#fff;padding:16px;border-radius:var(--radius-md);
+    font-weight:800;font-size:16px;cursor:pointer;font-family:inherit;width:100%;
+  }
+  .primary-btn:disabled{opacity:0.35;}
+
+  /* Result screen */
+  .result-card{background:var(--surface);border-radius:var(--radius-lg);padding:34px 24px;text-align:center;box-shadow:0 14px 34px -18px rgba(27,42,74,0.35);margin-top:10px;}
+  .stars{font-size:44px;letter-spacing:6px;margin-bottom:6px;}
+  .result-title{font-size:22px;font-weight:800;margin:8px 0 4px;font-family:'Baloo 2','Tajawal',system-ui,sans-serif;}
+  .result-text{color:var(--ink-soft);font-size:16px;margin:0 0 6px;}
+  .result-best{color:var(--ink-soft);font-size:13px;margin:0 0 20px;}
+  .result-actions{display:flex;gap:10px;}
+  .result-actions .primary-btn{margin-top:0;}
+  .ghost-btn{
+    border:2px solid #E3EAF6;background:#fff;color:var(--ink);padding:16px;border-radius:var(--radius-md);
+    font-weight:800;font-size:16px;cursor:pointer;font-family:inherit;width:100%;
+  }
+
+  [dir="rtl"] .brand-badge{transform:scaleX(-1);}
+</style>
+</head>
+<body class="lang-fr">
+<div class="app">
+
+  <div class="topbar">
+    <div class="brand">
+      <div class="brand-badge">📚</div>
+      <div class="brand-name" id="brandName">TAALIM_IA</div>
+    </div>
+    <div class="lang-toggle">
+      <button class="lang-btn" id="btnFr" onclick="setLang('fr')">FR</button>
+      <button class="lang-btn" id="btnAr" onclick="setLang('ar')">عربي</button>
+    </div>
+  </div>
+
+  <!-- HOME -->
+  <div class="screen active" id="screen-home">
+    <div class="home-title" id="homeTitle"></div>
+    <div class="home-sub" id="homeSub"></div>
+    <div class="level-grid">
+      <button class="level-card cp1" onclick="chooseLevel('cp1')">
+        <div class="lv-emoji">🌱</div>
+        <div class="lv-name" id="lvCp1Name"></div>
+        <div class="lv-hint" id="lvCp1Hint"></div>
+      </button>
+      <button class="level-card cp2" onclick="chooseLevel('cp2')">
+        <div class="lv-emoji">🌟</div>
+        <div class="lv-name" id="lvCp2Name"></div>
+        <div class="lv-hint" id="lvCp2Hint"></div>
+      </button>
+    </div>
+  </div>
+
+  <!-- SUBJECT -->
+  <div class="screen" id="screen-subject">
+    <div class="back-row">
+      <button class="back-btn" onclick="goHome()">‹</button>
+      <div class="display" id="subjectHeader" style="font-weight:800;font-size:18px;"></div>
+    </div>
+    <div class="home-sub" id="subjectSub"></div>
+    <div class="subject-grid">
+      <button class="subject-card lecture" onclick="chooseSubject('lecture')">
+        <div class="subject-emoji">🔤</div>
+        <div>
+          <div class="subject-name" id="subLectureName"></div>
+          <div class="subject-best" id="subLectureBest"></div>
+        </div>
+      </button>
+      <button class="subject-card calcul" onclick="chooseSubject('calcul')">
+        <div class="subject-emoji">🔢</div>
+        <div>
+          <div class="subject-name" id="subCalculName"></div>
+          <div class="subject-best" id="subCalculBest"></div>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <!-- GAME -->
+  <div class="screen" id="screen-game">
+    <div class="back-row">
+      <button class="back-btn" onclick="goSubjectScreen()">‹</button>
+      <div class="display" id="gameHeader" style="font-weight:800;font-size:18px;"></div>
+    </div>
+    <div class="score-pill" id="scorePill"></div>
+    <div class="progress-row" id="progressRow"></div>
+    <div class="card" id="gameCard">
+      <div class="prompt" id="prompt"></div>
+      <div id="exerciseArea"></div>
+      <div class="feedback" id="feedback"></div>
+    </div>
+    <button class="primary-btn" id="nextBtn" onclick="nextExercise()" disabled></button>
+  </div>
+
+  <!-- RESULT -->
+  <div class="screen" id="screen-result">
+    <div class="result-card">
+      <div class="stars" id="resultStars"></div>
+      <div class="result-title" id="resultTitle"></div>
+      <div class="result-text" id="resultText"></div>
+      <div class="result-best" id="resultBest"></div>
+      <div class="result-actions">
+        <button class="ghost-btn" id="homeBtnResult" onclick="goHome()"></button>
+        <button class="primary-btn" id="retryBtn" onclick="retryExercise()"></button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+/* ---------------------------------------------------
+   I18N
+--------------------------------------------------- */
+const I18N = {
+  fr: {
+    homeTitle:"Apprendre en s'amusant",
+    homeSub:"Choisis ton niveau pour commencer",
+    cp1Name:"CP1", cp1Hint:"Première année",
+    cp2Name:"CP2", cp2Hint:"Deuxième année",
+    chooseSubject:"Choisis une matière",
+    lecture:"Lecture", calcul:"Calcul",
+    best:"Meilleur score : ",
+    noScore:"Pas encore essayé",
+    question:"Question",
+    matchInstruction:"Touche deux cases qui vont ensemble",
+    correct:"Bravo, bonne réponse !",
+    incorrect:"Pas tout à fait, réessaie !",
+    next:"Continuer",
+    seeResult:"Voir mon résultat",
+    resultTitle:"Résultat",
+    resultText:(s,t)=>`Tu as obtenu ${s} sur ${t} !`,
+    home:"Accueil",
+    retry:"Recommencer"
+  },
+  ar: {
+    homeTitle:"تعلّم وأنت تلعب",
+    homeSub:"اختر مستواك للبدء",
+    cp1Name:"الأولى ابتدائي", cp1Hint:"السنة الأولى",
+    cp2Name:"الثانية ابتدائي", cp2Hint:"السنة الثانية",
+    chooseSubject:"اختر مادة",
+    lecture:"القراءة", calcul:"الحساب",
+    best:"أفضل نتيجة: ",
+    noScore:"لم تجرب بعد",
+    question:"سؤال",
+    matchInstruction:"المس مربعين مرتبطين ببعضهما",
+    correct:"أحسنت، إجابة صحيحة!",
+    incorrect:"ليست صحيحة، حاول مجددًا!",
+    next:"متابعة",
+    seeResult:"شاهد نتيجتي",
+    resultTitle:"النتيجة",
+    resultText:(s,t)=>`لقد حصلت على ${s} من ${t}!`,
+    home:"الرئيسية",
+    retry:"إعادة المحاولة"
+  }
+};
+
+/* ---------------------------------------------------
+   CONTENT: exercises[lang][level][subject] = array
+   type 'qcm'   -> {type:'qcm', q, options:[...], a: index}
+   type 'match' -> {type:'match', pairs:[{l,r}, ...]}
+--------------------------------------------------- */
+const CONTENT = {
+  fr: {
+    cp1: {
+      lecture: [
+        {type:'qcm', q:"Quelle lettre vient après le A ?", options:["B","C","D","E"], a:0},
+        {type:'qcm', q:"Quel mot commence par la lettre M ?", options:["Maison","Voiture","Soleil","Table"], a:0},
+        {type:'qcm', q:"Trouve la voyelle.", options:["O","P","T","K"], a:0},
+        {type:'qcm', q:"Quelle lettre fait le son « ch » comme dans « chat » ?", options:["CH","S","V","J"], a:0},
+        {type:'match', pairs:[
+          {l:"B", r:"Ballon 🎈"}, {l:"C", r:"Chat 🐱"}, {l:"L", r:"Lune 🌙"}, {l:"S", r:"Soleil ☀️"}
+        ]}
+      ],
+      calcul: [
+        {type:'qcm', q:"2 + 3 = ?", options:["5","4","6","3"], a:0},
+        {type:'qcm', q:"Combien y a-t-il de pommes ? 🍎🍎🍎", options:["3","2","4","5"], a:0},
+        {type:'qcm', q:"5 - 2 = ?", options:["3","2","4","1"], a:0},
+        {type:'qcm', q:"Quel nombre vient après 7 ?", options:["8","6","9","7"], a:0},
+        {type:'match', pairs:[
+          {l:"2", r:"⭐⭐"}, {l:"4", r:"⭐⭐⭐⭐"}, {l:"1", r:"⭐"}, {l:"5", r:"⭐⭐⭐⭐⭐"}
+        ]}
+      ]
+    },
+    cp2: {
+      lecture: [
+        {type:'qcm', q:"Quel mot correspond à l'image ? 🐱", options:["Chat","Chien","Oiseau","Poisson"], a:0},
+        {type:'qcm', q:"Complète : Le ___ vole dans le ciel.", options:["oiseau","poisson","chat","chien"], a:0},
+        {type:'qcm', q:"Quel mot est écrit correctement ?", options:["École","Ecolle","Ekole","Aicole"], a:0},
+        {type:'qcm', q:"Quel mot rime avec « balle » ?", options:["salle","porte","lune","fleur"], a:0},
+        {type:'match', pairs:[
+          {l:"Chat", r:"🐱"}, {l:"Chien", r:"🐶"}, {l:"Oiseau", r:"🐦"}, {l:"Poisson", r:"🐟"}
+        ]}
+      ],
+      calcul: [
+        {type:'qcm', q:"Sara a 5 bonbons, elle en mange 2. Combien lui en reste-t-il ?", options:["3","2","7","4"], a:0},
+        {type:'qcm', q:"8 - 3 = ?", options:["5","4","6","3"], a:0},
+        {type:'qcm', q:"4 + 4 = ?", options:["8","7","9","6"], a:0},
+        {type:'qcm', q:"Quel est le plus grand nombre ?", options:["9","6","3","1"], a:0},
+        {type:'match', pairs:[
+          {l:"3+2", r:"5"}, {l:"6-1", r:"5"}, {l:"4+4", r:"8"}, {l:"9-3", r:"6"}
+        ]}
+      ]
+    }
+  },
+  ar: {
+    cp1: {
+      lecture: [
+        {type:'qcm', q:"ما هو الحرف الذي يأتي بعد الألف (أ) ؟", options:["ب","ت","ث","ج"], a:0},
+        {type:'qcm', q:"أي كلمة تبدأ بحرف « س » ؟", options:["سمكة","قطة","تفاحة","كتاب"], a:0},
+        {type:'qcm', q:"أوجد حرف المد.", options:["ا","ب","ت","ث"], a:0},
+        {type:'qcm', q:"أي حرف يصدر صوت « م » كما في كلمة « موز » ؟", options:["م","ن","ل","ر"], a:0},
+        {type:'match', pairs:[
+          {l:"ب", r:"بطة 🦆"}, {l:"ت", r:"تفاحة 🍎"}, {l:"س", r:"سمكة 🐟"}, {l:"م", r:"موز 🍌"}
+        ]}
+      ],
+      calcul: [
+        {type:'qcm', q:"2 + 3 = ؟", options:["5","4","6","3"], a:0},
+        {type:'qcm', q:"كم عدد التفاحات ؟ 🍎🍎🍎", options:["3","2","4","5"], a:0},
+        {type:'qcm', q:"5 - 2 = ؟", options:["3","2","4","1"], a:0},
+        {type:'qcm', q:"ما هو العدد الذي يأتي بعد 7 ؟", options:["8","6","9","7"], a:0},
+        {type:'match', pairs:[
+          {l:"2", r:"⭐⭐"}, {l:"4", r:"⭐⭐⭐⭐"}, {l:"1", r:"⭐"}, {l:"5", r:"⭐⭐⭐⭐⭐"}
+        ]}
+      ]
+    },
+    cp2: {
+      lecture: [
+        {type:'qcm', q:"ما هي الكلمة التي تناسب الصورة ؟ 🐱", options:["قطة","كلب","عصفور","سمكة"], a:0},
+        {type:'qcm', q:"أكمل : يطير الـ ___ في السماء.", options:["عصفور","سمك","قطة","كلب"], a:0},
+        {type:'qcm', q:"ما هي الكلمة المكتوبة بشكل صحيح ؟", options:["مدرسة","مدرصة","مدرسه","مدرصه"], a:0},
+        {type:'qcm', q:"أي كلمة تبدأ بنفس حرف كلمة « قطة » ؟", options:["قلم","كتاب","باب","دفتر"], a:0},
+        {type:'match', pairs:[
+          {l:"قطة", r:"🐱"}, {l:"كلب", r:"🐶"}, {l:"عصفور", r:"🐦"}, {l:"سمكة", r:"🐟"}
+        ]}
+      ],
+      calcul: [
+        {type:'qcm', q:"عند سارة 5 حلويات، أكلت 2. كم تبقى لها ؟", options:["3","2","7","4"], a:0},
+        {type:'qcm', q:"8 - 3 = ؟", options:["5","4","6","3"], a:0},
+        {type:'qcm', q:"4 + 4 = ؟", options:["8","7","9","6"], a:0},
+        {type:'qcm', q:"ما هو العدد الأكبر ؟", options:["9","6","3","1"], a:0},
+        {type:'match', pairs:[
+          {l:"3+2", r:"5"}, {l:"6-1", r:"5"}, {l:"4+4", r:"8"}, {l:"9-3", r:"6"}
+        ]}
+      ]
+    }
+  }
+};
+
+/* ---------------------------------------------------
+   STATE
+--------------------------------------------------- */
+let state = {
+  lang: 'fr',
+  level: null,
+  subject: null,
+  exercises: [],
+  index: 0,
+  score: 0,
+  maxScore: 0,
+  answeredCurrent: false
+};
+
+function t(){ return I18N[state.lang]; }
+
+/* ---------------------------------------------------
+   NAVIGATION
+--------------------------------------------------- */
+function showScreen(id){
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+}
+
+function setLang(lang){
+  state.lang = lang;
+  document.body.classList.toggle('lang-ar', lang === 'ar');
+  document.documentElement.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+  document.documentElement.setAttribute('lang', lang);
+  document.getElementById('btnFr').classList.toggle('active', lang==='fr');
+  document.getElementById('btnAr').classList.toggle('active', lang==='ar');
+  renderHome();
+  if(state.level) renderSubjectScreen();
+}
+
+function goHome(){
+  renderHome();
+  showScreen('screen-home');
+}
+
+function renderHome(){
+  const s = t();
+  document.getElementById('homeTitle').textContent = s.homeTitle;
+  document.getElementById('homeSub').textContent = s.homeSub;
+  document.getElementById('lvCp1Name').textContent = s.cp1Name;
+  document.getElementById('lvCp1Hint').textContent = s.cp1Hint;
+  document.getElementById('lvCp2Name').textContent = s.cp2Name;
+  document.getElementById('lvCp2Hint').textContent = s.cp2Hint;
+  document.getElementById('brandName').textContent = 'TAALIM_IA';
+}
+
+function chooseLevel(level){
+  state.level = level;
+  renderSubjectScreen();
+  showScreen('screen-subject');
+}
+
+function bestScoreFor(level, subject){
+  const key = `taalim_best_${state.lang}_${level}_${subject}`;
+  return localStorage.getItem(key);
+}
+
+function renderSubjectScreen(){
+  const s = t();
+  const levelName = state.level === 'cp1' ? s.cp1Name : s.cp2Name;
+  document.getElementById('subjectHeader').textContent = levelName;
+  document.getElementById('subjectSub').textContent = s.chooseSubject;
+  document.getElementById('subLectureName').textContent = s.lecture;
+  document.getElementById('subCalculName').textContent = s.calcul;
+
+  const bl = bestScoreFor(state.level, 'lecture');
+  const bc = bestScoreFor(state.level, 'calcul');
+  document.getElementById('subLectureBest').textContent = bl ? (s.best + bl) : s.noScore;
+  document.getElementById('subCalculBest').textContent = bc ? (s.best + bc) : s.noScore;
+}
+
+function goSubjectScreen(){
+  renderSubjectScreen();
+  showScreen('screen-subject');
+}
+
+function chooseSubject(subject){
+  state.subject = subject;
+  const raw = CONTENT[state.lang][state.level][subject];
+  state.exercises = raw;
+  state.index = 0;
+  state.score = 0;
+  state.maxScore = raw.reduce((sum, ex) => sum + (ex.type === 'match' ? ex.pairs.length : 1), 0);
+  renderGameHeader();
+  renderProgress();
+  renderExercise();
+  showScreen('screen-game');
+}
+
+function renderGameHeader(){
+  const s = t();
+  const levelName = state.level === 'cp1' ? s.cp1Name : s.cp2Name;
+  const subjectName = state.subject === 'lecture' ? s.lecture : s.calcul;
+  document.getElementById('gameHeader').textContent = `${levelName} · ${subjectName}`;
+  document.getElementById('nextBtn').textContent = s.next;
+}
+
+function renderProgress(){
+  const row = document.getElementById('progressRow');
+  row.innerHTML = '';
+  state.exercises.forEach((_, i) => {
+    const d = document.createElement('div');
+    d.className = 'dot' + (i < state.index ? ' done' : (i === state.index ? ' current' : ''));
+    row.appendChild(d);
+  });
+  document.getElementById('scorePill').textContent = `${t().question} ${state.index+1}/${state.exercises.length}`;
+}
+
+/* ---------------------------------------------------
+   EXERCISE RENDERING
+--------------------------------------------------- */
+function renderExercise(){
+  const ex = state.exercises[state.index];
+  state.answeredCurrent = false;
+  document.getElementById('feedback').textContent = '';
+  document.getElementById('feedback').className = 'feedback';
+  const nextBtn = document.getElementById('nextBtn');
+  nextBtn.disabled = true;
+  nextBtn.textContent = (state.index === state.exercises.length - 1) ? t().seeResult : t().next;
+
+  const area = document.getElementById('exerciseArea');
+  area.innerHTML = '';
+
+  if(ex.type === 'qcm'){
+    document.getElementById('prompt').textContent = ex.q;
+    const grid = document.createElement('div');
+    grid.className = 'options-grid';
+    ex.options.forEach((opt, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'opt-btn';
+      btn.textContent = opt;
+      btn.onclick = () => answerQcm(i, ex, btn, grid);
+      grid.appendChild(btn);
+    });
+    area.appendChild(grid);
+  } else if(ex.type === 'match'){
+    document.getElementById('prompt').textContent = t().question + ' ' + (state.index+1);
+    const instr = document.createElement('div');
+    instr.className = 'match-instruction';
+    instr.textContent = t().matchInstruction;
+    area.appendChild(instr);
+
+    const cols = document.createElement('div');
+    cols.className = 'match-cols';
+    const leftCol = document.createElement('div');
+    leftCol.className = 'match-col';
+    const rightCol = document.createElement('div');
+    rightCol.className = 'match-col';
+
+    const leftItems = ex.pairs.map((p, i) => ({label: p.l, pairIndex: i}));
+    const rightItems = shuffle(ex.pairs.map((p, i) => ({label: p.r, pairIndex: i})));
+
+    let selectedLeft = null;
+    let matchedCount = 0;
+
+    leftItems.forEach(item => {
+      const btn = document.createElement('button');
+      btn.className = 'match-btn';
+      btn.textContent = item.label;
+      btn.dataset.pairIndex = item.pairIndex;
+      btn.onclick = () => {
+        if(btn.classList.contains('matched')) return;
+        leftCol.querySelectorAll('.match-btn').forEach(b => b.classList.remove('selected'));
+        btn.classList.add('selected');
+        selectedLeft = btn;
+      };
+      leftCol.appendChild(btn);
+    });
+
+    rightItems.forEach(item => {
+      const btn = document.createElement('button');
+      btn.className = 'match-btn';
+      btn.textContent = item.label;
+      btn.dataset.pairIndex = item.pairIndex;
+      btn.onclick = () => {
+        if(btn.classList.contains('matched') || !selectedLeft) return;
+        if(String(selectedLeft.dataset.pairIndex) === String(btn.dataset.pairIndex)){
+          selectedLeft.classList.remove('selected');
+          selectedLeft.classList.add('matched');
+          btn.classList.add('matched');
+          selectedLeft = null;
+          matchedCount++;
+          state.score++;
+          if(matchedCount === ex.pairs.length){
+            document.getElementById('feedback').textContent = t().correct;
+            document.getElementById('feedback').className = 'feedback ok';
+            document.getElementById('nextBtn').disabled = false;
+            state.answeredCurrent = true;
+          }
+        } else {
+          btn.classList.add('wrong');
+          setTimeout(() => btn.classList.remove('wrong'), 450);
+        }
+      };
+      rightCol.appendChild(btn);
+    });
+
+    cols.appendChild(leftCol);
+    cols.appendChild(rightCol);
+    area.appendChild(cols);
+  }
+}
+
+function answerQcm(i, ex, btn, grid){
+  if(state.answeredCurrent) return;
+  state.answeredCurrent = true;
+  const buttons = grid.querySelectorAll('.opt-btn');
+  const fb = document.getElementById('feedback');
+  if(i === ex.a){
+    btn.classList.add('correct');
+    state.score++;
+    fb.textContent = t().correct;
+    fb.className = 'feedback ok';
+  } else {
+    btn.classList.add('wrong');
+    buttons[ex.a].classList.add('correct');
+    fb.textContent = t().incorrect;
+    fb.className = 'feedback ko';
+  }
+  buttons.forEach(b => { if(b !== btn) b.classList.add('dim'); });
+  document.getElementById('nextBtn').disabled = false;
+}
+
+function nextExercise(){
+  if(!state.answeredCurrent) return;
+  if(state.index < state.exercises.length - 1){
+    state.index++;
+    renderProgress();
+    renderExercise();
+  } else {
+    finishExercise();
+  }
+}
+
+function finishExercise(){
+  const key = `taalim_best_${state.lang}_${state.level}_${state.subject}`;
+  const prevBest = parseInt(localStorage.getItem(key + '_raw') || '0', 10);
+  if(state.score > prevBest){
+    localStorage.setItem(key + '_raw', String(state.score));
+    localStorage.setItem(key, `${state.score}/${state.maxScore}`);
+  }
+  renderResult();
+  showScreen('screen-result');
+}
+
+function renderResult(){
+  const s = t();
+  const pct = state.maxScore ? state.score / state.maxScore : 0;
+  const starCount = pct >= 0.9 ? 3 : pct >= 0.6 ? 2 : pct >= 0.3 ? 1 : 0;
+  let stars = '';
+  for(let i=0;i<3;i++) stars += i < starCount ? '⭐' : '·';
+  document.getElementById('resultStars').textContent = stars;
+  document.getElementById('resultTitle').textContent = s.resultTitle;
+  document.getElementById('resultText').textContent = s.resultText(state.score, state.maxScore);
+  const best = bestScoreFor(state.level, state.subject);
+  document.getElementById('resultBest').textContent = best ? (s.best + best) : '';
+  document.getElementById('homeBtnResult').textContent = s.home;
+  document.getElementById('retryBtn').textContent = s.retry;
+}
+
+function retryExercise(){
+  chooseSubject(state.subject);
+}
+
+function shuffle(arr){
+  const a = arr.slice();
+  for(let i=a.length-1;i>0;i--){
+    const j = Math.floor(Math.random()*(i+1));
+    [a[i],a[j]] = [a[j],a[i]];
+  }
+  return a;
+}
+
+/* ---------------------------------------------------
+   INIT
+--------------------------------------------------- */
+setLang('fr');
+</script>
+</body>
+</html>
 
