@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.taalimia.app"
+    namespace = "com.taalimia.taalim_ia"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -19,7 +19,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.taalimia.app"
+        applicationId = "com.taalimia.taalim_ia"
         minSdk = 24
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
