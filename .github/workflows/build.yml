@@ -27,11 +27,6 @@ jobs:
       - name: Repair Android project structure
         run: flutter create --platforms=android --org com.taalimia .
 
-      - name: Decode keystore
-        run: |
-          echo "${{ secrets.KEYSTORE_BASE64 }}" | tr -d '\n\r ' | base64 -d > android/app/taalim-release.keystore
-          ls -la android/app/taalim-release.keystore
-
       - name: Create key.properties
         run: |
           cat > android/key.properties <<EOF
