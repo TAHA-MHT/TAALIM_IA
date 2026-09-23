@@ -246,6 +246,13 @@ class AppColors {
   static const success = Color(0xFF2EC4B6);
   static const error = Color(0xFFE84855);
   static const locked = Color(0xFFB7C3DA);
+
+  // Couleurs du drapeau tchadien
+  static const chadBlue = Color(0xFF002664);
+  static const chadYellow = Color(0xFFFECB00);
+  static const chadRed = Color(0xFFC60C30);
+  static const chadCycle = [chadBlue, chadYellow, chadRed];
+  static const chadTextOn = [Colors.white, ink, Colors.white]; // texte lisible selon le fond
 }
 
 /// ---------------------------------------------------------------
@@ -920,9 +927,10 @@ class _GameScreenState extends State<GameScreen> {
           mainAxisSpacing: 12,
           childAspectRatio: 2.0,
           children: List.generate(ex.options!.length, (i) {
-            Color bg = Colors.white;
-            Color border = const Color(0xFFE3EAF6);
-            Color textColor = AppColors.ink;
+            Color bg = AppColors.chadCycle[i % 3];
+            Color border = bg;
+            Color textColor = AppColors.chadTextOn[i % 3];
+            double borderWidth = 0;
             if (answeredCurrent) {
               if (i == correctOption) {
                 bg = AppColors.success;
@@ -934,6 +942,9 @@ class _GameScreenState extends State<GameScreen> {
                 textColor = Colors.white;
               } else {
                 bg = Colors.white.withValues(alpha: 0.45);
+                border = const Color(0xFFE3EAF6);
+                textColor = AppColors.ink;
+                borderWidth = 2;
               }
             }
             final opt = ex.options![i];
@@ -944,7 +955,7 @@ class _GameScreenState extends State<GameScreen> {
                 borderRadius: BorderRadius.circular(16),
                 onTap: () => _answerQcm(i),
                 child: Container(
-                  decoration: BoxDecoration(border: Border.all(color: border, width: 2), borderRadius: BorderRadius.circular(16)),
+                  decoration: BoxDecoration(border: Border.all(color: border, width: borderWidth), borderRadius: BorderRadius.circular(16)),
                   alignment: Alignment.center,
                   padding: const EdgeInsets.symmetric(horizontal: 8),
                   child: BiLabel(fr: opt.fr, ar: opt.ar, frSize: 15, arSize: 13, color: textColor, align: TextAlign.center),
@@ -982,7 +993,7 @@ class _GameScreenState extends State<GameScreen> {
                   final selected = selectedLeftIndex == i;
                   return Padding(
                     padding: const EdgeInsets.only(bottom: 10),
-                    child: _matchButton(label: label, matched: matched, selected: selected, wrong: false, onTap: () => _tapLeft(i), rtl: false),
+                    child: _matchButton(label: label, matched: matched, selected: selected, wrong: false, onTap: () => _tapLeft(i), rtl: false, colorIndex: i),
                   );
                 }),
               ),
@@ -997,7 +1008,7 @@ class _GameScreenState extends State<GameScreen> {
                   final wrong = wrongFlashRight.contains(i);
                   return Padding(
                     padding: const EdgeInsets.only(bottom: 10),
-                    child: _matchButton(label: label, matched: matched, selected: false, wrong: wrong, onTap: () => _tapRight(i), rtl: isLang),
+                    child: _matchButton(label: label, matched: matched, selected: false, wrong: wrong, onTap: () => _tapRight(i), rtl: isLang, colorIndex: pos),
                   );
                 }),
               ),
@@ -1010,10 +1021,11 @@ class _GameScreenState extends State<GameScreen> {
     );
   }
 
-  Widget _matchButton({required String label, required bool matched, required bool selected, required bool wrong, required VoidCallback onTap, required bool rtl}) {
-    Color bg = Colors.white;
-    Color border = const Color(0xFFE3EAF6);
-    Color textColor = AppColors.ink;
+  Widget _matchButton({required String label, required bool matched, required bool selected, required bool wrong, required VoidCallback onTap, required bool rtl, int colorIndex = 0}) {
+    Color bg = AppColors.chadCycle[colorIndex % 3];
+    Color border = bg;
+    Color textColor = AppColors.chadTextOn[colorIndex % 3];
+    double borderWidth = 0;
     if (matched) {
       bg = AppColors.success;
       border = AppColors.success;
@@ -1025,6 +1037,8 @@ class _GameScreenState extends State<GameScreen> {
     } else if (selected) {
       bg = const Color(0xFFEEF2FB);
       border = AppColors.ink;
+      textColor = AppColors.ink;
+      borderWidth = 3;
     }
     final text = Text(label, textAlign: TextAlign.center, style: TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: textColor));
     return Material(
@@ -1036,7 +1050,7 @@ class _GameScreenState extends State<GameScreen> {
         child: Container(
           width: double.infinity,
           padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 8),
-          decoration: BoxDecoration(border: Border.all(color: border, width: 2), borderRadius: BorderRadius.circular(16)),
+          decoration: BoxDecoration(border: Border.all(color: border, width: borderWidth), borderRadius: BorderRadius.circular(16)),
           alignment: Alignment.center,
           child: rtl ? Directionality(textDirection: TextDirection.rtl, child: text) : text,
         ),
