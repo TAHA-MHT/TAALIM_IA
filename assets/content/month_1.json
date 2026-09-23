@@ -1,1 +1,3487 @@
-
+{
+  "cp1": {
+    "lecture": [
+      {
+        "type": "qcm",
+        "q_fr": "Quelle lettre vient après le A ?",
+        "q_ar": "ما هو الحرف الذي يأتي بعد A ؟",
+        "options": [
+          {
+            "fr": "B",
+            "ar": "B"
+          },
+          {
+            "fr": "C",
+            "ar": "C"
+          },
+          {
+            "fr": "D",
+            "ar": "D"
+          },
+          {
+            "fr": "E",
+            "ar": "E"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot commence par la lettre M ?",
+        "q_ar": "أي كلمة تبدأ بحرف M ؟",
+        "options": [
+          {
+            "fr": "Mil",
+            "ar": "دخن"
+          },
+          {
+            "fr": "Voiture",
+            "ar": "سيارة"
+          },
+          {
+            "fr": "Chameau",
+            "ar": "جمل"
+          },
+          {
+            "fr": "Table",
+            "ar": "طاولة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Trouve la voyelle.",
+        "q_ar": "أوجد حرف العلة.",
+        "options": [
+          {
+            "fr": "O",
+            "ar": "O"
+          },
+          {
+            "fr": "P",
+            "ar": "P"
+          },
+          {
+            "fr": "T",
+            "ar": "T"
+          },
+          {
+            "fr": "K",
+            "ar": "K"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle lettre fait le son « ch » comme dans « chameau » ?",
+        "q_ar": "أي حرف يصدر صوت « ch » كما في « chameau » ؟",
+        "options": [
+          {
+            "fr": "CH",
+            "ar": "CH"
+          },
+          {
+            "fr": "S",
+            "ar": "S"
+          },
+          {
+            "fr": "V",
+            "ar": "V"
+          },
+          {
+            "fr": "J",
+            "ar": "J"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle est la première lettre de l'alphabet ?",
+        "q_ar": "ما هو أول حرف في الأبجدية الفرنسية ؟",
+        "options": [
+          {
+            "fr": "A",
+            "ar": "A"
+          },
+          {
+            "fr": "B",
+            "ar": "B"
+          },
+          {
+            "fr": "Z",
+            "ar": "Z"
+          },
+          {
+            "fr": "M",
+            "ar": "M"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot commence par la lettre S ?",
+        "q_ar": "أي كلمة تبدأ بحرف S ؟",
+        "options": [
+          {
+            "fr": "Sorgho",
+            "ar": "ذرة"
+          },
+          {
+            "fr": "Lune",
+            "ar": "قمر"
+          },
+          {
+            "fr": "Chameau",
+            "ar": "جمل"
+          },
+          {
+            "fr": "Mangue",
+            "ar": "مانجو"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle lettre vient après le B ?",
+        "q_ar": "ما هو الحرف الذي يأتي بعد B ؟",
+        "options": [
+          {
+            "fr": "C",
+            "ar": "C"
+          },
+          {
+            "fr": "A",
+            "ar": "A"
+          },
+          {
+            "fr": "D",
+            "ar": "D"
+          },
+          {
+            "fr": "F",
+            "ar": "F"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot commence par la lettre C ?",
+        "q_ar": "أي كلمة تبدأ بحرف C ؟",
+        "options": [
+          {
+            "fr": "Chameau",
+            "ar": "جمل"
+          },
+          {
+            "fr": "Boubou",
+            "ar": "جلباب"
+          },
+          {
+            "fr": "Mangue",
+            "ar": "مانجو"
+          },
+          {
+            "fr": "Village",
+            "ar": "قرية"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Trouve la consonne.",
+        "q_ar": "أوجد حرف الصامت.",
+        "options": [
+          {
+            "fr": "K",
+            "ar": "K"
+          },
+          {
+            "fr": "A",
+            "ar": "A"
+          },
+          {
+            "fr": "E",
+            "ar": "E"
+          },
+          {
+            "fr": "I",
+            "ar": "I"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle lettre fait le son « v » comme dans « village » ?",
+        "q_ar": "أي حرف يصدر صوت « v » كما في « village » ؟",
+        "options": [
+          {
+            "fr": "V",
+            "ar": "V"
+          },
+          {
+            "fr": "F",
+            "ar": "F"
+          },
+          {
+            "fr": "B",
+            "ar": "B"
+          },
+          {
+            "fr": "P",
+            "ar": "P"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot commence par la lettre B ?",
+        "q_ar": "أي كلمة تبدأ بحرف B ؟",
+        "options": [
+          {
+            "fr": "Boubou",
+            "ar": "جلباب"
+          },
+          {
+            "fr": "Chameau",
+            "ar": "جمل"
+          },
+          {
+            "fr": "Sorgho",
+            "ar": "ذرة"
+          },
+          {
+            "fr": "Village",
+            "ar": "قرية"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de lettres a le mot « MIL » ?",
+        "q_ar": "كم عدد حروف كلمة « MIL » ؟",
+        "options": [
+          {
+            "fr": "3",
+            "ar": "3"
+          },
+          {
+            "fr": "2",
+            "ar": "2"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot commence par la lettre V ?",
+        "q_ar": "أي كلمة تبدأ بحرف V ؟",
+        "options": [
+          {
+            "fr": "Village",
+            "ar": "قرية"
+          },
+          {
+            "fr": "Chameau",
+            "ar": "جمل"
+          },
+          {
+            "fr": "Mangue",
+            "ar": "مانجو"
+          },
+          {
+            "fr": "Boubou",
+            "ar": "جلباب"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Trouve la voyelle.",
+        "q_ar": "أوجد حرف العلة.",
+        "options": [
+          {
+            "fr": "I",
+            "ar": "I"
+          },
+          {
+            "fr": "R",
+            "ar": "R"
+          },
+          {
+            "fr": "N",
+            "ar": "N"
+          },
+          {
+            "fr": "L",
+            "ar": "L"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle lettre est en dernier dans l'alphabet ?",
+        "q_ar": "ما هو آخر حرف في الأبجدية الفرنسية ؟",
+        "options": [
+          {
+            "fr": "Z",
+            "ar": "Z"
+          },
+          {
+            "fr": "A",
+            "ar": "A"
+          },
+          {
+            "fr": "M",
+            "ar": "M"
+          },
+          {
+            "fr": "Y",
+            "ar": "Y"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot commence par la lettre L ?",
+        "q_ar": "أي كلمة تبدأ بحرف L ؟",
+        "options": [
+          {
+            "fr": "Lune",
+            "ar": "قمر"
+          },
+          {
+            "fr": "Soleil",
+            "ar": "شمس"
+          },
+          {
+            "fr": "Chameau",
+            "ar": "جمل"
+          },
+          {
+            "fr": "Mil",
+            "ar": "دخن"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle lettre fait le son « s » comme dans « soleil » ?",
+        "q_ar": "أي حرف يصدر صوت « s » كما في « soleil » ؟",
+        "options": [
+          {
+            "fr": "S",
+            "ar": "S"
+          },
+          {
+            "fr": "Z",
+            "ar": "Z"
+          },
+          {
+            "fr": "C",
+            "ar": "C"
+          },
+          {
+            "fr": "X",
+            "ar": "X"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot commence par la lettre T ?",
+        "q_ar": "أي كلمة تبدأ بحرف T ؟",
+        "options": [
+          {
+            "fr": "Table",
+            "ar": "طاولة"
+          },
+          {
+            "fr": "Chameau",
+            "ar": "جمل"
+          },
+          {
+            "fr": "Mil",
+            "ar": "دخن"
+          },
+          {
+            "fr": "Lune",
+            "ar": "قمر"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de lettres a le mot « SOLEIL » ?",
+        "q_ar": "كم عدد حروف كلمة « SOLEIL » ؟",
+        "options": [
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot commence par la lettre P ?",
+        "q_ar": "أي كلمة تبدأ بحرف P ؟",
+        "options": [
+          {
+            "fr": "Pluie",
+            "ar": "مطر"
+          },
+          {
+            "fr": "Chameau",
+            "ar": "جمل"
+          },
+          {
+            "fr": "Mangue",
+            "ar": "مانجو"
+          },
+          {
+            "fr": "Village",
+            "ar": "قرية"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Trouve la consonne.",
+        "q_ar": "أوجد حرف الصامت.",
+        "options": [
+          {
+            "fr": "D",
+            "ar": "D"
+          },
+          {
+            "fr": "A",
+            "ar": "A"
+          },
+          {
+            "fr": "O",
+            "ar": "O"
+          },
+          {
+            "fr": "U",
+            "ar": "U"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot commence par la lettre D ?",
+        "q_ar": "أي كلمة تبدأ بحرف D ؟",
+        "options": [
+          {
+            "fr": "Dattes",
+            "ar": "تمر"
+          },
+          {
+            "fr": "Chameau",
+            "ar": "جمل"
+          },
+          {
+            "fr": "Village",
+            "ar": "قرية"
+          },
+          {
+            "fr": "Mil",
+            "ar": "دخن"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une lettre puis son image.",
+        "instruction_ar": "المس الحرف ثم صورته.",
+        "pairs": [
+          {
+            "left": "C",
+            "right": "Chameau 🐫"
+          },
+          {
+            "left": "M",
+            "right": "Mangue 🥭"
+          },
+          {
+            "left": "L",
+            "right": "Lune 🌙"
+          },
+          {
+            "left": "S",
+            "right": "Soleil ☀️"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une lettre puis son image.",
+        "instruction_ar": "المس الحرف ثم صورته.",
+        "pairs": [
+          {
+            "left": "D",
+            "right": "Dattes 🌴"
+          },
+          {
+            "left": "P",
+            "right": "Pluie 🌧️"
+          },
+          {
+            "left": "V",
+            "right": "Village 🏘️"
+          },
+          {
+            "left": "B",
+            "right": "Ballon 🎈"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une lettre puis son image.",
+        "instruction_ar": "المس الحرف ثم صورته.",
+        "pairs": [
+          {
+            "left": "A",
+            "right": "Âne 🐴"
+          },
+          {
+            "left": "Z",
+            "right": "Zébu 🐂"
+          },
+          {
+            "left": "T",
+            "right": "Table 🪑"
+          },
+          {
+            "left": "E",
+            "right": "Étoile ⭐"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une lettre puis son image.",
+        "instruction_ar": "المس الحرف ثم صورته.",
+        "pairs": [
+          {
+            "left": "F",
+            "right": "Fleuve 🌊"
+          },
+          {
+            "left": "K",
+            "right": "Karkandji 🌺"
+          },
+          {
+            "left": "N",
+            "right": "Natte 🧺"
+          },
+          {
+            "left": "R",
+            "right": "Riz 🍚"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Chameau",
+            "ar": "جمل"
+          },
+          {
+            "fr": "Mil",
+            "ar": "دخن"
+          },
+          {
+            "fr": "Marché",
+            "ar": "سوق"
+          },
+          {
+            "fr": "Village",
+            "ar": "قرية"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Dattes",
+            "ar": "تمر"
+          },
+          {
+            "fr": "Mangue",
+            "ar": "مانجو"
+          },
+          {
+            "fr": "Pluie",
+            "ar": "مطر"
+          },
+          {
+            "fr": "Soleil",
+            "ar": "شمس"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Lune",
+            "ar": "قمر"
+          },
+          {
+            "fr": "Étoile",
+            "ar": "نجمة"
+          },
+          {
+            "fr": "Fleuve",
+            "ar": "نهر"
+          },
+          {
+            "fr": "Case",
+            "ar": "كوخ"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Âne",
+            "ar": "حمار"
+          },
+          {
+            "fr": "Zébu",
+            "ar": "ثور"
+          },
+          {
+            "fr": "Boubou",
+            "ar": "جلباب"
+          },
+          {
+            "fr": "Natte",
+            "ar": "حصيرة"
+          }
+        ]
+      }
+    ],
+    "calcul": [
+      {
+        "type": "qcm",
+        "q_fr": "2 + 3 = ?",
+        "q_ar": "2 + 3 = ؟",
+        "options": [
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien y a-t-il de mangues ? 🥭🥭🥭",
+        "q_ar": "كم عدد المانجو ؟ 🥭🥭🥭",
+        "options": [
+          {
+            "fr": "3",
+            "ar": "3"
+          },
+          {
+            "fr": "2",
+            "ar": "2"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "5 - 2 = ?",
+        "q_ar": "5 - 2 = ؟",
+        "options": [
+          {
+            "fr": "3",
+            "ar": "3"
+          },
+          {
+            "fr": "2",
+            "ar": "2"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "1",
+            "ar": "1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel nombre vient après 7 ?",
+        "q_ar": "ما هو العدد الذي يأتي بعد 7 ؟",
+        "options": [
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "9",
+            "ar": "9"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "1 + 1 = ?",
+        "q_ar": "1 + 1 = ؟",
+        "options": [
+          {
+            "fr": "2",
+            "ar": "2"
+          },
+          {
+            "fr": "1",
+            "ar": "1"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel nombre vient avant 5 ?",
+        "q_ar": "ما هو العدد الذي يأتي قبل 5 ؟",
+        "options": [
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien y a-t-il de chèvres ? 🐐🐐🐐🐐",
+        "q_ar": "كم عدد العنزات ؟ 🐐🐐🐐🐐",
+        "options": [
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "2",
+            "ar": "2"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "3 + 4 = ?",
+        "q_ar": "3 + 4 = ؟",
+        "options": [
+          {
+            "fr": "7",
+            "ar": "7"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "6 - 3 = ?",
+        "q_ar": "6 - 3 = ؟",
+        "options": [
+          {
+            "fr": "3",
+            "ar": "3"
+          },
+          {
+            "fr": "2",
+            "ar": "2"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "1",
+            "ar": "1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel nombre vient après 12 ?",
+        "q_ar": "ما هو العدد الذي يأتي بعد 12 ؟",
+        "options": [
+          {
+            "fr": "13",
+            "ar": "13"
+          },
+          {
+            "fr": "11",
+            "ar": "11"
+          },
+          {
+            "fr": "14",
+            "ar": "14"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "2 + 2 = ?",
+        "q_ar": "2 + 2 = ؟",
+        "options": [
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien y a-t-il de dattes ? 🌴🌴",
+        "q_ar": "كم عدد التمور ؟ 🌴🌴",
+        "options": [
+          {
+            "fr": "2",
+            "ar": "2"
+          },
+          {
+            "fr": "1",
+            "ar": "1"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "9 - 4 = ?",
+        "q_ar": "9 - 4 = ؟",
+        "options": [
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel nombre est le plus grand : 8 ou 5 ?",
+        "q_ar": "أي عدد أكبر : 8 أم 5 ؟",
+        "options": [
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "Égaux",
+            "ar": "متساويان"
+          },
+          {
+            "fr": "0",
+            "ar": "0"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "4 + 5 = ?",
+        "q_ar": "4 + 5 = ؟",
+        "options": [
+          {
+            "fr": "9",
+            "ar": "9"
+          },
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel nombre vient avant 10 ?",
+        "q_ar": "ما هو العدد الذي يأتي قبل 10 ؟",
+        "options": [
+          {
+            "fr": "9",
+            "ar": "9"
+          },
+          {
+            "fr": "11",
+            "ar": "11"
+          },
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "7 - 5 = ?",
+        "q_ar": "7 - 5 = ؟",
+        "options": [
+          {
+            "fr": "2",
+            "ar": "2"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          },
+          {
+            "fr": "1",
+            "ar": "1"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien y a-t-il de zébus ? 🐂🐂🐂🐂🐂",
+        "q_ar": "كم عدد الأبقار ؟ 🐂🐂🐂🐂🐂",
+        "options": [
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "6 + 2 = ?",
+        "q_ar": "6 + 2 = ؟",
+        "options": [
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          },
+          {
+            "fr": "9",
+            "ar": "9"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel nombre est le plus petit : 3 ou 7 ?",
+        "q_ar": "أي عدد أصغر : 3 أم 7 ؟",
+        "options": [
+          {
+            "fr": "3",
+            "ar": "3"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          },
+          {
+            "fr": "Égaux",
+            "ar": "متساويان"
+          },
+          {
+            "fr": "0",
+            "ar": "0"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "10 - 6 = ?",
+        "q_ar": "10 - 6 = ؟",
+        "options": [
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel nombre vient après 15 ?",
+        "q_ar": "ما هو العدد الذي يأتي بعد 15 ؟",
+        "options": [
+          {
+            "fr": "16",
+            "ar": "16"
+          },
+          {
+            "fr": "14",
+            "ar": "14"
+          },
+          {
+            "fr": "17",
+            "ar": "17"
+          },
+          {
+            "fr": "15",
+            "ar": "15"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche un nombre puis les étoiles correspondantes.",
+        "instruction_ar": "المس رقمًا ثم النجوم المطابقة له.",
+        "pairs": [
+          {
+            "left": "2",
+            "right": "⭐⭐"
+          },
+          {
+            "left": "4",
+            "right": "⭐⭐⭐⭐"
+          },
+          {
+            "left": "1",
+            "right": "⭐"
+          },
+          {
+            "left": "5",
+            "right": "⭐⭐⭐⭐⭐"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche un nombre puis les mangues correspondantes.",
+        "instruction_ar": "المس رقمًا ثم المانجو المطابقة له.",
+        "pairs": [
+          {
+            "left": "3",
+            "right": "🥭🥭🥭"
+          },
+          {
+            "left": "6",
+            "right": "🥭🥭🥭🥭🥭🥭"
+          },
+          {
+            "left": "2",
+            "right": "🥭🥭"
+          },
+          {
+            "left": "4",
+            "right": "🥭🥭🥭🥭"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une opération puis son résultat.",
+        "instruction_ar": "المس عملية حسابية ثم نتيجتها.",
+        "pairs": [
+          {
+            "left": "1+2",
+            "right": "3"
+          },
+          {
+            "left": "2+2",
+            "right": "4"
+          },
+          {
+            "left": "3+3",
+            "right": "6"
+          },
+          {
+            "left": "4+1",
+            "right": "5"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche un nombre puis les chèvres correspondantes.",
+        "instruction_ar": "المس رقمًا ثم العنزات المطابقة له.",
+        "pairs": [
+          {
+            "left": "2",
+            "right": "🐐🐐"
+          },
+          {
+            "left": "5",
+            "right": "🐐🐐🐐🐐🐐"
+          },
+          {
+            "left": "3",
+            "right": "🐐🐐🐐"
+          },
+          {
+            "left": "1",
+            "right": "🐐"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Un",
+            "ar": "واحد"
+          },
+          {
+            "fr": "Deux",
+            "ar": "اثنان"
+          },
+          {
+            "fr": "Trois",
+            "ar": "ثلاثة"
+          },
+          {
+            "fr": "Quatre",
+            "ar": "أربعة"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Cinq",
+            "ar": "خمسة"
+          },
+          {
+            "fr": "Six",
+            "ar": "ستة"
+          },
+          {
+            "fr": "Sept",
+            "ar": "سبعة"
+          },
+          {
+            "fr": "Huit",
+            "ar": "ثمانية"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Nombre",
+            "ar": "عدد"
+          },
+          {
+            "fr": "Plus",
+            "ar": "زائد"
+          },
+          {
+            "fr": "Moins",
+            "ar": "ناقص"
+          },
+          {
+            "fr": "Total",
+            "ar": "مجموع"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Neuf",
+            "ar": "تسعة"
+          },
+          {
+            "fr": "Dix",
+            "ar": "عشرة"
+          },
+          {
+            "fr": "Compter",
+            "ar": "عد"
+          },
+          {
+            "fr": "Chiffre",
+            "ar": "رقم"
+          }
+        ]
+      }
+    ],
+    "langage": [
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐫",
+        "options": [
+          {
+            "fr": "Chameau",
+            "ar": "جمل"
+          },
+          {
+            "fr": "Chèvre",
+            "ar": "عنزة"
+          },
+          {
+            "fr": "Âne",
+            "ar": "حمار"
+          },
+          {
+            "fr": "Zébu",
+            "ar": "ثور"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🥭",
+        "options": [
+          {
+            "fr": "Mangue",
+            "ar": "مانجو"
+          },
+          {
+            "fr": "Datte",
+            "ar": "تمرة"
+          },
+          {
+            "fr": "Poisson",
+            "ar": "سمكة"
+          },
+          {
+            "fr": "Mil",
+            "ar": "دخن"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "☀️",
+        "options": [
+          {
+            "fr": "Soleil",
+            "ar": "شمس"
+          },
+          {
+            "fr": "Lune",
+            "ar": "قمر"
+          },
+          {
+            "fr": "Étoile",
+            "ar": "نجمة"
+          },
+          {
+            "fr": "Pluie",
+            "ar": "مطر"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐐",
+        "options": [
+          {
+            "fr": "Chèvre",
+            "ar": "عنزة"
+          },
+          {
+            "fr": "Chameau",
+            "ar": "جمل"
+          },
+          {
+            "fr": "Âne",
+            "ar": "حمار"
+          },
+          {
+            "fr": "Poisson",
+            "ar": "سمكة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌙",
+        "options": [
+          {
+            "fr": "Lune",
+            "ar": "قمر"
+          },
+          {
+            "fr": "Soleil",
+            "ar": "شمس"
+          },
+          {
+            "fr": "Étoile",
+            "ar": "نجمة"
+          },
+          {
+            "fr": "Nuage",
+            "ar": "غيمة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🛖",
+        "options": [
+          {
+            "fr": "Case",
+            "ar": "كوخ"
+          },
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          },
+          {
+            "fr": "Marché",
+            "ar": "سوق"
+          },
+          {
+            "fr": "Village",
+            "ar": "قرية"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐟",
+        "options": [
+          {
+            "fr": "Poisson",
+            "ar": "سمكة"
+          },
+          {
+            "fr": "Oiseau",
+            "ar": "عصفور"
+          },
+          {
+            "fr": "Chèvre",
+            "ar": "عنزة"
+          },
+          {
+            "fr": "Âne",
+            "ar": "حمار"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🥁",
+        "options": [
+          {
+            "fr": "Tambour",
+            "ar": "طبل"
+          },
+          {
+            "fr": "Livre",
+            "ar": "كتاب"
+          },
+          {
+            "fr": "Ballon",
+            "ar": "كرة"
+          },
+          {
+            "fr": "Natte",
+            "ar": "حصيرة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐴",
+        "options": [
+          {
+            "fr": "Âne",
+            "ar": "حمار"
+          },
+          {
+            "fr": "Chameau",
+            "ar": "جمل"
+          },
+          {
+            "fr": "Zébu",
+            "ar": "ثور"
+          },
+          {
+            "fr": "Chèvre",
+            "ar": "عنزة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌴",
+        "options": [
+          {
+            "fr": "Datte",
+            "ar": "تمرة"
+          },
+          {
+            "fr": "Mangue",
+            "ar": "مانجو"
+          },
+          {
+            "fr": "Mil",
+            "ar": "دخن"
+          },
+          {
+            "fr": "Fleur",
+            "ar": "زهرة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐂",
+        "options": [
+          {
+            "fr": "Zébu",
+            "ar": "ثور"
+          },
+          {
+            "fr": "Chèvre",
+            "ar": "عنزة"
+          },
+          {
+            "fr": "Âne",
+            "ar": "حمار"
+          },
+          {
+            "fr": "Chameau",
+            "ar": "جمل"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🛶",
+        "options": [
+          {
+            "fr": "Pirogue",
+            "ar": "زورق"
+          },
+          {
+            "fr": "Voiture",
+            "ar": "سيارة"
+          },
+          {
+            "fr": "Vélo",
+            "ar": "دراجة"
+          },
+          {
+            "fr": "Camion",
+            "ar": "شاحنة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "💧",
+        "options": [
+          {
+            "fr": "Eau",
+            "ar": "ماء"
+          },
+          {
+            "fr": "Feu",
+            "ar": "نار"
+          },
+          {
+            "fr": "Sable",
+            "ar": "رمل"
+          },
+          {
+            "fr": "Vent",
+            "ar": "ريح"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌾",
+        "options": [
+          {
+            "fr": "Mil",
+            "ar": "دخن"
+          },
+          {
+            "fr": "Riz",
+            "ar": "أرز"
+          },
+          {
+            "fr": "Fleur",
+            "ar": "زهرة"
+          },
+          {
+            "fr": "Herbe",
+            "ar": "عشب"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🏘️",
+        "options": [
+          {
+            "fr": "Village",
+            "ar": "قرية"
+          },
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          },
+          {
+            "fr": "Marché",
+            "ar": "سوق"
+          },
+          {
+            "fr": "Fleuve",
+            "ar": "نهر"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une image puis son mot.",
+        "instruction_ar": "المس صورة ثم كلمتها.",
+        "pairs": [
+          {
+            "left": "🐫",
+            "right": "Chameau"
+          },
+          {
+            "left": "🥭",
+            "right": "Mangue"
+          },
+          {
+            "left": "☀️",
+            "right": "Soleil"
+          },
+          {
+            "left": "🐐",
+            "right": "Chèvre"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une image puis son mot.",
+        "instruction_ar": "المس صورة ثم كلمتها.",
+        "pairs": [
+          {
+            "left": "🌙",
+            "right": "Lune"
+          },
+          {
+            "left": "🛖",
+            "right": "Case"
+          },
+          {
+            "left": "🐟",
+            "right": "Poisson"
+          },
+          {
+            "left": "🥁",
+            "right": "Tambour"
+          }
+        ]
+      }
+    ]
+  },
+  "cp2": {
+    "lecture": [
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot correspond à l'image ? 🐐",
+        "q_ar": "ما هي الكلمة التي تناسب الصورة ؟ 🐐",
+        "options": [
+          {
+            "fr": "Chèvre",
+            "ar": "عنزة"
+          },
+          {
+            "fr": "Chien",
+            "ar": "كلب"
+          },
+          {
+            "fr": "Oiseau",
+            "ar": "عصفور"
+          },
+          {
+            "fr": "Poisson",
+            "ar": "سمكة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Le ___ vole dans le ciel.",
+        "q_ar": "أكمل : يطير الـ ___ في السماء.",
+        "options": [
+          {
+            "fr": "oiseau",
+            "ar": "عصفور"
+          },
+          {
+            "fr": "poisson",
+            "ar": "سمك"
+          },
+          {
+            "fr": "chameau",
+            "ar": "جمل"
+          },
+          {
+            "fr": "chèvre",
+            "ar": "عنزة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot est écrit correctement ?",
+        "q_ar": "ما هي الكلمة المكتوبة بشكل صحيح ؟",
+        "options": [
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          },
+          {
+            "fr": "Ecolle",
+            "ar": "مدرصة"
+          },
+          {
+            "fr": "Ekole",
+            "ar": "مدرسه"
+          },
+          {
+            "fr": "Aicole",
+            "ar": "مدرصه"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot rime avec « marché » ?",
+        "q_ar": "أي كلمة تتناغم مع « marché » ؟",
+        "options": [
+          {
+            "fr": "pêché",
+            "ar": "صيد"
+          },
+          {
+            "fr": "porte",
+            "ar": "باب"
+          },
+          {
+            "fr": "lune",
+            "ar": "قمر"
+          },
+          {
+            "fr": "fleur",
+            "ar": "زهرة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le pluriel de « chèvre » ?",
+        "q_ar": "ما هو جمع كلمة « chèvre » ؟",
+        "options": [
+          {
+            "fr": "chèvres",
+            "ar": "عنزات"
+          },
+          {
+            "fr": "chèvress",
+            "ar": "عنزاتة"
+          },
+          {
+            "fr": "chèvrex",
+            "ar": "عنزاتس"
+          },
+          {
+            "fr": "chèvre",
+            "ar": "عنزة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel animal vit dans le lac Tchad ?",
+        "q_ar": "أي حيوان يعيش في بحيرة تشاد ؟",
+        "options": [
+          {
+            "fr": "Poisson",
+            "ar": "سمكة"
+          },
+          {
+            "fr": "Oiseau",
+            "ar": "عصفور"
+          },
+          {
+            "fr": "Chameau",
+            "ar": "جمل"
+          },
+          {
+            "fr": "Chèvre",
+            "ar": "عنزة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Ma mère va au ___ pour acheter du mil.",
+        "q_ar": "أكمل : تذهب أمي إلى الـ ___ لشراء الدخن.",
+        "options": [
+          {
+            "fr": "marché",
+            "ar": "سوق"
+          },
+          {
+            "fr": "fleuve",
+            "ar": "نهر"
+          },
+          {
+            "fr": "ciel",
+            "ar": "سماء"
+          },
+          {
+            "fr": "livre",
+            "ar": "كتاب"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne la maison traditionnelle ?",
+        "q_ar": "أي كلمة تدل على المنزل التقليدي ؟",
+        "options": [
+          {
+            "fr": "Case",
+            "ar": "كوخ"
+          },
+          {
+            "fr": "Voiture",
+            "ar": "سيارة"
+          },
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          },
+          {
+            "fr": "Table",
+            "ar": "طاولة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le féminin de « âne » ?",
+        "q_ar": "ما هو مؤنث كلمة « âne » ؟",
+        "options": [
+          {
+            "fr": "ânesse",
+            "ar": "أتان"
+          },
+          {
+            "fr": "ânette",
+            "ar": "أتانة"
+          },
+          {
+            "fr": "âneuse",
+            "ar": "أتونة"
+          },
+          {
+            "fr": "âne",
+            "ar": "حمار"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Le paysan cultive le ___ dans son champ.",
+        "q_ar": "أكمل : يزرع الفلاح الـ ___ في حقله.",
+        "options": [
+          {
+            "fr": "mil",
+            "ar": "دخن"
+          },
+          {
+            "fr": "livre",
+            "ar": "كتاب"
+          },
+          {
+            "fr": "ciel",
+            "ar": "سماء"
+          },
+          {
+            "fr": "stylo",
+            "ar": "قلم"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot commence par la même lettre que « village » ?",
+        "q_ar": "أي كلمة تبدأ بنفس حرف كلمة « village » ؟",
+        "options": [
+          {
+            "fr": "Vache",
+            "ar": "بقرة"
+          },
+          {
+            "fr": "Chèvre",
+            "ar": "عنزة"
+          },
+          {
+            "fr": "Mangue",
+            "ar": "مانجو"
+          },
+          {
+            "fr": "Pluie",
+            "ar": "مطر"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot signifie l'endroit où on apprend ?",
+        "q_ar": "أي كلمة تعني المكان الذي نتعلم فيه ؟",
+        "options": [
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          },
+          {
+            "fr": "Marché",
+            "ar": "سوق"
+          },
+          {
+            "fr": "Fleuve",
+            "ar": "نهر"
+          },
+          {
+            "fr": "Case",
+            "ar": "كوخ"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Les enfants boivent de l'eau du ___.",
+        "q_ar": "أكمل : يشرب الأطفال الماء من الـ ___.",
+        "options": [
+          {
+            "fr": "puits",
+            "ar": "بئر"
+          },
+          {
+            "fr": "livre",
+            "ar": "كتاب"
+          },
+          {
+            "fr": "ciel",
+            "ar": "سماء"
+          },
+          {
+            "fr": "marché",
+            "ar": "سوق"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot est un animal domestique ?",
+        "q_ar": "أي كلمة تدل على حيوان أليف ؟",
+        "options": [
+          {
+            "fr": "Chèvre",
+            "ar": "عنزة"
+          },
+          {
+            "fr": "Lion",
+            "ar": "أسد"
+          },
+          {
+            "fr": "Éléphant",
+            "ar": "فيل"
+          },
+          {
+            "fr": "Crocodile",
+            "ar": "تمساح"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le contraire de « jour » ?",
+        "q_ar": "ما هو عكس كلمة « jour » ؟",
+        "options": [
+          {
+            "fr": "nuit",
+            "ar": "ليل"
+          },
+          {
+            "fr": "soleil",
+            "ar": "شمس"
+          },
+          {
+            "fr": "pluie",
+            "ar": "مطر"
+          },
+          {
+            "fr": "matin",
+            "ar": "صباح"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : On récolte le mil en ___.",
+        "q_ar": "أكمل : نحصد الدخن في فصل الـ ___.",
+        "options": [
+          {
+            "fr": "saison sèche",
+            "ar": "الموسم الجاف"
+          },
+          {
+            "fr": "pluie",
+            "ar": "مطر"
+          },
+          {
+            "fr": "nuit",
+            "ar": "ليل"
+          },
+          {
+            "fr": "classe",
+            "ar": "صف"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne un cours d'eau ?",
+        "q_ar": "أي كلمة تدل على مجرى الماء ؟",
+        "options": [
+          {
+            "fr": "Fleuve",
+            "ar": "نهر"
+          },
+          {
+            "fr": "Case",
+            "ar": "كوخ"
+          },
+          {
+            "fr": "Marché",
+            "ar": "سوق"
+          },
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le contraire de « grand » ?",
+        "q_ar": "ما هو عكس كلمة « grand » ؟",
+        "options": [
+          {
+            "fr": "petit",
+            "ar": "صغير"
+          },
+          {
+            "fr": "fort",
+            "ar": "قوي"
+          },
+          {
+            "fr": "beau",
+            "ar": "جميل"
+          },
+          {
+            "fr": "rapide",
+            "ar": "سريع"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Le berger garde ses ___ dans le champ.",
+        "q_ar": "أكمل : يرعى الراعي ___ في الحقل.",
+        "options": [
+          {
+            "fr": "chèvres",
+            "ar": "عنزات"
+          },
+          {
+            "fr": "livres",
+            "ar": "كتب"
+          },
+          {
+            "fr": "tables",
+            "ar": "طاولات"
+          },
+          {
+            "fr": "voitures",
+            "ar": "سيارات"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot signifie l'endroit où on achète et on vend ?",
+        "q_ar": "أي كلمة تعني المكان الذي نبيع ونشتري فيه ؟",
+        "options": [
+          {
+            "fr": "Marché",
+            "ar": "سوق"
+          },
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          },
+          {
+            "fr": "Fleuve",
+            "ar": "نهر"
+          },
+          {
+            "fr": "Case",
+            "ar": "كوخ"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le masculin de « chèvre » ?",
+        "q_ar": "ما هو مذكر كلمة « chèvre » ؟",
+        "options": [
+          {
+            "fr": "bouc",
+            "ar": "تيس"
+          },
+          {
+            "fr": "chevreau",
+            "ar": "جدي"
+          },
+          {
+            "fr": "chevrette",
+            "ar": "عنيزة"
+          },
+          {
+            "fr": "chèvre",
+            "ar": "عنزة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : La pluie tombe pendant la ___ des pluies.",
+        "q_ar": "أكمل : يهطل المطر خلال موسم ___.",
+        "options": [
+          {
+            "fr": "saison",
+            "ar": "الموسم"
+          },
+          {
+            "fr": "nuit",
+            "ar": "الليل"
+          },
+          {
+            "fr": "classe",
+            "ar": "الصف"
+          },
+          {
+            "fr": "marché",
+            "ar": "السوق"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche un mot puis son image.",
+        "instruction_ar": "المس الكلمة ثم صورتها.",
+        "pairs": [
+          {
+            "left": "Chèvre",
+            "right": "🐐"
+          },
+          {
+            "left": "Âne",
+            "right": "🐴"
+          },
+          {
+            "left": "Chameau",
+            "right": "🐫"
+          },
+          {
+            "left": "Poisson",
+            "right": "🐟"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche un mot puis son image.",
+        "instruction_ar": "المس الكلمة ثم صورتها.",
+        "pairs": [
+          {
+            "left": "Case",
+            "right": "🛖"
+          },
+          {
+            "left": "Puits",
+            "right": "💧"
+          },
+          {
+            "left": "Fleuve",
+            "right": "🌊"
+          },
+          {
+            "left": "Village",
+            "right": "🏘️"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche un mot puis son image.",
+        "instruction_ar": "المس الكلمة ثم صورتها.",
+        "pairs": [
+          {
+            "left": "Zébu",
+            "right": "🐂"
+          },
+          {
+            "left": "Mangue",
+            "right": "🥭"
+          },
+          {
+            "left": "Dattes",
+            "right": "🌴"
+          },
+          {
+            "left": "Mil",
+            "right": "🌾"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche un mot puis son image.",
+        "instruction_ar": "المس الكلمة ثم صورتها.",
+        "pairs": [
+          {
+            "left": "Soleil",
+            "right": "☀️"
+          },
+          {
+            "left": "Pluie",
+            "right": "🌧️"
+          },
+          {
+            "left": "Lune",
+            "right": "🌙"
+          },
+          {
+            "left": "Étoile",
+            "right": "⭐"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          },
+          {
+            "fr": "Marché",
+            "ar": "سوق"
+          },
+          {
+            "fr": "Village",
+            "ar": "قرية"
+          },
+          {
+            "fr": "Fleuve",
+            "ar": "نهر"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Case",
+            "ar": "كوخ"
+          },
+          {
+            "fr": "Puits",
+            "ar": "بئر"
+          },
+          {
+            "fr": "Champ",
+            "ar": "حقل"
+          },
+          {
+            "fr": "Berger",
+            "ar": "راعي"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Saison sèche",
+            "ar": "الموسم الجاف"
+          },
+          {
+            "fr": "Saison des pluies",
+            "ar": "موسم الأمطار"
+          },
+          {
+            "fr": "Nuit",
+            "ar": "ليل"
+          },
+          {
+            "fr": "Jour",
+            "ar": "نهار"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Bouc",
+            "ar": "تيس"
+          },
+          {
+            "fr": "Ânesse",
+            "ar": "أتان"
+          },
+          {
+            "fr": "Vache",
+            "ar": "بقرة"
+          },
+          {
+            "fr": "Mouton",
+            "ar": "خروف"
+          }
+        ]
+      }
+    ],
+    "calcul": [
+      {
+        "type": "qcm",
+        "q_fr": "Fatimé a 5 mangues, elle en mange 2. Combien lui en reste-t-il ?",
+        "q_ar": "عند فاطمة 5 مانجو، أكلت 2. كم تبقى لها ؟",
+        "options": [
+          {
+            "fr": "3",
+            "ar": "3"
+          },
+          {
+            "fr": "2",
+            "ar": "2"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "8 - 3 = ?",
+        "q_ar": "8 - 3 = ؟",
+        "options": [
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "4 + 4 = ?",
+        "q_ar": "4 + 4 = ؟",
+        "options": [
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          },
+          {
+            "fr": "9",
+            "ar": "9"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Une mangue coûte 25 francs. Moussa achète 2 mangues. Combien paye-t-il en tout ?",
+        "q_ar": "ثمن المانجو 25 فرنكًا. اشترى موسى مانجوتين. كم دفع بالمجموع ؟",
+        "options": [
+          {
+            "fr": "50",
+            "ar": "50"
+          },
+          {
+            "fr": "45",
+            "ar": "45"
+          },
+          {
+            "fr": "55",
+            "ar": "55"
+          },
+          {
+            "fr": "27",
+            "ar": "27"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "10 - 4 = ?",
+        "q_ar": "10 - 4 = ؟",
+        "options": [
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "6 + 3 = ?",
+        "q_ar": "6 + 3 = ؟",
+        "options": [
+          {
+            "fr": "9",
+            "ar": "9"
+          },
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Moussa a 12 chèvres, il en vend 5 au marché. Combien lui en reste-t-il ?",
+        "q_ar": "عند موسى 12 عنزة، باع 5 منها في السوق. كم تبقى له ؟",
+        "options": [
+          {
+            "fr": "7",
+            "ar": "7"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "15 + 10 = ?",
+        "q_ar": "15 + 10 = ؟",
+        "options": [
+          {
+            "fr": "25",
+            "ar": "25"
+          },
+          {
+            "fr": "24",
+            "ar": "24"
+          },
+          {
+            "fr": "26",
+            "ar": "26"
+          },
+          {
+            "fr": "20",
+            "ar": "20"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "20 - 8 = ?",
+        "q_ar": "20 - 8 = ؟",
+        "options": [
+          {
+            "fr": "12",
+            "ar": "12"
+          },
+          {
+            "fr": "11",
+            "ar": "11"
+          },
+          {
+            "fr": "13",
+            "ar": "13"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un sac de mil coûte 100 francs. Combien coûtent 3 sacs ?",
+        "q_ar": "ثمن كيس الدخن 100 فرنك. كم ثمن 3 أكياس ؟",
+        "options": [
+          {
+            "fr": "300",
+            "ar": "300"
+          },
+          {
+            "fr": "200",
+            "ar": "200"
+          },
+          {
+            "fr": "400",
+            "ar": "400"
+          },
+          {
+            "fr": "103",
+            "ar": "103"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "9 + 6 = ?",
+        "q_ar": "9 + 6 = ؟",
+        "options": [
+          {
+            "fr": "15",
+            "ar": "15"
+          },
+          {
+            "fr": "14",
+            "ar": "14"
+          },
+          {
+            "fr": "16",
+            "ar": "16"
+          },
+          {
+            "fr": "13",
+            "ar": "13"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "18 - 9 = ?",
+        "q_ar": "18 - 9 = ؟",
+        "options": [
+          {
+            "fr": "9",
+            "ar": "9"
+          },
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Aïcha a 30 francs. Elle achète une datte à 10 francs. Combien lui reste-t-il ?",
+        "q_ar": "عند عائشة 30 فرنكًا. اشترت تمرة بـ 10 فرنك. كم تبقى لها ؟",
+        "options": [
+          {
+            "fr": "20",
+            "ar": "20"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "40",
+            "ar": "40"
+          },
+          {
+            "fr": "15",
+            "ar": "15"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "7 + 8 = ?",
+        "q_ar": "7 + 8 = ؟",
+        "options": [
+          {
+            "fr": "15",
+            "ar": "15"
+          },
+          {
+            "fr": "14",
+            "ar": "14"
+          },
+          {
+            "fr": "16",
+            "ar": "16"
+          },
+          {
+            "fr": "13",
+            "ar": "13"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "14 - 6 = ?",
+        "q_ar": "14 - 6 = ؟",
+        "options": [
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          },
+          {
+            "fr": "9",
+            "ar": "9"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le double de 6 ?",
+        "q_ar": "ما هو ضعف العدد 6 ؟",
+        "options": [
+          {
+            "fr": "12",
+            "ar": "12"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "14",
+            "ar": "14"
+          },
+          {
+            "fr": "8",
+            "ar": "8"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un berger a 25 zébus. Il en achète 5 de plus. Combien en a-t-il maintenant ?",
+        "q_ar": "عند الراعي 25 ثورًا. اشترى 5 أخرى. كم أصبح عدده الآن ؟",
+        "options": [
+          {
+            "fr": "30",
+            "ar": "30"
+          },
+          {
+            "fr": "29",
+            "ar": "29"
+          },
+          {
+            "fr": "31",
+            "ar": "31"
+          },
+          {
+            "fr": "20",
+            "ar": "20"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle est la moitié de 10 ?",
+        "q_ar": "ما هو نصف العدد 10 ؟",
+        "options": [
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "2",
+            "ar": "2"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "11 + 9 = ?",
+        "q_ar": "11 + 9 = ؟",
+        "options": [
+          {
+            "fr": "20",
+            "ar": "20"
+          },
+          {
+            "fr": "19",
+            "ar": "19"
+          },
+          {
+            "fr": "21",
+            "ar": "21"
+          },
+          {
+            "fr": "18",
+            "ar": "18"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "17 - 8 = ?",
+        "q_ar": "17 - 8 = ؟",
+        "options": [
+          {
+            "fr": "9",
+            "ar": "9"
+          },
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le plus grand nombre : 24 ou 19 ?",
+        "q_ar": "أي عدد أكبر : 24 أم 19 ؟",
+        "options": [
+          {
+            "fr": "24",
+            "ar": "24"
+          },
+          {
+            "fr": "19",
+            "ar": "19"
+          },
+          {
+            "fr": "Égaux",
+            "ar": "متساويان"
+          },
+          {
+            "fr": "0",
+            "ar": "0"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Fatimé vend 3 mangues à 25 francs chacune. Combien gagne-t-elle en tout ?",
+        "q_ar": "باعت فاطمة 3 مانجو بسعر 25 فرنكًا للواحدة. كم ربحت بالمجموع ؟",
+        "options": [
+          {
+            "fr": "75",
+            "ar": "75"
+          },
+          {
+            "fr": "70",
+            "ar": "70"
+          },
+          {
+            "fr": "80",
+            "ar": "80"
+          },
+          {
+            "fr": "28",
+            "ar": "28"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une opération puis son résultat.",
+        "instruction_ar": "المس عملية حسابية ثم نتيجتها.",
+        "pairs": [
+          {
+            "left": "3+2",
+            "right": "5"
+          },
+          {
+            "left": "6-1",
+            "right": "5"
+          },
+          {
+            "left": "4+4",
+            "right": "8"
+          },
+          {
+            "left": "9-3",
+            "right": "6"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une opération puis son résultat.",
+        "instruction_ar": "المس عملية حسابية ثم نتيجتها.",
+        "pairs": [
+          {
+            "left": "10+5",
+            "right": "15"
+          },
+          {
+            "left": "12-4",
+            "right": "8"
+          },
+          {
+            "left": "7+7",
+            "right": "14"
+          },
+          {
+            "left": "20-9",
+            "right": "11"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche un nombre puis son double.",
+        "instruction_ar": "المس رقمًا ثم ضعفه.",
+        "pairs": [
+          {
+            "left": "3",
+            "right": "6"
+          },
+          {
+            "left": "5",
+            "right": "10"
+          },
+          {
+            "left": "7",
+            "right": "14"
+          },
+          {
+            "left": "4",
+            "right": "8"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche un prix en francs puis son équivalent en pièces.",
+        "instruction_ar": "المس السعر بالفرنك ثم ما يعادله بالقطع النقدية.",
+        "pairs": [
+          {
+            "left": "25 F",
+            "right": "25"
+          },
+          {
+            "left": "50 F",
+            "right": "50"
+          },
+          {
+            "left": "100 F",
+            "right": "100"
+          },
+          {
+            "left": "10 F",
+            "right": "10"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Addition",
+            "ar": "جمع"
+          },
+          {
+            "fr": "Soustraction",
+            "ar": "طرح"
+          },
+          {
+            "fr": "Argent",
+            "ar": "مال"
+          },
+          {
+            "fr": "Marché",
+            "ar": "سوق"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Nombre",
+            "ar": "عدد"
+          },
+          {
+            "fr": "Résultat",
+            "ar": "نتيجة"
+          },
+          {
+            "fr": "Double",
+            "ar": "ضعف"
+          },
+          {
+            "fr": "Moitié",
+            "ar": "نصف"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Franc",
+            "ar": "فرنك"
+          },
+          {
+            "fr": "Prix",
+            "ar": "سعر"
+          },
+          {
+            "fr": "Sac",
+            "ar": "كيس"
+          },
+          {
+            "fr": "Vendre",
+            "ar": "يبيع"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Acheter",
+            "ar": "يشتري"
+          },
+          {
+            "fr": "Compter",
+            "ar": "يعد"
+          },
+          {
+            "fr": "Payer",
+            "ar": "يدفع"
+          },
+          {
+            "fr": "Gagner",
+            "ar": "يربح"
+          }
+        ]
+      }
+    ],
+    "langage": [
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐫",
+        "options": [
+          {
+            "fr": "Un chameau marche dans le désert.",
+            "ar": "يمشي جمل في الصحراء."
+          },
+          {
+            "fr": "Un poisson nage dans l'eau.",
+            "ar": "تسبح سمكة في الماء."
+          },
+          {
+            "fr": "Un oiseau vole dans le ciel.",
+            "ar": "يطير عصفور في السماء."
+          },
+          {
+            "fr": "Une chèvre broute l'herbe.",
+            "ar": "ترعى عنزة العشب."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🎣",
+        "options": [
+          {
+            "fr": "Le pêcheur attrape un poisson.",
+            "ar": "يصطاد الصياد سمكة."
+          },
+          {
+            "fr": "Le berger garde les chèvres.",
+            "ar": "يرعى الراعي العنزات."
+          },
+          {
+            "fr": "Le maître enseigne la classe.",
+            "ar": "يعلّم المعلم الصف."
+          },
+          {
+            "fr": "Le griot raconte une histoire.",
+            "ar": "يحكي الراوي قصة."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "👨‍🏫",
+        "options": [
+          {
+            "fr": "Le maître enseigne aux élèves.",
+            "ar": "يعلّم المعلم التلاميذ."
+          },
+          {
+            "fr": "Le berger garde le troupeau.",
+            "ar": "يرعى الراعي القطيع."
+          },
+          {
+            "fr": "Le pêcheur pêche des poissons.",
+            "ar": "يصطاد الصياد الأسماك."
+          },
+          {
+            "fr": "Le marchand vend des fruits.",
+            "ar": "يبيع التاجر الفواكه."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🛒",
+        "options": [
+          {
+            "fr": "On achète et on vend au marché.",
+            "ar": "نشتري ونبيع في السوق."
+          },
+          {
+            "fr": "On apprend à lire à l'école.",
+            "ar": "نتعلم القراءة في المدرسة."
+          },
+          {
+            "fr": "On pêche des poissons au fleuve.",
+            "ar": "نصطاد الأسماك في النهر."
+          },
+          {
+            "fr": "On garde les chèvres au champ.",
+            "ar": "نرعى العنزات في الحقل."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌊",
+        "options": [
+          {
+            "fr": "Le fleuve coule vers le lac.",
+            "ar": "يجري النهر نحو البحيرة."
+          },
+          {
+            "fr": "Le vent souffle sur le village.",
+            "ar": "تهب الريح على القرية."
+          },
+          {
+            "fr": "Le soleil brille sur le champ.",
+            "ar": "تسطع الشمس على الحقل."
+          },
+          {
+            "fr": "La pluie tombe sur les toits.",
+            "ar": "يهطل المطر على السقوف."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "📖",
+        "options": [
+          {
+            "fr": "L'élève lit son livre.",
+            "ar": "يقرأ التلميذ كتابه."
+          },
+          {
+            "fr": "Le berger compte ses chèvres.",
+            "ar": "يعد الراعي عنزاته."
+          },
+          {
+            "fr": "Le griot chante une chanson.",
+            "ar": "يغني الراوي أغنية."
+          },
+          {
+            "fr": "Le pêcheur répare sa pirogue.",
+            "ar": "يصلح الصياد زورقه."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐐🐐",
+        "options": [
+          {
+            "fr": "Deux chèvres broutent ensemble.",
+            "ar": "ترعى عنزتان معًا."
+          },
+          {
+            "fr": "Deux poissons nagent.",
+            "ar": "تسبح سمكتان."
+          },
+          {
+            "fr": "Deux enfants jouent.",
+            "ar": "يلعب طفلان."
+          },
+          {
+            "fr": "Deux oiseaux volent.",
+            "ar": "يطير عصفوران."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🏫",
+        "options": [
+          {
+            "fr": "Les enfants vont à l'école.",
+            "ar": "يذهب الأطفال إلى المدرسة."
+          },
+          {
+            "fr": "Les enfants vont au marché.",
+            "ar": "يذهب الأطفال إلى السوق."
+          },
+          {
+            "fr": "Les enfants vont au fleuve.",
+            "ar": "يذهب الأطفال إلى النهر."
+          },
+          {
+            "fr": "Les enfants vont au champ.",
+            "ar": "يذهب الأطفال إلى الحقل."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌧️",
+        "options": [
+          {
+            "fr": "La pluie tombe sur le village.",
+            "ar": "يهطل المطر على القرية."
+          },
+          {
+            "fr": "Le soleil brille fort.",
+            "ar": "تسطع الشمس بقوة."
+          },
+          {
+            "fr": "Le vent souffle doucement.",
+            "ar": "تهب الريح بلطف."
+          },
+          {
+            "fr": "La nuit tombe vite.",
+            "ar": "يحل الليل بسرعة."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🥭🥭🥭",
+        "options": [
+          {
+            "fr": "Trois mangues mûres.",
+            "ar": "ثلاث مانجوهات ناضجة."
+          },
+          {
+            "fr": "Trois chèvres blanches.",
+            "ar": "ثلاث عنزات بيضاء."
+          },
+          {
+            "fr": "Trois enfants heureux.",
+            "ar": "ثلاثة أطفال سعداء."
+          },
+          {
+            "fr": "Trois poissons argentés.",
+            "ar": "ثلاث أسماك فضية."
+          }
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}
