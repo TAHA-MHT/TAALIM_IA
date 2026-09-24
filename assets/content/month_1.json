@@ -1820,6 +1820,396 @@
           }
         ]
       }
+    ],
+    "ecriture": [
+      {
+        "type": "trace",
+        "glyph": "0",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            50,
+            10
+          ],
+          [
+            30,
+            20
+          ],
+          [
+            18,
+            40
+          ],
+          [
+            18,
+            60
+          ],
+          [
+            30,
+            85
+          ],
+          [
+            50,
+            95
+          ],
+          [
+            70,
+            85
+          ],
+          [
+            82,
+            60
+          ],
+          [
+            82,
+            40
+          ],
+          [
+            70,
+            20
+          ],
+          [
+            50,
+            10
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "1",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            35,
+            20
+          ],
+          [
+            55,
+            10
+          ],
+          [
+            55,
+            90
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "2",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            20,
+            25
+          ],
+          [
+            30,
+            12
+          ],
+          [
+            55,
+            12
+          ],
+          [
+            70,
+            25
+          ],
+          [
+            65,
+            45
+          ],
+          [
+            40,
+            65
+          ],
+          [
+            20,
+            85
+          ],
+          [
+            80,
+            85
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "3",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            20,
+            15
+          ],
+          [
+            65,
+            15
+          ],
+          [
+            45,
+            45
+          ],
+          [
+            65,
+            50
+          ],
+          [
+            70,
+            75
+          ],
+          [
+            50,
+            90
+          ],
+          [
+            22,
+            80
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "4",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            65,
+            10
+          ],
+          [
+            20,
+            60
+          ],
+          [
+            80,
+            60
+          ],
+          [
+            60,
+            60
+          ],
+          [
+            60,
+            95
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "5",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            70,
+            12
+          ],
+          [
+            25,
+            12
+          ],
+          [
+            20,
+            45
+          ],
+          [
+            45,
+            40
+          ],
+          [
+            68,
+            55
+          ],
+          [
+            68,
+            78
+          ],
+          [
+            45,
+            92
+          ],
+          [
+            22,
+            82
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "6",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            68,
+            15
+          ],
+          [
+            35,
+            25
+          ],
+          [
+            20,
+            55
+          ],
+          [
+            25,
+            80
+          ],
+          [
+            50,
+            92
+          ],
+          [
+            72,
+            80
+          ],
+          [
+            72,
+            58
+          ],
+          [
+            50,
+            48
+          ],
+          [
+            28,
+            58
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "7",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            18,
+            15
+          ],
+          [
+            80,
+            15
+          ],
+          [
+            45,
+            90
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "8",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            50,
+            10
+          ],
+          [
+            30,
+            22
+          ],
+          [
+            30,
+            42
+          ],
+          [
+            50,
+            52
+          ],
+          [
+            70,
+            42
+          ],
+          [
+            70,
+            22
+          ],
+          [
+            50,
+            10
+          ],
+          [
+            30,
+            62
+          ],
+          [
+            30,
+            82
+          ],
+          [
+            50,
+            94
+          ],
+          [
+            70,
+            82
+          ],
+          [
+            70,
+            62
+          ],
+          [
+            50,
+            52
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "9",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            70,
+            40
+          ],
+          [
+            68,
+            20
+          ],
+          [
+            48,
+            10
+          ],
+          [
+            28,
+            22
+          ],
+          [
+            28,
+            42
+          ],
+          [
+            48,
+            52
+          ],
+          [
+            70,
+            42
+          ],
+          [
+            70,
+            68
+          ],
+          [
+            55,
+            90
+          ],
+          [
+            30,
+            80
+          ]
+        ]
+      }
     ]
   },
   "cp2": {
@@ -3481,6 +3871,396 @@
           }
         ],
         "answer": 0
+      }
+    ],
+    "ecriture": [
+      {
+        "type": "trace",
+        "glyph": "0",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            50,
+            10
+          ],
+          [
+            30,
+            20
+          ],
+          [
+            18,
+            40
+          ],
+          [
+            18,
+            60
+          ],
+          [
+            30,
+            85
+          ],
+          [
+            50,
+            95
+          ],
+          [
+            70,
+            85
+          ],
+          [
+            82,
+            60
+          ],
+          [
+            82,
+            40
+          ],
+          [
+            70,
+            20
+          ],
+          [
+            50,
+            10
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "1",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            35,
+            20
+          ],
+          [
+            55,
+            10
+          ],
+          [
+            55,
+            90
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "2",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            20,
+            25
+          ],
+          [
+            30,
+            12
+          ],
+          [
+            55,
+            12
+          ],
+          [
+            70,
+            25
+          ],
+          [
+            65,
+            45
+          ],
+          [
+            40,
+            65
+          ],
+          [
+            20,
+            85
+          ],
+          [
+            80,
+            85
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "3",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            20,
+            15
+          ],
+          [
+            65,
+            15
+          ],
+          [
+            45,
+            45
+          ],
+          [
+            65,
+            50
+          ],
+          [
+            70,
+            75
+          ],
+          [
+            50,
+            90
+          ],
+          [
+            22,
+            80
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "4",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            65,
+            10
+          ],
+          [
+            20,
+            60
+          ],
+          [
+            80,
+            60
+          ],
+          [
+            60,
+            60
+          ],
+          [
+            60,
+            95
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "5",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            70,
+            12
+          ],
+          [
+            25,
+            12
+          ],
+          [
+            20,
+            45
+          ],
+          [
+            45,
+            40
+          ],
+          [
+            68,
+            55
+          ],
+          [
+            68,
+            78
+          ],
+          [
+            45,
+            92
+          ],
+          [
+            22,
+            82
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "6",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            68,
+            15
+          ],
+          [
+            35,
+            25
+          ],
+          [
+            20,
+            55
+          ],
+          [
+            25,
+            80
+          ],
+          [
+            50,
+            92
+          ],
+          [
+            72,
+            80
+          ],
+          [
+            72,
+            58
+          ],
+          [
+            50,
+            48
+          ],
+          [
+            28,
+            58
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "7",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            18,
+            15
+          ],
+          [
+            80,
+            15
+          ],
+          [
+            45,
+            90
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "8",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            50,
+            10
+          ],
+          [
+            30,
+            22
+          ],
+          [
+            30,
+            42
+          ],
+          [
+            50,
+            52
+          ],
+          [
+            70,
+            42
+          ],
+          [
+            70,
+            22
+          ],
+          [
+            50,
+            10
+          ],
+          [
+            30,
+            62
+          ],
+          [
+            30,
+            82
+          ],
+          [
+            50,
+            94
+          ],
+          [
+            70,
+            82
+          ],
+          [
+            70,
+            62
+          ],
+          [
+            50,
+            52
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "9",
+        "instruction_fr": "Trace le chiffre avec ton doigt.",
+        "instruction_ar": "ارسم الرقم بإصبعك.",
+        "template": [
+          [
+            70,
+            40
+          ],
+          [
+            68,
+            20
+          ],
+          [
+            48,
+            10
+          ],
+          [
+            28,
+            22
+          ],
+          [
+            28,
+            42
+          ],
+          [
+            48,
+            52
+          ],
+          [
+            70,
+            42
+          ],
+          [
+            70,
+            68
+          ],
+          [
+            55,
+            90
+          ],
+          [
+            30,
+            80
+          ]
+        ]
       }
     ]
   }
