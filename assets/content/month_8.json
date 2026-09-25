@@ -595,6 +595,126 @@
             "ar": "يشارك"
           }
         ]
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne celui qui vend au marché ?",
+        "q_ar": "أي كلمة تدل على من يبيع في السوق ؟",
+        "options": [
+          {
+            "fr": "Marchand",
+            "ar": "تاجر"
+          },
+          {
+            "fr": "Berger",
+            "ar": "راعي"
+          },
+          {
+            "fr": "Maître",
+            "ar": "معلم"
+          },
+          {
+            "fr": "Griot",
+            "ar": "راوي"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne celui qui pêche des poissons ?",
+        "q_ar": "أي كلمة تدل على من يصطاد الأسماك ؟",
+        "options": [
+          {
+            "fr": "Pêcheur",
+            "ar": "صياد"
+          },
+          {
+            "fr": "Berger",
+            "ar": "راعي"
+          },
+          {
+            "fr": "Maçon",
+            "ar": "بنّاء"
+          },
+          {
+            "fr": "Coiffeur",
+            "ar": "حلاق"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot signifie « donner un nom » ?",
+        "q_ar": "أي كلمة تعني « يعطي اسمًا » ؟",
+        "options": [
+          {
+            "fr": "Nommer",
+            "ar": "يسمّي"
+          },
+          {
+            "fr": "Chercher",
+            "ar": "يبحث"
+          },
+          {
+            "fr": "Trouver",
+            "ar": "يجد"
+          },
+          {
+            "fr": "Perdre",
+            "ar": "يفقد"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne le contraire de « fort » ?",
+        "q_ar": "ما هي الكلمة المضادة لـ « fort » ؟",
+        "options": [
+          {
+            "fr": "Faible",
+            "ar": "ضعيف"
+          },
+          {
+            "fr": "Grand",
+            "ar": "كبير"
+          },
+          {
+            "fr": "Rapide",
+            "ar": "سريع"
+          },
+          {
+            "fr": "Beau",
+            "ar": "جميل"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne un endroit où on prie ?",
+        "q_ar": "أي كلمة تدل على مكان للصلاة ؟",
+        "options": [
+          {
+            "fr": "Mosquée",
+            "ar": "مسجد"
+          },
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          },
+          {
+            "fr": "Marché",
+            "ar": "سوق"
+          },
+          {
+            "fr": "Hôpital",
+            "ar": "مستشفى"
+          }
+        ],
+        "answer": 0
       }
     ],
     "calcul": [
@@ -1072,6 +1192,246 @@
             "ar": "مدة"
           }
         ]
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de doigts a une main ?",
+        "q_ar": "كم إصبعًا في اليد الواحدة ؟",
+        "options": [
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de doigts ont deux mains ?",
+        "q_ar": "كم إصبعًا في يدين ؟",
+        "options": [
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "12",
+            "ar": "12"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un enfant mesure moins qu'un adulte. Qui est le plus petit ?",
+        "q_ar": "الطفل أقصر من الكبير. من الأقصر ؟",
+        "options": [
+          {
+            "fr": "L'enfant",
+            "ar": "الطفل"
+          },
+          {
+            "fr": "L'adulte",
+            "ar": "الكبير"
+          },
+          {
+            "fr": "Égaux",
+            "ar": "متساويان"
+          },
+          {
+            "fr": "Aucun",
+            "ar": "لا أحد"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien d'heures dure une nuit environ ?",
+        "q_ar": "كم ساعة تستغرق الليلة تقريبًا ؟",
+        "options": [
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "2",
+            "ar": "2"
+          },
+          {
+            "fr": "20",
+            "ar": "20"
+          },
+          {
+            "fr": "1",
+            "ar": "1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un panier vide pèse moins qu'un panier plein. Lequel est le plus léger ?",
+        "q_ar": "السلة الفارغة أخف من السلة الممتلئة. أيهما أخف ؟",
+        "options": [
+          {
+            "fr": "Le panier vide",
+            "ar": "السلة الفارغة"
+          },
+          {
+            "fr": "Le panier plein",
+            "ar": "السلة الممتلئة"
+          },
+          {
+            "fr": "Égaux",
+            "ar": "متساويان"
+          },
+          {
+            "fr": "Aucun",
+            "ar": "لا أحد"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de litres dans 2000 millilitres ?",
+        "q_ar": "كم لترًا في 2000 مليلتر ؟",
+        "options": [
+          {
+            "fr": "2",
+            "ar": "2"
+          },
+          {
+            "fr": "20",
+            "ar": "20"
+          },
+          {
+            "fr": "200",
+            "ar": "200"
+          },
+          {
+            "fr": "0.2",
+            "ar": "0.2"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un chemin court prend moins de temps qu'un long chemin. Lequel prend le plus de temps ?",
+        "q_ar": "الطريق القصير يستغرق وقتًا أقل من الطريق الطويل. أيهما يستغرق وقتًا أطول ؟",
+        "options": [
+          {
+            "fr": "Le long chemin",
+            "ar": "الطريق الطويل"
+          },
+          {
+            "fr": "Le chemin court",
+            "ar": "الطريق القصير"
+          },
+          {
+            "fr": "Égaux",
+            "ar": "متساويان"
+          },
+          {
+            "fr": "Aucun",
+            "ar": "لا أحد"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de centimètres dans 5 mètres ?",
+        "q_ar": "كم سنتيمترًا في 5 أمتار ؟",
+        "options": [
+          {
+            "fr": "500",
+            "ar": "500"
+          },
+          {
+            "fr": "50",
+            "ar": "50"
+          },
+          {
+            "fr": "5000",
+            "ar": "5000"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un bébé zébu pèse moins qu'un zébu adulte. Lequel est le plus lourd ?",
+        "q_ar": "عجل الثور أخف من الثور الكبير. أيهما أثقل ؟",
+        "options": [
+          {
+            "fr": "Le zébu adulte",
+            "ar": "الثور الكبير"
+          },
+          {
+            "fr": "Le bébé zébu",
+            "ar": "العجل"
+          },
+          {
+            "fr": "Égaux",
+            "ar": "متساويان"
+          },
+          {
+            "fr": "Aucun",
+            "ar": "لا أحد"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de grammes dans un demi-kilo ?",
+        "q_ar": "كم غرامًا في نصف كيلوغرام ؟",
+        "options": [
+          {
+            "fr": "500",
+            "ar": "500"
+          },
+          {
+            "fr": "50",
+            "ar": "50"
+          },
+          {
+            "fr": "5000",
+            "ar": "5000"
+          },
+          {
+            "fr": "100",
+            "ar": "100"
+          }
+        ],
+        "answer": 0
       }
     ],
     "langage": [
@@ -1281,6 +1641,190 @@
             "right": "Boutique"
           }
         ]
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🕋",
+        "options": [
+          {
+            "fr": "Mosquée",
+            "ar": "مسجد"
+          },
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          },
+          {
+            "fr": "Marché",
+            "ar": "سوق"
+          },
+          {
+            "fr": "Maison",
+            "ar": "منزل"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "💊",
+        "options": [
+          {
+            "fr": "Médicament",
+            "ar": "دواء"
+          },
+          {
+            "fr": "Nourriture",
+            "ar": "طعام"
+          },
+          {
+            "fr": "Eau",
+            "ar": "ماء"
+          },
+          {
+            "fr": "Sucre",
+            "ar": "سكر"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🩹",
+        "options": [
+          {
+            "fr": "Blessure",
+            "ar": "جرح"
+          },
+          {
+            "fr": "Maladie",
+            "ar": "مرض"
+          },
+          {
+            "fr": "Fatigue",
+            "ar": "تعب"
+          },
+          {
+            "fr": "Douleur",
+            "ar": "ألم"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🧺👗",
+        "options": [
+          {
+            "fr": "Lessive",
+            "ar": "غسيل"
+          },
+          {
+            "fr": "Cuisine",
+            "ar": "طبخ"
+          },
+          {
+            "fr": "Ménage",
+            "ar": "تنظيف"
+          },
+          {
+            "fr": "Couture",
+            "ar": "خياطة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🛍️",
+        "options": [
+          {
+            "fr": "Sac de courses",
+            "ar": "كيس تسوق"
+          },
+          {
+            "fr": "Panier",
+            "ar": "سلة"
+          },
+          {
+            "fr": "Valise",
+            "ar": "حقيبة"
+          },
+          {
+            "fr": "Cartable",
+            "ar": "حقيبة مدرسية"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🔨",
+        "options": [
+          {
+            "fr": "Marteau",
+            "ar": "مطرقة"
+          },
+          {
+            "fr": "Clou",
+            "ar": "مسمار"
+          },
+          {
+            "fr": "Scie",
+            "ar": "منشار"
+          },
+          {
+            "fr": "Pelle",
+            "ar": "مجرفة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🧵",
+        "options": [
+          {
+            "fr": "Fil",
+            "ar": "خيط"
+          },
+          {
+            "fr": "Aiguille",
+            "ar": "إبرة"
+          },
+          {
+            "fr": "Ciseaux",
+            "ar": "مقص"
+          },
+          {
+            "fr": "Tissu",
+            "ar": "قماش"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🚪",
+        "options": [
+          {
+            "fr": "Porte",
+            "ar": "باب"
+          },
+          {
+            "fr": "Fenêtre",
+            "ar": "نافذة"
+          },
+          {
+            "fr": "Toit",
+            "ar": "سقف"
+          },
+          {
+            "fr": "Mur",
+            "ar": "جدار"
+          }
+        ],
+        "answer": 0
       }
     ],
     "ecriture": [
@@ -1943,6 +2487,294 @@
             "ar": "و"
           }
         ]
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Elle joue au ballon ___ elle fait ses devoirs.",
+        "q_ar": "أكمل : تلعب بالكرة ___ تؤدي واجباتها.",
+        "options": [
+          {
+            "fr": "puis",
+            "ar": "ثم"
+          },
+          {
+            "fr": "mais",
+            "ar": "لكن"
+          },
+          {
+            "fr": "car",
+            "ar": "لأن"
+          },
+          {
+            "fr": "bien que",
+            "ar": "رغم أن"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Bien qu'il soit fatigué, le berger continue de marcher. » Que fait le berger malgré sa fatigue ?",
+        "q_ar": "« رغم تعبه، يواصل الراعي المشي. » ماذا يفعل الراعي رغم تعبه ؟",
+        "options": [
+          {
+            "fr": "Il continue de marcher",
+            "ar": "يواصل المشي"
+          },
+          {
+            "fr": "Il s'arrête",
+            "ar": "يتوقف"
+          },
+          {
+            "fr": "Il dort",
+            "ar": "ينام"
+          },
+          {
+            "fr": "Il pleure",
+            "ar": "يبكي"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Si tu étudies bien, ___ tu réussiras.",
+        "q_ar": "أكمل : إذا درست جيدًا، ___ ستنجح.",
+        "options": [
+          {
+            "fr": "alors",
+            "ar": "إذن"
+          },
+          {
+            "fr": "mais",
+            "ar": "لكن"
+          },
+          {
+            "fr": "car",
+            "ar": "لأن"
+          },
+          {
+            "fr": "quand",
+            "ar": "عندما"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Le pêcheur travaille dur afin de nourrir sa famille. » Pourquoi le pêcheur travaille-t-il dur ?",
+        "q_ar": "« يعمل الصياد بجد لكي يطعم عائلته. » لماذا يعمل الصياد بجد ؟",
+        "options": [
+          {
+            "fr": "Pour nourrir sa famille",
+            "ar": "ليطعم عائلته"
+          },
+          {
+            "fr": "Pour voyager",
+            "ar": "ليسافر"
+          },
+          {
+            "fr": "Pour s'amuser",
+            "ar": "ليستمتع"
+          },
+          {
+            "fr": "Pour dormir",
+            "ar": "لينام"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Elle a réussi ___ elle a beaucoup travaillé.",
+        "q_ar": "أكمل : نجحت ___ عملت كثيرًا.",
+        "options": [
+          {
+            "fr": "car",
+            "ar": "لأن"
+          },
+          {
+            "fr": "mais",
+            "ar": "لكن"
+          },
+          {
+            "fr": "ou",
+            "ar": "أو"
+          },
+          {
+            "fr": "quand",
+            "ar": "عندما"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Dès que la pluie s'arrête, les enfants sortent jouer. » Quand les enfants sortent-ils jouer ?",
+        "q_ar": "« بمجرد توقف المطر، يخرج الأطفال للعب. » متى يخرج الأطفال للعب ؟",
+        "options": [
+          {
+            "fr": "Dès que la pluie s'arrête",
+            "ar": "بمجرد توقف المطر"
+          },
+          {
+            "fr": "Avant la pluie",
+            "ar": "قبل المطر"
+          },
+          {
+            "fr": "Pendant la nuit",
+            "ar": "خلال الليل"
+          },
+          {
+            "fr": "Jamais",
+            "ar": "أبدًا"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Il n'a rien mangé, ___ il a très faim.",
+        "q_ar": "أكمل : لم يأكل شيئًا، ___ هو جائع جدًا.",
+        "options": [
+          {
+            "fr": "donc",
+            "ar": "إذن"
+          },
+          {
+            "fr": "mais",
+            "ar": "لكن"
+          },
+          {
+            "fr": "quand",
+            "ar": "عندما"
+          },
+          {
+            "fr": "bien que",
+            "ar": "رغم أن"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Même si elle est petite, Aïcha porte le lourd panier. » Que fait Aïcha malgré sa petite taille ?",
+        "q_ar": "« رغم صغر حجمها، تحمل عائشة السلة الثقيلة. » ماذا تفعل عائشة رغم صغر حجمها ؟",
+        "options": [
+          {
+            "fr": "Elle porte le lourd panier",
+            "ar": "تحمل السلة الثقيلة"
+          },
+          {
+            "fr": "Elle refuse d'aider",
+            "ar": "ترفض المساعدة"
+          },
+          {
+            "fr": "Elle pleure",
+            "ar": "تبكي"
+          },
+          {
+            "fr": "Elle dort",
+            "ar": "تنام"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Nous partirons dès qu'___ (être) prêts.",
+        "q_ar": "أكمل : سنغادر بمجرد أن ___ (يكون) جاهزين.",
+        "options": [
+          {
+            "fr": "nous serons",
+            "ar": "نكون"
+          },
+          {
+            "fr": "nous sommes",
+            "ar": "نحن"
+          },
+          {
+            "fr": "nous étions",
+            "ar": "كنا"
+          },
+          {
+            "fr": "nous serions",
+            "ar": "سنكون"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Le maître explique lentement pour que tous comprennent. » Pourquoi le maître explique-t-il lentement ?",
+        "q_ar": "« يشرح المعلم ببطء لكي يفهم الجميع. » لماذا يشرح المعلم ببطء ؟",
+        "options": [
+          {
+            "fr": "Pour que tous comprennent",
+            "ar": "لكي يفهم الجميع"
+          },
+          {
+            "fr": "Parce qu'il est fatigué",
+            "ar": "لأنه متعب"
+          },
+          {
+            "fr": "Parce qu'il a peur",
+            "ar": "لأنه خائف"
+          },
+          {
+            "fr": "Pour s'amuser",
+            "ar": "للتسلية"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Elle chante bien qu'elle soit ___ (triste).",
+        "q_ar": "أكمل : تغني رغم أنها ___ (حزينة).",
+        "options": [
+          {
+            "fr": "triste",
+            "ar": "حزينة"
+          },
+          {
+            "fr": "heureuse",
+            "ar": "سعيدة"
+          },
+          {
+            "fr": "fatiguée",
+            "ar": "متعبة"
+          },
+          {
+            "fr": "malade",
+            "ar": "مريضة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Puisque le fleuve est haut, les pêcheurs sortent tôt. » Pourquoi les pêcheurs sortent-ils tôt ?",
+        "q_ar": "« بما أن النهر مرتفع، يخرج الصيادون باكرًا. » لماذا يخرج الصيادون باكرًا ؟",
+        "options": [
+          {
+            "fr": "Le fleuve est haut",
+            "ar": "النهر مرتفع"
+          },
+          {
+            "fr": "Il fait froid",
+            "ar": "الجو بارد"
+          },
+          {
+            "fr": "C'est un jour férié",
+            "ar": "إنه يوم عطلة"
+          },
+          {
+            "fr": "Le marché est fermé",
+            "ar": "السوق مغلق"
+          }
+        ],
+        "answer": 0
       }
     ],
     "calcul": [
@@ -2397,6 +3229,270 @@
             "ar": "فلاح"
           }
         ]
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de francs dans 2 pièces de 100 francs ?",
+        "q_ar": "كم فرنكًا في قطعتين بقيمة 100 فرنك لكل واحدة ؟",
+        "options": [
+          {
+            "fr": "200",
+            "ar": "200"
+          },
+          {
+            "fr": "100",
+            "ar": "100"
+          },
+          {
+            "fr": "300",
+            "ar": "300"
+          },
+          {
+            "fr": "2",
+            "ar": "2"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Fatimé a 3 billets de 100 francs. Combien a-t-elle en tout ?",
+        "q_ar": "عند فاطمة 3 أوراق نقدية بقيمة 100 فرنك. كم لديها بالمجموع ؟",
+        "options": [
+          {
+            "fr": "300",
+            "ar": "300"
+          },
+          {
+            "fr": "103",
+            "ar": "103"
+          },
+          {
+            "fr": "400",
+            "ar": "400"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de mètres dans 1500 centimètres ?",
+        "q_ar": "كم مترًا في 1500 سنتيمتر ؟",
+        "options": [
+          {
+            "fr": "15",
+            "ar": "15"
+          },
+          {
+            "fr": "150",
+            "ar": "150"
+          },
+          {
+            "fr": "1.5",
+            "ar": "1.5"
+          },
+          {
+            "fr": "1500",
+            "ar": "1500"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un marchand a 600 francs, il achète pour 250 francs de marchandise. Combien lui reste-t-il ?",
+        "q_ar": "عند تاجر 600 فرنك، اشترى بضاعة بـ 250 فرنكًا. كم تبقى له ؟",
+        "options": [
+          {
+            "fr": "350",
+            "ar": "350"
+          },
+          {
+            "fr": "340",
+            "ar": "340"
+          },
+          {
+            "fr": "360",
+            "ar": "360"
+          },
+          {
+            "fr": "850",
+            "ar": "850"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de kilos dans 2500 grammes ?",
+        "q_ar": "كم كيلوغرامًا في 2500 غرام ؟",
+        "options": [
+          {
+            "fr": "2.5",
+            "ar": "2.5"
+          },
+          {
+            "fr": "25",
+            "ar": "25"
+          },
+          {
+            "fr": "250",
+            "ar": "250"
+          },
+          {
+            "fr": "0.25",
+            "ar": "0.25"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Moussa a 450 francs, il gagne 300 francs de plus. Combien a-t-il maintenant ?",
+        "q_ar": "عند موسى 450 فرنكًا، ربح 300 فرنك أخرى. كم أصبح لديه ؟",
+        "options": [
+          {
+            "fr": "750",
+            "ar": "750"
+          },
+          {
+            "fr": "700",
+            "ar": "700"
+          },
+          {
+            "fr": "800",
+            "ar": "800"
+          },
+          {
+            "fr": "150",
+            "ar": "150"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un champ mesure 200 mètres, un autre mesure 150 mètres. Combien de mètres en tout ?",
+        "q_ar": "يبلغ طول حقل 200 متر، وآخر 150 مترًا. كم مترًا بالمجموع ؟",
+        "options": [
+          {
+            "fr": "350",
+            "ar": "350"
+          },
+          {
+            "fr": "50",
+            "ar": "50"
+          },
+          {
+            "fr": "300",
+            "ar": "300"
+          },
+          {
+            "fr": "400",
+            "ar": "400"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Aïcha a 2 sacs de 15 kilos chacun. Combien de kilos en tout ?",
+        "q_ar": "عند عائشة كيسان بهما 15 كيلوغرامًا لكل واحد. كم كيلوغرام بالمجموع ؟",
+        "options": [
+          {
+            "fr": "30",
+            "ar": "30"
+          },
+          {
+            "fr": "17",
+            "ar": "17"
+          },
+          {
+            "fr": "15",
+            "ar": "15"
+          },
+          {
+            "fr": "45",
+            "ar": "45"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de litres dans 3 bidons de 10 litres chacun ?",
+        "q_ar": "كم لترًا في 3 عبوات بها 10 لترات لكل واحدة ؟",
+        "options": [
+          {
+            "fr": "30",
+            "ar": "30"
+          },
+          {
+            "fr": "13",
+            "ar": "13"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "33",
+            "ar": "33"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un fermier vend son mil à 200 francs le sac, il vend 5 sacs. Combien gagne-t-il ?",
+        "q_ar": "باع فلاح الدخن بسعر 200 فرنك للكيس، باع 5 أكياس. كم ربح ؟",
+        "options": [
+          {
+            "fr": "1000",
+            "ar": "1000"
+          },
+          {
+            "fr": "900",
+            "ar": "900"
+          },
+          {
+            "fr": "205",
+            "ar": "205"
+          },
+          {
+            "fr": "1100",
+            "ar": "1100"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Fatimé a 900 francs, elle achète 2 tissus à 300 francs chacun. Combien lui reste-t-il ?",
+        "q_ar": "عند فاطمة 900 فرنك، اشترت قطعتي قماش بسعر 300 فرنك للواحدة. كم تبقى لها ؟",
+        "options": [
+          {
+            "fr": "300",
+            "ar": "300"
+          },
+          {
+            "fr": "600",
+            "ar": "600"
+          },
+          {
+            "fr": "200",
+            "ar": "200"
+          },
+          {
+            "fr": "1500",
+            "ar": "1500"
+          }
+        ],
+        "answer": 0
       }
     ],
     "langage": [
@@ -2488,6 +3584,144 @@
           {
             "fr": "Les bergers dorment seuls.",
             "ar": "ينام الرعاة بمفردهم."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🕋🙏",
+        "options": [
+          {
+            "fr": "Les gens vont à la mosquée pour prier.",
+            "ar": "يذهب الناس إلى المسجد للصلاة."
+          },
+          {
+            "fr": "Les enfants vont à l'école pour apprendre.",
+            "ar": "يذهب الأطفال إلى المدرسة للتعلم."
+          },
+          {
+            "fr": "Les marchands vont au marché pour vendre.",
+            "ar": "يذهب التجار إلى السوق للبيع."
+          },
+          {
+            "fr": "Les pêcheurs vont au fleuve pour pêcher.",
+            "ar": "يذهب الصيادون إلى النهر للصيد."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "💊🩹",
+        "options": [
+          {
+            "fr": "Le médecin donne un médicament au malade.",
+            "ar": "يعطي الطبيب دواءً للمريض."
+          },
+          {
+            "fr": "Le maître donne un livre à l'élève.",
+            "ar": "يعطي المعلم كتابًا للتلميذ."
+          },
+          {
+            "fr": "Le marchand donne un fruit au client.",
+            "ar": "يعطي التاجر فاكهة للزبون."
+          },
+          {
+            "fr": "Le berger donne de l'herbe à la chèvre.",
+            "ar": "يعطي الراعي عشبًا للعنزة."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🧺👗",
+        "options": [
+          {
+            "fr": "La mère lave les habits de la famille.",
+            "ar": "تغسل الأم ملابس العائلة."
+          },
+          {
+            "fr": "Le père répare la case.",
+            "ar": "يصلح الأب الكوخ."
+          },
+          {
+            "fr": "Le fils garde les chèvres.",
+            "ar": "يرعى الابن العنزات."
+          },
+          {
+            "fr": "La fille étudie à l'école.",
+            "ar": "تدرس البنت في المدرسة."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🔨🏠",
+        "options": [
+          {
+            "fr": "Le maçon construit avec un marteau.",
+            "ar": "يبني البنّاء بالمطرقة."
+          },
+          {
+            "fr": "Le pêcheur pêche avec une canne.",
+            "ar": "يصطاد الصياد بالصنارة."
+          },
+          {
+            "fr": "Le berger garde avec un bâton.",
+            "ar": "يرعى الراعي بالعصا."
+          },
+          {
+            "fr": "Le griot chante avec un tambour.",
+            "ar": "يغني الراوي بالطبل."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🧵👘",
+        "options": [
+          {
+            "fr": "La couturière coud le boubou avec du fil.",
+            "ar": "تخيط الخياطة الجلباب بالخيط."
+          },
+          {
+            "fr": "Le maçon construit la case avec des briques.",
+            "ar": "يبني البنّاء الكوخ بالطوب."
+          },
+          {
+            "fr": "Le pêcheur répare sa pirogue avec du bois.",
+            "ar": "يصلح الصياد زورقه بالخشب."
+          },
+          {
+            "fr": "Le berger fabrique une natte avec des fibres.",
+            "ar": "يصنع الراعي حصيرة بالألياف."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🚪🏠",
+        "options": [
+          {
+            "fr": "On entre dans la case par la porte.",
+            "ar": "ندخل الكوخ من الباب."
+          },
+          {
+            "fr": "On regarde dehors par la fenêtre.",
+            "ar": "ننظر إلى الخارج من النافذة."
+          },
+          {
+            "fr": "La pluie tombe sur le toit.",
+            "ar": "يهطل المطر على السقف."
+          },
+          {
+            "fr": "Le mur protège la maison.",
+            "ar": "يحمي الجدار المنزل."
           }
         ],
         "answer": 0
