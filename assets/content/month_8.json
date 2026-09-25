@@ -1,1 +1,2727 @@
-
+{
+  "cp1": {
+    "lecture": [
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne un endroit où on soigne les malades ?",
+        "q_ar": "أي كلمة تدل على مكان يُعالج فيه المرضى ؟",
+        "options": [
+          {
+            "fr": "Hôpital",
+            "ar": "مستشفى"
+          },
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          },
+          {
+            "fr": "Marché",
+            "ar": "سوق"
+          },
+          {
+            "fr": "Case",
+            "ar": "كوخ"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne le repas du matin ?",
+        "q_ar": "أي كلمة تدل على وجبة الصباح ؟",
+        "options": [
+          {
+            "fr": "Petit-déjeuner",
+            "ar": "فطور"
+          },
+          {
+            "fr": "Déjeuner",
+            "ar": "غداء"
+          },
+          {
+            "fr": "Dîner",
+            "ar": "عشاء"
+          },
+          {
+            "fr": "Goûter",
+            "ar": "وجبة خفيفة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne celui qui soigne les malades ?",
+        "q_ar": "أي كلمة تدل على من يعالج المرضى ؟",
+        "options": [
+          {
+            "fr": "Médecin",
+            "ar": "طبيب"
+          },
+          {
+            "fr": "Maître",
+            "ar": "معلم"
+          },
+          {
+            "fr": "Berger",
+            "ar": "راعي"
+          },
+          {
+            "fr": "Griot",
+            "ar": "راوي"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne le contraire de « propre » ?",
+        "q_ar": "ما هي الكلمة المضادة لـ « propre » ؟",
+        "options": [
+          {
+            "fr": "Sale",
+            "ar": "متسخ"
+          },
+          {
+            "fr": "Beau",
+            "ar": "جميل"
+          },
+          {
+            "fr": "Grand",
+            "ar": "كبير"
+          },
+          {
+            "fr": "Fort",
+            "ar": "قوي"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne l'endroit où dorment les animaux du berger ?",
+        "q_ar": "أي كلمة تدل على مكان نوم حيوانات الراعي ؟",
+        "options": [
+          {
+            "fr": "Enclos",
+            "ar": "حظيرة"
+          },
+          {
+            "fr": "Marché",
+            "ar": "سوق"
+          },
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          },
+          {
+            "fr": "Puits",
+            "ar": "بئر"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot signifie « être malade » ?",
+        "q_ar": "أي كلمة تعني « أن يكون مريضًا » ؟",
+        "options": [
+          {
+            "fr": "Souffrir",
+            "ar": "يتألم"
+          },
+          {
+            "fr": "Jouer",
+            "ar": "يلعب"
+          },
+          {
+            "fr": "Chanter",
+            "ar": "يغني"
+          },
+          {
+            "fr": "Courir",
+            "ar": "يركض"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne un médicament traditionnel à base de plantes ?",
+        "q_ar": "أي كلمة تدل على دواء تقليدي من الأعشاب ؟",
+        "options": [
+          {
+            "fr": "Remède",
+            "ar": "دواء"
+          },
+          {
+            "fr": "Poison",
+            "ar": "سم"
+          },
+          {
+            "fr": "Parfum",
+            "ar": "عطر"
+          },
+          {
+            "fr": "Encre",
+            "ar": "حبر"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne la personne qui construit les cases ?",
+        "q_ar": "أي كلمة تدل على من يبني الأكواخ ؟",
+        "options": [
+          {
+            "fr": "Maçon",
+            "ar": "بنّاء"
+          },
+          {
+            "fr": "Berger",
+            "ar": "راعي"
+          },
+          {
+            "fr": "Pêcheur",
+            "ar": "صياد"
+          },
+          {
+            "fr": "Griot",
+            "ar": "راوي"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne le contraire de « rapide » ?",
+        "q_ar": "ما هي الكلمة المضادة لـ « rapide » ؟",
+        "options": [
+          {
+            "fr": "Lent",
+            "ar": "بطيء"
+          },
+          {
+            "fr": "Fort",
+            "ar": "قوي"
+          },
+          {
+            "fr": "Grand",
+            "ar": "كبير"
+          },
+          {
+            "fr": "Beau",
+            "ar": "جميل"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne celui qui répare les objets cassés ?",
+        "q_ar": "أي كلمة تدل على من يصلح الأشياء المكسورة ؟",
+        "options": [
+          {
+            "fr": "Réparateur",
+            "ar": "مُصلّح"
+          },
+          {
+            "fr": "Vendeur",
+            "ar": "بائع"
+          },
+          {
+            "fr": "Berger",
+            "ar": "راعي"
+          },
+          {
+            "fr": "Maître",
+            "ar": "معلم"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne un groupe d'amis ?",
+        "q_ar": "أي كلمة تدل على مجموعة من الأصدقاء ؟",
+        "options": [
+          {
+            "fr": "Bande",
+            "ar": "مجموعة"
+          },
+          {
+            "fr": "Famille",
+            "ar": "عائلة"
+          },
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          },
+          {
+            "fr": "Village",
+            "ar": "قرية"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne le contraire de « propre »  (habits) ?",
+        "q_ar": "ما هي الكلمة المضادة لملابس « نظيفة » ؟",
+        "options": [
+          {
+            "fr": "Sales",
+            "ar": "متسخة"
+          },
+          {
+            "fr": "Neuves",
+            "ar": "جديدة"
+          },
+          {
+            "fr": "Belles",
+            "ar": "جميلة"
+          },
+          {
+            "fr": "Chaudes",
+            "ar": "دافئة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne l'endroit où on garde l'eau ?",
+        "q_ar": "أي كلمة تدل على مكان حفظ الماء ؟",
+        "options": [
+          {
+            "fr": "Citerne",
+            "ar": "خزان"
+          },
+          {
+            "fr": "Marché",
+            "ar": "سوق"
+          },
+          {
+            "fr": "Grenier",
+            "ar": "مخزن"
+          },
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne celui qui coupe les cheveux ?",
+        "q_ar": "أي كلمة تدل على من يقص الشعر ؟",
+        "options": [
+          {
+            "fr": "Coiffeur",
+            "ar": "حلاق"
+          },
+          {
+            "fr": "Médecin",
+            "ar": "طبيب"
+          },
+          {
+            "fr": "Maître",
+            "ar": "معلم"
+          },
+          {
+            "fr": "Berger",
+            "ar": "راعي"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot signifie « avoir peur » ?",
+        "q_ar": "أي كلمة تعني « أن يخاف » ؟",
+        "options": [
+          {
+            "fr": "Craindre",
+            "ar": "يخشى"
+          },
+          {
+            "fr": "Aimer",
+            "ar": "يحب"
+          },
+          {
+            "fr": "Espérer",
+            "ar": "يأمل"
+          },
+          {
+            "fr": "Oublier",
+            "ar": "ينسى"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne le contraire de « propre » (case) ?",
+        "q_ar": "ما هي الكلمة المضادة لكوخ « نظيف » ؟",
+        "options": [
+          {
+            "fr": "Sale",
+            "ar": "متسخ"
+          },
+          {
+            "fr": "Grand",
+            "ar": "كبير"
+          },
+          {
+            "fr": "Vieux",
+            "ar": "قديم"
+          },
+          {
+            "fr": "Chaud",
+            "ar": "دافئ"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne un petit magasin au village ?",
+        "q_ar": "أي كلمة تدل على متجر صغير في القرية ؟",
+        "options": [
+          {
+            "fr": "Boutique",
+            "ar": "دكان"
+          },
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          },
+          {
+            "fr": "Fleuve",
+            "ar": "نهر"
+          },
+          {
+            "fr": "Champ",
+            "ar": "حقل"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot signifie « se souvenir » ?",
+        "q_ar": "أي كلمة تعني « يتذكر » ؟",
+        "options": [
+          {
+            "fr": "Se rappeler",
+            "ar": "يتذكر"
+          },
+          {
+            "fr": "Oublier",
+            "ar": "ينسى"
+          },
+          {
+            "fr": "Ignorer",
+            "ar": "يجهل"
+          },
+          {
+            "fr": "Chercher",
+            "ar": "يبحث"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne celui qui transporte les gens en charrette ?",
+        "q_ar": "أي كلمة تدل على من ينقل الناس بالعربة ؟",
+        "options": [
+          {
+            "fr": "Charretier",
+            "ar": "سائق العربة"
+          },
+          {
+            "fr": "Pêcheur",
+            "ar": "صياد"
+          },
+          {
+            "fr": "Berger",
+            "ar": "راعي"
+          },
+          {
+            "fr": "Maçon",
+            "ar": "بنّاء"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot signifie « partager avec les autres » ?",
+        "q_ar": "أي كلمة تعني « يشارك الآخرين » ؟",
+        "options": [
+          {
+            "fr": "Partager",
+            "ar": "يشارك"
+          },
+          {
+            "fr": "Garder",
+            "ar": "يحتفظ"
+          },
+          {
+            "fr": "Cacher",
+            "ar": "يخفي"
+          },
+          {
+            "fr": "Vendre",
+            "ar": "يبيع"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche un métier puis ce qu'il fait.",
+        "instruction_ar": "المس مهنة ثم ما تفعله.",
+        "pairs": [
+          {
+            "left": "Médecin",
+            "right": "Soigne les malades"
+          },
+          {
+            "left": "Maçon",
+            "right": "Construit les cases"
+          },
+          {
+            "left": "Coiffeur",
+            "right": "Coupe les cheveux"
+          },
+          {
+            "left": "Charretier",
+            "right": "Transporte les gens"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche un mot puis son contraire.",
+        "instruction_ar": "المس كلمة ثم عكسها.",
+        "pairs": [
+          {
+            "left": "Propre",
+            "right": "Sale"
+          },
+          {
+            "left": "Rapide",
+            "right": "Lent"
+          },
+          {
+            "left": "Se rappeler",
+            "right": "Oublier"
+          },
+          {
+            "left": "Partager",
+            "right": "Garder"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche un lieu puis sa fonction.",
+        "instruction_ar": "المس مكانًا ثم وظيفته.",
+        "pairs": [
+          {
+            "left": "Hôpital",
+            "right": "Soigner"
+          },
+          {
+            "left": "Enclos",
+            "right": "Garder les chèvres"
+          },
+          {
+            "left": "Citerne",
+            "right": "Garder l'eau"
+          },
+          {
+            "left": "Boutique",
+            "right": "Vendre"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Médecin",
+            "ar": "طبيب"
+          },
+          {
+            "fr": "Maçon",
+            "ar": "بنّاء"
+          },
+          {
+            "fr": "Coiffeur",
+            "ar": "حلاق"
+          },
+          {
+            "fr": "Charretier",
+            "ar": "سائق العربة"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Souffrir",
+            "ar": "يتألم"
+          },
+          {
+            "fr": "Craindre",
+            "ar": "يخشى"
+          },
+          {
+            "fr": "Se rappeler",
+            "ar": "يتذكر"
+          },
+          {
+            "fr": "Partager",
+            "ar": "يشارك"
+          }
+        ]
+      }
+    ],
+    "calcul": [
+      {
+        "type": "qcm",
+        "q_fr": "Combien d'heures y a-t-il entre 8h et 10h ?",
+        "q_ar": "كم ساعة بين الساعة 8 و10 ؟",
+        "options": [
+          {
+            "fr": "2",
+            "ar": "2"
+          },
+          {
+            "fr": "1",
+            "ar": "1"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un bâton mesure environ combien de mains ?",
+        "q_ar": "كم عدد الأشبار في عصا تقريبًا ؟",
+        "options": [
+          {
+            "fr": "On mesure avec des mains",
+            "ar": "نقيس بالأشبار"
+          },
+          {
+            "fr": "On ne peut pas mesurer",
+            "ar": "لا يمكن القياس"
+          },
+          {
+            "fr": "Avec des kilos",
+            "ar": "بالكيلوغرام"
+          },
+          {
+            "fr": "Avec des heures",
+            "ar": "بالساعات"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de minutes dans une demi-heure ?",
+        "q_ar": "كم دقيقة في نصف ساعة ؟",
+        "options": [
+          {
+            "fr": "30",
+            "ar": "30"
+          },
+          {
+            "fr": "15",
+            "ar": "15"
+          },
+          {
+            "fr": "45",
+            "ar": "45"
+          },
+          {
+            "fr": "60",
+            "ar": "60"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Le marché commence le matin et finit à midi. Combien d'heures dure-t-il si ça commence à 7h ?",
+        "q_ar": "يبدأ السوق صباحًا وينتهي ظهرًا. كم ساعة يستغرق إذا بدأ الساعة 7 ؟",
+        "options": [
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "12",
+            "ar": "12"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel objet est le plus long : un bâton ou un crayon ?",
+        "q_ar": "أي شيء أطول : عصا أم قلم ؟",
+        "options": [
+          {
+            "fr": "Le bâton",
+            "ar": "العصا"
+          },
+          {
+            "fr": "Le crayon",
+            "ar": "القلم"
+          },
+          {
+            "fr": "Égaux",
+            "ar": "متساويان"
+          },
+          {
+            "fr": "Aucun",
+            "ar": "لا شيء"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de jours dure une semaine ?",
+        "q_ar": "كم يومًا يستغرق الأسبوع ؟",
+        "options": [
+          {
+            "fr": "7",
+            "ar": "7"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "30",
+            "ar": "30"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un sac pèse plus qu'un panier. Lequel est le plus lourd ?",
+        "q_ar": "الكيس أثقل من السلة. أيهما أثقل ؟",
+        "options": [
+          {
+            "fr": "Le sac",
+            "ar": "الكيس"
+          },
+          {
+            "fr": "Le panier",
+            "ar": "السلة"
+          },
+          {
+            "fr": "Égaux",
+            "ar": "متساويان"
+          },
+          {
+            "fr": "Aucun",
+            "ar": "لا شيء"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de secondes dans une minute ?",
+        "q_ar": "كم ثانية في الدقيقة ؟",
+        "options": [
+          {
+            "fr": "60",
+            "ar": "60"
+          },
+          {
+            "fr": "30",
+            "ar": "30"
+          },
+          {
+            "fr": "100",
+            "ar": "100"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "L'école commence à 8h et finit à 12h. Combien d'heures dure la classe ?",
+        "q_ar": "تبدأ المدرسة الساعة 8 وتنتهي الساعة 12. كم ساعة تستغرق الحصة ؟",
+        "options": [
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "12",
+            "ar": "12"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel récipient contient le plus d'eau : une jarre ou un verre ?",
+        "q_ar": "أي إناء يحتوي ماءً أكثر : الجرة أم الكأس ؟",
+        "options": [
+          {
+            "fr": "La jarre",
+            "ar": "الجرة"
+          },
+          {
+            "fr": "Le verre",
+            "ar": "الكأس"
+          },
+          {
+            "fr": "Égaux",
+            "ar": "متساويان"
+          },
+          {
+            "fr": "Aucun",
+            "ar": "لا شيء"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de mois dure une année ?",
+        "q_ar": "كم شهرًا تستغرق السنة ؟",
+        "options": [
+          {
+            "fr": "12",
+            "ar": "12"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "52",
+            "ar": "52"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un champ est plus grand qu'une cour. Lequel a le plus d'espace ?",
+        "q_ar": "الحقل أكبر من الساحة. أيهما يحتوي مساحة أكبر ؟",
+        "options": [
+          {
+            "fr": "Le champ",
+            "ar": "الحقل"
+          },
+          {
+            "fr": "La cour",
+            "ar": "الساحة"
+          },
+          {
+            "fr": "Égaux",
+            "ar": "متساويان"
+          },
+          {
+            "fr": "Aucun",
+            "ar": "لا شيء"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Si le marché ouvre à 6h et ferme à 14h, combien d'heures reste-t-il ouvert ?",
+        "q_ar": "إذا فتح السوق الساعة 6 وأغلق الساعة 14، كم ساعة بقي مفتوحًا ؟",
+        "options": [
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          },
+          {
+            "fr": "9",
+            "ar": "9"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de semaines dans un mois environ ?",
+        "q_ar": "كم أسبوعًا في الشهر تقريبًا ؟",
+        "options": [
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "2",
+            "ar": "2"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel animal est le plus grand : le zébu ou la chèvre ?",
+        "q_ar": "أي حيوان أكبر : الثور أم العنزة ؟",
+        "options": [
+          {
+            "fr": "Le zébu",
+            "ar": "الثور"
+          },
+          {
+            "fr": "La chèvre",
+            "ar": "العنزة"
+          },
+          {
+            "fr": "Égaux",
+            "ar": "متساويان"
+          },
+          {
+            "fr": "Aucun",
+            "ar": "لا شيء"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une unité de temps puis sa valeur.",
+        "instruction_ar": "المس وحدة زمنية ثم قيمتها.",
+        "pairs": [
+          {
+            "left": "1 heure",
+            "right": "60 minutes"
+          },
+          {
+            "left": "1 minute",
+            "right": "60 secondes"
+          },
+          {
+            "left": "1 jour",
+            "right": "24 heures"
+          },
+          {
+            "left": "1 semaine",
+            "right": "7 jours"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche deux objets puis le plus long.",
+        "instruction_ar": "المس شيئين ثم الأطول.",
+        "pairs": [
+          {
+            "left": "Bâton et crayon",
+            "right": "Bâton"
+          },
+          {
+            "left": "Fleuve et puits",
+            "right": "Fleuve"
+          },
+          {
+            "left": "Route et sentier",
+            "right": "Route"
+          },
+          {
+            "left": "Arbre et fleur",
+            "right": "Arbre"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche deux récipients puis celui qui contient le plus.",
+        "instruction_ar": "المس إناءين ثم الأكبر سعة.",
+        "pairs": [
+          {
+            "left": "Jarre et verre",
+            "right": "Jarre"
+          },
+          {
+            "left": "Sac et poche",
+            "right": "Sac"
+          },
+          {
+            "left": "Citerne et seau",
+            "right": "Citerne"
+          },
+          {
+            "left": "Panier et main",
+            "right": "Panier"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Mesurer",
+            "ar": "يقيس"
+          },
+          {
+            "fr": "Peser",
+            "ar": "يزن"
+          },
+          {
+            "fr": "Long",
+            "ar": "طويل"
+          },
+          {
+            "fr": "Lourd",
+            "ar": "ثقيل"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Heure",
+            "ar": "ساعة"
+          },
+          {
+            "fr": "Minute",
+            "ar": "دقيقة"
+          },
+          {
+            "fr": "Seconde",
+            "ar": "ثانية"
+          },
+          {
+            "fr": "Durée",
+            "ar": "مدة"
+          }
+        ]
+      }
+    ],
+    "langage": [
+      {
+        "type": "qcm_image",
+        "q_emoji": "🏥",
+        "options": [
+          {
+            "fr": "Hôpital",
+            "ar": "مستشفى"
+          },
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          },
+          {
+            "fr": "Marché",
+            "ar": "سوق"
+          },
+          {
+            "fr": "Case",
+            "ar": "كوخ"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "👨‍⚕️",
+        "options": [
+          {
+            "fr": "Médecin",
+            "ar": "طبيب"
+          },
+          {
+            "fr": "Maître",
+            "ar": "معلم"
+          },
+          {
+            "fr": "Berger",
+            "ar": "راعي"
+          },
+          {
+            "fr": "Griot",
+            "ar": "راوي"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🧱",
+        "options": [
+          {
+            "fr": "Case en briques",
+            "ar": "كوخ من الطوب"
+          },
+          {
+            "fr": "Arbre",
+            "ar": "شجرة"
+          },
+          {
+            "fr": "Fleuve",
+            "ar": "نهر"
+          },
+          {
+            "fr": "Champ",
+            "ar": "حقل"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "💇",
+        "options": [
+          {
+            "fr": "Coiffeur",
+            "ar": "حلاق"
+          },
+          {
+            "fr": "Médecin",
+            "ar": "طبيب"
+          },
+          {
+            "fr": "Maçon",
+            "ar": "بنّاء"
+          },
+          {
+            "fr": "Berger",
+            "ar": "راعي"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🏪",
+        "options": [
+          {
+            "fr": "Boutique",
+            "ar": "دكان"
+          },
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          },
+          {
+            "fr": "Fleuve",
+            "ar": "نهر"
+          },
+          {
+            "fr": "Champ",
+            "ar": "حقل"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🛺",
+        "options": [
+          {
+            "fr": "Charrette",
+            "ar": "عربة"
+          },
+          {
+            "fr": "Voiture",
+            "ar": "سيارة"
+          },
+          {
+            "fr": "Vélo",
+            "ar": "دراجة"
+          },
+          {
+            "fr": "Pirogue",
+            "ar": "زورق"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🚰",
+        "options": [
+          {
+            "fr": "Citerne",
+            "ar": "خزان"
+          },
+          {
+            "fr": "Puits",
+            "ar": "بئر"
+          },
+          {
+            "fr": "Fleuve",
+            "ar": "نهر"
+          },
+          {
+            "fr": "Marché",
+            "ar": "سوق"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🧑‍🤝‍🧑",
+        "options": [
+          {
+            "fr": "Amis",
+            "ar": "أصدقاء"
+          },
+          {
+            "fr": "Famille",
+            "ar": "عائلة"
+          },
+          {
+            "fr": "Élèves",
+            "ar": "تلاميذ"
+          },
+          {
+            "fr": "Marchands",
+            "ar": "تجار"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une image puis son mot.",
+        "instruction_ar": "المس صورة ثم كلمتها.",
+        "pairs": [
+          {
+            "left": "🏥",
+            "right": "Hôpital"
+          },
+          {
+            "left": "👨‍⚕️",
+            "right": "Médecin"
+          },
+          {
+            "left": "💇",
+            "right": "Coiffeur"
+          },
+          {
+            "left": "🏪",
+            "right": "Boutique"
+          }
+        ]
+      }
+    ],
+    "ecriture": [
+      {
+        "type": "trace",
+        "glyph": "b",
+        "instruction_fr": "Trace la lettre minuscule avec ton doigt.",
+        "instruction_ar": "ارسم الحرف الصغير بإصبعك.",
+        "template": [
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            80
+          ],
+          [
+            35,
+            60
+          ],
+          [
+            48,
+            52
+          ],
+          [
+            60,
+            60
+          ],
+          [
+            60,
+            72
+          ],
+          [
+            48,
+            80
+          ],
+          [
+            35,
+            80
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "p",
+        "instruction_fr": "Trace la lettre minuscule avec ton doigt.",
+        "instruction_ar": "ارسم الحرف الصغير بإصبعك.",
+        "template": [
+          [
+            35,
+            35
+          ],
+          [
+            35,
+            90
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            48,
+            30
+          ],
+          [
+            60,
+            38
+          ],
+          [
+            60,
+            50
+          ],
+          [
+            48,
+            58
+          ],
+          [
+            35,
+            55
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "r",
+        "instruction_fr": "Trace la lettre minuscule avec ton doigt.",
+        "instruction_ar": "ارسم الحرف الصغير بإصبعك.",
+        "template": [
+          [
+            35,
+            35
+          ],
+          [
+            35,
+            80
+          ],
+          [
+            35,
+            45
+          ],
+          [
+            45,
+            35
+          ],
+          [
+            58,
+            35
+          ],
+          [
+            62,
+            40
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "g",
+        "instruction_fr": "Trace la lettre minuscule avec ton doigt.",
+        "instruction_ar": "ارسم الحرف الصغير بإصبعك.",
+        "template": [
+          [
+            60,
+            35
+          ],
+          [
+            48,
+            30
+          ],
+          [
+            36,
+            35
+          ],
+          [
+            30,
+            48
+          ],
+          [
+            36,
+            60
+          ],
+          [
+            48,
+            65
+          ],
+          [
+            60,
+            60
+          ],
+          [
+            60,
+            75
+          ],
+          [
+            52,
+            88
+          ],
+          [
+            38,
+            85
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "h",
+        "instruction_fr": "Trace la lettre minuscule avec ton doigt.",
+        "instruction_ar": "ارسم الحرف الصغير بإصبعك.",
+        "template": [
+          [
+            32,
+            10
+          ],
+          [
+            32,
+            80
+          ],
+          [
+            32,
+            50
+          ],
+          [
+            42,
+            38
+          ],
+          [
+            55,
+            38
+          ],
+          [
+            62,
+            50
+          ],
+          [
+            62,
+            80
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "f",
+        "instruction_fr": "Trace la lettre minuscule avec ton doigt.",
+        "instruction_ar": "ارسم الحرف الصغير بإصبعك.",
+        "template": [
+          [
+            52,
+            15
+          ],
+          [
+            42,
+            15
+          ],
+          [
+            35,
+            25
+          ],
+          [
+            35,
+            80
+          ],
+          [
+            25,
+            45
+          ],
+          [
+            50,
+            45
+          ]
+        ]
+      }
+    ]
+  },
+  "cp2": {
+    "lecture": [
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Je veux jouer, ___ il pleut.",
+        "q_ar": "أكمل : أريد أن ألعب، ___ يهطل المطر.",
+        "options": [
+          {
+            "fr": "mais",
+            "ar": "لكن"
+          },
+          {
+            "fr": "et",
+            "ar": "و"
+          },
+          {
+            "fr": "ou",
+            "ar": "أو"
+          },
+          {
+            "fr": "donc",
+            "ar": "إذن"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Moussa est fatigué ___ il a beaucoup marché.",
+        "q_ar": "أكمل : موسى متعب ___ مشى كثيرًا.",
+        "options": [
+          {
+            "fr": "parce qu'",
+            "ar": "لأن"
+          },
+          {
+            "fr": "mais",
+            "ar": "لكن"
+          },
+          {
+            "fr": "et",
+            "ar": "و"
+          },
+          {
+            "fr": "ou",
+            "ar": "أو"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : ___ il fera beau, nous irons au fleuve.",
+        "q_ar": "أكمل : ___ يكون الجو جميلاً، سنذهب إلى النهر.",
+        "options": [
+          {
+            "fr": "Quand",
+            "ar": "عندما"
+          },
+          {
+            "fr": "Mais",
+            "ar": "لكن"
+          },
+          {
+            "fr": "Donc",
+            "ar": "إذن"
+          },
+          {
+            "fr": "Ou",
+            "ar": "أو"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Fatimé étudie beaucoup, ___ elle réussit bien.",
+        "q_ar": "أكمل : تدرس فاطمة كثيرًا، ___ تنجح جيدًا.",
+        "options": [
+          {
+            "fr": "donc",
+            "ar": "إذن"
+          },
+          {
+            "fr": "mais",
+            "ar": "لكن"
+          },
+          {
+            "fr": "quand",
+            "ar": "عندما"
+          },
+          {
+            "fr": "parce que",
+            "ar": "لأن"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« J'aime le mil, mais je préfère le riz. » Que préfère la personne ?",
+        "q_ar": "« أحب الدخن، لكنني أفضل الأرز. » ماذا يفضل المتكلم ؟",
+        "options": [
+          {
+            "fr": "Le riz",
+            "ar": "الأرز"
+          },
+          {
+            "fr": "Le mil",
+            "ar": "الدخن"
+          },
+          {
+            "fr": "Les deux également",
+            "ar": "الاثنين معًا"
+          },
+          {
+            "fr": "Aucun des deux",
+            "ar": "لا شيء منهما"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Quand la cloche sonne, les élèves sortent. » Que se passe-t-il quand la cloche sonne ?",
+        "q_ar": "« عندما يرن الجرس، يخرج التلاميذ. » ماذا يحدث عندما يرن الجرس ؟",
+        "options": [
+          {
+            "fr": "Les élèves sortent",
+            "ar": "يخرج التلاميذ"
+          },
+          {
+            "fr": "Le maître arrive",
+            "ar": "يصل المعلم"
+          },
+          {
+            "fr": "La classe commence",
+            "ar": "يبدأ الدرس"
+          },
+          {
+            "fr": "Il pleut",
+            "ar": "يهطل المطر"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Tu peux venir ___ tu as fini tes devoirs.",
+        "q_ar": "أكمل : يمكنك المجيء ___ أنهيت واجباتك.",
+        "options": [
+          {
+            "fr": "si",
+            "ar": "إذا"
+          },
+          {
+            "fr": "mais",
+            "ar": "لكن"
+          },
+          {
+            "fr": "et",
+            "ar": "و"
+          },
+          {
+            "fr": "car",
+            "ar": "لأن"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Il a couru vite car il était en retard. » Pourquoi a-t-il couru vite ?",
+        "q_ar": "« ركض بسرعة لأنه كان متأخرًا. » لماذا ركض بسرعة ؟",
+        "options": [
+          {
+            "fr": "Il était en retard",
+            "ar": "كان متأخرًا"
+          },
+          {
+            "fr": "Il avait faim",
+            "ar": "كان جائعًا"
+          },
+          {
+            "fr": "Il avait peur",
+            "ar": "كان خائفًا"
+          },
+          {
+            "fr": "Il jouait",
+            "ar": "كان يلعب"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Nous irons au marché ___ il fait beau ___ il pleut.",
+        "q_ar": "أكمل : سنذهب إلى السوق ___ الجو جميل ___ يهطل المطر.",
+        "options": [
+          {
+            "fr": "que ... ou qu'",
+            "ar": "سواء ... أو"
+          },
+          {
+            "fr": "et ... et",
+            "ar": "و ... و"
+          },
+          {
+            "fr": "mais ... mais",
+            "ar": "لكن ... لكن"
+          },
+          {
+            "fr": "donc ... donc",
+            "ar": "إذن ... إذن"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Elle est intelligente et travailleuse. » Combien de qualités sont citées ?",
+        "q_ar": "« هي ذكية ومجتهدة. » كم صفة ذُكرت ؟",
+        "options": [
+          {
+            "fr": "Deux",
+            "ar": "اثنتان"
+          },
+          {
+            "fr": "Une",
+            "ar": "واحدة"
+          },
+          {
+            "fr": "Trois",
+            "ar": "ثلاث"
+          },
+          {
+            "fr": "Quatre",
+            "ar": "أربع"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Le berger rentre ___ le soleil se couche.",
+        "q_ar": "أكمل : يعود الراعي ___ تغرب الشمس.",
+        "options": [
+          {
+            "fr": "quand",
+            "ar": "عندما"
+          },
+          {
+            "fr": "mais",
+            "ar": "لكن"
+          },
+          {
+            "fr": "donc",
+            "ar": "إذن"
+          },
+          {
+            "fr": "ou",
+            "ar": "أو"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Il n'a pas d'argent, donc il ne peut pas acheter de mangue. » Pourquoi ne peut-il pas acheter de mangue ?",
+        "q_ar": "« ليس لديه مال، لذلك لا يستطيع شراء مانجو. » لماذا لا يستطيع شراء مانجو ؟",
+        "options": [
+          {
+            "fr": "Il n'a pas d'argent",
+            "ar": "ليس لديه مال"
+          },
+          {
+            "fr": "Il n'aime pas les mangues",
+            "ar": "لا يحب المانجو"
+          },
+          {
+            "fr": "Il n'a pas faim",
+            "ar": "ليس جائعًا"
+          },
+          {
+            "fr": "Le marché est fermé",
+            "ar": "السوق مغلق"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Elle chante ___ elle danse en même temps.",
+        "q_ar": "أكمل : تغني ___ ترقص في نفس الوقت.",
+        "options": [
+          {
+            "fr": "et",
+            "ar": "و"
+          },
+          {
+            "fr": "mais",
+            "ar": "لكن"
+          },
+          {
+            "fr": "donc",
+            "ar": "إذن"
+          },
+          {
+            "fr": "car",
+            "ar": "لأن"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Bien qu'il pleuve, les enfants jouent dehors. » Que font les enfants malgré la pluie ?",
+        "q_ar": "« رغم هطول المطر، يلعب الأطفال في الخارج. » ماذا يفعل الأطفال رغم المطر ؟",
+        "options": [
+          {
+            "fr": "Ils jouent dehors",
+            "ar": "يلعبون في الخارج"
+          },
+          {
+            "fr": "Ils restent à l'intérieur",
+            "ar": "يبقون بالداخل"
+          },
+          {
+            "fr": "Ils dorment",
+            "ar": "ينامون"
+          },
+          {
+            "fr": "Ils pleurent",
+            "ar": "يبكون"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche un mot de liaison puis son sens.",
+        "instruction_ar": "المس أداة ربط ثم معناها.",
+        "pairs": [
+          {
+            "left": "Mais",
+            "right": "Opposition"
+          },
+          {
+            "left": "Parce que",
+            "right": "Cause"
+          },
+          {
+            "left": "Quand",
+            "right": "Temps"
+          },
+          {
+            "left": "Donc",
+            "right": "Conséquence"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une phrase puis le connecteur utilisé.",
+        "instruction_ar": "المس جملة ثم أداة الربط المستخدمة.",
+        "pairs": [
+          {
+            "left": "Fatigué car il a marché",
+            "right": "Car"
+          },
+          {
+            "left": "Il pleut mais je joue",
+            "right": "Mais"
+          },
+          {
+            "left": "Étudie donc réussit",
+            "right": "Donc"
+          },
+          {
+            "left": "Viens quand tu es prêt",
+            "right": "Quand"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Mais",
+            "ar": "لكن"
+          },
+          {
+            "fr": "Parce que",
+            "ar": "لأن"
+          },
+          {
+            "fr": "Quand",
+            "ar": "عندما"
+          },
+          {
+            "fr": "Donc",
+            "ar": "إذن"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Si",
+            "ar": "إذا"
+          },
+          {
+            "fr": "Car",
+            "ar": "لأن"
+          },
+          {
+            "fr": "Bien que",
+            "ar": "رغم أن"
+          },
+          {
+            "fr": "Et",
+            "ar": "و"
+          }
+        ]
+      }
+    ],
+    "calcul": [
+      {
+        "type": "qcm",
+        "q_fr": "Combien de centimètres dans 2 mètres ?",
+        "q_ar": "كم سنتيمترًا في مترين ؟",
+        "options": [
+          {
+            "fr": "200",
+            "ar": "200"
+          },
+          {
+            "fr": "20",
+            "ar": "20"
+          },
+          {
+            "fr": "2000",
+            "ar": "2000"
+          },
+          {
+            "fr": "100",
+            "ar": "100"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Fatimé a 500 francs, elle achète un tissu à 320 francs. Combien lui reste-t-il ?",
+        "q_ar": "عند فاطمة 500 فرنك، اشترت قماشًا بـ 320 فرنكًا. كم تبقى لها ؟",
+        "options": [
+          {
+            "fr": "180",
+            "ar": "180"
+          },
+          {
+            "fr": "170",
+            "ar": "170"
+          },
+          {
+            "fr": "190",
+            "ar": "190"
+          },
+          {
+            "fr": "820",
+            "ar": "820"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de grammes dans 3 kilos ?",
+        "q_ar": "كم غرامًا في 3 كيلوغرامات ؟",
+        "options": [
+          {
+            "fr": "3000",
+            "ar": "3000"
+          },
+          {
+            "fr": "300",
+            "ar": "300"
+          },
+          {
+            "fr": "30",
+            "ar": "30"
+          },
+          {
+            "fr": "30000",
+            "ar": "30000"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un marchand vend un sac de mil à 250 francs, il en vend 4. Combien gagne-t-il ?",
+        "q_ar": "باع تاجر كيس دخن بسعر 250 فرنكًا، باع 4 أكياس. كم ربح ؟",
+        "options": [
+          {
+            "fr": "1000",
+            "ar": "1000"
+          },
+          {
+            "fr": "900",
+            "ar": "900"
+          },
+          {
+            "fr": "1100",
+            "ar": "1100"
+          },
+          {
+            "fr": "254",
+            "ar": "254"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de millilitres dans 1 litre ?",
+        "q_ar": "كم ملليلترًا في اللتر الواحد ؟",
+        "options": [
+          {
+            "fr": "1000",
+            "ar": "1000"
+          },
+          {
+            "fr": "100",
+            "ar": "100"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "500",
+            "ar": "500"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Moussa marche 300 mètres pour aller à l'école, puis 300 mètres pour rentrer. Combien de mètres en tout ?",
+        "q_ar": "يمشي موسى 300 متر للذهاب إلى المدرسة، و300 متر للعودة. كم مترًا بالمجموع ؟",
+        "options": [
+          {
+            "fr": "600",
+            "ar": "600"
+          },
+          {
+            "fr": "300",
+            "ar": "300"
+          },
+          {
+            "fr": "900",
+            "ar": "900"
+          },
+          {
+            "fr": "30",
+            "ar": "30"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un troupeau de 120 zébus est partagé en 4 groupes égaux. Combien de zébus par groupe ?",
+        "q_ar": "قُسم قطيع من 120 ثورًا إلى 4 مجموعات متساوية. كم ثورًا في كل مجموعة ؟",
+        "options": [
+          {
+            "fr": "30",
+            "ar": "30"
+          },
+          {
+            "fr": "20",
+            "ar": "20"
+          },
+          {
+            "fr": "40",
+            "ar": "40"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Aïcha a 1000 francs, elle achète 3 boubous à 250 francs chacun. Combien lui reste-t-il ?",
+        "q_ar": "عند عائشة 1000 فرنك، اشترت 3 أثواب بسعر 250 فرنكًا للواحد. كم تبقى لها ؟",
+        "options": [
+          {
+            "fr": "250",
+            "ar": "250"
+          },
+          {
+            "fr": "200",
+            "ar": "200"
+          },
+          {
+            "fr": "300",
+            "ar": "300"
+          },
+          {
+            "fr": "750",
+            "ar": "750"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de mètres dans 500 centimètres ?",
+        "q_ar": "كم مترًا في 500 سنتيمتر ؟",
+        "options": [
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "50",
+            "ar": "50"
+          },
+          {
+            "fr": "500",
+            "ar": "500"
+          },
+          {
+            "fr": "0.5",
+            "ar": "0.5"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un fermier récolte 60 kilos de mil, il en vend 45. Combien lui en reste-t-il ?",
+        "q_ar": "حصد فلاح 60 كيلوغرامًا من الدخن، باع 45. كم تبقى له ؟",
+        "options": [
+          {
+            "fr": "15",
+            "ar": "15"
+          },
+          {
+            "fr": "14",
+            "ar": "14"
+          },
+          {
+            "fr": "16",
+            "ar": "16"
+          },
+          {
+            "fr": "105",
+            "ar": "105"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Fatimé a 750 francs, elle gagne 250 francs de plus. Combien a-t-elle maintenant ?",
+        "q_ar": "عند فاطمة 750 فرنكًا، ربحت 250 فرنكًا أخرى. كم أصبح لديها ؟",
+        "options": [
+          {
+            "fr": "1000",
+            "ar": "1000"
+          },
+          {
+            "fr": "900",
+            "ar": "900"
+          },
+          {
+            "fr": "1100",
+            "ar": "1100"
+          },
+          {
+            "fr": "500",
+            "ar": "500"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un vendeur a 800 francs, il dépense 350 francs. Combien lui reste-t-il ?",
+        "q_ar": "عند بائع 800 فرنك، أنفق 350 فرنكًا. كم تبقى له ؟",
+        "options": [
+          {
+            "fr": "450",
+            "ar": "450"
+          },
+          {
+            "fr": "440",
+            "ar": "440"
+          },
+          {
+            "fr": "460",
+            "ar": "460"
+          },
+          {
+            "fr": "1150",
+            "ar": "1150"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de kilos dans 4000 grammes ?",
+        "q_ar": "كم كيلوغرامًا في 4000 غرام ؟",
+        "options": [
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "40",
+            "ar": "40"
+          },
+          {
+            "fr": "400",
+            "ar": "400"
+          },
+          {
+            "fr": "0.4",
+            "ar": "0.4"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un champ mesure 100 mètres de long. Moussa en parcourt la moitié. Combien de mètres a-t-il parcourus ?",
+        "q_ar": "يبلغ طول الحقل 100 متر. قطع موسى نصفه. كم مترًا قطع ؟",
+        "options": [
+          {
+            "fr": "50",
+            "ar": "50"
+          },
+          {
+            "fr": "25",
+            "ar": "25"
+          },
+          {
+            "fr": "75",
+            "ar": "75"
+          },
+          {
+            "fr": "100",
+            "ar": "100"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un marché vend 6 paniers à 150 francs chacun. Combien la vente rapporte-t-elle en tout ?",
+        "q_ar": "باع سوق 6 سلال بسعر 150 فرنكًا للواحدة. كم بلغت الإيرادات بالمجموع ؟",
+        "options": [
+          {
+            "fr": "900",
+            "ar": "900"
+          },
+          {
+            "fr": "850",
+            "ar": "850"
+          },
+          {
+            "fr": "950",
+            "ar": "950"
+          },
+          {
+            "fr": "156",
+            "ar": "156"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une unité puis son équivalent.",
+        "instruction_ar": "المس وحدة ثم ما يعادلها.",
+        "pairs": [
+          {
+            "left": "1 mètre",
+            "right": "100 cm"
+          },
+          {
+            "left": "1 kilo",
+            "right": "1000 g"
+          },
+          {
+            "left": "1 litre",
+            "right": "1000 ml"
+          },
+          {
+            "left": "1 franc",
+            "right": "1 pièce"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche un problème puis sa réponse.",
+        "instruction_ar": "المس مسألة ثم إجابتها.",
+        "pairs": [
+          {
+            "left": "500F -320F",
+            "right": "180"
+          },
+          {
+            "left": "250Fx4",
+            "right": "1000"
+          },
+          {
+            "left": "120/4",
+            "right": "30"
+          },
+          {
+            "left": "1000F -750F",
+            "right": "250"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Mètre",
+            "ar": "متر"
+          },
+          {
+            "fr": "Centimètre",
+            "ar": "سنتيمتر"
+          },
+          {
+            "fr": "Kilo",
+            "ar": "كيلوغرام"
+          },
+          {
+            "fr": "Litre",
+            "ar": "لتر"
+          }
+        ]
+      },
+      {
+        "type": "match_lang",
+        "instruction_fr": "Associe le mot français à sa traduction arabe.",
+        "instruction_ar": "اربط الكلمة الفرنسية بترجمتها العربية.",
+        "pairs": [
+          {
+            "fr": "Monnaie",
+            "ar": "عملة"
+          },
+          {
+            "fr": "Tissu",
+            "ar": "قماش"
+          },
+          {
+            "fr": "Récolte",
+            "ar": "حصاد"
+          },
+          {
+            "fr": "Fermier",
+            "ar": "فلاح"
+          }
+        ]
+      }
+    ],
+    "langage": [
+      {
+        "type": "qcm_image",
+        "q_emoji": "🏥👨‍⚕️",
+        "options": [
+          {
+            "fr": "Le médecin travaille à l'hôpital.",
+            "ar": "يعمل الطبيب في المستشفى."
+          },
+          {
+            "fr": "Le maître travaille à l'école.",
+            "ar": "يعمل المعلم في المدرسة."
+          },
+          {
+            "fr": "Le berger travaille au champ.",
+            "ar": "يعمل الراعي في الحقل."
+          },
+          {
+            "fr": "Le pêcheur travaille au fleuve.",
+            "ar": "يعمل الصياد في النهر."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🧱🏠",
+        "options": [
+          {
+            "fr": "Le maçon construit les maisons.",
+            "ar": "يبني البنّاء المنازل."
+          },
+          {
+            "fr": "Le berger garde les chèvres.",
+            "ar": "يرعى الراعي العنزات."
+          },
+          {
+            "fr": "Le griot chante des histoires.",
+            "ar": "يغني الراوي القصص."
+          },
+          {
+            "fr": "Le pêcheur attrape des poissons.",
+            "ar": "يصطاد الصياد الأسماك."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🛺🌾",
+        "options": [
+          {
+            "fr": "La charrette transporte le mil au marché.",
+            "ar": "تنقل العربة الدخن إلى السوق."
+          },
+          {
+            "fr": "La pirogue navigue sur le fleuve.",
+            "ar": "يبحر الزورق على النهر."
+          },
+          {
+            "fr": "Le vélo roule sur la route.",
+            "ar": "تسير الدراجة على الطريق."
+          },
+          {
+            "fr": "L'avion vole dans le ciel.",
+            "ar": "تطير الطائرة في السماء."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🧑‍🤝‍🧑🎉",
+        "options": [
+          {
+            "fr": "Les amis célèbrent ensemble.",
+            "ar": "يحتفل الأصدقاء معًا."
+          },
+          {
+            "fr": "Les élèves étudient seuls.",
+            "ar": "يدرس التلاميذ بمفردهم."
+          },
+          {
+            "fr": "Les marchands travaillent seuls.",
+            "ar": "يعمل التجار بمفردهم."
+          },
+          {
+            "fr": "Les bergers dorment seuls.",
+            "ar": "ينام الرعاة بمفردهم."
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "ecriture": [
+      {
+        "type": "trace",
+        "glyph": "b",
+        "instruction_fr": "Trace la lettre minuscule avec ton doigt.",
+        "instruction_ar": "ارسم الحرف الصغير بإصبعك.",
+        "template": [
+          [
+            35,
+            10
+          ],
+          [
+            35,
+            80
+          ],
+          [
+            35,
+            60
+          ],
+          [
+            48,
+            52
+          ],
+          [
+            60,
+            60
+          ],
+          [
+            60,
+            72
+          ],
+          [
+            48,
+            80
+          ],
+          [
+            35,
+            80
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "p",
+        "instruction_fr": "Trace la lettre minuscule avec ton doigt.",
+        "instruction_ar": "ارسم الحرف الصغير بإصبعك.",
+        "template": [
+          [
+            35,
+            35
+          ],
+          [
+            35,
+            90
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            48,
+            30
+          ],
+          [
+            60,
+            38
+          ],
+          [
+            60,
+            50
+          ],
+          [
+            48,
+            58
+          ],
+          [
+            35,
+            55
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "r",
+        "instruction_fr": "Trace la lettre minuscule avec ton doigt.",
+        "instruction_ar": "ارسم الحرف الصغير بإصبعك.",
+        "template": [
+          [
+            35,
+            35
+          ],
+          [
+            35,
+            80
+          ],
+          [
+            35,
+            45
+          ],
+          [
+            45,
+            35
+          ],
+          [
+            58,
+            35
+          ],
+          [
+            62,
+            40
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "g",
+        "instruction_fr": "Trace la lettre minuscule avec ton doigt.",
+        "instruction_ar": "ارسم الحرف الصغير بإصبعك.",
+        "template": [
+          [
+            60,
+            35
+          ],
+          [
+            48,
+            30
+          ],
+          [
+            36,
+            35
+          ],
+          [
+            30,
+            48
+          ],
+          [
+            36,
+            60
+          ],
+          [
+            48,
+            65
+          ],
+          [
+            60,
+            60
+          ],
+          [
+            60,
+            75
+          ],
+          [
+            52,
+            88
+          ],
+          [
+            38,
+            85
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "h",
+        "instruction_fr": "Trace la lettre minuscule avec ton doigt.",
+        "instruction_ar": "ارسم الحرف الصغير بإصبعك.",
+        "template": [
+          [
+            32,
+            10
+          ],
+          [
+            32,
+            80
+          ],
+          [
+            32,
+            50
+          ],
+          [
+            42,
+            38
+          ],
+          [
+            55,
+            38
+          ],
+          [
+            62,
+            50
+          ],
+          [
+            62,
+            80
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "f",
+        "instruction_fr": "Trace la lettre minuscule avec ton doigt.",
+        "instruction_ar": "ارسم الحرف الصغير بإصبعك.",
+        "template": [
+          [
+            52,
+            15
+          ],
+          [
+            42,
+            15
+          ],
+          [
+            35,
+            25
+          ],
+          [
+            35,
+            80
+          ],
+          [
+            25,
+            45
+          ],
+          [
+            50,
+            45
+          ]
+        ]
+      }
+    ]
+  }
+}
