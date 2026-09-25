@@ -1427,6 +1427,589 @@
           }
         ]
       }
+    ],
+    "langage": [
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐴",
+        "options": [
+          {
+            "fr": "Cheval",
+            "ar": "حصان"
+          },
+          {
+            "fr": "Âne",
+            "ar": "حمار"
+          },
+          {
+            "fr": "Zébu",
+            "ar": "ثور"
+          },
+          {
+            "fr": "Chameau",
+            "ar": "جمل"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "👗",
+        "options": [
+          {
+            "fr": "Robe",
+            "ar": "فستان"
+          },
+          {
+            "fr": "Boubou",
+            "ar": "جلباب"
+          },
+          {
+            "fr": "Chapeau",
+            "ar": "قبعة"
+          },
+          {
+            "fr": "Sac",
+            "ar": "كيس"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌳",
+        "options": [
+          {
+            "fr": "Baobab",
+            "ar": "باوباب"
+          },
+          {
+            "fr": "Palmier",
+            "ar": "نخلة"
+          },
+          {
+            "fr": "Arbre",
+            "ar": "شجرة"
+          },
+          {
+            "fr": "Fleur",
+            "ar": "زهرة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "📰",
+        "options": [
+          {
+            "fr": "Journal",
+            "ar": "جريدة"
+          },
+          {
+            "fr": "Livre",
+            "ar": "كتاب"
+          },
+          {
+            "fr": "Cahier",
+            "ar": "دفتر"
+          },
+          {
+            "fr": "Lettre",
+            "ar": "رسالة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐦",
+        "options": [
+          {
+            "fr": "Oiseau",
+            "ar": "عصفور"
+          },
+          {
+            "fr": "Poisson",
+            "ar": "سمكة"
+          },
+          {
+            "fr": "Chèvre",
+            "ar": "عنزة"
+          },
+          {
+            "fr": "Chien",
+            "ar": "كلب"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🏃",
+        "options": [
+          {
+            "fr": "Courir",
+            "ar": "يركض"
+          },
+          {
+            "fr": "Marcher",
+            "ar": "يمشي"
+          },
+          {
+            "fr": "Sauter",
+            "ar": "يقفز"
+          },
+          {
+            "fr": "Nager",
+            "ar": "يسبح"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "😊",
+        "options": [
+          {
+            "fr": "Heureux",
+            "ar": "سعيد"
+          },
+          {
+            "fr": "Triste",
+            "ar": "حزين"
+          },
+          {
+            "fr": "Fatigué",
+            "ar": "متعب"
+          },
+          {
+            "fr": "Malade",
+            "ar": "مريض"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "☔",
+        "options": [
+          {
+            "fr": "Pluie",
+            "ar": "مطر"
+          },
+          {
+            "fr": "Soleil",
+            "ar": "شمس"
+          },
+          {
+            "fr": "Vent",
+            "ar": "ريح"
+          },
+          {
+            "fr": "Nuage",
+            "ar": "غيمة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🎒",
+        "options": [
+          {
+            "fr": "Sac",
+            "ar": "كيس"
+          },
+          {
+            "fr": "Cahier",
+            "ar": "دفتر"
+          },
+          {
+            "fr": "Livre",
+            "ar": "كتاب"
+          },
+          {
+            "fr": "Crayon",
+            "ar": "قلم"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐤",
+        "options": [
+          {
+            "fr": "Poussin",
+            "ar": "كتكوت"
+          },
+          {
+            "fr": "Poule",
+            "ar": "دجاجة"
+          },
+          {
+            "fr": "Canard",
+            "ar": "بطة"
+          },
+          {
+            "fr": "Oiseau",
+            "ar": "عصفور"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌺",
+        "options": [
+          {
+            "fr": "Fleur",
+            "ar": "زهرة"
+          },
+          {
+            "fr": "Arbre",
+            "ar": "شجرة"
+          },
+          {
+            "fr": "Herbe",
+            "ar": "عشب"
+          },
+          {
+            "fr": "Fruit",
+            "ar": "فاكهة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🚶",
+        "options": [
+          {
+            "fr": "Marcher",
+            "ar": "يمشي"
+          },
+          {
+            "fr": "Courir",
+            "ar": "يركض"
+          },
+          {
+            "fr": "Sauter",
+            "ar": "يقفز"
+          },
+          {
+            "fr": "Danser",
+            "ar": "يرقص"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "😢",
+        "options": [
+          {
+            "fr": "Triste",
+            "ar": "حزين"
+          },
+          {
+            "fr": "Heureux",
+            "ar": "سعيد"
+          },
+          {
+            "fr": "Fâché",
+            "ar": "غاضب"
+          },
+          {
+            "fr": "Content",
+            "ar": "راضٍ"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "💃",
+        "options": [
+          {
+            "fr": "Danser",
+            "ar": "يرقص"
+          },
+          {
+            "fr": "Chanter",
+            "ar": "يغني"
+          },
+          {
+            "fr": "Jouer",
+            "ar": "يلعب"
+          },
+          {
+            "fr": "Courir",
+            "ar": "يركض"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🏠",
+        "options": [
+          {
+            "fr": "Maison",
+            "ar": "منزل"
+          },
+          {
+            "fr": "Case",
+            "ar": "كوخ"
+          },
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          },
+          {
+            "fr": "Marché",
+            "ar": "سوق"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une image puis son mot.",
+        "instruction_ar": "المس صورة ثم كلمتها.",
+        "pairs": [
+          {
+            "left": "🐴",
+            "right": "Cheval"
+          },
+          {
+            "left": "👗",
+            "right": "Robe"
+          },
+          {
+            "left": "📰",
+            "right": "Journal"
+          },
+          {
+            "left": "🐦",
+            "right": "Oiseau"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une image puis son mot.",
+        "instruction_ar": "المس صورة ثم كلمتها.",
+        "pairs": [
+          {
+            "left": "😊",
+            "right": "Heureux"
+          },
+          {
+            "left": "☔",
+            "right": "Pluie"
+          },
+          {
+            "left": "🎒",
+            "right": "Sac"
+          },
+          {
+            "left": "🐤",
+            "right": "Poussin"
+          }
+        ]
+      }
+    ],
+    "ecriture": [
+      {
+        "type": "trace",
+        "glyph": "G",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            75,
+            20
+          ],
+          [
+            55,
+            10
+          ],
+          [
+            32,
+            20
+          ],
+          [
+            20,
+            45
+          ],
+          [
+            20,
+            55
+          ],
+          [
+            32,
+            80
+          ],
+          [
+            55,
+            90
+          ],
+          [
+            75,
+            80
+          ],
+          [
+            75,
+            60
+          ],
+          [
+            55,
+            60
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "K",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            30,
+            10
+          ],
+          [
+            30,
+            90
+          ],
+          [
+            30,
+            50
+          ],
+          [
+            70,
+            10
+          ],
+          [
+            30,
+            50
+          ],
+          [
+            70,
+            90
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "W",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            15,
+            15
+          ],
+          [
+            30,
+            90
+          ],
+          [
+            50,
+            40
+          ],
+          [
+            70,
+            90
+          ],
+          [
+            85,
+            15
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "X",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            20,
+            15
+          ],
+          [
+            80,
+            90
+          ],
+          [
+            50,
+            52
+          ],
+          [
+            80,
+            15
+          ],
+          [
+            20,
+            90
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "Y",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            20,
+            15
+          ],
+          [
+            50,
+            50
+          ],
+          [
+            50,
+            90
+          ],
+          [
+            50,
+            50
+          ],
+          [
+            80,
+            15
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "Z",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            20,
+            15
+          ],
+          [
+            80,
+            15
+          ],
+          [
+            20,
+            90
+          ],
+          [
+            80,
+            90
+          ]
+        ]
+      }
     ]
   },
   "cp2": {
@@ -2857,6 +3440,382 @@
           }
         ]
       }
+    ],
+    "langage": [
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐴🏃",
+        "options": [
+          {
+            "fr": "Le cheval court dans le champ.",
+            "ar": "يركض الحصان في الحقل."
+          },
+          {
+            "fr": "L'âne porte de l'eau.",
+            "ar": "يحمل الحمار الماء."
+          },
+          {
+            "fr": "Le zébu broute l'herbe.",
+            "ar": "يرعى الثور العشب."
+          },
+          {
+            "fr": "Le chameau marche lentement.",
+            "ar": "يمشي الجمل ببطء."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "👗🛒",
+        "options": [
+          {
+            "fr": "Aïcha achète une robe au marché.",
+            "ar": "تشتري عائشة فستانًا في السوق."
+          },
+          {
+            "fr": "Moussa vend des mangues.",
+            "ar": "يبيع موسى المانجو."
+          },
+          {
+            "fr": "Fatimé lit un livre.",
+            "ar": "تقرأ فاطمة كتابًا."
+          },
+          {
+            "fr": "Le griot chante une chanson.",
+            "ar": "يغني الراوي أغنية."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌳😊",
+        "options": [
+          {
+            "fr": "Les enfants heureux jouent sous le baobab.",
+            "ar": "يلعب الأطفال السعداء تحت الباوباب."
+          },
+          {
+            "fr": "Les enfants tristes pleurent à l'école.",
+            "ar": "يبكي الأطفال الحزانى في المدرسة."
+          },
+          {
+            "fr": "Les enfants fatigués dorment au champ.",
+            "ar": "ينام الأطفال المتعبون في الحقل."
+          },
+          {
+            "fr": "Les enfants courent vers le fleuve.",
+            "ar": "يركض الأطفال نحو النهر."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "☔🌾",
+        "options": [
+          {
+            "fr": "La pluie aide le mil à pousser.",
+            "ar": "يساعد المطر الدخن على النمو."
+          },
+          {
+            "fr": "Le soleil sèche les vêtements.",
+            "ar": "تجفف الشمس الملابس."
+          },
+          {
+            "fr": "Le vent souffle sur les feuilles.",
+            "ar": "تهب الريح على الأوراق."
+          },
+          {
+            "fr": "La lune brille sur le village.",
+            "ar": "يلمع القمر على القرية."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐤🐔",
+        "options": [
+          {
+            "fr": "Le poussin suit sa mère la poule.",
+            "ar": "يتبع الكتكوت أمه الدجاجة."
+          },
+          {
+            "fr": "Le chevreau suit sa mère la chèvre.",
+            "ar": "يتبع الجدي أمه العنزة."
+          },
+          {
+            "fr": "L'enfant suit son père au champ.",
+            "ar": "يتبع الطفل والده إلى الحقل."
+          },
+          {
+            "fr": "L'âne suit le berger au marché.",
+            "ar": "يتبع الحمار الراعي إلى السوق."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "💃🥁",
+        "options": [
+          {
+            "fr": "Les enfants dansent au son du tambour.",
+            "ar": "يرقص الأطفال على إيقاع الطبل."
+          },
+          {
+            "fr": "Le griot chante une longue histoire.",
+            "ar": "يغني الراوي قصة طويلة."
+          },
+          {
+            "fr": "Le berger siffle pour ses chèvres.",
+            "ar": "يصفر الراعي لعنزاته."
+          },
+          {
+            "fr": "Le maître explique la leçon.",
+            "ar": "يشرح المعلم الدرس."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "😢🌧️",
+        "options": [
+          {
+            "fr": "L'enfant est triste car il pleut.",
+            "ar": "الطفل حزين لأن المطر يهطل."
+          },
+          {
+            "fr": "L'enfant est heureux au soleil.",
+            "ar": "الطفل سعيد تحت الشمس."
+          },
+          {
+            "fr": "L'enfant a faim le matin.",
+            "ar": "الطفل جائع في الصباح."
+          },
+          {
+            "fr": "L'enfant dort la nuit.",
+            "ar": "الطفل نائم ليلاً."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🎒📰",
+        "options": [
+          {
+            "fr": "L'élève range son cahier et son journal.",
+            "ar": "يرتب التلميذ دفتره وجريدته."
+          },
+          {
+            "fr": "Le marchand vend mil et dattes.",
+            "ar": "يبيع التاجر الدخن والتمر."
+          },
+          {
+            "fr": "Le berger garde chèvres et zébus.",
+            "ar": "يرعى الراعي العنزات والأبقار."
+          },
+          {
+            "fr": "Le pêcheur pêche poisson et crevette.",
+            "ar": "يصطاد الصياد السمك والجمبري."
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "ecriture": [
+      {
+        "type": "trace",
+        "glyph": "G",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            75,
+            20
+          ],
+          [
+            55,
+            10
+          ],
+          [
+            32,
+            20
+          ],
+          [
+            20,
+            45
+          ],
+          [
+            20,
+            55
+          ],
+          [
+            32,
+            80
+          ],
+          [
+            55,
+            90
+          ],
+          [
+            75,
+            80
+          ],
+          [
+            75,
+            60
+          ],
+          [
+            55,
+            60
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "K",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            30,
+            10
+          ],
+          [
+            30,
+            90
+          ],
+          [
+            30,
+            50
+          ],
+          [
+            70,
+            10
+          ],
+          [
+            30,
+            50
+          ],
+          [
+            70,
+            90
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "W",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            15,
+            15
+          ],
+          [
+            30,
+            90
+          ],
+          [
+            50,
+            40
+          ],
+          [
+            70,
+            90
+          ],
+          [
+            85,
+            15
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "X",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            20,
+            15
+          ],
+          [
+            80,
+            90
+          ],
+          [
+            50,
+            52
+          ],
+          [
+            80,
+            15
+          ],
+          [
+            20,
+            90
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "Y",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            20,
+            15
+          ],
+          [
+            50,
+            50
+          ],
+          [
+            50,
+            90
+          ],
+          [
+            50,
+            50
+          ],
+          [
+            80,
+            15
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "Z",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            20,
+            15
+          ],
+          [
+            80,
+            15
+          ],
+          [
+            20,
+            90
+          ],
+          [
+            80,
+            90
+          ]
+        ]
+      }
     ]
   }
-          }
+}
