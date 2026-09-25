@@ -1427,6 +1427,813 @@
           }
         ]
       }
+    ],
+    "langage": [
+      {
+        "type": "qcm_image",
+        "q_emoji": "🪘",
+        "options": [
+          {
+            "fr": "Tambour",
+            "ar": "طبل"
+          },
+          {
+            "fr": "Panier",
+            "ar": "سلة"
+          },
+          {
+            "fr": "Natte",
+            "ar": "حصيرة"
+          },
+          {
+            "fr": "Sac",
+            "ar": "كيس"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐑",
+        "options": [
+          {
+            "fr": "Mouton",
+            "ar": "خروف"
+          },
+          {
+            "fr": "Chèvre",
+            "ar": "عنزة"
+          },
+          {
+            "fr": "Âne",
+            "ar": "حمار"
+          },
+          {
+            "fr": "Zébu",
+            "ar": "ثور"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🦆",
+        "options": [
+          {
+            "fr": "Canard",
+            "ar": "بطة"
+          },
+          {
+            "fr": "Poule",
+            "ar": "دجاجة"
+          },
+          {
+            "fr": "Oiseau",
+            "ar": "عصفور"
+          },
+          {
+            "fr": "Poisson",
+            "ar": "سمكة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🏺",
+        "options": [
+          {
+            "fr": "Jarre",
+            "ar": "جرة"
+          },
+          {
+            "fr": "Panier",
+            "ar": "سلة"
+          },
+          {
+            "fr": "Sac",
+            "ar": "كيس"
+          },
+          {
+            "fr": "Bol",
+            "ar": "وعاء"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🥖",
+        "options": [
+          {
+            "fr": "Galette",
+            "ar": "خبز"
+          },
+          {
+            "fr": "Boule",
+            "ar": "عصيدة"
+          },
+          {
+            "fr": "Mangue",
+            "ar": "مانجو"
+          },
+          {
+            "fr": "Datte",
+            "ar": "تمرة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "⛲",
+        "options": [
+          {
+            "fr": "Puits",
+            "ar": "بئر"
+          },
+          {
+            "fr": "Fleuve",
+            "ar": "نهر"
+          },
+          {
+            "fr": "Marché",
+            "ar": "سوق"
+          },
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐄",
+        "options": [
+          {
+            "fr": "Vache",
+            "ar": "بقرة"
+          },
+          {
+            "fr": "Zébu",
+            "ar": "ثور"
+          },
+          {
+            "fr": "Chèvre",
+            "ar": "عنزة"
+          },
+          {
+            "fr": "Âne",
+            "ar": "حمار"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌳",
+        "options": [
+          {
+            "fr": "Arbre",
+            "ar": "شجرة"
+          },
+          {
+            "fr": "Baobab",
+            "ar": "باوباب"
+          },
+          {
+            "fr": "Fleur",
+            "ar": "زهرة"
+          },
+          {
+            "fr": "Herbe",
+            "ar": "عشب"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🔥",
+        "options": [
+          {
+            "fr": "Feu",
+            "ar": "نار"
+          },
+          {
+            "fr": "Fumée",
+            "ar": "دخان"
+          },
+          {
+            "fr": "Charbon",
+            "ar": "فحم"
+          },
+          {
+            "fr": "Lumière",
+            "ar": "ضوء"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🪣",
+        "options": [
+          {
+            "fr": "Seau",
+            "ar": "دلو"
+          },
+          {
+            "fr": "Jarre",
+            "ar": "جرة"
+          },
+          {
+            "fr": "Panier",
+            "ar": "سلة"
+          },
+          {
+            "fr": "Sac",
+            "ar": "كيس"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🦴",
+        "options": [
+          {
+            "fr": "Os",
+            "ar": "عظم"
+          },
+          {
+            "fr": "Viande",
+            "ar": "لحم"
+          },
+          {
+            "fr": "Peau",
+            "ar": "جلد"
+          },
+          {
+            "fr": "Corne",
+            "ar": "قرن"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌵",
+        "options": [
+          {
+            "fr": "Cactus",
+            "ar": "صبار"
+          },
+          {
+            "fr": "Baobab",
+            "ar": "باوباب"
+          },
+          {
+            "fr": "Palmier",
+            "ar": "نخلة"
+          },
+          {
+            "fr": "Fleur",
+            "ar": "زهرة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐍",
+        "options": [
+          {
+            "fr": "Serpent",
+            "ar": "ثعبان"
+          },
+          {
+            "fr": "Lézard",
+            "ar": "سحلية"
+          },
+          {
+            "fr": "Scorpion",
+            "ar": "عقرب"
+          },
+          {
+            "fr": "Ver",
+            "ar": "دودة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🦂",
+        "options": [
+          {
+            "fr": "Scorpion",
+            "ar": "عقرب"
+          },
+          {
+            "fr": "Serpent",
+            "ar": "ثعبان"
+          },
+          {
+            "fr": "Araignée",
+            "ar": "عنكبوت"
+          },
+          {
+            "fr": "Fourmi",
+            "ar": "نملة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐜",
+        "options": [
+          {
+            "fr": "Fourmi",
+            "ar": "نملة"
+          },
+          {
+            "fr": "Abeille",
+            "ar": "نحلة"
+          },
+          {
+            "fr": "Mouche",
+            "ar": "ذبابة"
+          },
+          {
+            "fr": "Papillon",
+            "ar": "فراشة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une image puis son mot.",
+        "instruction_ar": "المس صورة ثم كلمتها.",
+        "pairs": [
+          {
+            "left": "🐑",
+            "right": "Mouton"
+          },
+          {
+            "left": "🦆",
+            "right": "Canard"
+          },
+          {
+            "left": "🏺",
+            "right": "Jarre"
+          },
+          {
+            "left": "🥖",
+            "right": "Galette"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une image puis son mot.",
+        "instruction_ar": "المس صورة ثم كلمتها.",
+        "pairs": [
+          {
+            "left": "🌳",
+            "right": "Arbre"
+          },
+          {
+            "left": "🔥",
+            "right": "Feu"
+          },
+          {
+            "left": "🪣",
+            "right": "Seau"
+          },
+          {
+            "left": "🐍",
+            "right": "Serpent"
+          }
+        ]
+      }
+    ],
+    "ecriture": [
+      {
+        "type": "trace",
+        "glyph": "O",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            50,
+            10
+          ],
+          [
+            30,
+            20
+          ],
+          [
+            18,
+            40
+          ],
+          [
+            18,
+            60
+          ],
+          [
+            30,
+            85
+          ],
+          [
+            50,
+            95
+          ],
+          [
+            70,
+            85
+          ],
+          [
+            82,
+            60
+          ],
+          [
+            82,
+            40
+          ],
+          [
+            70,
+            20
+          ],
+          [
+            50,
+            10
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "C",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            75,
+            20
+          ],
+          [
+            55,
+            10
+          ],
+          [
+            32,
+            20
+          ],
+          [
+            20,
+            45
+          ],
+          [
+            20,
+            55
+          ],
+          [
+            32,
+            80
+          ],
+          [
+            55,
+            90
+          ],
+          [
+            75,
+            80
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "D",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            30,
+            10
+          ],
+          [
+            30,
+            90
+          ],
+          [
+            55,
+            90
+          ],
+          [
+            75,
+            70
+          ],
+          [
+            78,
+            50
+          ],
+          [
+            75,
+            30
+          ],
+          [
+            55,
+            10
+          ],
+          [
+            30,
+            10
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "U",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            25,
+            15
+          ],
+          [
+            25,
+            65
+          ],
+          [
+            35,
+            85
+          ],
+          [
+            65,
+            85
+          ],
+          [
+            75,
+            65
+          ],
+          [
+            75,
+            15
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "S",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            70,
+            20
+          ],
+          [
+            40,
+            12
+          ],
+          [
+            22,
+            25
+          ],
+          [
+            30,
+            45
+          ],
+          [
+            60,
+            50
+          ],
+          [
+            75,
+            68
+          ],
+          [
+            65,
+            85
+          ],
+          [
+            35,
+            90
+          ],
+          [
+            20,
+            78
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "J",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            65,
+            12
+          ],
+          [
+            65,
+            70
+          ],
+          [
+            55,
+            88
+          ],
+          [
+            35,
+            85
+          ],
+          [
+            25,
+            72
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "P",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            30,
+            90
+          ],
+          [
+            30,
+            10
+          ],
+          [
+            60,
+            10
+          ],
+          [
+            72,
+            25
+          ],
+          [
+            60,
+            42
+          ],
+          [
+            30,
+            42
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "B",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            30,
+            90
+          ],
+          [
+            30,
+            10
+          ],
+          [
+            58,
+            10
+          ],
+          [
+            70,
+            25
+          ],
+          [
+            58,
+            40
+          ],
+          [
+            30,
+            40
+          ],
+          [
+            62,
+            40
+          ],
+          [
+            74,
+            62
+          ],
+          [
+            60,
+            90
+          ],
+          [
+            30,
+            90
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "R",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            30,
+            90
+          ],
+          [
+            30,
+            10
+          ],
+          [
+            60,
+            10
+          ],
+          [
+            72,
+            25
+          ],
+          [
+            60,
+            42
+          ],
+          [
+            30,
+            42
+          ],
+          [
+            70,
+            90
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "Q",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            50,
+            10
+          ],
+          [
+            30,
+            20
+          ],
+          [
+            18,
+            40
+          ],
+          [
+            18,
+            60
+          ],
+          [
+            30,
+            85
+          ],
+          [
+            50,
+            95
+          ],
+          [
+            70,
+            85
+          ],
+          [
+            82,
+            60
+          ],
+          [
+            82,
+            40
+          ],
+          [
+            70,
+            20
+          ],
+          [
+            50,
+            10
+          ],
+          [
+            65,
+            70
+          ],
+          [
+            85,
+            95
+          ]
+        ]
+      }
     ]
   },
   "cp2": {
@@ -2857,6 +3664,606 @@
           }
         ]
       }
+    ],
+    "langage": [
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐑🌾",
+        "options": [
+          {
+            "fr": "Le mouton mange l'herbe du champ.",
+            "ar": "يأكل الخروف عشب الحقل."
+          },
+          {
+            "fr": "Le zébu boit l'eau du puits.",
+            "ar": "يشرب الثور ماء البئر."
+          },
+          {
+            "fr": "L'oiseau vole au-dessus du village.",
+            "ar": "يطير العصفور فوق القرية."
+          },
+          {
+            "fr": "Le poisson nage dans le fleuve.",
+            "ar": "تسبح السمكة في النهر."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🏺⛲",
+        "options": [
+          {
+            "fr": "On remplit la jarre au puits.",
+            "ar": "نملأ الجرة من البئر."
+          },
+          {
+            "fr": "On vend la jarre au marché.",
+            "ar": "نبيع الجرة في السوق."
+          },
+          {
+            "fr": "On casse la jarre par accident.",
+            "ar": "نكسر الجرة بالخطأ."
+          },
+          {
+            "fr": "On peint la jarre en rouge.",
+            "ar": "نلوّن الجرة بالأحمر."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🥖🔥",
+        "options": [
+          {
+            "fr": "La galette cuit sur le feu.",
+            "ar": "يُطهى الخبز على النار."
+          },
+          {
+            "fr": "La mangue tombe de l'arbre.",
+            "ar": "تسقط المانجو من الشجرة."
+          },
+          {
+            "fr": "Le poisson nage dans l'eau.",
+            "ar": "تسبح السمكة في الماء."
+          },
+          {
+            "fr": "Le tambour résonne au village.",
+            "ar": "يدوي الطبل في القرية."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌳🐍",
+        "options": [
+          {
+            "fr": "Un serpent se cache sous l'arbre.",
+            "ar": "يختبئ ثعبان تحت الشجرة."
+          },
+          {
+            "fr": "Un oiseau chante sur la branche.",
+            "ar": "يغني عصفور على الغصن."
+          },
+          {
+            "fr": "Un enfant grimpe à l'arbre.",
+            "ar": "يتسلق طفل الشجرة."
+          },
+          {
+            "fr": "Une chèvre broute près de l'arbre.",
+            "ar": "ترعى عنزة قرب الشجرة."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐜🍯",
+        "options": [
+          {
+            "fr": "Les fourmis cherchent du sucre.",
+            "ar": "تبحث النمل عن السكر."
+          },
+          {
+            "fr": "Les abeilles font du miel.",
+            "ar": "تصنع النحل العسل."
+          },
+          {
+            "fr": "Les poules cherchent des graines.",
+            "ar": "تبحث الدجاجات عن الحبوب."
+          },
+          {
+            "fr": "Les enfants cherchent de l'eau.",
+            "ar": "يبحث الأطفال عن الماء."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🦂⚠️",
+        "options": [
+          {
+            "fr": "Attention, un scorpion est dangereux !",
+            "ar": "احذر، العقرب خطير!"
+          },
+          {
+            "fr": "Le serpent dort sous la pierre.",
+            "ar": "ينام الثعبان تحت الحجر."
+          },
+          {
+            "fr": "La fourmi porte une feuille.",
+            "ar": "تحمل النملة ورقة."
+          },
+          {
+            "fr": "Le lézard court sur le mur.",
+            "ar": "يركض السحلية على الجدار."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🪣💧",
+        "options": [
+          {
+            "fr": "Fatimé porte un seau d'eau.",
+            "ar": "تحمل فاطمة دلو ماء."
+          },
+          {
+            "fr": "Moussa porte un sac de mil.",
+            "ar": "يحمل موسى كيس دخن."
+          },
+          {
+            "fr": "Aïcha porte un panier de dattes.",
+            "ar": "تحمل عائشة سلة تمر."
+          },
+          {
+            "fr": "Le berger porte un bâton.",
+            "ar": "يحمل الراعي عصا."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐄🥛",
+        "options": [
+          {
+            "fr": "La vache donne du lait.",
+            "ar": "تعطي البقرة الحليب."
+          },
+          {
+            "fr": "Le zébu tire la charrue.",
+            "ar": "يجر الثور المحراث."
+          },
+          {
+            "fr": "La chèvre donne de la laine.",
+            "ar": "تعطي العنزة الصوف."
+          },
+          {
+            "fr": "Le mouton donne de la viande.",
+            "ar": "يعطي الخروف اللحم."
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "ecriture": [
+      {
+        "type": "trace",
+        "glyph": "O",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            50,
+            10
+          ],
+          [
+            30,
+            20
+          ],
+          [
+            18,
+            40
+          ],
+          [
+            18,
+            60
+          ],
+          [
+            30,
+            85
+          ],
+          [
+            50,
+            95
+          ],
+          [
+            70,
+            85
+          ],
+          [
+            82,
+            60
+          ],
+          [
+            82,
+            40
+          ],
+          [
+            70,
+            20
+          ],
+          [
+            50,
+            10
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "C",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            75,
+            20
+          ],
+          [
+            55,
+            10
+          ],
+          [
+            32,
+            20
+          ],
+          [
+            20,
+            45
+          ],
+          [
+            20,
+            55
+          ],
+          [
+            32,
+            80
+          ],
+          [
+            55,
+            90
+          ],
+          [
+            75,
+            80
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "D",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            30,
+            10
+          ],
+          [
+            30,
+            90
+          ],
+          [
+            55,
+            90
+          ],
+          [
+            75,
+            70
+          ],
+          [
+            78,
+            50
+          ],
+          [
+            75,
+            30
+          ],
+          [
+            55,
+            10
+          ],
+          [
+            30,
+            10
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "U",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            25,
+            15
+          ],
+          [
+            25,
+            65
+          ],
+          [
+            35,
+            85
+          ],
+          [
+            65,
+            85
+          ],
+          [
+            75,
+            65
+          ],
+          [
+            75,
+            15
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "S",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            70,
+            20
+          ],
+          [
+            40,
+            12
+          ],
+          [
+            22,
+            25
+          ],
+          [
+            30,
+            45
+          ],
+          [
+            60,
+            50
+          ],
+          [
+            75,
+            68
+          ],
+          [
+            65,
+            85
+          ],
+          [
+            35,
+            90
+          ],
+          [
+            20,
+            78
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "J",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            65,
+            12
+          ],
+          [
+            65,
+            70
+          ],
+          [
+            55,
+            88
+          ],
+          [
+            35,
+            85
+          ],
+          [
+            25,
+            72
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "P",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            30,
+            90
+          ],
+          [
+            30,
+            10
+          ],
+          [
+            60,
+            10
+          ],
+          [
+            72,
+            25
+          ],
+          [
+            60,
+            42
+          ],
+          [
+            30,
+            42
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "B",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            30,
+            90
+          ],
+          [
+            30,
+            10
+          ],
+          [
+            58,
+            10
+          ],
+          [
+            70,
+            25
+          ],
+          [
+            58,
+            40
+          ],
+          [
+            30,
+            40
+          ],
+          [
+            62,
+            40
+          ],
+          [
+            74,
+            62
+          ],
+          [
+            60,
+            90
+          ],
+          [
+            30,
+            90
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "R",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            30,
+            90
+          ],
+          [
+            30,
+            10
+          ],
+          [
+            60,
+            10
+          ],
+          [
+            72,
+            25
+          ],
+          [
+            60,
+            42
+          ],
+          [
+            30,
+            42
+          ],
+          [
+            70,
+            90
+          ]
+        ]
+      },
+      {
+        "type": "trace",
+        "glyph": "Q",
+        "instruction_fr": "Trace la lettre avec ton doigt.",
+        "instruction_ar": "ارسم الحرف بإصبعك.",
+        "template": [
+          [
+            50,
+            10
+          ],
+          [
+            30,
+            20
+          ],
+          [
+            18,
+            40
+          ],
+          [
+            18,
+            60
+          ],
+          [
+            30,
+            85
+          ],
+          [
+            50,
+            95
+          ],
+          [
+            70,
+            85
+          ],
+          [
+            82,
+            60
+          ],
+          [
+            82,
+            40
+          ],
+          [
+            70,
+            20
+          ],
+          [
+            50,
+            10
+          ],
+          [
+            65,
+            70
+          ],
+          [
+            85,
+            95
+          ]
+        ]
+      }
     ]
   }
-      }
+}
