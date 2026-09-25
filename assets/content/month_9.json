@@ -355,6 +355,366 @@
             "ar": "راعي"
           }
         ]
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot commence par la lettre B ?",
+        "q_ar": "أي كلمة تبدأ بحرف B ؟",
+        "options": [
+          {
+            "fr": "Boubou",
+            "ar": "جلباب"
+          },
+          {
+            "fr": "Chameau",
+            "ar": "جمل"
+          },
+          {
+            "fr": "Mil",
+            "ar": "دخن"
+          },
+          {
+            "fr": "Village",
+            "ar": "قرية"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de syllabes dans « VILLAGE » ?",
+        "q_ar": "كم عدد المقاطع في « VILLAGE » ؟",
+        "options": [
+          {
+            "fr": "2",
+            "ar": "2"
+          },
+          {
+            "fr": "1",
+            "ar": "1"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« La chèvre mange l'herbe. » Que mange la chèvre ?",
+        "q_ar": "« العنزة تأكل العشب. » ماذا تأكل العنزة ؟",
+        "options": [
+          {
+            "fr": "L'herbe",
+            "ar": "العشب"
+          },
+          {
+            "fr": "Le mil",
+            "ar": "الدخن"
+          },
+          {
+            "fr": "La mangue",
+            "ar": "المانجو"
+          },
+          {
+            "fr": "Le pain",
+            "ar": "الخبز"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot est bien écrit ?",
+        "q_ar": "ما هي الكلمة المكتوبة بشكل صحيح ؟",
+        "options": [
+          {
+            "fr": "SOLEIL",
+            "ar": "SOLEIL"
+          },
+          {
+            "fr": "SOLEYE",
+            "ar": "SOLEYE"
+          },
+          {
+            "fr": "SOLEL",
+            "ar": "SOLEL"
+          },
+          {
+            "fr": "SOLEIY",
+            "ar": "SOLEIY"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Attention au serpent ! » Quel signe voit-on ?",
+        "q_ar": "« احذر من الثعبان! » ما هي العلامة ؟",
+        "options": [
+          {
+            "fr": "Point d'exclamation",
+            "ar": "علامة تعجب"
+          },
+          {
+            "fr": "Point",
+            "ar": "نقطة"
+          },
+          {
+            "fr": "Virgule",
+            "ar": "فاصلة"
+          },
+          {
+            "fr": "Deux points",
+            "ar": "نقطتان"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le double de 8 ?",
+        "q_ar": "ما هو ضعف العدد 8 ؟",
+        "options": [
+          {
+            "fr": "16",
+            "ar": "16"
+          },
+          {
+            "fr": "14",
+            "ar": "14"
+          },
+          {
+            "fr": "18",
+            "ar": "18"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot désigne celui qui vend au marché ?",
+        "q_ar": "أي كلمة تدل على من يبيع في السوق ؟",
+        "options": [
+          {
+            "fr": "Marchand",
+            "ar": "تاجر"
+          },
+          {
+            "fr": "Berger",
+            "ar": "راعي"
+          },
+          {
+            "fr": "Griot",
+            "ar": "راوي"
+          },
+          {
+            "fr": "Maître",
+            "ar": "معلم"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Le griot chante ce soir. » Quand chante le griot ?",
+        "q_ar": "« يغني الراوي هذا المساء. » متى يغني الراوي ؟",
+        "options": [
+          {
+            "fr": "Ce soir",
+            "ar": "هذا المساء"
+          },
+          {
+            "fr": "Demain",
+            "ar": "غدًا"
+          },
+          {
+            "fr": "Maintenant",
+            "ar": "الآن"
+          },
+          {
+            "fr": "La nuit",
+            "ar": "ليلاً"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot commence par la lettre P ?",
+        "q_ar": "أي كلمة تبدأ بحرف P ؟",
+        "options": [
+          {
+            "fr": "Pluie",
+            "ar": "مطر"
+          },
+          {
+            "fr": "Chameau",
+            "ar": "جمل"
+          },
+          {
+            "fr": "Mil",
+            "ar": "دخن"
+          },
+          {
+            "fr": "Lune",
+            "ar": "قمر"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Moussa court vers l'école. » Pourquoi court-il ?",
+        "q_ar": "« يركض موسى نحو المدرسة. » لماذا يركض ؟",
+        "options": [
+          {
+            "fr": "Pour ne pas être en retard",
+            "ar": "لكي لا يتأخر"
+          },
+          {
+            "fr": "Pour jouer",
+            "ar": "ليلعب"
+          },
+          {
+            "fr": "Pour manger",
+            "ar": "ليأكل"
+          },
+          {
+            "fr": "Pour dormir",
+            "ar": "لينام"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le pluriel de « cheval » ?",
+        "q_ar": "ما هو جمع كلمة « cheval » ؟",
+        "options": [
+          {
+            "fr": "chevaux",
+            "ar": "خيول"
+          },
+          {
+            "fr": "chevals",
+            "ar": "خيولات"
+          },
+          {
+            "fr": "chevales",
+            "ar": "حصانات"
+          },
+          {
+            "fr": "cheval",
+            "ar": "حصان"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« La pluie tombe, les enfants restent dans la case. » Où restent les enfants ?",
+        "q_ar": "« يهطل المطر، يبقى الأطفال في الكوخ. » أين يبقى الأطفال ؟",
+        "options": [
+          {
+            "fr": "Dans la case",
+            "ar": "في الكوخ"
+          },
+          {
+            "fr": "À l'école",
+            "ar": "في المدرسة"
+          },
+          {
+            "fr": "Au marché",
+            "ar": "في السوق"
+          },
+          {
+            "fr": "Au fleuve",
+            "ar": "عند النهر"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel mot signifie « se souvenir » ?",
+        "q_ar": "أي كلمة تعني « يتذكر » ؟",
+        "options": [
+          {
+            "fr": "Se rappeler",
+            "ar": "يتذكر"
+          },
+          {
+            "fr": "Oublier",
+            "ar": "ينسى"
+          },
+          {
+            "fr": "Ignorer",
+            "ar": "يجهل"
+          },
+          {
+            "fr": "Chercher",
+            "ar": "يبحث"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de minutes dans une demi-heure ?",
+        "q_ar": "كم دقيقة في نصف ساعة ؟",
+        "options": [
+          {
+            "fr": "30",
+            "ar": "30"
+          },
+          {
+            "fr": "15",
+            "ar": "15"
+          },
+          {
+            "fr": "45",
+            "ar": "45"
+          },
+          {
+            "fr": "60",
+            "ar": "60"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Le maître félicite Moussa. » Pourquoi ?",
+        "q_ar": "« يهنئ المعلم موسى. » لماذا ؟",
+        "options": [
+          {
+            "fr": "Pour son bon travail",
+            "ar": "على عمله الجيد"
+          },
+          {
+            "fr": "Pour son retard",
+            "ar": "على تأخره"
+          },
+          {
+            "fr": "Pour son silence",
+            "ar": "على صمته"
+          },
+          {
+            "fr": "Pour son absence",
+            "ar": "على غيابه"
+          }
+        ],
+        "answer": 0
       }
     ],
     "calcul": [
@@ -712,6 +1072,366 @@
             "ar": "فرنك"
           }
         ]
+      },
+      {
+        "type": "qcm",
+        "q_fr": "5 - 2 = ?",
+        "q_ar": "5 - 2 = ؟",
+        "options": [
+          {
+            "fr": "3",
+            "ar": "3"
+          },
+          {
+            "fr": "2",
+            "ar": "2"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "1",
+            "ar": "1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel nombre vient après 29 ?",
+        "q_ar": "ما هو العدد الذي يأتي بعد 29 ؟",
+        "options": [
+          {
+            "fr": "30",
+            "ar": "30"
+          },
+          {
+            "fr": "28",
+            "ar": "28"
+          },
+          {
+            "fr": "31",
+            "ar": "31"
+          },
+          {
+            "fr": "39",
+            "ar": "39"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle est la moitié de 16 ?",
+        "q_ar": "ما هو نصف العدد 16 ؟",
+        "options": [
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          },
+          {
+            "fr": "9",
+            "ar": "9"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Fatimé a 18 mangues, elle en donne 9. Combien lui en reste-t-il ?",
+        "q_ar": "عند فاطمة 18 مانجو، أعطت 9. كم تبقى لها ؟",
+        "options": [
+          {
+            "fr": "9",
+            "ar": "9"
+          },
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "27",
+            "ar": "27"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "7 x 3 = ?",
+        "q_ar": "7 x 3 = ؟",
+        "options": [
+          {
+            "fr": "21",
+            "ar": "21"
+          },
+          {
+            "fr": "20",
+            "ar": "20"
+          },
+          {
+            "fr": "22",
+            "ar": "22"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel nombre est plus grand : 34 ou 29 ?",
+        "q_ar": "أي عدد أكبر : 34 أم 29 ؟",
+        "options": [
+          {
+            "fr": "34",
+            "ar": "34"
+          },
+          {
+            "fr": "29",
+            "ar": "29"
+          },
+          {
+            "fr": "Égaux",
+            "ar": "متساويان"
+          },
+          {
+            "fr": "0",
+            "ar": "0"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "22 - 8 = ?",
+        "q_ar": "22 - 8 = ؟",
+        "options": [
+          {
+            "fr": "14",
+            "ar": "14"
+          },
+          {
+            "fr": "13",
+            "ar": "13"
+          },
+          {
+            "fr": "15",
+            "ar": "15"
+          },
+          {
+            "fr": "30",
+            "ar": "30"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un berger a 3 enclos de 8 chèvres. Combien en tout ?",
+        "q_ar": "عند الراعي 3 حظائر بها 8 عنزات. كم بالمجموع ؟",
+        "options": [
+          {
+            "fr": "24",
+            "ar": "24"
+          },
+          {
+            "fr": "11",
+            "ar": "11"
+          },
+          {
+            "fr": "23",
+            "ar": "23"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de jours dans une semaine ?",
+        "q_ar": "كم يومًا في الأسبوع ؟",
+        "options": [
+          {
+            "fr": "7",
+            "ar": "7"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "30",
+            "ar": "30"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le double de 12 ?",
+        "q_ar": "ما هو ضعف العدد 12 ؟",
+        "options": [
+          {
+            "fr": "24",
+            "ar": "24"
+          },
+          {
+            "fr": "22",
+            "ar": "22"
+          },
+          {
+            "fr": "26",
+            "ar": "26"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Moussa a 40 francs, il dépense 15. Combien lui reste-t-il ?",
+        "q_ar": "عند موسى 40 فرنكًا، أنفق 15. كم تبقى له ؟",
+        "options": [
+          {
+            "fr": "25",
+            "ar": "25"
+          },
+          {
+            "fr": "24",
+            "ar": "24"
+          },
+          {
+            "fr": "26",
+            "ar": "26"
+          },
+          {
+            "fr": "55",
+            "ar": "55"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "6 x 4 = ?",
+        "q_ar": "6 x 4 = ؟",
+        "options": [
+          {
+            "fr": "24",
+            "ar": "24"
+          },
+          {
+            "fr": "23",
+            "ar": "23"
+          },
+          {
+            "fr": "25",
+            "ar": "25"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de centimètres dans 3 mètres ?",
+        "q_ar": "كم سنتيمترًا في 3 أمتار ؟",
+        "options": [
+          {
+            "fr": "300",
+            "ar": "300"
+          },
+          {
+            "fr": "30",
+            "ar": "30"
+          },
+          {
+            "fr": "3000",
+            "ar": "3000"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel nombre est entre 24 et 26 ?",
+        "q_ar": "أي عدد يقع بين 24 و 26 ؟",
+        "options": [
+          {
+            "fr": "25",
+            "ar": "25"
+          },
+          {
+            "fr": "23",
+            "ar": "23"
+          },
+          {
+            "fr": "27",
+            "ar": "27"
+          },
+          {
+            "fr": "28",
+            "ar": "28"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Aïcha a 4 sacs de 6 dattes chacun. Combien en tout ?",
+        "q_ar": "عند عائشة 4 أكياس بها 6 تمرات لكل واحد. كم بالمجموع ؟",
+        "options": [
+          {
+            "fr": "24",
+            "ar": "24"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "23",
+            "ar": "23"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          }
+        ],
+        "answer": 0
       }
     ],
     "langage": [
@@ -875,6 +1595,236 @@
             "right": "Tambour"
           }
         ]
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐘",
+        "options": [
+          {
+            "fr": "Éléphant",
+            "ar": "فيل"
+          },
+          {
+            "fr": "Lion",
+            "ar": "أسد"
+          },
+          {
+            "fr": "Zèbre",
+            "ar": "حمار وحشي"
+          },
+          {
+            "fr": "Girafe",
+            "ar": "زرافة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌳",
+        "options": [
+          {
+            "fr": "Baobab",
+            "ar": "باوباب"
+          },
+          {
+            "fr": "Palmier",
+            "ar": "نخلة"
+          },
+          {
+            "fr": "Fleur",
+            "ar": "زهرة"
+          },
+          {
+            "fr": "Herbe",
+            "ar": "عشب"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "💧",
+        "options": [
+          {
+            "fr": "Puits",
+            "ar": "بئر"
+          },
+          {
+            "fr": "Fleuve",
+            "ar": "نهر"
+          },
+          {
+            "fr": "Pluie",
+            "ar": "مطر"
+          },
+          {
+            "fr": "Mer",
+            "ar": "بحر"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐑",
+        "options": [
+          {
+            "fr": "Mouton",
+            "ar": "خروف"
+          },
+          {
+            "fr": "Chèvre",
+            "ar": "عنزة"
+          },
+          {
+            "fr": "Âne",
+            "ar": "حمار"
+          },
+          {
+            "fr": "Zébu",
+            "ar": "ثور"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🥁",
+        "options": [
+          {
+            "fr": "Tambour",
+            "ar": "طبل"
+          },
+          {
+            "fr": "Ballon",
+            "ar": "كرة"
+          },
+          {
+            "fr": "Livre",
+            "ar": "كتاب"
+          },
+          {
+            "fr": "Natte",
+            "ar": "حصيرة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐢",
+        "options": [
+          {
+            "fr": "Tortue",
+            "ar": "سلحفاة"
+          },
+          {
+            "fr": "Crocodile",
+            "ar": "تمساح"
+          },
+          {
+            "fr": "Lézard",
+            "ar": "سحلية"
+          },
+          {
+            "fr": "Grenouille",
+            "ar": "ضفدع"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🏥",
+        "options": [
+          {
+            "fr": "Hôpital",
+            "ar": "مستشفى"
+          },
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          },
+          {
+            "fr": "Marché",
+            "ar": "سوق"
+          },
+          {
+            "fr": "Case",
+            "ar": "كوخ"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🦉",
+        "options": [
+          {
+            "fr": "Hibou",
+            "ar": "بومة"
+          },
+          {
+            "fr": "Aigle",
+            "ar": "نسر"
+          },
+          {
+            "fr": "Corbeau",
+            "ar": "غراب"
+          },
+          {
+            "fr": "Perroquet",
+            "ar": "ببغاء"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐴",
+        "options": [
+          {
+            "fr": "Cheval",
+            "ar": "حصان"
+          },
+          {
+            "fr": "Âne",
+            "ar": "حمار"
+          },
+          {
+            "fr": "Zébu",
+            "ar": "ثور"
+          },
+          {
+            "fr": "Chameau",
+            "ar": "جمل"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌾",
+        "options": [
+          {
+            "fr": "Mil",
+            "ar": "دخن"
+          },
+          {
+            "fr": "Riz",
+            "ar": "أرز"
+          },
+          {
+            "fr": "Herbe",
+            "ar": "عشب"
+          },
+          {
+            "fr": "Fleur",
+            "ar": "زهرة"
+          }
+        ],
+        "answer": 0
       }
     ],
     "ecriture": [
@@ -1449,6 +2399,342 @@
             "ar": "دائمًا"
           }
         ]
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le pluriel de « journal » ?",
+        "q_ar": "ما هو جمع كلمة « journal » ؟",
+        "options": [
+          {
+            "fr": "journaux",
+            "ar": "جرائد"
+          },
+          {
+            "fr": "journals",
+            "ar": "جرائدس"
+          },
+          {
+            "fr": "journales",
+            "ar": "جريدات"
+          },
+          {
+            "fr": "journal",
+            "ar": "جريدة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Demain, je ___ (aller) au marché.",
+        "q_ar": "أكمل : غدًا، أنا ___ (يذهب) إلى السوق.",
+        "options": [
+          {
+            "fr": "vais aller",
+            "ar": "سأذهب"
+          },
+          {
+            "fr": "suis allé",
+            "ar": "ذهبتُ"
+          },
+          {
+            "fr": "allais",
+            "ar": "كنت أذهب"
+          },
+          {
+            "fr": "vais",
+            "ar": "أذهب"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Le vieux maître enseigne depuis trente ans. » Depuis quand enseigne-t-il ?",
+        "q_ar": "« يعلّم المعلم العجوز منذ ثلاثين عامًا. » منذ متى يعلّم ؟",
+        "options": [
+          {
+            "fr": "Trente ans",
+            "ar": "ثلاثين عامًا"
+          },
+          {
+            "fr": "Dix ans",
+            "ar": "عشر سنوات"
+          },
+          {
+            "fr": "Un an",
+            "ar": "سنة واحدة"
+          },
+          {
+            "fr": "Cinq ans",
+            "ar": "خمس سنوات"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Hier, elle ___ (chanter) une belle chanson.",
+        "q_ar": "أكمل : أمس، هي ___ (يغني) أغنية جميلة.",
+        "options": [
+          {
+            "fr": "a chanté",
+            "ar": "غنّت"
+          },
+          {
+            "fr": "chante",
+            "ar": "تغني"
+          },
+          {
+            "fr": "chantera",
+            "ar": "ستغني"
+          },
+          {
+            "fr": "chantait",
+            "ar": "كانت تغني"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Bien qu'il pleuve, les enfants jouent dehors. » Que font les enfants malgré la pluie ?",
+        "q_ar": "« رغم هطول المطر، يلعب الأطفال في الخارج. » ماذا يفعل الأطفال رغم المطر ؟",
+        "options": [
+          {
+            "fr": "Ils jouent dehors",
+            "ar": "يلعبون في الخارج"
+          },
+          {
+            "fr": "Ils restent dedans",
+            "ar": "يبقون بالداخل"
+          },
+          {
+            "fr": "Ils dorment",
+            "ar": "ينامون"
+          },
+          {
+            "fr": "Ils pleurent",
+            "ar": "يبكون"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le féminin de « berger » ?",
+        "q_ar": "ما هو مؤنث كلمة « berger » ؟",
+        "options": [
+          {
+            "fr": "bergère",
+            "ar": "راعية"
+          },
+          {
+            "fr": "bergerie",
+            "ar": "حظيرة"
+          },
+          {
+            "fr": "bergeron",
+            "ar": "راعي صغير"
+          },
+          {
+            "fr": "berger",
+            "ar": "راعي"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« — Où vas-tu ? demande le berger. — Chercher de l'eau, répond Aïcha. » Où va Aïcha ?",
+        "q_ar": "« — إلى أين تذهبين؟ سأل الراعي. — لإحضار الماء، أجابت عائشة. » إلى أين تذهب عائشة ؟",
+        "options": [
+          {
+            "fr": "Chercher de l'eau",
+            "ar": "لإحضار الماء"
+          },
+          {
+            "fr": "À l'école",
+            "ar": "إلى المدرسة"
+          },
+          {
+            "fr": "Au marché",
+            "ar": "إلى السوق"
+          },
+          {
+            "fr": "Chez le griot",
+            "ar": "إلى الراوي"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : L'année dernière, vous ___ (apprendre) à lire.",
+        "q_ar": "أكمل : السنة الماضية، أنتم ___ (يتعلم) القراءة.",
+        "options": [
+          {
+            "fr": "avez appris",
+            "ar": "تعلّمتم"
+          },
+          {
+            "fr": "apprenez",
+            "ar": "تتعلمون"
+          },
+          {
+            "fr": "apprendrez",
+            "ar": "ستتعلمون"
+          },
+          {
+            "fr": "appreniez",
+            "ar": "كنتم تتعلمون"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Puisque le fleuve est haut, les pêcheurs sortent tôt. » Pourquoi sortent-ils tôt ?",
+        "q_ar": "« بما أن النهر مرتفع، يخرج الصيادون باكرًا. » لماذا يخرجون باكرًا ؟",
+        "options": [
+          {
+            "fr": "Le fleuve est haut",
+            "ar": "النهر مرتفع"
+          },
+          {
+            "fr": "Il fait froid",
+            "ar": "الجو بارد"
+          },
+          {
+            "fr": "C'est férié",
+            "ar": "إنه عطلة"
+          },
+          {
+            "fr": "Le marché est fermé",
+            "ar": "السوق مغلق"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le contraire de « facile » ?",
+        "q_ar": "ما هو عكس كلمة « facile » ؟",
+        "options": [
+          {
+            "fr": "difficile",
+            "ar": "صعب"
+          },
+          {
+            "fr": "simple",
+            "ar": "بسيط"
+          },
+          {
+            "fr": "rapide",
+            "ar": "سريع"
+          },
+          {
+            "fr": "beau",
+            "ar": "جميل"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Le mois dernier, elles ___ (voyager) jusqu'à la capitale.",
+        "q_ar": "أكمل : الشهر الماضي، هن ___ (يسافر) حتى العاصمة.",
+        "options": [
+          {
+            "fr": "ont voyagé",
+            "ar": "سافرن"
+          },
+          {
+            "fr": "voyagent",
+            "ar": "يسافرن"
+          },
+          {
+            "fr": "voyageront",
+            "ar": "سيسافرن"
+          },
+          {
+            "fr": "voyageaient",
+            "ar": "كن يسافرن"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Le pêcheur travaille dur afin de nourrir sa famille. » Pourquoi travaille-t-il dur ?",
+        "q_ar": "« يعمل الصياد بجد لكي يطعم عائلته. » لماذا يعمل بجد ؟",
+        "options": [
+          {
+            "fr": "Pour nourrir sa famille",
+            "ar": "ليطعم عائلته"
+          },
+          {
+            "fr": "Pour voyager",
+            "ar": "ليسافر"
+          },
+          {
+            "fr": "Pour s'amuser",
+            "ar": "ليستمتع"
+          },
+          {
+            "fr": "Pour dormir",
+            "ar": "لينام"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le pluriel de « oiseau » ?",
+        "q_ar": "ما هو جمع كلمة « oiseau » ؟",
+        "options": [
+          {
+            "fr": "oiseaux",
+            "ar": "عصافير"
+          },
+          {
+            "fr": "oiseaus",
+            "ar": "عصافيرس"
+          },
+          {
+            "fr": "oiseales",
+            "ar": "طيورات"
+          },
+          {
+            "fr": "oiseau",
+            "ar": "عصفور"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Chaque matin, Aïcha se lève tôt et balaie la cour. » Que fait Aïcha chaque matin ?",
+        "q_ar": "« كل صباح، تستيقظ عائشة باكرًا وتكنس الساحة. » ماذا تفعل عائشة كل صباح ؟",
+        "options": [
+          {
+            "fr": "Elle se lève tôt et balaie",
+            "ar": "تستيقظ باكرًا وتكنس"
+          },
+          {
+            "fr": "Elle dort tard",
+            "ar": "تنام متأخرًا"
+          },
+          {
+            "fr": "Elle va à l'école directement",
+            "ar": "تذهب مباشرة للمدرسة"
+          },
+          {
+            "fr": "Elle reste au lit",
+            "ar": "تبقى في السرير"
+          }
+        ],
+        "answer": 0
       }
     ],
     "calcul": [
@@ -1783,6 +3069,342 @@
             "ar": "يبيع"
           }
         ]
+      },
+      {
+        "type": "qcm",
+        "q_fr": "2 x 8 = ?",
+        "q_ar": "2 x 8 = ؟",
+        "options": [
+          {
+            "fr": "16",
+            "ar": "16"
+          },
+          {
+            "fr": "14",
+            "ar": "14"
+          },
+          {
+            "fr": "18",
+            "ar": "18"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "53 - 28 = ?",
+        "q_ar": "53 - 28 = ؟",
+        "options": [
+          {
+            "fr": "25",
+            "ar": "25"
+          },
+          {
+            "fr": "24",
+            "ar": "24"
+          },
+          {
+            "fr": "26",
+            "ar": "26"
+          },
+          {
+            "fr": "35",
+            "ar": "35"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un sac de mil coûte 100 francs. Combien coûtent 4 sacs ?",
+        "q_ar": "ثمن كيس الدخن 100 فرنك. كم ثمن 4 أكياس ؟",
+        "options": [
+          {
+            "fr": "400",
+            "ar": "400"
+          },
+          {
+            "fr": "300",
+            "ar": "300"
+          },
+          {
+            "fr": "500",
+            "ar": "500"
+          },
+          {
+            "fr": "104",
+            "ar": "104"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "10 x 6 = ?",
+        "q_ar": "10 x 6 = ؟",
+        "options": [
+          {
+            "fr": "60",
+            "ar": "60"
+          },
+          {
+            "fr": "16",
+            "ar": "16"
+          },
+          {
+            "fr": "50",
+            "ar": "50"
+          },
+          {
+            "fr": "70",
+            "ar": "70"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Fatimé partage 15 mangues entre 3 enfants. Combien chacun reçoit-il ?",
+        "q_ar": "قسمت فاطمة 15 مانجو بين 3 أطفال. كم يحصل كل واحد ؟",
+        "options": [
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "6 x 5 = ?",
+        "q_ar": "6 x 5 = ؟",
+        "options": [
+          {
+            "fr": "30",
+            "ar": "30"
+          },
+          {
+            "fr": "29",
+            "ar": "29"
+          },
+          {
+            "fr": "31",
+            "ar": "31"
+          },
+          {
+            "fr": "11",
+            "ar": "11"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un berger a 6 enclos de 5 chèvres chacun. Combien en tout ?",
+        "q_ar": "عند الراعي 6 حظائر بها 5 عنزات لكل واحدة. كم بالمجموع ؟",
+        "options": [
+          {
+            "fr": "30",
+            "ar": "30"
+          },
+          {
+            "fr": "11",
+            "ar": "11"
+          },
+          {
+            "fr": "29",
+            "ar": "29"
+          },
+          {
+            "fr": "1",
+            "ar": "1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Moussa a 700 francs, il achète un tissu à 250 francs. Combien lui reste-t-il ?",
+        "q_ar": "عند موسى 700 فرنك، اشترى قماشًا بـ 250 فرنكًا. كم تبقى له ؟",
+        "options": [
+          {
+            "fr": "450",
+            "ar": "450"
+          },
+          {
+            "fr": "440",
+            "ar": "440"
+          },
+          {
+            "fr": "460",
+            "ar": "460"
+          },
+          {
+            "fr": "950",
+            "ar": "950"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "8 x 6 = ?",
+        "q_ar": "8 x 6 = ؟",
+        "options": [
+          {
+            "fr": "48",
+            "ar": "48"
+          },
+          {
+            "fr": "47",
+            "ar": "47"
+          },
+          {
+            "fr": "49",
+            "ar": "49"
+          },
+          {
+            "fr": "14",
+            "ar": "14"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de mètres dans 400 centimètres ?",
+        "q_ar": "كم مترًا في 400 سنتيمتر ؟",
+        "options": [
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "40",
+            "ar": "40"
+          },
+          {
+            "fr": "400",
+            "ar": "400"
+          },
+          {
+            "fr": "0.4",
+            "ar": "0.4"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Aïcha a 5 sacs de 8 kilos chacun. Combien de kilos en tout ?",
+        "q_ar": "عند عائشة 5 أكياس بها 8 كيلوغرامات لكل واحد. كم كيلوغرام بالمجموع ؟",
+        "options": [
+          {
+            "fr": "40",
+            "ar": "40"
+          },
+          {
+            "fr": "13",
+            "ar": "13"
+          },
+          {
+            "fr": "39",
+            "ar": "39"
+          },
+          {
+            "fr": "45",
+            "ar": "45"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "9 x 5 = ?",
+        "q_ar": "9 x 5 = ؟",
+        "options": [
+          {
+            "fr": "45",
+            "ar": "45"
+          },
+          {
+            "fr": "44",
+            "ar": "44"
+          },
+          {
+            "fr": "46",
+            "ar": "46"
+          },
+          {
+            "fr": "14",
+            "ar": "14"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un troupeau de 40 zébus est partagé en 4 groupes égaux. Combien par groupe ?",
+        "q_ar": "قُسم قطيع من 40 ثورًا إلى 4 مجموعات متساوية. كم في كل مجموعة ؟",
+        "options": [
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "12",
+            "ar": "12"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un pêcheur attrape 60 poissons, il en vend la moitié. Combien lui en reste-t-il ?",
+        "q_ar": "اصطاد صياد 60 سمكة، باع نصفها. كم تبقى له ؟",
+        "options": [
+          {
+            "fr": "30",
+            "ar": "30"
+          },
+          {
+            "fr": "20",
+            "ar": "20"
+          },
+          {
+            "fr": "40",
+            "ar": "40"
+          },
+          {
+            "fr": "15",
+            "ar": "15"
+          }
+        ],
+        "answer": 0
       }
     ],
     "langage": [
@@ -1851,6 +3473,144 @@
           {
             "fr": "On vend au marché.",
             "ar": "نبيع في السوق."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐘🌍",
+        "options": [
+          {
+            "fr": "L'éléphant vit dans la savane.",
+            "ar": "يعيش الفيل في السافانا."
+          },
+          {
+            "fr": "Le poisson vit dans le fleuve.",
+            "ar": "تعيش السمكة في النهر."
+          },
+          {
+            "fr": "Le chameau vit dans le désert.",
+            "ar": "يعيش الجمل في الصحراء."
+          },
+          {
+            "fr": "L'oiseau vit dans le ciel.",
+            "ar": "يعيش العصفور في السماء."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🥁🎉",
+        "options": [
+          {
+            "fr": "On célèbre la fête avec le tambour.",
+            "ar": "نحتفل بالعيد بالطبل."
+          },
+          {
+            "fr": "On étudie à l'école.",
+            "ar": "ندرس في المدرسة."
+          },
+          {
+            "fr": "On pêche au fleuve.",
+            "ar": "نصطاد في النهر."
+          },
+          {
+            "fr": "On vend au marché.",
+            "ar": "نبيع في السوق."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐑🌾",
+        "options": [
+          {
+            "fr": "Le mouton mange l'herbe du champ.",
+            "ar": "يأكل الخروف عشب الحقل."
+          },
+          {
+            "fr": "Le zébu boit l'eau du puits.",
+            "ar": "يشرب الثور ماء البئر."
+          },
+          {
+            "fr": "L'oiseau vole au-dessus du village.",
+            "ar": "يطير العصفور فوق القرية."
+          },
+          {
+            "fr": "Le poisson nage dans le fleuve.",
+            "ar": "تسبح السمكة في النهر."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🏥👨‍⚕️",
+        "options": [
+          {
+            "fr": "Le médecin travaille à l'hôpital.",
+            "ar": "يعمل الطبيب في المستشفى."
+          },
+          {
+            "fr": "Le maître travaille à l'école.",
+            "ar": "يعمل المعلم في المدرسة."
+          },
+          {
+            "fr": "Le berger travaille au champ.",
+            "ar": "يعمل الراعي في الحقل."
+          },
+          {
+            "fr": "Le pêcheur travaille au fleuve.",
+            "ar": "يعمل الصياد في النهر."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐢🌊",
+        "options": [
+          {
+            "fr": "La tortue nage lentement.",
+            "ar": "تسبح السلحفاة ببطء."
+          },
+          {
+            "fr": "Le poisson nage vite.",
+            "ar": "تسبح السمكة بسرعة."
+          },
+          {
+            "fr": "L'oiseau vole haut.",
+            "ar": "يطير العصفور عاليًا."
+          },
+          {
+            "fr": "Le crocodile dort.",
+            "ar": "ينام التمساح."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌳🐍",
+        "options": [
+          {
+            "fr": "Un serpent se cache sous l'arbre.",
+            "ar": "يختبئ ثعبان تحت الشجرة."
+          },
+          {
+            "fr": "Un oiseau chante sur la branche.",
+            "ar": "يغني عصفور على الغصن."
+          },
+          {
+            "fr": "Un enfant grimpe à l'arbre.",
+            "ar": "يتسلق طفل الشجرة."
+          },
+          {
+            "fr": "Une chèvre broute près de l'arbre.",
+            "ar": "ترعى عنزة قرب الشجرة."
           }
         ],
         "answer": 0
