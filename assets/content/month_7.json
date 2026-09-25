@@ -618,6 +618,102 @@
             "ar": "يرتاح"
           }
         ]
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Le vieux chien dort près du feu. » Où dort le chien ?",
+        "q_ar": "« الكلب العجوز ينام قرب النار. » أين ينام الكلب ؟",
+        "options": [
+          {
+            "fr": "Près du feu",
+            "ar": "قرب النار"
+          },
+          {
+            "fr": "Sous l'arbre",
+            "ar": "تحت الشجرة"
+          },
+          {
+            "fr": "Au marché",
+            "ar": "في السوق"
+          },
+          {
+            "fr": "À l'école",
+            "ar": "في المدرسة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Fatimé arrose les fleurs chaque matin. » Que fait Fatimé chaque matin ?",
+        "q_ar": "« تسقي فاطمة الزهور كل صباح. » ماذا تفعل فاطمة كل صباح ؟",
+        "options": [
+          {
+            "fr": "Elle arrose les fleurs",
+            "ar": "تسقي الزهور"
+          },
+          {
+            "fr": "Elle balaie la cour",
+            "ar": "تكنس الساحة"
+          },
+          {
+            "fr": "Elle va au marché",
+            "ar": "تذهب إلى السوق"
+          },
+          {
+            "fr": "Elle chante",
+            "ar": "تغني"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Le petit chat attrape une souris. » Que fait le chat ?",
+        "q_ar": "« القطة الصغيرة تمسك فأرًا. » ماذا تفعل القطة ؟",
+        "options": [
+          {
+            "fr": "Elle attrape une souris",
+            "ar": "تمسك فأرًا"
+          },
+          {
+            "fr": "Elle dort",
+            "ar": "تنام"
+          },
+          {
+            "fr": "Elle boit du lait",
+            "ar": "تشرب الحليب"
+          },
+          {
+            "fr": "Elle joue",
+            "ar": "تلعب"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Moussa partage son pain avec son ami. » Que fait Moussa ?",
+        "q_ar": "« يشارك موسى خبزه مع صديقه. » ماذا يفعل موسى ؟",
+        "options": [
+          {
+            "fr": "Il partage son pain",
+            "ar": "يشارك خبزه"
+          },
+          {
+            "fr": "Il mange seul",
+            "ar": "يأكل وحده"
+          },
+          {
+            "fr": "Il vend son pain",
+            "ar": "يبيع خبزه"
+          },
+          {
+            "fr": "Il jette son pain",
+            "ar": "يرمي خبزه"
+          }
+        ],
+        "answer": 0
       }
     ],
     "calcul": [
@@ -1215,6 +1311,126 @@
             "ar": "قطيع"
           }
         ]
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Fatimé a 9 crayons, elle en achète 6 de plus. Combien a-t-elle maintenant ?",
+        "q_ar": "عند فاطمة 9 أقلام، اشترت 6 أخرى. كم أصبح لديها ؟",
+        "options": [
+          {
+            "fr": "15",
+            "ar": "15"
+          },
+          {
+            "fr": "14",
+            "ar": "14"
+          },
+          {
+            "fr": "16",
+            "ar": "16"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un panier a 20 dattes, on en mange 8. Combien en reste-t-il ?",
+        "q_ar": "في سلة 20 تمرة، أُكل 8 منها. كم تبقى ؟",
+        "options": [
+          {
+            "fr": "12",
+            "ar": "12"
+          },
+          {
+            "fr": "11",
+            "ar": "11"
+          },
+          {
+            "fr": "13",
+            "ar": "13"
+          },
+          {
+            "fr": "28",
+            "ar": "28"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Moussa a 7 sacs de 3 mangues chacun. Combien de mangues en tout ?",
+        "q_ar": "عند موسى 7 أكياس بها 3 مانجوهات لكل واحد. كم مانجو بالمجموع ؟",
+        "options": [
+          {
+            "fr": "21",
+            "ar": "21"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "20",
+            "ar": "20"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un berger a 26 chèvres, il en vend 11. Combien lui en reste-t-il ?",
+        "q_ar": "عند الراعي 26 عنزة، باع 11. كم تبقى له ؟",
+        "options": [
+          {
+            "fr": "15",
+            "ar": "15"
+          },
+          {
+            "fr": "14",
+            "ar": "14"
+          },
+          {
+            "fr": "16",
+            "ar": "16"
+          },
+          {
+            "fr": "37",
+            "ar": "37"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Aïcha a 13 francs, elle en gagne 9 de plus. Combien a-t-elle maintenant ?",
+        "q_ar": "عند عائشة 13 فرنكًا، ربحت 9 أخرى. كم أصبح لديها ؟",
+        "options": [
+          {
+            "fr": "22",
+            "ar": "22"
+          },
+          {
+            "fr": "21",
+            "ar": "21"
+          },
+          {
+            "fr": "23",
+            "ar": "23"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          }
+        ],
+        "answer": 0
       }
     ],
     "langage": [
@@ -1493,6 +1709,121 @@
             "right": "Huile"
           }
         ]
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🦔",
+        "options": [
+          {
+            "fr": "Hérisson",
+            "ar": "قنفذ"
+          },
+          {
+            "fr": "Souris",
+            "ar": "فأر"
+          },
+          {
+            "fr": "Lapin",
+            "ar": "أرنب"
+          },
+          {
+            "fr": "Écureuil",
+            "ar": "سنجاب"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐢",
+        "options": [
+          {
+            "fr": "Tortue",
+            "ar": "سلحفاة"
+          },
+          {
+            "fr": "Crocodile",
+            "ar": "تمساح"
+          },
+          {
+            "fr": "Lézard",
+            "ar": "سحلية"
+          },
+          {
+            "fr": "Grenouille",
+            "ar": "ضفدع"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐸",
+        "options": [
+          {
+            "fr": "Grenouille",
+            "ar": "ضفدع"
+          },
+          {
+            "fr": "Tortue",
+            "ar": "سلحفاة"
+          },
+          {
+            "fr": "Serpent",
+            "ar": "ثعبان"
+          },
+          {
+            "fr": "Poisson",
+            "ar": "سمكة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🦗",
+        "options": [
+          {
+            "fr": "Sauterelle",
+            "ar": "جرادة"
+          },
+          {
+            "fr": "Fourmi",
+            "ar": "نملة"
+          },
+          {
+            "fr": "Abeille",
+            "ar": "نحلة"
+          },
+          {
+            "fr": "Papillon",
+            "ar": "فراشة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐌",
+        "options": [
+          {
+            "fr": "Escargot",
+            "ar": "حلزون"
+          },
+          {
+            "fr": "Ver",
+            "ar": "دودة"
+          },
+          {
+            "fr": "Araignée",
+            "ar": "عنكبوت"
+          },
+          {
+            "fr": "Fourmi",
+            "ar": "نملة"
+          }
+        ],
+        "answer": 0
       }
     ],
     "ecriture": [
@@ -2222,6 +2553,246 @@
             "ar": "ينهي"
           }
         ]
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Hier, nous ___ (regarder) les étoiles.",
+        "q_ar": "أكمل : أمس، نحن ___ (يشاهد) النجوم.",
+        "options": [
+          {
+            "fr": "avons regardé",
+            "ar": "شاهدنا"
+          },
+          {
+            "fr": "regardons",
+            "ar": "نشاهد"
+          },
+          {
+            "fr": "regarderons",
+            "ar": "سنشاهد"
+          },
+          {
+            "fr": "regardions",
+            "ar": "كنا نشاهد"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Ce matin, elles ___ (partir) tôt pour le champ.",
+        "q_ar": "أكمل : هذا الصباح، هن ___ (يغادر) باكرًا إلى الحقل.",
+        "options": [
+          {
+            "fr": "sont parties",
+            "ar": "غادرن"
+          },
+          {
+            "fr": "partent",
+            "ar": "يغادرن"
+          },
+          {
+            "fr": "partiront",
+            "ar": "سيغادرن"
+          },
+          {
+            "fr": "partaient",
+            "ar": "كن يغادرن"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« — As-tu mangé ? demande la mère. — Oui, j'ai mangé du riz, répond l'enfant. » Qu'a mangé l'enfant ?",
+        "q_ar": "« — هل أكلت؟ سألت الأم. — نعم، أكلتُ أرزًا، أجاب الطفل. » ماذا أكل الطفل ؟",
+        "options": [
+          {
+            "fr": "Du riz",
+            "ar": "أرزًا"
+          },
+          {
+            "fr": "Du mil",
+            "ar": "دخنًا"
+          },
+          {
+            "fr": "Une mangue",
+            "ar": "مانجو"
+          },
+          {
+            "fr": "Du poisson",
+            "ar": "سمكًا"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : L'an dernier, tu ___ (grandir) beaucoup.",
+        "q_ar": "أكمل : السنة الماضية، أنت ___ (يكبر) كثيرًا.",
+        "options": [
+          {
+            "fr": "as grandi",
+            "ar": "كبرتَ"
+          },
+          {
+            "fr": "grandis",
+            "ar": "تكبر"
+          },
+          {
+            "fr": "grandiras",
+            "ar": "ستكبر"
+          },
+          {
+            "fr": "grandissais",
+            "ar": "كنت تكبر"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« — Qu'as-tu appris aujourd'hui ? demande le père. — Les tables de multiplication, répond Moussa. » Qu'a appris Moussa ?",
+        "q_ar": "« — ماذا تعلمت اليوم؟ سأل الأب. — جداول الضرب، أجاب موسى. » ماذا تعلم موسى ؟",
+        "options": [
+          {
+            "fr": "Les tables de multiplication",
+            "ar": "جداول الضرب"
+          },
+          {
+            "fr": "La lecture",
+            "ar": "القراءة"
+          },
+          {
+            "fr": "Le chant",
+            "ar": "الغناء"
+          },
+          {
+            "fr": "La danse",
+            "ar": "الرقص"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Vous ___ (arriver) juste à temps.",
+        "q_ar": "أكمل : أنتم ___ (يصل) في الوقت المناسب.",
+        "options": [
+          {
+            "fr": "êtes arrivés",
+            "ar": "وصلتم"
+          },
+          {
+            "fr": "arrivez",
+            "ar": "تصلون"
+          },
+          {
+            "fr": "arriverez",
+            "ar": "ستصلون"
+          },
+          {
+            "fr": "arriviez",
+            "ar": "كنتم تصلون"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« — Pourquoi souris-tu ? demande Fatimé. — J'ai réussi mon examen, répond Moussa. » Pourquoi Moussa sourit-il ?",
+        "q_ar": "« — لماذا تبتسم؟ سألت فاطمة. — نجحت في امتحاني، أجاب موسى. » لماذا يبتسم موسى ؟",
+        "options": [
+          {
+            "fr": "Il a réussi son examen",
+            "ar": "نجح في امتحانه"
+          },
+          {
+            "fr": "Il a gagné de l'argent",
+            "ar": "ربح مالاً"
+          },
+          {
+            "fr": "Il a mangé une mangue",
+            "ar": "أكل مانجو"
+          },
+          {
+            "fr": "Il a vu un ami",
+            "ar": "رأى صديقًا"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Ce week-end, ils ___ (visiter) leurs grands-parents.",
+        "q_ar": "أكمل : نهاية هذا الأسبوع، هم ___ (يزور) أجدادهم.",
+        "options": [
+          {
+            "fr": "ont visité",
+            "ar": "زاروا"
+          },
+          {
+            "fr": "visitent",
+            "ar": "يزورون"
+          },
+          {
+            "fr": "visiteront",
+            "ar": "سيزورون"
+          },
+          {
+            "fr": "visitaient",
+            "ar": "كانوا يزورون"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« — As-tu perdu quelque chose ? demande le maître. — Oui, mon cahier, répond l'élève. » Qu'a perdu l'élève ?",
+        "q_ar": "« — هل فقدت شيئًا؟ سأل المعلم. — نعم، دفتري، أجاب التلميذ. » ماذا فقد التلميذ ؟",
+        "options": [
+          {
+            "fr": "Son cahier",
+            "ar": "دفتره"
+          },
+          {
+            "fr": "Son crayon",
+            "ar": "قلمه"
+          },
+          {
+            "fr": "Son livre",
+            "ar": "كتابه"
+          },
+          {
+            "fr": "Son ballon",
+            "ar": "كرته"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Complète : Ce matin-là, il ___ (pleuvoir) très fort.",
+        "q_ar": "أكمل : في ذلك الصباح، ___ (يمطر) بغزارة.",
+        "options": [
+          {
+            "fr": "a plu",
+            "ar": "أمطرت"
+          },
+          {
+            "fr": "pleut",
+            "ar": "تمطر"
+          },
+          {
+            "fr": "pleuvra",
+            "ar": "ستمطر"
+          },
+          {
+            "fr": "pleuvait",
+            "ar": "كانت تمطر"
+          }
+        ],
+        "answer": 0
       }
     ],
     "calcul": [
@@ -2672,6 +3243,262 @@
             "ar": "يربح"
           }
         ]
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un fermier récolte 40 kilos de mil, puis en achète 15 de plus. Combien a-t-il en tout ?",
+        "q_ar": "حصد فلاح 40 كيلوغرامًا من الدخن، ثم اشترى 15 أخرى. كم أصبح لديه بالمجموع ؟",
+        "options": [
+          {
+            "fr": "55",
+            "ar": "55"
+          },
+          {
+            "fr": "50",
+            "ar": "50"
+          },
+          {
+            "fr": "25",
+            "ar": "25"
+          },
+          {
+            "fr": "60",
+            "ar": "60"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Fatimé a 6 sacs de 5 dattes, elle en donne 10. Combien lui en reste-t-il ?",
+        "q_ar": "عند فاطمة 6 أكياس بها 5 تمرات، أعطت 10. كم تبقى لها ؟",
+        "options": [
+          {
+            "fr": "20",
+            "ar": "20"
+          },
+          {
+            "fr": "30",
+            "ar": "30"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "40",
+            "ar": "40"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un troupeau de 8 zébus double, puis 6 sont vendus. Combien reste-t-il ?",
+        "q_ar": "تضاعف قطيع من 8 أبقار، ثم بيع 6. كم تبقى ؟",
+        "options": [
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "16",
+            "ar": "16"
+          },
+          {
+            "fr": "2",
+            "ar": "2"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Moussa a 30 francs, il en gagne 20 de plus, puis dépense 15. Combien lui reste-t-il ?",
+        "q_ar": "عند موسى 30 فرنكًا، ربح 20 أخرى، ثم أنفق 15. كم تبقى له ؟",
+        "options": [
+          {
+            "fr": "35",
+            "ar": "35"
+          },
+          {
+            "fr": "50",
+            "ar": "50"
+          },
+          {
+            "fr": "15",
+            "ar": "15"
+          },
+          {
+            "fr": "65",
+            "ar": "65"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un berger a 4 enclos de 9 chèvres, il en vend 14. Combien lui en reste-t-il ?",
+        "q_ar": "عند الراعي 4 حظائر بها 9 عنزات، باع 14. كم تبقى له ؟",
+        "options": [
+          {
+            "fr": "22",
+            "ar": "22"
+          },
+          {
+            "fr": "36",
+            "ar": "36"
+          },
+          {
+            "fr": "14",
+            "ar": "14"
+          },
+          {
+            "fr": "50",
+            "ar": "50"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Aïcha a 5 paniers de 8 mangues, elle en mange 12. Combien lui en reste-t-il ?",
+        "q_ar": "عند عائشة 5 سلال بها 8 مانجوهات، أكلت 12. كم تبقى لها ؟",
+        "options": [
+          {
+            "fr": "28",
+            "ar": "28"
+          },
+          {
+            "fr": "40",
+            "ar": "40"
+          },
+          {
+            "fr": "12",
+            "ar": "12"
+          },
+          {
+            "fr": "52",
+            "ar": "52"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un marchand a 7 caisses de 7 œufs, il en vend 30. Combien d'œufs lui reste-t-il ?",
+        "q_ar": "عند تاجر 7 صناديق بها 7 بيضات، باع 30. كم بيضة تبقى له ؟",
+        "options": [
+          {
+            "fr": "19",
+            "ar": "19"
+          },
+          {
+            "fr": "49",
+            "ar": "49"
+          },
+          {
+            "fr": "30",
+            "ar": "30"
+          },
+          {
+            "fr": "79",
+            "ar": "79"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un pêcheur attrape 50 poissons, il en donne le quart. Combien en a-t-il donné ?",
+        "q_ar": "اصطاد صياد 50 سمكة، أعطى الربع منها. كم أعطى ؟",
+        "options": [
+          {
+            "fr": "12 ou 13",
+            "ar": "12 أو 13"
+          },
+          {
+            "fr": "25",
+            "ar": "25"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Moussa a 9 sacs de 4 kilos, il en utilise 20 kilos. Combien lui reste-t-il ?",
+        "q_ar": "عند موسى 9 أكياس بها 4 كيلوغرامات، استخدم 20 كيلوغرامًا. كم تبقى له ؟",
+        "options": [
+          {
+            "fr": "16",
+            "ar": "16"
+          },
+          {
+            "fr": "36",
+            "ar": "36"
+          },
+          {
+            "fr": "20",
+            "ar": "20"
+          },
+          {
+            "fr": "56",
+            "ar": "56"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un vendeur double 15 mangues, puis en vend 20. Combien lui en reste-t-il ?",
+        "q_ar": "ضاعف بائع 15 مانجو، ثم باع 20. كم تبقى له ؟",
+        "options": [
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "30",
+            "ar": "30"
+          },
+          {
+            "fr": "50",
+            "ar": "50"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Fatimé a 3 sacs de 9 dattes, elle en achète 2 sacs de 5 de plus. Combien de dattes en tout ?",
+        "q_ar": "عند فاطمة 3 أكياس بها 9 تمرات، اشترت كيسين بهما 5 لكل واحد. كم تمرة بالمجموع ؟",
+        "options": [
+          {
+            "fr": "37",
+            "ar": "37"
+          },
+          {
+            "fr": "27",
+            "ar": "27"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "47",
+            "ar": "47"
+          }
+        ],
+        "answer": 0
       }
     ],
     "langage": [
@@ -2809,6 +3636,75 @@
           {
             "fr": "L'abeille butine les fleurs.",
             "ar": "تجمع النحلة رحيق الزهور."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐢🌊",
+        "options": [
+          {
+            "fr": "La tortue nage lentement dans l'eau.",
+            "ar": "تسبح السلحفاة ببطء في الماء."
+          },
+          {
+            "fr": "Le poisson nage vite dans le fleuve.",
+            "ar": "تسبح السمكة بسرعة في النهر."
+          },
+          {
+            "fr": "L'oiseau vole haut dans le ciel.",
+            "ar": "يطير العصفور عاليًا في السماء."
+          },
+          {
+            "fr": "Le crocodile dort sur le sable.",
+            "ar": "ينام التمساح على الرمل."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🦔🍂",
+        "options": [
+          {
+            "fr": "Le hérisson se cache sous les feuilles.",
+            "ar": "يختبئ القنفذ تحت الأوراق."
+          },
+          {
+            "fr": "L'écureuil grimpe à l'arbre.",
+            "ar": "يتسلق السنجاب الشجرة."
+          },
+          {
+            "fr": "Le lapin creuse un terrier.",
+            "ar": "يحفر الأرنب جحرًا."
+          },
+          {
+            "fr": "L'oiseau construit un nid.",
+            "ar": "يبني العصفور عشًا."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐸🌧️",
+        "options": [
+          {
+            "fr": "La grenouille chante quand il pleut.",
+            "ar": "تغني الضفدعة عندما يهطل المطر."
+          },
+          {
+            "fr": "Le chat dort quand il fait chaud.",
+            "ar": "تنام القطة عندما يكون الجو حارًا."
+          },
+          {
+            "fr": "L'oiseau vole quand il fait beau.",
+            "ar": "يطير العصفور عندما يكون الجو جميلاً."
+          },
+          {
+            "fr": "Le poisson nage toujours.",
+            "ar": "تسبح السمكة دائمًا."
           }
         ],
         "answer": 0
