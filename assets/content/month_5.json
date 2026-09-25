@@ -690,6 +690,30 @@
             "ar": "يقفز"
           }
         ]
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« Le petit poisson argenté nage vite dans l'eau claire. » Comment nage le poisson ?",
+        "q_ar": "« السمكة الصغيرة الفضية تسبح بسرعة في الماء الصافي. » كيف تسبح السمكة ؟",
+        "options": [
+          {
+            "fr": "Vite",
+            "ar": "بسرعة"
+          },
+          {
+            "fr": "Lentement",
+            "ar": "ببطء"
+          },
+          {
+            "fr": "En dormant",
+            "ar": "وهي نائمة"
+          },
+          {
+            "fr": "En sautant",
+            "ar": "وهي تقفز"
+          }
+        ],
+        "answer": 0
       }
     ],
     "calcul": [
@@ -1311,6 +1335,102 @@
             "ar": "وسط"
           }
         ]
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel nombre est plus grand : 27 ou 31 ?",
+        "q_ar": "أي عدد أكبر : 27 أم 31 ؟",
+        "options": [
+          {
+            "fr": "31",
+            "ar": "31"
+          },
+          {
+            "fr": "27",
+            "ar": "27"
+          },
+          {
+            "fr": "Égaux",
+            "ar": "متساويان"
+          },
+          {
+            "fr": "0",
+            "ar": "0"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Range du plus petit au plus grand : 14, 6, 25. Quel est le plus petit ?",
+        "q_ar": "رتب من الأصغر إلى الأكبر : 14، 6، 25. ما هو الأصغر ؟",
+        "options": [
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "14",
+            "ar": "14"
+          },
+          {
+            "fr": "25",
+            "ar": "25"
+          },
+          {
+            "fr": "0",
+            "ar": "0"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel nombre est plus petit : 22 ou 19 ?",
+        "q_ar": "أي عدد أصغر : 22 أم 19 ؟",
+        "options": [
+          {
+            "fr": "19",
+            "ar": "19"
+          },
+          {
+            "fr": "22",
+            "ar": "22"
+          },
+          {
+            "fr": "Égaux",
+            "ar": "متساويان"
+          },
+          {
+            "fr": "0",
+            "ar": "0"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un berger a 18 zébus, un autre en a 29. Qui en a le plus ?",
+        "q_ar": "عند راعٍ 18 ثورًا، وعند آخر 29. من لديه أكثر ؟",
+        "options": [
+          {
+            "fr": "Le deuxième",
+            "ar": "الثاني"
+          },
+          {
+            "fr": "Le premier",
+            "ar": "الأول"
+          },
+          {
+            "fr": "Égal",
+            "ar": "متساويان"
+          },
+          {
+            "fr": "Aucun",
+            "ar": "لا أحد"
+          }
+        ],
+        "answer": 0
       }
     ],
     "langage": [
@@ -2424,6 +2544,222 @@
             "ar": "من"
           }
         ]
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« — Veux-tu du thé ? demande le père. — Oui merci, répond Moussa. » Que demande le père ?",
+        "q_ar": "« — هل تريد شايًا؟ سأل الأب. — نعم شكرًا، أجاب موسى. » ماذا سأل الأب ؟",
+        "options": [
+          {
+            "fr": "Si Moussa veut du thé",
+            "ar": "إن كان موسى يريد شايًا"
+          },
+          {
+            "fr": "L'heure",
+            "ar": "الوقت"
+          },
+          {
+            "fr": "Le nom de Moussa",
+            "ar": "اسم موسى"
+          },
+          {
+            "fr": "Où va Moussa",
+            "ar": "أين يذهب موسى"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« — As-tu fini ton travail ? demande le maître. — Presque, répond l'élève. » Qu'a presque fini l'élève ?",
+        "q_ar": "« — هل أنهيت عملك؟ سأل المعلم. — تقريبًا، أجاب التلميذ. » ماذا أنهى التلميذ تقريبًا ؟",
+        "options": [
+          {
+            "fr": "Son travail",
+            "ar": "عمله"
+          },
+          {
+            "fr": "Son repas",
+            "ar": "وجبته"
+          },
+          {
+            "fr": "Son jeu",
+            "ar": "لعبه"
+          },
+          {
+            "fr": "Son voyage",
+            "ar": "رحلته"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« — Où as-tu trouvé ce ballon ? demande Fatimé. — Au marché, répond Moussa. » Où a-t-il trouvé le ballon ?",
+        "q_ar": "« — أين وجدت هذه الكرة؟ سألت فاطمة. — في السوق، أجاب موسى. » أين وجد الكرة ؟",
+        "options": [
+          {
+            "fr": "Au marché",
+            "ar": "في السوق"
+          },
+          {
+            "fr": "À l'école",
+            "ar": "في المدرسة"
+          },
+          {
+            "fr": "Au fleuve",
+            "ar": "عند النهر"
+          },
+          {
+            "fr": "Chez le griot",
+            "ar": "عند الراوي"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« — Peux-tu m'aider ? demande Aïcha. — Bien sûr, répond son frère. » Que demande Aïcha ?",
+        "q_ar": "« — هل يمكنك مساعدتي؟ سألت عائشة. — بالطبع، أجاب أخوها. » ماذا تطلب عائشة ؟",
+        "options": [
+          {
+            "fr": "De l'aide",
+            "ar": "المساعدة"
+          },
+          {
+            "fr": "De l'argent",
+            "ar": "المال"
+          },
+          {
+            "fr": "De la nourriture",
+            "ar": "الطعام"
+          },
+          {
+            "fr": "Un livre",
+            "ar": "كتابًا"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« — As-tu peur du noir ? demande la mère. — Un peu, répond l'enfant. » Que ressent l'enfant ?",
+        "q_ar": "« — هل تخاف من الظلام؟ سألت الأم. — قليلاً، أجاب الطفل. » ماذا يشعر الطفل ؟",
+        "options": [
+          {
+            "fr": "Un peu de peur",
+            "ar": "قليلاً من الخوف"
+          },
+          {
+            "fr": "Beaucoup de joie",
+            "ar": "الكثير من الفرح"
+          },
+          {
+            "fr": "De la faim",
+            "ar": "الجوع"
+          },
+          {
+            "fr": "De la fatigue",
+            "ar": "التعب"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« — Combien coûte cette mangue ? demande le client. — 25 francs, répond le vendeur. » Combien coûte la mangue ?",
+        "q_ar": "« — كم ثمن هذه المانجو؟ سأل الزبون. — 25 فرنكًا، أجاب البائع. » كم ثمن المانجو ؟",
+        "options": [
+          {
+            "fr": "25 francs",
+            "ar": "25 فرنكًا"
+          },
+          {
+            "fr": "10 francs",
+            "ar": "10 فرنكات"
+          },
+          {
+            "fr": "50 francs",
+            "ar": "50 فرنكًا"
+          },
+          {
+            "fr": "100 francs",
+            "ar": "100 فرنك"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« — Quand rentres-tu ? demande la mère. — Avant la nuit, répond Moussa. » Quand Moussa rentre-t-il ?",
+        "q_ar": "« — متى تعود؟ سألت الأم. — قبل الليل، أجاب موسى. » متى يعود موسى ؟",
+        "options": [
+          {
+            "fr": "Avant la nuit",
+            "ar": "قبل الليل"
+          },
+          {
+            "fr": "Le matin",
+            "ar": "في الصباح"
+          },
+          {
+            "fr": "Dans une semaine",
+            "ar": "بعد أسبوع"
+          },
+          {
+            "fr": "Jamais",
+            "ar": "أبدًا"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« — Qui a cassé la jarre ? demande le père. — C'était moi, répond Fatimé. » Qui a cassé la jarre ?",
+        "q_ar": "« — من كسر الجرة؟ سأل الأب. — أنا، أجابت فاطمة. » من كسر الجرة ؟",
+        "options": [
+          {
+            "fr": "Fatimé",
+            "ar": "فاطمة"
+          },
+          {
+            "fr": "Moussa",
+            "ar": "موسى"
+          },
+          {
+            "fr": "Aïcha",
+            "ar": "عائشة"
+          },
+          {
+            "fr": "Le voisin",
+            "ar": "الجار"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "« — Aimes-tu l'école ? demande le griot. — Oui, beaucoup, répond l'enfant. » Que ressent l'enfant pour l'école ?",
+        "q_ar": "« — هل تحب المدرسة؟ سأل الراوي. — نعم كثيرًا، أجاب الطفل. » ماذا يشعر الطفل تجاه المدرسة ؟",
+        "options": [
+          {
+            "fr": "Il l'aime beaucoup",
+            "ar": "يحبها كثيرًا"
+          },
+          {
+            "fr": "Il la déteste",
+            "ar": "يكرهها"
+          },
+          {
+            "fr": "Il a peur d'elle",
+            "ar": "يخافها"
+          },
+          {
+            "fr": "Il l'ignore",
+            "ar": "يتجاهلها"
+          }
+        ],
+        "answer": 0
       }
     ],
     "calcul": [
@@ -3069,6 +3405,78 @@
             "ar": "يملأ"
           }
         ]
+      },
+      {
+        "type": "qcm",
+        "q_fr": "3 x 6 = ?",
+        "q_ar": "3 x 6 = ؟",
+        "options": [
+          {
+            "fr": "18",
+            "ar": "18"
+          },
+          {
+            "fr": "17",
+            "ar": "17"
+          },
+          {
+            "fr": "19",
+            "ar": "19"
+          },
+          {
+            "fr": "9",
+            "ar": "9"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "4 x 6 = ?",
+        "q_ar": "4 x 6 = ؟",
+        "options": [
+          {
+            "fr": "24",
+            "ar": "24"
+          },
+          {
+            "fr": "23",
+            "ar": "23"
+          },
+          {
+            "fr": "25",
+            "ar": "25"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Un berger a 3 troupeaux de 7 chèvres chacun. Combien de chèvres en tout ?",
+        "q_ar": "عند الراعي 3 قطعان بها 7 عنزات لكل واحد. كم عنزة بالمجموع ؟",
+        "options": [
+          {
+            "fr": "21",
+            "ar": "21"
+          },
+          {
+            "fr": "20",
+            "ar": "20"
+          },
+          {
+            "fr": "22",
+            "ar": "22"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          }
+        ],
+        "answer": 0
       }
     ],
     "langage": [
@@ -3252,6 +3660,52 @@
           {
             "fr": "On porte de l'eau pour boire.",
             "ar": "نحمل الماء لنشرب."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐫🥭",
+        "options": [
+          {
+            "fr": "Le chameau transporte des mangues au marché.",
+            "ar": "ينقل الجمل المانجو إلى السوق."
+          },
+          {
+            "fr": "Le poisson nage près du bateau.",
+            "ar": "تسبح السمكة قرب القارب."
+          },
+          {
+            "fr": "L'oiseau chante sur la branche.",
+            "ar": "يغني العصفور على الغصن."
+          },
+          {
+            "fr": "La chèvre dort dans l'enclos.",
+            "ar": "تنام العنزة في الحظيرة."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🛖👨‍👩‍👧",
+        "options": [
+          {
+            "fr": "La famille vit dans une case.",
+            "ar": "تعيش العائلة في كوخ."
+          },
+          {
+            "fr": "Les élèves étudient à l'école.",
+            "ar": "يدرس التلاميذ في المدرسة."
+          },
+          {
+            "fr": "Les marchands vendent au marché.",
+            "ar": "يبيع التجار في السوق."
+          },
+          {
+            "fr": "Les pêcheurs pêchent au fleuve.",
+            "ar": "يصطاد الصيادون في النهر."
           }
         ],
         "answer": 0
