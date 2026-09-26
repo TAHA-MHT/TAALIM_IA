@@ -23,6 +23,8 @@ flutter:
   assets:
     - assets/content/
     - assets/icon/
+    - assets/images/cp1_3d.png
+    - assets/images/cp2_3d.png
 
 flutter_launcher_icons:
   android: true
