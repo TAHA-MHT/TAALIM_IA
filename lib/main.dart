@@ -18,7 +18,7 @@ Future<void> speakBilingual(String fr, String ar) async {
     await _tts.setLanguage('ar');
     await _tts.speak(ar);
   } catch (_) {
-    // Le moteur TTS ou la langue peut ne pas être disponible sur l'appareil.
+    // Le moteur TTS ou la langue peut ne pas être disponible sur l'appareil — on ignore silencieusement.
   }
 }
 
@@ -57,8 +57,8 @@ class Exercise {
   final String? instructionAr;
   final List<MatchPair>? pairs; // for 'match'
   final List<BiText>? langPairs; // for 'match_lang' (fr <-> ar)
-  final String? traceGlyph; // for 'trace'
-  final List<List<double>>? traceTemplate; // for 'trace'
+  final String? traceGlyph; // for 'trace' — le caractère à afficher en guide
+  final List<List<double>>? traceTemplate; // for 'trace' — points de référence normalisés (0-100)
 
   Exercise({
     required this.type,
@@ -108,6 +108,7 @@ class Exercise {
         traceTemplate: (j['template'] as List).map<List<double>>((p) => [(p[0] as num).toDouble(), (p[1] as num).toDouble()]).toList(),
       );
     } else {
+      // match_lang
       return Exercise(
         type: type,
         instructionFr: j['instruction_fr'],
@@ -125,7 +126,9 @@ class Exercise {
 }
 
 /// ---------------------------------------------------------------
-/// RECONNAISSANCE DE TRACÉ
+/// RECONNAISSANCE DE TRACÉ (algorithme géométrique simple, hors-ligne)
+/// Compare la forme dessinée à un modèle de référence après normalisation
+/// de la taille et de la position (pas de rotation — l'orientation compte).
 /// ---------------------------------------------------------------
 class TraceRecognizer {
   static List<List<double>> resample(List<List<double>> points, int n) {
@@ -187,6 +190,7 @@ class TraceRecognizer {
     return points.map((p) => [(p[0] - minX) / scale, (p[1] - minY) / scale]).toList();
   }
 
+  /// Retourne une distance moyenne normalisée (0 = identique, plus haut = plus différent).
   static double compare(List<List<double>> drawn, List<List<double>> template) {
     const n = 32;
     final a = normalize(resample(drawn, n));
@@ -201,6 +205,7 @@ class TraceRecognizer {
   }
 }
 
+/// content[month][level][subject] = List<Exercise>
 Map<int, Map<String, Map<String, List<Exercise>>>> allContent = {};
 
 Future<void> loadAllContent() async {
@@ -253,7 +258,7 @@ Future<DateTime> getMonthUnlockDate(int month) async {
 }
 
 /// ---------------------------------------------------------------
-/// BILINGUAL UI STRINGS
+/// BILINGUAL UI STRINGS (static labels shown FR + AR together)
 /// ---------------------------------------------------------------
 class B {
   static const homeTitleFr = "Apprendre en s'amusant";
@@ -308,6 +313,7 @@ class B {
   static String resultText(int s, int t) => "Tu as obtenu $s sur $t !  •  لقد حصلت على $s من $t!";
 }
 
+/// Renders a French line and an Arabic line together, stacked.
 class BiLabel extends StatelessWidget {
   final String fr;
   final String ar;
@@ -345,6 +351,7 @@ class BiLabel extends StatelessWidget {
   }
 }
 
+/// Bouton haut-parleur : lit le texte à voix haute en français puis en arabe.
 class SpeakerButton extends StatelessWidget {
   final String fr;
   final String ar;
@@ -371,7 +378,7 @@ class SpeakerButton extends StatelessWidget {
 }
 
 /// ---------------------------------------------------------------
-/// ÉCRITURE
+/// ÉCRITURE — zone de tracé au doigt avec reconnaissance simple
 /// ---------------------------------------------------------------
 class InkStrokePainter extends CustomPainter {
   final List<Offset> points;
@@ -417,13 +424,14 @@ class _TraceExerciseState extends State<TraceExercise> {
   }
 
   void _validate() {
-    if (_points.length < 4 || _boxSize == null) {
+    if (_points.length < 6 || _boxSize == null) {
       setState(() => _feedback = 'trop_court');
       return;
     }
     final drawn = _points.map((p) => [p.dx, p.dy]).toList();
     final dist = TraceRecognizer.compare(drawn, widget.exercise.traceTemplate!);
-    const threshold = 0.045;
+    // Seuil empirique — à ajuster après tests réels sur tablette.
+    const threshold = 0.075;
     if (dist < threshold) {
       setState(() {
         _success = true;
@@ -535,23 +543,22 @@ class AppColors {
   static const langageSoft = Color(0xFFEAD9FA);
   static const ecriture = Color(0xFF4C956C);
   static const ecritureSoft = Color(0xFFD8EFE1);
-  
-  static const cp1 = Color(0xFF2196F3);
-  static const cp2 = Color(0xFFFFC107);
-  
+  static const cp1 = Color(0xFFE84855);
+  static const cp2 = Color(0xFF7A5CFA);
   static const success = Color(0xFF2EC4B6);
   static const error = Color(0xFFE84855);
   static const locked = Color(0xFFB7C3DA);
 
+  // Couleurs du drapeau tchadien
   static const chadBlue = Color(0xFF002664);
   static const chadYellow = Color(0xFFFECB00);
   static const chadRed = Color(0xFFC60C30);
   static const chadCycle = [chadBlue, chadYellow, chadRed];
-  static const chadTextOn = [Colors.white, ink, Colors.white];
+  static const chadTextOn = [Colors.white, ink, Colors.white]; // texte lisible selon le fond
 }
 
 /// ---------------------------------------------------------------
-/// SUBJECTS
+/// SUBJECTS (matières) — liste extensible
 /// ---------------------------------------------------------------
 class Subject {
   final String key;
@@ -618,7 +625,7 @@ class _SplashLoaderState extends State<SplashLoader> {
 
   Future<void> _init() async {
     await loadAllContent();
-    await getUnlockedMonth();
+    await getUnlockedMonth(); // ensures start date is recorded
     if (mounted) {
       Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => const HomeScreen()));
     }
@@ -634,7 +641,7 @@ class _SplashLoaderState extends State<SplashLoader> {
 }
 
 /// ---------------------------------------------------------------
-/// TOP BAR
+/// TOP BAR (shared, bilingual brand)
 /// ---------------------------------------------------------------
 class TopBar extends StatelessWidget {
   const TopBar({super.key});
@@ -676,7 +683,7 @@ class BackBtn extends StatelessWidget {
 }
 
 /// ---------------------------------------------------------------
-/// HOME SCREEN — LEVEL CARDS WITH 3D BACKGROUND IMAGES
+/// HOME SCREEN — pick level
 /// ---------------------------------------------------------------
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -701,13 +708,11 @@ class HomeScreen extends StatelessWidget {
                   Expanded(
                     child: _LevelCard(
                       color: AppColors.cp1,
-                      textColor: Colors.white,
-                      hintColor: Colors.white70,
+                      emoji: '🌱',
                       nameFr: B.cp1Fr,
                       nameAr: B.cp1Ar,
                       hintFr: B.cp1HintFr,
                       hintAr: B.cp1HintAr,
-                      imageAsset: 'assets/images/cp1_3d.png', // Image 3D Blocs ABC
                       onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const MonthScreen(level: 'cp1'))),
                     ),
                   ),
@@ -715,13 +720,11 @@ class HomeScreen extends StatelessWidget {
                   Expanded(
                     child: _LevelCard(
                       color: AppColors.cp2,
-                      textColor: AppColors.ink,
-                      hintColor: AppColors.inkSoft,
+                      emoji: '🌟',
                       nameFr: B.cp2Fr,
                       nameAr: B.cp2Ar,
                       hintFr: B.cp2HintFr,
                       hintAr: B.cp2HintAr,
-                      imageAsset: 'assets/images/cp2_3d.png', // Image 3D Carnet B+
                       onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const MonthScreen(level: 'cp2'))),
                     ),
                   ),
@@ -737,21 +740,17 @@ class HomeScreen extends StatelessWidget {
 
 class _LevelCard extends StatelessWidget {
   final Color color;
-  final Color textColor;
-  final Color hintColor;
+  final String emoji;
   final String nameFr, nameAr, hintFr, hintAr;
-  final String imageAsset;
   final VoidCallback onTap;
 
   const _LevelCard({
     required this.color,
-    required this.textColor,
-    required this.hintColor,
+    required this.emoji,
     required this.nameFr,
     required this.nameAr,
     required this.hintFr,
     required this.hintAr,
-    required this.imageAsset,
     required this.onTap,
   });
 
@@ -763,32 +762,15 @@ class _LevelCard extends StatelessWidget {
       child: InkWell(
         borderRadius: BorderRadius.circular(28),
         onTap: onTap,
-        child: ClipRRect(
-          borderRadius: BorderRadius.circular(28),
-          child: Stack(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 26, horizontal: 14),
+          child: Column(
             children: [
-              // Image 3D en arrière-plan avec opacité
-              Positioned.fill(
-                child: Opacity(
-                  opacity: 0.25,
-                  child: Image.asset(
-                    imageAsset,
-                    fit: BoxFit.cover,
-                    errorBuilder: (context, error, stackTrace) => const SizedBox(),
-                  ),
-                ),
-              ),
-              // Contenu textuel
-              Padding(
-                padding: const EdgeInsets.symmetric(vertical: 36, horizontal: 14),
-                child: Column(
-                  children: [
-                    BiLabel(fr: nameFr, ar: nameAr, frSize: 24, arSize: 20, color: textColor, align: TextAlign.center),
-                    const SizedBox(height: 6),
-                    BiLabel(fr: hintFr, ar: hintAr, frSize: 13, arSize: 12, weight: FontWeight.w600, color: hintColor, align: TextAlign.center),
-                  ],
-                ),
-              ),
+              Text(emoji, style: const TextStyle(fontSize: 38)),
+              const SizedBox(height: 10),
+              BiLabel(fr: nameFr, ar: nameAr, frSize: 22, arSize: 18, color: Colors.white, align: TextAlign.center),
+              const SizedBox(height: 4),
+              BiLabel(fr: hintFr, ar: hintAr, frSize: 13, arSize: 12, weight: FontWeight.w600, color: Colors.white70, align: TextAlign.center),
             ],
           ),
         ),
@@ -798,7 +780,7 @@ class _LevelCard extends StatelessWidget {
 }
 
 /// ---------------------------------------------------------------
-/// MONTH SCREEN
+/// MONTH SCREEN — pick month (locked/unlocked)
 /// ---------------------------------------------------------------
 class MonthScreen extends StatefulWidget {
   final String level;
@@ -1038,37 +1020,37 @@ class _SubjectCard extends StatelessWidget {
     return Opacity(
       opacity: dimmed ? 0.55 : 1.0,
       child: Material(
-        color: color,
+      color: color,
+      borderRadius: BorderRadius.circular(28),
+      child: InkWell(
         borderRadius: BorderRadius.circular(28),
-        child: InkWell(
-          borderRadius: BorderRadius.circular(28),
-          onTap: onTap,
-          child: Padding(
-            padding: const EdgeInsets.all(22),
-            child: Row(
-              children: [
-                Container(
-                  width: 56,
-                  height: 56,
-                  decoration: BoxDecoration(color: Colors.white.withValues(alpha: 0.6), borderRadius: BorderRadius.circular(16)),
-                  alignment: Alignment.center,
-                  child: Text(emoji, style: const TextStyle(fontSize: 34)),
+        onTap: onTap,
+        child: Padding(
+          padding: const EdgeInsets.all(22),
+          child: Row(
+            children: [
+              Container(
+                width: 56,
+                height: 56,
+                decoration: BoxDecoration(color: Colors.white.withValues(alpha: 0.6), borderRadius: BorderRadius.circular(16)),
+                alignment: Alignment.center,
+                child: Text(emoji, style: const TextStyle(fontSize: 34)),
+              ),
+              const SizedBox(width: 16),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    BiLabel(fr: nameFr, ar: nameAr, frSize: 19, arSize: 16),
+                    const SizedBox(height: 2),
+                    Text(bestText, style: const TextStyle(fontSize: 13, color: AppColors.inkSoft)),
+                  ],
                 ),
-                const SizedBox(width: 16),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      BiLabel(fr: nameFr, ar: nameAr, frSize: 19, arSize: 16),
-                      const SizedBox(height: 2),
-                      Text(bestText, style: const TextStyle(fontSize: 13, color: AppColors.inkSoft)),
-                    ],
-                  ),
-                ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
+      ),
       ),
     );
   }
@@ -1553,4 +1535,3 @@ class _ResultScreenState extends State<ResultScreen> {
     );
   }
 }
-
