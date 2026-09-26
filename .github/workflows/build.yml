@@ -1,22 +1,18 @@
-name: Build Android APK
+name: Release
 
 on:
   push:
-    branches: [ "main", "master" ]
-  pull_request:
-    branches: [ "main", "master" ]
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
   build-android:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - name: Set up Java
-        uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: 'temurin'
           java-version: '17'
@@ -24,16 +20,41 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.29.0' # Version stable, compatible Dart 3.7.2
+          flutter-version: '3.35.5'
+          channel: 'stable'
+          cache: false
 
-      - name: Get dependencies
-        run: flutter pub get
+      - name: Prepare keystore + key.properties
+        env:
+          KEYSTORE_BASE64: ${{ secrets.RELEASE_KEYSTORE_BASE64 }}
+          STORE_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_PASSWORD }}
+          KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS }}
+        run: |
+          mkdir -p "$RUNNER_WORKSPACE/environment"
+          echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_WORKSPACE/environment/android.keystore"
+          cat <<EOF > "$RUNNER_WORKSPACE/environment/key.properties"
+          storePassword=$STORE_PASSWORD
+          keyPassword=$KEY_PASSWORD
+          keyAlias=$KEY_ALIAS
+          storeFile=$RUNNER_WORKSPACE/environment/android.keystore
+          EOF
+
+      - name: Clean pub cache et reinstaller les dependances
+        run: |
+          flutter clean
+          flutter pub get
 
       - name: Build APK
-        run: flutter build apk --release
+        run: |
+          flutter build apk --release --verbose
 
-      - name: Upload APK
-        uses: actions/upload-artifact@v4
+      - name: Debug - list build outputs
+        run: find android/app/build -name "*.apk" 2>/dev/null || echo "Nothing found"
+
+      - uses: actions/upload-artifact@v5
         with:
-          name: app-release
-          path: build/app/outputs/flutter-apk/*.apk
+          name: android-apk
+          path: android/app/build/outputs/flutter-apk/app-release.apk
+          if-no-files-found: error
+          retention-days: 1
