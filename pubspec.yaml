@@ -4,7 +4,7 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.7.0
+  sdk: ^3.7.0 # Compatible avec Flutter 3.29.0
 
 dependencies:
   flutter:
@@ -15,7 +15,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^6.0.0
+  flutter_lints: ^5.0.0 # Rétrogradation pour compatibilité avec le SDK Dart 3.7.0
   flutter_launcher_icons: ^0.14.3
 
 flutter:
@@ -23,7 +23,7 @@ flutter:
   assets:
     - assets/content/
     - assets/icon/
-    - assets/images/
+    - assets/images/ # Déclaration générique pour toutes vos images 3D
 
 flutter_launcher_icons:
   android: true
