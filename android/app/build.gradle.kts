@@ -2,17 +2,21 @@ name: Build Android APK
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
   workflow_dispatch:
 
 jobs:
   build-android:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - uses: actions/setup-java@v5
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '17'
@@ -20,46 +24,21 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.32.0'
-          channel: 'stable'
-          cache: false
+          flutter-version: '3.35.5'
 
-      - name: Repair Android project structure
-        run: flutter create --platforms=android --org com.taalimia .
-
-      - name: Create key.properties
+      - name: Regenerate Android project
         run: |
-          cat > android/key.properties <<EOF2
-          storePassword=${{ secrets.KEYSTORE_PASSWORD }}
-          keyPassword=${{ secrets.KEY_PASSWORD }}
-          keyAlias=${{ secrets.KEY_ALIAS }}
-          storeFile=taalim-release.keystore
-          EOF2
+          rm -rf android
+          flutter create --platforms=android --org com.taalimia .
 
       - name: Get dependencies
         run: flutter pub get
 
-      - name: Generate app icons
-        run: dart run flutter_launcher_icons
-
       - name: Build APK
-        run: |
-          flutter build apk --release > build_log.txt 2>&1 || true
-          echo "----- ERROR SUMMARY -----"
-          grep -inE "FAILURE|error:|Exception|what went wrong" -A 5 build_log.txt || echo "No obvious error markers found, showing last 150 lines:"
-          tail -150 build_log.txt
+        run: flutter build apk --release
 
-      - name: Upload full build log
-        if: always()
-        uses: actions/upload-artifact@v5
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
         with:
-          name: full-build-log
-          path: build_log.txt
-          retention-days: 1
-
-      - uses: actions/upload-artifact@v5
-        with:
-          name: android-apk
-          path: build/app/outputs/flutter-apk/app-release.apk
-          if-no-files-found: error
-          retention-days: 1
+          name: app-release
+          path: build/app/outputs/flutter-apk/*.apk
