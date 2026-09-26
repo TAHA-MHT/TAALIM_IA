@@ -21,7 +21,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <!-- Balise requise pour l'embedding v2 de Flutter -->
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
