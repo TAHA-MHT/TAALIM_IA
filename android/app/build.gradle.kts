@@ -1,58 +1,65 @@
-import java.util.Properties
-import java.io.FileInputStream
+name: Build Android APK
 
-val keystorePropertiesFile = rootProject.file("key.properties")
-val keystoreProperties = Properties()
-if (keystorePropertiesFile.exists()) {
-    keystoreProperties.load(FileInputStream(keystorePropertiesFile))
-}
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
-plugins {
-    id("com.android.application")
-    id("kotlin-android")
-    id("dev.flutter.flutter-gradle-plugin")
-}
+jobs:
+  build-android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
 
-android {
-    namespace = "com.taalimia.taalim_ia"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+      - uses: actions/setup-java@v5
+        with:
+          distribution: 'temurin'
+          java-version: '17'
 
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
-    }
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.32.0'
+          channel: 'stable'
+          cache: false
 
-    kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_17.toString()
-    }
+      - name: Repair Android project structure
+        run: flutter create --platforms=android --org com.taalimia .
 
-    defaultConfig {
-        applicationId = "com.taalimia.taalim_ia"
-        minSdk = 24
-        targetSdk = flutter.targetSdkVersion
-        versionCode = flutter.versionCode
-        versionName = flutter.versionName
-    }
+      - name: Create key.properties
+        run: |
+          cat > android/key.properties <<EOF2
+          storePassword=${{ secrets.KEYSTORE_PASSWORD }}
+          keyPassword=${{ secrets.KEY_PASSWORD }}
+          keyAlias=${{ secrets.KEY_ALIAS }}
+          storeFile=taalim-release.keystore
+          EOF2
 
-    signingConfigs {
-        create("release") {
-            if (keystorePropertiesFile.exists()) {
-                keyAlias = keystoreProperties["keyAlias"] as String
-                keyPassword = keystoreProperties["keyPassword"] as String
-                storeFile = file(keystoreProperties["storeFile"] as String)
-                storePassword = keystoreProperties["storePassword"] as String
-            }
-        }
-    }
+      - name: Get dependencies
+        run: flutter pub get
 
-    buildTypes {
-        release {
-            signingConfig = signingConfigs.getByName("release")
-        }
-    }
-}
+      - name: Generate app icons
+        run: dart run flutter_launcher_icons
 
-flutter {
-    source = "../.."
-}
+      - name: Build APK
+        run: |
+          flutter build apk --release > build_log.txt 2>&1 || true
+          echo "----- ERROR SUMMARY -----"
+          grep -inE "FAILURE|error:|Exception|what went wrong" -A 5 build_log.txt || echo "No obvious error markers found, showing last 150 lines:"
+          tail -150 build_log.txt
+
+      - name: Upload full build log
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: full-build-log
+          path: build_log.txt
+          retention-days: 1
+
+      - uses: actions/upload-artifact@v5
+        with:
+          name: android-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
+          if-no-files-found: error
+          retention-days: 1
