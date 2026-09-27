@@ -758,7 +758,10 @@ class _LevelCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const textShadow = [Shadow(color: Colors.black54, blurRadius: 8, offset: Offset(0, 2))];
+    const textShadow = [
+      Shadow(color: Colors.white, blurRadius: 10),
+      Shadow(color: Colors.white, blurRadius: 4),
+    ];
     return Material(
       color: Colors.white,
       borderRadius: BorderRadius.circular(28),
@@ -779,9 +782,9 @@ class _LevelCard extends StatelessWidget {
               mainAxisSize: MainAxisSize.max,
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                BiLabel(fr: nameFr, ar: nameAr, frSize: 22, arSize: 18, color: Colors.white, align: TextAlign.center, shadows: textShadow),
+                BiLabel(fr: nameFr, ar: nameAr, frSize: 22, arSize: 18, color: AppColors.ink, align: TextAlign.center, shadows: textShadow),
                 const SizedBox(height: 4),
-                BiLabel(fr: hintFr, ar: hintAr, frSize: 13, arSize: 12, weight: FontWeight.w600, color: Colors.white, align: TextAlign.center, shadows: textShadow),
+                BiLabel(fr: hintFr, ar: hintAr, frSize: 13, arSize: 12, weight: FontWeight.w600, color: AppColors.ink, align: TextAlign.center, shadows: textShadow),
               ],
             ),
           ),
