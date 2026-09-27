@@ -775,7 +775,7 @@ class _LevelCard extends StatelessWidget {
               gradient: LinearGradient(
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
-                colors: [color.withValues(alpha: 0.05), color.withValues(alpha: 0.78)],
+                colors: [Colors.black.withValues(alpha: 0.02), Colors.black.withValues(alpha: 0.60)],
               ),
             ),
             padding: const EdgeInsets.symmetric(vertical: 18, horizontal: 14),
