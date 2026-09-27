@@ -565,6 +565,7 @@ class AppColors {
 class Subject {
   final String key;
   final String emoji;
+  final String imagePath;
   final String nameFr;
   final String nameAr;
   final Color color;
@@ -574,6 +575,7 @@ class Subject {
   const Subject({
     required this.key,
     required this.emoji,
+    required this.imagePath,
     required this.nameFr,
     required this.nameAr,
     required this.color,
@@ -583,10 +585,10 @@ class Subject {
 }
 
 const List<Subject> subjects = [
-  Subject(key: 'lecture', emoji: '🔤', nameFr: 'Lecture', nameAr: 'القراءة', color: AppColors.lecture, colorSoft: AppColors.lectureSoft),
-  Subject(key: 'calcul', emoji: '🔢', nameFr: 'Calcul', nameAr: 'الحساب', color: AppColors.calcul, colorSoft: AppColors.calculSoft),
-  Subject(key: 'langage', emoji: '🖼️', nameFr: 'Langage & images', nameAr: 'اللغة والصور', color: AppColors.langage, colorSoft: AppColors.langageSoft),
-  Subject(key: 'ecriture', emoji: '✏️', nameFr: 'Écriture', nameAr: 'الكتابة', color: AppColors.ecriture, colorSoft: AppColors.ecritureSoft),
+  Subject(key: 'lecture', emoji: '🔤', imagePath: 'assets/icon/subj_lecture.jpg', nameFr: 'Lecture', nameAr: 'القراءة', color: AppColors.lecture, colorSoft: AppColors.lectureSoft),
+  Subject(key: 'calcul', emoji: '🔢', imagePath: 'assets/icon/subj_calcul.jpg', nameFr: 'Calcul', nameAr: 'الحساب', color: AppColors.calcul, colorSoft: AppColors.calculSoft),
+  Subject(key: 'langage', emoji: '🖼️', imagePath: 'assets/icon/subj_langage.jpg', nameFr: 'Langage & images', nameAr: 'اللغة والصور', color: AppColors.langage, colorSoft: AppColors.langageSoft),
+  Subject(key: 'ecriture', emoji: '✏️', imagePath: 'assets/icon/subj_ecriture.jpg', nameFr: 'Écriture', nameAr: 'الكتابة', color: AppColors.ecriture, colorSoft: AppColors.ecritureSoft),
 ];
 
 Subject subjectByKey(String key) => subjects.firstWhere((s) => s.key == key, orElse: () => subjects.first);
@@ -987,7 +989,7 @@ class _SubjectScreenState extends State<SubjectScreen> {
                     final best = bestScores[s.key];
                     return _SubjectCard(
                       color: s.colorSoft,
-                      emoji: s.emoji,
+                      imagePath: s.imagePath,
                       nameFr: s.nameFr,
                       nameAr: s.nameAr,
                       bestText: s.available ? (best != null ? '${B.bestFr}$best' : B.noScoreFr) : B.comingSoonFr,
@@ -1027,12 +1029,12 @@ class _SubjectScreenState extends State<SubjectScreen> {
 
 class _SubjectCard extends StatelessWidget {
   final Color color;
-  final String emoji;
+  final String imagePath;
   final String nameFr, nameAr, bestText;
   final VoidCallback onTap;
   final bool dimmed;
 
-  const _SubjectCard({required this.color, required this.emoji, required this.nameFr, required this.nameAr, required this.bestText, required this.onTap, this.dimmed = false});
+  const _SubjectCard({required this.color, required this.imagePath, required this.nameFr, required this.nameAr, required this.bestText, required this.onTap, this.dimmed = false});
 
   @override
   Widget build(BuildContext context) {
@@ -1052,8 +1054,8 @@ class _SubjectCard extends StatelessWidget {
                 width: 56,
                 height: 56,
                 decoration: BoxDecoration(color: Colors.white.withValues(alpha: 0.6), borderRadius: BorderRadius.circular(16)),
-                alignment: Alignment.center,
-                child: Text(emoji, style: const TextStyle(fontSize: 34)),
+                clipBehavior: Clip.antiAlias,
+                child: Image.asset(imagePath, fit: BoxFit.cover),
               ),
               const SizedBox(width: 16),
               Expanded(
