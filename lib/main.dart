@@ -776,17 +776,21 @@ class _LevelCard extends StatelessWidget {
               fit: BoxFit.cover,
             ),
           ),
-          child: Padding(
-            padding: const EdgeInsets.symmetric(vertical: 18, horizontal: 14),
-            child: Column(
-              mainAxisSize: MainAxisSize.max,
-              mainAxisAlignment: MainAxisAlignment.end,
-              children: [
-                BiLabel(fr: nameFr, ar: nameAr, frSize: 22, arSize: 18, color: AppColors.ink, align: TextAlign.center, shadows: textShadow),
-                const SizedBox(height: 4),
-                BiLabel(fr: hintFr, ar: hintAr, frSize: 13, arSize: 12, weight: FontWeight.w600, color: AppColors.ink, align: TextAlign.center, shadows: textShadow),
-              ],
-            ),
+          child: Stack(
+            children: [
+              Positioned(
+                top: 10,
+                left: 8,
+                right: 8,
+                child: BiLabel(fr: nameFr, ar: nameAr, frSize: 22, arSize: 18, color: AppColors.ink, align: TextAlign.center, shadows: textShadow),
+              ),
+              Positioned(
+                bottom: 8,
+                left: 8,
+                right: 8,
+                child: BiLabel(fr: hintFr, ar: hintAr, frSize: 13, arSize: 12, weight: FontWeight.w600, color: AppColors.ink, align: TextAlign.center, shadows: textShadow),
+              ),
+            ],
           ),
         ),
       ),
