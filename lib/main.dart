@@ -708,7 +708,7 @@ class HomeScreen extends StatelessWidget {
                   Expanded(
                     child: _LevelCard(
                       color: AppColors.cp1,
-                      emoji: '🌱',
+                      imagePath: 'assets/icon/cp1_bg.jpg',
                       nameFr: B.cp1Fr,
                       nameAr: B.cp1Ar,
                       hintFr: B.cp1HintFr,
@@ -720,7 +720,7 @@ class HomeScreen extends StatelessWidget {
                   Expanded(
                     child: _LevelCard(
                       color: AppColors.cp2,
-                      emoji: '🌟',
+                      imagePath: 'assets/icon/cp2_bg.jpg',
                       nameFr: B.cp2Fr,
                       nameAr: B.cp2Ar,
                       hintFr: B.cp2HintFr,
@@ -740,13 +740,13 @@ class HomeScreen extends StatelessWidget {
 
 class _LevelCard extends StatelessWidget {
   final Color color;
-  final String emoji;
+  final String imagePath;
   final String nameFr, nameAr, hintFr, hintAr;
   final VoidCallback onTap;
 
   const _LevelCard({
     required this.color,
-    required this.emoji,
+    required this.imagePath,
     required this.nameFr,
     required this.nameAr,
     required this.hintFr,
@@ -759,19 +759,35 @@ class _LevelCard extends StatelessWidget {
     return Material(
       color: color,
       borderRadius: BorderRadius.circular(28),
+      clipBehavior: Clip.antiAlias,
       child: InkWell(
-        borderRadius: BorderRadius.circular(28),
         onTap: onTap,
-        child: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 26, horizontal: 14),
-          child: Column(
-            children: [
-              Text(emoji, style: const TextStyle(fontSize: 38)),
-              const SizedBox(height: 10),
-              BiLabel(fr: nameFr, ar: nameAr, frSize: 22, arSize: 18, color: Colors.white, align: TextAlign.center),
-              const SizedBox(height: 4),
-              BiLabel(fr: hintFr, ar: hintAr, frSize: 13, arSize: 12, weight: FontWeight.w600, color: Colors.white70, align: TextAlign.center),
-            ],
+        child: Ink(
+          height: 190,
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage(imagePath),
+              fit: BoxFit.cover,
+            ),
+          ),
+          child: Container(
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                colors: [color.withValues(alpha: 0.05), color.withValues(alpha: 0.78)],
+              ),
+            ),
+            padding: const EdgeInsets.symmetric(vertical: 18, horizontal: 14),
+            alignment: Alignment.bottomCenter,
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                BiLabel(fr: nameFr, ar: nameAr, frSize: 22, arSize: 18, color: Colors.white, align: TextAlign.center),
+                const SizedBox(height: 4),
+                BiLabel(fr: hintFr, ar: hintAr, frSize: 13, arSize: 12, weight: FontWeight.w600, color: Colors.white70, align: TextAlign.center),
+              ],
+            ),
           ),
         ),
       ),
