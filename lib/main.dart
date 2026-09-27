@@ -322,6 +322,7 @@ class BiLabel extends StatelessWidget {
   final FontWeight weight;
   final Color color;
   final TextAlign align;
+  final List<Shadow>? shadows;
 
   const BiLabel({
     super.key,
@@ -332,6 +333,7 @@ class BiLabel extends StatelessWidget {
     this.weight = FontWeight.w800,
     this.color = AppColors.ink,
     this.align = TextAlign.start,
+    this.shadows,
   });
 
   @override
@@ -340,11 +342,11 @@ class BiLabel extends StatelessWidget {
       crossAxisAlignment: align == TextAlign.center ? CrossAxisAlignment.center : CrossAxisAlignment.start,
       mainAxisSize: MainAxisSize.min,
       children: [
-        Text(fr, textAlign: align, style: TextStyle(fontWeight: weight, fontSize: frSize, color: color)),
+        Text(fr, textAlign: align, style: TextStyle(fontWeight: weight, fontSize: frSize, color: color, shadows: shadows)),
         const SizedBox(height: 2),
         Directionality(
           textDirection: TextDirection.rtl,
-          child: Text(ar, textAlign: align, style: TextStyle(fontWeight: weight, fontSize: arSize, color: color.withValues(alpha: 0.8))),
+          child: Text(ar, textAlign: align, style: TextStyle(fontWeight: weight, fontSize: arSize, color: color.withValues(alpha: 0.9), shadows: shadows)),
         ),
       ],
     );
@@ -756,8 +758,9 @@ class _LevelCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    const textShadow = [Shadow(color: Colors.black54, blurRadius: 8, offset: Offset(0, 2))];
     return Material(
-      color: color,
+      color: Colors.white,
       borderRadius: BorderRadius.circular(28),
       clipBehavior: Clip.antiAlias,
       child: InkWell(
@@ -770,22 +773,15 @@ class _LevelCard extends StatelessWidget {
               fit: BoxFit.cover,
             ),
           ),
-          child: Container(
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-                begin: Alignment.topCenter,
-                end: Alignment.bottomCenter,
-                colors: [Colors.black.withValues(alpha: 0.02), Colors.black.withValues(alpha: 0.60)],
-              ),
-            ),
+          child: Padding(
             padding: const EdgeInsets.symmetric(vertical: 18, horizontal: 14),
-            alignment: Alignment.bottomCenter,
             child: Column(
-              mainAxisSize: MainAxisSize.min,
+              mainAxisSize: MainAxisSize.max,
+              mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                BiLabel(fr: nameFr, ar: nameAr, frSize: 22, arSize: 18, color: Colors.white, align: TextAlign.center),
+                BiLabel(fr: nameFr, ar: nameAr, frSize: 22, arSize: 18, color: Colors.white, align: TextAlign.center, shadows: textShadow),
                 const SizedBox(height: 4),
-                BiLabel(fr: hintFr, ar: hintAr, frSize: 13, arSize: 12, weight: FontWeight.w600, color: Colors.white70, align: TextAlign.center),
+                BiLabel(fr: hintFr, ar: hintAr, frSize: 13, arSize: 12, weight: FontWeight.w600, color: Colors.white, align: TextAlign.center, shadows: textShadow),
               ],
             ),
           ),
