@@ -585,10 +585,10 @@ class Subject {
 }
 
 const List<Subject> subjects = [
-  Subject(key: 'lecture', emoji: '🔤', imagePath: 'assets/icon/subj_lecture.jpg', nameFr: 'Lecture', nameAr: 'القراءة', color: AppColors.lecture, colorSoft: AppColors.lectureSoft),
-  Subject(key: 'calcul', emoji: '🔢', imagePath: 'assets/icon/subj_calcul.jpg', nameFr: 'Calcul', nameAr: 'الحساب', color: AppColors.calcul, colorSoft: AppColors.calculSoft),
-  Subject(key: 'langage', emoji: '🖼️', imagePath: 'assets/icon/subj_langage.jpg', nameFr: 'Langage & images', nameAr: 'اللغة والصور', color: AppColors.langage, colorSoft: AppColors.langageSoft),
-  Subject(key: 'ecriture', emoji: '✏️', imagePath: 'assets/icon/subj_ecriture.jpg', nameFr: 'Écriture', nameAr: 'الكتابة', color: AppColors.ecriture, colorSoft: AppColors.ecritureSoft),
+  Subject(key: 'lecture', emoji: '🔤', imagePath: 'assets/icon/subj_lecture-1.jpg', nameFr: 'Lecture', nameAr: 'القراءة', color: AppColors.lecture, colorSoft: AppColors.lectureSoft),
+  Subject(key: 'calcul', emoji: '🔢', imagePath: 'assets/icon/subj_calcul-1.jpg', nameFr: 'Calcul', nameAr: 'الحساب', color: AppColors.calcul, colorSoft: AppColors.calculSoft),
+  Subject(key: 'langage', emoji: '🖼️', imagePath: 'assets/icon/subj_langage-1.jpg', nameFr: 'Langage & images', nameAr: 'اللغة والصور', color: AppColors.langage, colorSoft: AppColors.langageSoft),
+  Subject(key: 'ecriture', emoji: '✏️', imagePath: 'assets/icon/subj_ecriture-1.jpg', nameFr: 'Écriture', nameAr: 'الكتابة', color: AppColors.ecriture, colorSoft: AppColors.ecritureSoft),
 ];
 
 Subject subjectByKey(String key) => subjects.firstWhere((s) => s.key == key, orElse: () => subjects.first);
@@ -712,7 +712,7 @@ class HomeScreen extends StatelessWidget {
                   Expanded(
                     child: _LevelCard(
                       color: AppColors.cp1,
-                      imagePath: 'assets/icon/cp1_bg.jpg',
+                      imagePath: 'assets/icon/cp1_bg-1.jpg',
                       nameFr: B.cp1Fr,
                       nameAr: B.cp1Ar,
                       hintFr: B.cp1HintFr,
@@ -724,7 +724,7 @@ class HomeScreen extends StatelessWidget {
                   Expanded(
                     child: _LevelCard(
                       color: AppColors.cp2,
-                      imagePath: 'assets/icon/cp2_bg.jpg',
+                      imagePath: 'assets/icon/cp2_bg-1.jpg',
                       nameFr: B.cp2Fr,
                       nameAr: B.cp2Ar,
                       hintFr: B.cp2HintFr,
@@ -990,6 +990,7 @@ class _SubjectScreenState extends State<SubjectScreen> {
                     return _SubjectCard(
                       color: s.colorSoft,
                       imagePath: s.imagePath,
+                      emoji: s.emoji,
                       nameFr: s.nameFr,
                       nameAr: s.nameAr,
                       bestText: s.available ? (best != null ? '${B.bestFr}$best' : B.noScoreFr) : B.comingSoonFr,
@@ -1030,11 +1031,12 @@ class _SubjectScreenState extends State<SubjectScreen> {
 class _SubjectCard extends StatelessWidget {
   final Color color;
   final String imagePath;
+  final String emoji;
   final String nameFr, nameAr, bestText;
   final VoidCallback onTap;
   final bool dimmed;
 
-  const _SubjectCard({required this.color, required this.imagePath, required this.nameFr, required this.nameAr, required this.bestText, required this.onTap, this.dimmed = false});
+  const _SubjectCard({required this.color, required this.imagePath, required this.emoji, required this.nameFr, required this.nameAr, required this.bestText, required this.onTap, this.dimmed = false});
 
   @override
   Widget build(BuildContext context) {
@@ -1055,7 +1057,11 @@ class _SubjectCard extends StatelessWidget {
                 height: 56,
                 decoration: BoxDecoration(color: Colors.white.withValues(alpha: 0.6), borderRadius: BorderRadius.circular(16)),
                 clipBehavior: Clip.antiAlias,
-                child: Image.asset(imagePath, fit: BoxFit.cover),
+                child: Image.asset(
+                  imagePath,
+                  fit: BoxFit.cover,
+                  errorBuilder: (context, error, stack) => Center(child: Text(emoji, style: const TextStyle(fontSize: 30))),
+                ),
               ),
               const SizedBox(width: 16),
               Expanded(
