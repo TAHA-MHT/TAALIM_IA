@@ -551,6 +551,12 @@ class AppColors {
   static const error = Color(0xFFE84855);
   static const locked = Color(0xFFB7C3DA);
 
+  // Accents 3D des matières (assortis aux icônes)
+  static const accentLecture = Color(0xFF1E7BDB);
+  static const accentCalcul = Color(0xFFE5384F);
+  static const accentLangage = Color(0xFFF2A900);
+  static const accentEcriture = Color(0xFF17A589);
+
   // Couleurs du drapeau tchadien
   static const chadBlue = Color(0xFF002664);
   static const chadYellow = Color(0xFFFECB00);
@@ -585,10 +591,10 @@ class Subject {
 }
 
 const List<Subject> subjects = [
-  Subject(key: 'lecture', emoji: '🔤', imagePath: 'assets/icon/subj_lecture-1.jpg', nameFr: 'Lecture', nameAr: 'القراءة', color: AppColors.lecture, colorSoft: AppColors.lectureSoft),
-  Subject(key: 'calcul', emoji: '🔢', imagePath: 'assets/icon/subj_calcul-1.jpg', nameFr: 'Calcul', nameAr: 'الحساب', color: AppColors.calcul, colorSoft: AppColors.calculSoft),
-  Subject(key: 'langage', emoji: '🖼️', imagePath: 'assets/icon/subj_langage-1.jpg', nameFr: 'Langage & images', nameAr: 'اللغة والصور', color: AppColors.langage, colorSoft: AppColors.langageSoft),
-  Subject(key: 'ecriture', emoji: '✏️', imagePath: 'assets/icon/subj_ecriture-1.jpg', nameFr: 'Écriture', nameAr: 'الكتابة', color: AppColors.ecriture, colorSoft: AppColors.ecritureSoft),
+  Subject(key: 'lecture', emoji: '🔤', imagePath: 'assets/icon/subj_lecture-1.jpg', nameFr: 'Lecture', nameAr: 'القراءة', color: AppColors.accentLecture, colorSoft: AppColors.lectureSoft),
+  Subject(key: 'calcul', emoji: '🔢', imagePath: 'assets/icon/subj_calcul-1.jpg', nameFr: 'Calcul', nameAr: 'الحساب', color: AppColors.accentCalcul, colorSoft: AppColors.calculSoft),
+  Subject(key: 'langage', emoji: '🖼️', imagePath: 'assets/icon/subj_langage-1.jpg', nameFr: 'Langage & images', nameAr: 'اللغة والصور', color: AppColors.accentLangage, colorSoft: AppColors.langageSoft),
+  Subject(key: 'ecriture', emoji: '✏️', imagePath: 'assets/icon/subj_ecriture-1.jpg', nameFr: 'Écriture', nameAr: 'الكتابة', color: AppColors.accentEcriture, colorSoft: AppColors.ecritureSoft),
 ];
 
 Subject subjectByKey(String key) => subjects.firstWhere((s) => s.key == key, orElse: () => subjects.first);
@@ -988,7 +994,7 @@ class _SubjectScreenState extends State<SubjectScreen> {
                     final s = subjects[i];
                     final best = bestScores[s.key];
                     return _SubjectCard(
-                      color: s.colorSoft,
+                      accent: s.color,
                       imagePath: s.imagePath,
                       emoji: s.emoji,
                       nameFr: s.nameFr,
@@ -1028,39 +1034,76 @@ class _SubjectScreenState extends State<SubjectScreen> {
   }
 }
 
-class _SubjectCard extends StatelessWidget {
-  final Color color;
+class _SubjectCard extends StatefulWidget {
+  final Color accent;
   final String imagePath;
   final String emoji;
   final String nameFr, nameAr, bestText;
   final VoidCallback onTap;
   final bool dimmed;
 
-  const _SubjectCard({required this.color, required this.imagePath, required this.emoji, required this.nameFr, required this.nameAr, required this.bestText, required this.onTap, this.dimmed = false});
+  const _SubjectCard({required this.accent, required this.imagePath, required this.emoji, required this.nameFr, required this.nameAr, required this.bestText, required this.onTap, this.dimmed = false});
+
+  @override
+  State<_SubjectCard> createState() => _SubjectCardState();
+}
+
+class _SubjectCardState extends State<_SubjectCard> {
+  bool _pressed = false;
+
+  Color _darken(Color c, [double amount = 0.20]) {
+    final hsl = HSLColor.fromColor(c);
+    return hsl.withLightness((hsl.lightness - amount).clamp(0.0, 1.0)).toColor();
+  }
 
   @override
   Widget build(BuildContext context) {
+    final accent = widget.accent;
+    final lip = _darken(accent);
+    final double depth = _pressed ? 2 : 7;
+
     return Opacity(
-      opacity: dimmed ? 0.55 : 1.0,
-      child: Material(
-      color: color,
-      borderRadius: BorderRadius.circular(28),
-      child: InkWell(
-        borderRadius: BorderRadius.circular(28),
-        onTap: onTap,
-        child: Padding(
-          padding: const EdgeInsets.all(22),
+      opacity: widget.dimmed ? 0.55 : 1.0,
+      child: GestureDetector(
+        behavior: HitTestBehavior.opaque,
+        onTapDown: (_) => setState(() => _pressed = true),
+        onTapUp: (_) => setState(() => _pressed = false),
+        onTapCancel: () => setState(() => _pressed = false),
+        onTap: widget.onTap,
+        child: AnimatedContainer(
+          duration: const Duration(milliseconds: 90),
+          curve: Curves.easeOut,
+          margin: EdgeInsets.only(top: 7 - depth, bottom: depth),
+          padding: const EdgeInsets.all(18),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(28),
+            gradient: LinearGradient(
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+              colors: [Colors.white, Color.lerp(Colors.white, accent, 0.10)!],
+            ),
+            border: Border.all(color: accent.withValues(alpha: 0.45), width: 2),
+            boxShadow: [
+              BoxShadow(color: lip, offset: Offset(0, depth), blurRadius: 0),
+              BoxShadow(color: accent.withValues(alpha: 0.30), offset: Offset(0, depth + 8), blurRadius: 18, spreadRadius: -4),
+            ],
+          ),
           child: Row(
             children: [
               Container(
-                width: 56,
-                height: 56,
-                decoration: BoxDecoration(color: Colors.white.withValues(alpha: 0.6), borderRadius: BorderRadius.circular(16)),
+                width: 62,
+                height: 62,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(18),
+                  border: Border.all(color: accent.withValues(alpha: 0.25), width: 2),
+                  boxShadow: [BoxShadow(color: accent.withValues(alpha: 0.25), offset: const Offset(0, 4), blurRadius: 0)],
+                ),
                 clipBehavior: Clip.antiAlias,
                 child: Image.asset(
-                  imagePath,
+                  widget.imagePath,
                   fit: BoxFit.cover,
-                  errorBuilder: (context, error, stack) => Center(child: Text(emoji, style: const TextStyle(fontSize: 30))),
+                  errorBuilder: (context, error, stack) => Center(child: Text(widget.emoji, style: const TextStyle(fontSize: 30))),
                 ),
               ),
               const SizedBox(width: 16),
@@ -1068,16 +1111,26 @@ class _SubjectCard extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    BiLabel(fr: nameFr, ar: nameAr, frSize: 19, arSize: 16),
+                    BiLabel(fr: widget.nameFr, ar: widget.nameAr, frSize: 19, arSize: 16),
                     const SizedBox(height: 2),
-                    Text(bestText, style: const TextStyle(fontSize: 13, color: AppColors.inkSoft)),
+                    Text(widget.bestText, style: const TextStyle(fontSize: 13, color: AppColors.inkSoft)),
                   ],
                 ),
+              ),
+              const SizedBox(width: 10),
+              Container(
+                width: 34,
+                height: 34,
+                decoration: BoxDecoration(
+                  color: accent,
+                  shape: BoxShape.circle,
+                  boxShadow: [BoxShadow(color: lip, offset: const Offset(0, 3), blurRadius: 0)],
+                ),
+                child: const Icon(Icons.chevron_right_rounded, color: Colors.white, size: 24),
               ),
             ],
           ),
         ),
-      ),
       ),
     );
   }
