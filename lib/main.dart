@@ -557,6 +557,19 @@ class AppColors {
   static const accentLangage = Color(0xFFF2A900);
   static const accentEcriture = Color(0xFF17A589);
 
+  // Couleurs des 9 mois
+  static const monthAccents = [
+    Color(0xFF1E7BDB), // 1 bleu
+    Color(0xFFF2A900), // 2 jaune
+    Color(0xFFE5384F), // 3 rouge
+    Color(0xFF8CC63F), // 4 vert citron
+    Color(0xFFF57C1F), // 5 orange
+    Color(0xFF29B6F6), // 6 bleu ciel
+    Color(0xFF8E5CF0), // 7 violet
+    Color(0xFF6B8E23), // 8 vert olive
+    Color(0xFFEC5FA0), // 9 rose
+  ];
+
   // Couleurs du drapeau tchadien
   static const chadBlue = Color(0xFF002664);
   static const chadYellow = Color(0xFFFECB00);
@@ -897,7 +910,7 @@ class _MonthScreenState extends State<MonthScreen> {
   }
 }
 
-class _MonthCard extends StatelessWidget {
+class _MonthCard extends StatefulWidget {
   final int month;
   final bool unlocked;
   final VoidCallback onTap;
@@ -905,26 +918,69 @@ class _MonthCard extends StatelessWidget {
   const _MonthCard({required this.month, required this.unlocked, required this.onTap});
 
   @override
+  State<_MonthCard> createState() => _MonthCardState();
+}
+
+class _MonthCardState extends State<_MonthCard> {
+  bool _pressed = false;
+
+  Color _darken(Color c, [double amount = 0.20]) {
+    final hsl = HSLColor.fromColor(c);
+    return hsl.withLightness((hsl.lightness - amount).clamp(0.0, 1.0)).toColor();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return Material(
-      color: unlocked ? AppColors.surface : AppColors.locked.withValues(alpha: 0.3),
-      borderRadius: BorderRadius.circular(20),
-      child: InkWell(
-        borderRadius: BorderRadius.circular(20),
-        onTap: onTap,
-        child: Container(
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20),
-            border: Border.all(color: unlocked ? AppColors.ink.withValues(alpha: 0.08) : Colors.transparent, width: 2),
-          ),
+    final accent = AppColors.monthAccents[(widget.month - 1) % AppColors.monthAccents.length];
+    final lip = _darken(accent);
+    // Texte foncé sur les couleurs claires (jaune, citron, orange...), blanc sur les foncées
+    final onAccent = accent.computeLuminance() > 0.23 ? AppColors.ink : Colors.white;
+    final double depth = _pressed ? 2 : 6;
+
+    return Opacity(
+      opacity: widget.unlocked ? 1.0 : 0.5,
+      child: GestureDetector(
+        behavior: HitTestBehavior.opaque,
+        onTapDown: (_) => setState(() => _pressed = true),
+        onTapUp: (_) => setState(() => _pressed = false),
+        onTapCancel: () => setState(() => _pressed = false),
+        onTap: widget.onTap,
+        child: AnimatedContainer(
+          duration: const Duration(milliseconds: 90),
+          curve: Curves.easeOut,
+          margin: EdgeInsets.only(top: 6 - depth, bottom: depth),
           alignment: Alignment.center,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(22),
+            gradient: LinearGradient(
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+              colors: [Colors.white, Color.lerp(Colors.white, accent, 0.12)!],
+            ),
+            border: Border.all(color: accent.withValues(alpha: 0.45), width: 2),
+            boxShadow: [
+              BoxShadow(color: lip, offset: Offset(0, depth), blurRadius: 0),
+              BoxShadow(color: accent.withValues(alpha: 0.28), offset: Offset(0, depth + 6), blurRadius: 14, spreadRadius: -4),
+            ],
+          ),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              if (!unlocked) const Icon(Icons.lock, color: AppColors.locked, size: 22),
-              if (unlocked) Text('$month', style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 26, color: AppColors.ink)),
-              const SizedBox(height: 4),
-              Text(B.monthFr, style: TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: unlocked ? AppColors.inkSoft : AppColors.locked)),
+              Container(
+                width: 46,
+                height: 46,
+                alignment: Alignment.center,
+                decoration: BoxDecoration(
+                  color: accent,
+                  shape: BoxShape.circle,
+                  boxShadow: [BoxShadow(color: lip, offset: const Offset(0, 3), blurRadius: 0)],
+                ),
+                child: widget.unlocked
+                    ? Text('${widget.month}', style: TextStyle(fontWeight: FontWeight.w800, fontSize: 24, color: onAccent))
+                    : Icon(Icons.lock_rounded, color: onAccent, size: 22),
+              ),
+              const SizedBox(height: 8),
+              const Text(B.monthFr, style: TextStyle(fontSize: 12, fontWeight: FontWeight.w700, color: AppColors.inkSoft)),
             ],
           ),
         ),
