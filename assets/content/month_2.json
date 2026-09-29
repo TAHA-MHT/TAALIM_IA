@@ -1775,6 +1775,259 @@
         "answer": 0
       },
       {
+        "type": "qcm_image",
+        "q_emoji": "⭐",
+        "options": [
+          {
+            "fr": "Étoile",
+            "ar": "نجمة"
+          },
+          {
+            "fr": "Lune",
+            "ar": "قمر"
+          },
+          {
+            "fr": "Soleil",
+            "ar": "شمس"
+          },
+          {
+            "fr": "Nuage",
+            "ar": "غيمة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "☀️",
+        "options": [
+          {
+            "fr": "Soleil",
+            "ar": "شمس"
+          },
+          {
+            "fr": "Lune",
+            "ar": "قمر"
+          },
+          {
+            "fr": "Étoile",
+            "ar": "نجمة"
+          },
+          {
+            "fr": "Pluie",
+            "ar": "مطر"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌧️",
+        "options": [
+          {
+            "fr": "Pluie",
+            "ar": "مطر"
+          },
+          {
+            "fr": "Vent",
+            "ar": "ريح"
+          },
+          {
+            "fr": "Neige",
+            "ar": "ثلج"
+          },
+          {
+            "fr": "Orage",
+            "ar": "عاصفة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "☁️",
+        "options": [
+          {
+            "fr": "Nuage",
+            "ar": "غيمة"
+          },
+          {
+            "fr": "Pluie",
+            "ar": "مطر"
+          },
+          {
+            "fr": "Ciel",
+            "ar": "سماء"
+          },
+          {
+            "fr": "Vent",
+            "ar": "ريح"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐕",
+        "options": [
+          {
+            "fr": "Chien",
+            "ar": "كلب"
+          },
+          {
+            "fr": "Chat",
+            "ar": "قطة"
+          },
+          {
+            "fr": "Chèvre",
+            "ar": "عنزة"
+          },
+          {
+            "fr": "Âne",
+            "ar": "حمار"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐱",
+        "options": [
+          {
+            "fr": "Chat",
+            "ar": "قطة"
+          },
+          {
+            "fr": "Chien",
+            "ar": "كلب"
+          },
+          {
+            "fr": "Souris",
+            "ar": "فأر"
+          },
+          {
+            "fr": "Poisson",
+            "ar": "سمكة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐍",
+        "options": [
+          {
+            "fr": "Serpent",
+            "ar": "ثعبان"
+          },
+          {
+            "fr": "Lézard",
+            "ar": "سحلية"
+          },
+          {
+            "fr": "Ver",
+            "ar": "دودة"
+          },
+          {
+            "fr": "Poisson",
+            "ar": "سمكة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌺",
+        "options": [
+          {
+            "fr": "Fleur",
+            "ar": "زهرة"
+          },
+          {
+            "fr": "Arbre",
+            "ar": "شجرة"
+          },
+          {
+            "fr": "Herbe",
+            "ar": "عشب"
+          },
+          {
+            "fr": "Fruit",
+            "ar": "فاكهة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐄",
+        "options": [
+          {
+            "fr": "Vache",
+            "ar": "بقرة"
+          },
+          {
+            "fr": "Zébu",
+            "ar": "ثور"
+          },
+          {
+            "fr": "Chèvre",
+            "ar": "عنزة"
+          },
+          {
+            "fr": "Âne",
+            "ar": "حمار"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🎈",
+        "options": [
+          {
+            "fr": "Ballon",
+            "ar": "كرة"
+          },
+          {
+            "fr": "Tambour",
+            "ar": "طبل"
+          },
+          {
+            "fr": "Livre",
+            "ar": "كتاب"
+          },
+          {
+            "fr": "Natte",
+            "ar": "حصيرة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "📖",
+        "options": [
+          {
+            "fr": "Livre",
+            "ar": "كتاب"
+          },
+          {
+            "fr": "Cahier",
+            "ar": "دفتر"
+          },
+          {
+            "fr": "Tableau",
+            "ar": "سبورة"
+          },
+          {
+            "fr": "Crayon",
+            "ar": "قلم"
+          }
+        ],
+        "answer": 0
+      },
+      {
         "type": "match",
         "instruction_fr": "Touche une image puis son mot.",
         "instruction_ar": "المس صورة ثم كلمتها.",
@@ -1817,6 +2070,52 @@
           {
             "left": "🐐",
             "right": "Chevreau"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une image puis son mot.",
+        "instruction_ar": "المس صورة ثم كلمتها.",
+        "pairs": [
+          {
+            "left": "⭐",
+            "right": "Étoile"
+          },
+          {
+            "left": "☀️",
+            "right": "Soleil"
+          },
+          {
+            "left": "🌧️",
+            "right": "Pluie"
+          },
+          {
+            "left": "☁️",
+            "right": "Nuage"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une image puis son mot.",
+        "instruction_ar": "المس صورة ثم كلمتها.",
+        "pairs": [
+          {
+            "left": "🐕",
+            "right": "Chien"
+          },
+          {
+            "left": "🐱",
+            "right": "Chat"
+          },
+          {
+            "left": "🌺",
+            "right": "Fleur"
+          },
+          {
+            "left": "🐄",
+            "right": "Vache"
           }
         ]
       }
@@ -2080,6 +2379,482 @@
             80,
             90
           ]
+        ]
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Trouve la voyelle.",
+        "q_ar": "أوجد حرف العلة.",
+        "options": [
+          {
+            "fr": "I",
+            "ar": "I"
+          },
+          {
+            "fr": "L",
+            "ar": "L"
+          },
+          {
+            "fr": "T",
+            "ar": "T"
+          },
+          {
+            "fr": "V",
+            "ar": "V"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Trouve la voyelle.",
+        "q_ar": "أوجد حرف العلة.",
+        "options": [
+          {
+            "fr": "E",
+            "ar": "E"
+          },
+          {
+            "fr": "F",
+            "ar": "F"
+          },
+          {
+            "fr": "H",
+            "ar": "H"
+          },
+          {
+            "fr": "N",
+            "ar": "N"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Trouve la consonne.",
+        "q_ar": "أوجد حرف الصامت.",
+        "options": [
+          {
+            "fr": "M",
+            "ar": "M"
+          },
+          {
+            "fr": "A",
+            "ar": "A"
+          },
+          {
+            "fr": "I",
+            "ar": "I"
+          },
+          {
+            "fr": "E",
+            "ar": "E"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Trouve la consonne.",
+        "q_ar": "أوجد حرف الصامت.",
+        "options": [
+          {
+            "fr": "T",
+            "ar": "T"
+          },
+          {
+            "fr": "A",
+            "ar": "A"
+          },
+          {
+            "fr": "E",
+            "ar": "E"
+          },
+          {
+            "fr": "I",
+            "ar": "I"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle est la majuscule de la lettre « i » ?",
+        "q_ar": "ما هو الحرف الكبير لحرف « i » ؟",
+        "options": [
+          {
+            "fr": "I",
+            "ar": "I"
+          },
+          {
+            "fr": "L",
+            "ar": "L"
+          },
+          {
+            "fr": "T",
+            "ar": "T"
+          },
+          {
+            "fr": "V",
+            "ar": "V"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle est la majuscule de la lettre « e » ?",
+        "q_ar": "ما هو الحرف الكبير لحرف « e » ؟",
+        "options": [
+          {
+            "fr": "E",
+            "ar": "E"
+          },
+          {
+            "fr": "F",
+            "ar": "F"
+          },
+          {
+            "fr": "H",
+            "ar": "H"
+          },
+          {
+            "fr": "N",
+            "ar": "N"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle est la minuscule de la lettre « L » ?",
+        "q_ar": "ما هو الحرف الصغير لحرف « L » ؟",
+        "options": [
+          {
+            "fr": "l",
+            "ar": "l"
+          },
+          {
+            "fr": "i",
+            "ar": "i"
+          },
+          {
+            "fr": "t",
+            "ar": "t"
+          },
+          {
+            "fr": "v",
+            "ar": "v"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle est la minuscule de la lettre « M » ?",
+        "q_ar": "ما هو الحرف الصغير لحرف « M » ؟",
+        "options": [
+          {
+            "fr": "m",
+            "ar": "m"
+          },
+          {
+            "fr": "a",
+            "ar": "a"
+          },
+          {
+            "fr": "n",
+            "ar": "n"
+          },
+          {
+            "fr": "h",
+            "ar": "h"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de lettres a le mot « VITE » ?",
+        "q_ar": "كم عدد حروف كلمة « VITE » ؟",
+        "options": [
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de lettres a le mot « LUNE » ?",
+        "q_ar": "كم عدد حروف كلمة « LUNE » ؟",
+        "options": [
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "3",
+            "ar": "3"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le bon ordre des lettres pour écrire « VITE » ?",
+        "q_ar": "ما هو الترتيب الصحيح لحروف كلمة « VITE » ؟",
+        "options": [
+          {
+            "fr": "V-I-T-E",
+            "ar": "V-I-T-E"
+          },
+          {
+            "fr": "I-V-T-E",
+            "ar": "I-V-T-E"
+          },
+          {
+            "fr": "T-I-V-E",
+            "ar": "T-I-V-E"
+          },
+          {
+            "fr": "E-T-I-V",
+            "ar": "E-T-I-V"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le bon ordre des lettres pour écrire « TABLE » ?",
+        "q_ar": "ما هو الترتيب الصحيح لحروف كلمة « TABLE » ؟",
+        "options": [
+          {
+            "fr": "T-A-B-L-E",
+            "ar": "T-A-B-L-E"
+          },
+          {
+            "fr": "A-T-B-L-E",
+            "ar": "A-T-B-L-E"
+          },
+          {
+            "fr": "T-B-A-L-E",
+            "ar": "T-B-A-L-E"
+          },
+          {
+            "fr": "E-L-B-A-T",
+            "ar": "E-L-B-A-T"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle lettre manque ? H, I, _, K",
+        "q_ar": "ما هو الحرف الناقص؟ H, I, _, K",
+        "options": [
+          {
+            "fr": "J",
+            "ar": "J"
+          },
+          {
+            "fr": "L",
+            "ar": "L"
+          },
+          {
+            "fr": "M",
+            "ar": "M"
+          },
+          {
+            "fr": "N",
+            "ar": "N"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle lettre manque ? L, M, _, O",
+        "q_ar": "ما هو الحرف الناقص؟ L, M, _, O",
+        "options": [
+          {
+            "fr": "N",
+            "ar": "N"
+          },
+          {
+            "fr": "P",
+            "ar": "P"
+          },
+          {
+            "fr": "Q",
+            "ar": "Q"
+          },
+          {
+            "fr": "R",
+            "ar": "R"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel nombre est écrit en chiffres : « neuf » ?",
+        "q_ar": "ما هو الرقم المكتوب بالأرقام : « neuf » ؟",
+        "options": [
+          {
+            "fr": "9",
+            "ar": "9"
+          },
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel nombre est écrit en chiffres : « sept » ?",
+        "q_ar": "ما هو الرقم المكتوب بالأرقام : « sept » ؟",
+        "options": [
+          {
+            "fr": "7",
+            "ar": "7"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "9",
+            "ar": "9"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une majuscule puis sa minuscule.",
+        "instruction_ar": "المس الحرف الكبير ثم الحرف الصغير المطابق له.",
+        "pairs": [
+          {
+            "left": "I",
+            "right": "i"
+          },
+          {
+            "left": "L",
+            "right": "l"
+          },
+          {
+            "left": "T",
+            "right": "t"
+          },
+          {
+            "left": "V",
+            "right": "v"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche une majuscule puis sa minuscule.",
+        "instruction_ar": "المس الحرف الكبير ثم الحرف الصغير المطابق له.",
+        "pairs": [
+          {
+            "left": "E",
+            "right": "e"
+          },
+          {
+            "left": "F",
+            "right": "f"
+          },
+          {
+            "left": "H",
+            "right": "h"
+          },
+          {
+            "left": "M",
+            "right": "m"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche un chiffre puis son mot.",
+        "instruction_ar": "المس رقمًا ثم كلمته.",
+        "pairs": [
+          {
+            "left": "6",
+            "right": "Six"
+          },
+          {
+            "left": "7",
+            "right": "Sept"
+          },
+          {
+            "left": "8",
+            "right": "Huit"
+          },
+          {
+            "left": "9",
+            "right": "Neuf"
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche le mot à trous puis le mot complet.",
+        "instruction_ar": "المس الكلمة الناقصة ثم الكلمة كاملة.",
+        "pairs": [
+          {
+            "left": "V_TE",
+            "right": "Vite"
+          },
+          {
+            "left": "T_BLE",
+            "right": "Table"
+          },
+          {
+            "left": "L_T",
+            "right": "Lit"
+          },
+          {
+            "left": "M_NE",
+            "right": "Mine"
+          }
         ]
       }
     ]
@@ -3697,267 +4472,1229 @@
           }
         ],
         "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐍🌾",
+        "options": [
+          {
+            "fr": "Le serpent se cache dans les hautes herbes.",
+            "ar": "يختبئ الثعبان في الأعشاب الطويلة."
+          },
+          {
+            "fr": "La fillette joue avec un ballon rouge.",
+            "ar": "تلعب الفتاة بكرة حمراء."
+          },
+          {
+            "fr": "Le guépard court très vite dans la savane.",
+            "ar": "يجري الفهد بسرعة كبيرة في السافانا."
+          },
+          {
+            "fr": "L'escargot avance lentement sur la feuille.",
+            "ar": "يتحرك الحلزون ببطء على الورقة."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐕🛖",
+        "options": [
+          {
+            "fr": "Le chien garde la case pendant la nuit.",
+            "ar": "يحرس الكلب الكوخ طوال الليل."
+          },
+          {
+            "fr": "Le garçon lit un livre sous l'arbre.",
+            "ar": "يقرأ الولد كتابًا تحت الشجرة."
+          },
+          {
+            "fr": "La girafe mange les feuilles des grands arbres.",
+            "ar": "تأكل الزرافة أوراق الأشجار الكبيرة."
+          },
+          {
+            "fr": "L'écureuil ramasse des noisettes dans la forêt.",
+            "ar": "يجمع السنجاب البندق في الغابة."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐱🐭",
+        "options": [
+          {
+            "fr": "Le chat attrape une souris dans la case.",
+            "ar": "تمسك القطة فأرًا في الكوخ."
+          },
+          {
+            "fr": "La pluie fait pousser les jeunes pousses.",
+            "ar": "يساعد المطر البراعم الصغيرة على النمو."
+          },
+          {
+            "fr": "Le crocodile nage dans les eaux du fleuve.",
+            "ar": "يسبح التمساح في مياه النهر."
+          },
+          {
+            "fr": "La tortue marche lentement près du fleuve.",
+            "ar": "تمشي السلحفاة ببطء قرب النهر."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌺🦋",
+        "options": [
+          {
+            "fr": "Le papillon se pose sur une fleur colorée.",
+            "ar": "تحط الفراشة على زهرة ملونة."
+          },
+          {
+            "fr": "Le vent pousse les nuages dans le ciel.",
+            "ar": "تدفع الريح الغيوم في السماء."
+          },
+          {
+            "fr": "Le perroquet chante sur la branche d'un arbre.",
+            "ar": "يغني الببغاء على غصن شجرة."
+          },
+          {
+            "fr": "L'oiseau chante une jolie mélodie le matin.",
+            "ar": "يغني العصفور لحنًا جميلاً في الصباح."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐄🥛",
+        "options": [
+          {
+            "fr": "La vache donne du lait frais chaque matin.",
+            "ar": "تعطي البقرة حليبًا طازجًا كل صباح."
+          },
+          {
+            "fr": "L'éléphant se repose à l'ombre de l'arbre.",
+            "ar": "يستريح الفيل في ظل الشجرة."
+          },
+          {
+            "fr": "L'abeille butine le nectar des fleurs.",
+            "ar": "يجمع النحل رحيق الأزهار."
+          },
+          {
+            "fr": "Le paysan se lève tôt pour aller au champ.",
+            "ar": "يستيقظ الفلاح باكرًا للذهاب إلى الحقل."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🎈👧",
+        "options": [
+          {
+            "fr": "La fillette joue avec un ballon rouge.",
+            "ar": "تلعب الفتاة بكرة حمراء."
+          },
+          {
+            "fr": "Le lion vit dans la savane africaine.",
+            "ar": "يعيش الأسد في السافانا الأفريقية."
+          },
+          {
+            "fr": "L'araignée tisse sa toile dans un coin.",
+            "ar": "ينسج العنكبوت شبكته في زاوية."
+          },
+          {
+            "fr": "Le serpent se cache dans les hautes herbes.",
+            "ar": "يختبئ الثعبان في الأعشاب الطويلة."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "📖👦",
+        "options": [
+          {
+            "fr": "Le garçon lit un livre sous l'arbre.",
+            "ar": "يقرأ الولد كتابًا تحت الشجرة."
+          },
+          {
+            "fr": "Le guépard court très vite dans la savane.",
+            "ar": "يجري الفهد بسرعة كبيرة في السافانا."
+          },
+          {
+            "fr": "L'escargot avance lentement sur la feuille.",
+            "ar": "يتحرك الحلزون ببطء على الورقة."
+          },
+          {
+            "fr": "Le chien garde la case pendant la nuit.",
+            "ar": "يحرس الكلب الكوخ طوال الليل."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌧️🌱",
+        "options": [
+          {
+            "fr": "La pluie fait pousser les jeunes pousses.",
+            "ar": "يساعد المطر البراعم الصغيرة على النمو."
+          },
+          {
+            "fr": "La girafe mange les feuilles des grands arbres.",
+            "ar": "تأكل الزرافة أوراق الأشجار الكبيرة."
+          },
+          {
+            "fr": "L'écureuil ramasse des noisettes dans la forêt.",
+            "ar": "يجمع السنجاب البندق في الغابة."
+          },
+          {
+            "fr": "Le chat attrape une souris dans la case.",
+            "ar": "تمسك القطة فأرًا في الكوخ."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "☁️💨",
+        "options": [
+          {
+            "fr": "Le vent pousse les nuages dans le ciel.",
+            "ar": "تدفع الريح الغيوم في السماء."
+          },
+          {
+            "fr": "Le crocodile nage dans les eaux du fleuve.",
+            "ar": "يسبح التمساح في مياه النهر."
+          },
+          {
+            "fr": "La tortue marche lentement près du fleuve.",
+            "ar": "تمشي السلحفاة ببطء قرب النهر."
+          },
+          {
+            "fr": "Le papillon se pose sur une fleur colorée.",
+            "ar": "تحط الفراشة على زهرة ملونة."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐘🌳",
+        "options": [
+          {
+            "fr": "L'éléphant se repose à l'ombre de l'arbre.",
+            "ar": "يستريح الفيل في ظل الشجرة."
+          },
+          {
+            "fr": "Le perroquet chante sur la branche d'un arbre.",
+            "ar": "يغني الببغاء على غصن شجرة."
+          },
+          {
+            "fr": "L'oiseau chante une jolie mélodie le matin.",
+            "ar": "يغني العصفور لحنًا جميلاً في الصباح."
+          },
+          {
+            "fr": "La vache donne du lait frais chaque matin.",
+            "ar": "تعطي البقرة حليبًا طازجًا كل صباح."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🦁🌍",
+        "options": [
+          {
+            "fr": "Le lion vit dans la savane africaine.",
+            "ar": "يعيش الأسد في السافانا الأفريقية."
+          },
+          {
+            "fr": "L'abeille butine le nectar des fleurs.",
+            "ar": "يجمع النحل رحيق الأزهار."
+          },
+          {
+            "fr": "Le paysan se lève tôt pour aller au champ.",
+            "ar": "يستيقظ الفلاح باكرًا للذهاب إلى الحقل."
+          },
+          {
+            "fr": "La fillette joue avec un ballon rouge.",
+            "ar": "تلعب الفتاة بكرة حمراء."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐆🏃",
+        "options": [
+          {
+            "fr": "Le guépard court très vite dans la savane.",
+            "ar": "يجري الفهد بسرعة كبيرة في السافانا."
+          },
+          {
+            "fr": "L'araignée tisse sa toile dans un coin.",
+            "ar": "ينسج العنكبوت شبكته في زاوية."
+          },
+          {
+            "fr": "Le serpent se cache dans les hautes herbes.",
+            "ar": "يختبئ الثعبان في الأعشاب الطويلة."
+          },
+          {
+            "fr": "Le garçon lit un livre sous l'arbre.",
+            "ar": "يقرأ الولد كتابًا تحت الشجرة."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🦒🌿",
+        "options": [
+          {
+            "fr": "La girafe mange les feuilles des grands arbres.",
+            "ar": "تأكل الزرافة أوراق الأشجار الكبيرة."
+          },
+          {
+            "fr": "L'escargot avance lentement sur la feuille.",
+            "ar": "يتحرك الحلزون ببطء على الورقة."
+          },
+          {
+            "fr": "Le chien garde la case pendant la nuit.",
+            "ar": "يحرس الكلب الكوخ طوال الليل."
+          },
+          {
+            "fr": "La pluie fait pousser les jeunes pousses.",
+            "ar": "يساعد المطر البراعم الصغيرة على النمو."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐊🌊",
+        "options": [
+          {
+            "fr": "Le crocodile nage dans les eaux du fleuve.",
+            "ar": "يسبح التمساح في مياه النهر."
+          },
+          {
+            "fr": "L'écureuil ramasse des noisettes dans la forêt.",
+            "ar": "يجمع السنجاب البندق في الغابة."
+          },
+          {
+            "fr": "Le chat attrape une souris dans la case.",
+            "ar": "تمسك القطة فأرًا في الكوخ."
+          },
+          {
+            "fr": "Le vent pousse les nuages dans le ciel.",
+            "ar": "تدفع الريح الغيوم في السماء."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🦜🌳",
+        "options": [
+          {
+            "fr": "Le perroquet chante sur la branche d'un arbre.",
+            "ar": "يغني الببغاء على غصن شجرة."
+          },
+          {
+            "fr": "La tortue marche lentement près du fleuve.",
+            "ar": "تمشي السلحفاة ببطء قرب النهر."
+          },
+          {
+            "fr": "Le papillon se pose sur une fleur colorée.",
+            "ar": "تحط الفراشة على زهرة ملونة."
+          },
+          {
+            "fr": "L'éléphant se repose à l'ombre de l'arbre.",
+            "ar": "يستريح الفيل في ظل الشجرة."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐝🌺",
+        "options": [
+          {
+            "fr": "L'abeille butine le nectar des fleurs.",
+            "ar": "يجمع النحل رحيق الأزهار."
+          },
+          {
+            "fr": "L'oiseau chante une jolie mélodie le matin.",
+            "ar": "يغني العصفور لحنًا جميلاً في الصباح."
+          },
+          {
+            "fr": "La vache donne du lait frais chaque matin.",
+            "ar": "تعطي البقرة حليبًا طازجًا كل صباح."
+          },
+          {
+            "fr": "Le lion vit dans la savane africaine.",
+            "ar": "يعيش الأسد في السافانا الأفريقية."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🕷️🕸️",
+        "options": [
+          {
+            "fr": "L'araignée tisse sa toile dans un coin.",
+            "ar": "ينسج العنكبوت شبكته في زاوية."
+          },
+          {
+            "fr": "Le paysan se lève tôt pour aller au champ.",
+            "ar": "يستيقظ الفلاح باكرًا للذهاب إلى الحقل."
+          },
+          {
+            "fr": "La fillette joue avec un ballon rouge.",
+            "ar": "تلعب الفتاة بكرة حمراء."
+          },
+          {
+            "fr": "Le guépard court très vite dans la savane.",
+            "ar": "يجري الفهد بسرعة كبيرة في السافانا."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐌🍃",
+        "options": [
+          {
+            "fr": "L'escargot avance lentement sur la feuille.",
+            "ar": "يتحرك الحلزون ببطء على الورقة."
+          },
+          {
+            "fr": "Le serpent se cache dans les hautes herbes.",
+            "ar": "يختبئ الثعبان في الأعشاب الطويلة."
+          },
+          {
+            "fr": "Le garçon lit un livre sous l'arbre.",
+            "ar": "يقرأ الولد كتابًا تحت الشجرة."
+          },
+          {
+            "fr": "La girafe mange les feuilles des grands arbres.",
+            "ar": "تأكل الزرافة أوراق الأشجار الكبيرة."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐿️🌰",
+        "options": [
+          {
+            "fr": "L'écureuil ramasse des noisettes dans la forêt.",
+            "ar": "يجمع السنجاب البندق في الغابة."
+          },
+          {
+            "fr": "Le chien garde la case pendant la nuit.",
+            "ar": "يحرس الكلب الكوخ طوال الليل."
+          },
+          {
+            "fr": "La pluie fait pousser les jeunes pousses.",
+            "ar": "يساعد المطر البراعم الصغيرة على النمو."
+          },
+          {
+            "fr": "Le crocodile nage dans les eaux du fleuve.",
+            "ar": "يسبح التمساح في مياه النهر."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐢🏞️",
+        "options": [
+          {
+            "fr": "La tortue marche lentement près du fleuve.",
+            "ar": "تمشي السلحفاة ببطء قرب النهر."
+          },
+          {
+            "fr": "Le chat attrape une souris dans la case.",
+            "ar": "تمسك القطة فأرًا في الكوخ."
+          },
+          {
+            "fr": "Le vent pousse les nuages dans le ciel.",
+            "ar": "تدفع الريح الغيوم في السماء."
+          },
+          {
+            "fr": "Le perroquet chante sur la branche d'un arbre.",
+            "ar": "يغني الببغاء على غصن شجرة."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐦🎵",
+        "options": [
+          {
+            "fr": "L'oiseau chante une jolie mélodie le matin.",
+            "ar": "يغني العصفور لحنًا جميلاً في الصباح."
+          },
+          {
+            "fr": "Le papillon se pose sur une fleur colorée.",
+            "ar": "تحط الفراشة على زهرة ملونة."
+          },
+          {
+            "fr": "L'éléphant se repose à l'ombre de l'arbre.",
+            "ar": "يستريح الفيل في ظل الشجرة."
+          },
+          {
+            "fr": "L'abeille butine le nectar des fleurs.",
+            "ar": "يجمع النحل رحيق الأزهار."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌅👨‍🌾",
+        "options": [
+          {
+            "fr": "Le paysan se lève tôt pour aller au champ.",
+            "ar": "يستيقظ الفلاح باكرًا للذهاب إلى الحقل."
+          },
+          {
+            "fr": "La vache donne du lait frais chaque matin.",
+            "ar": "تعطي البقرة حليبًا طازجًا كل صباح."
+          },
+          {
+            "fr": "Le lion vit dans la savane africaine.",
+            "ar": "يعيش الأسد في السافانا الأفريقية."
+          },
+          {
+            "fr": "L'araignée tisse sa toile dans un coin.",
+            "ar": "ينسج العنكبوت شبكته في زاوية."
+          }
+        ],
+        "answer": 0
       }
     ],
     "ecriture": [
       {
-        "type": "trace",
-        "glyph": "I",
-        "instruction_fr": "Trace la lettre avec ton doigt.",
-        "instruction_ar": "ارسم الحرف بإصبعك.",
-        "template": [
-          [
-            50,
-            10
-          ],
-          [
-            50,
-            90
-          ]
+        "type": "qcm",
+        "q_fr": "Quelle lettre manque dans « T_BLE » ?",
+        "q_ar": "ما هو الحرف الناقص في « T_BLE » ؟",
+        "options": [
+          {
+            "fr": "A",
+            "ar": "A"
+          },
+          {
+            "fr": "E",
+            "ar": "E"
+          },
+          {
+            "fr": "I",
+            "ar": "I"
+          },
+          {
+            "fr": "O",
+            "ar": "O"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle lettre manque dans « L_VRE » ?",
+        "q_ar": "ما هو الحرف الناقص في « L_VRE » ؟",
+        "options": [
+          {
+            "fr": "I",
+            "ar": "I"
+          },
+          {
+            "fr": "A",
+            "ar": "A"
+          },
+          {
+            "fr": "O",
+            "ar": "O"
+          },
+          {
+            "fr": "U",
+            "ar": "U"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle lettre manque dans « N_TTE » ?",
+        "q_ar": "ما هو الحرف الناقص في « N_TTE » ؟",
+        "options": [
+          {
+            "fr": "A",
+            "ar": "A"
+          },
+          {
+            "fr": "E",
+            "ar": "E"
+          },
+          {
+            "fr": "I",
+            "ar": "I"
+          },
+          {
+            "fr": "O",
+            "ar": "O"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle lettre manque dans « M_L » ?",
+        "q_ar": "ما هو الحرف الناقص في « M_L » ؟",
+        "options": [
+          {
+            "fr": "I",
+            "ar": "I"
+          },
+          {
+            "fr": "A",
+            "ar": "A"
+          },
+          {
+            "fr": "O",
+            "ar": "O"
+          },
+          {
+            "fr": "U",
+            "ar": "U"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle lettre manque dans « L_NE » ?",
+        "q_ar": "ما هو الحرف الناقص في « L_NE » ؟",
+        "options": [
+          {
+            "fr": "U",
+            "ar": "U"
+          },
+          {
+            "fr": "A",
+            "ar": "A"
+          },
+          {
+            "fr": "I",
+            "ar": "I"
+          },
+          {
+            "fr": "O",
+            "ar": "O"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle lettre manque dans « M_ISON » ?",
+        "q_ar": "ما هو الحرف الناقص في « M_ISON » ؟",
+        "options": [
+          {
+            "fr": "A",
+            "ar": "A"
+          },
+          {
+            "fr": "E",
+            "ar": "E"
+          },
+          {
+            "fr": "I",
+            "ar": "I"
+          },
+          {
+            "fr": "O",
+            "ar": "O"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle lettre manque dans « AN_MAL » ?",
+        "q_ar": "ما هو الحرف الناقص في « AN_MAL » ؟",
+        "options": [
+          {
+            "fr": "I",
+            "ar": "I"
+          },
+          {
+            "fr": "A",
+            "ar": "A"
+          },
+          {
+            "fr": "E",
+            "ar": "E"
+          },
+          {
+            "fr": "O",
+            "ar": "O"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle lettre manque dans « V_LLE » ?",
+        "q_ar": "ما هو الحرف الناقص في « V_LLE » ؟",
+        "options": [
+          {
+            "fr": "I",
+            "ar": "I"
+          },
+          {
+            "fr": "A",
+            "ar": "A"
+          },
+          {
+            "fr": "E",
+            "ar": "E"
+          },
+          {
+            "fr": "O",
+            "ar": "O"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle lettre manque dans « MAT_N » ?",
+        "q_ar": "ما هو الحرف الناقص في « MAT_N » ؟",
+        "options": [
+          {
+            "fr": "I",
+            "ar": "I"
+          },
+          {
+            "fr": "A",
+            "ar": "A"
+          },
+          {
+            "fr": "E",
+            "ar": "E"
+          },
+          {
+            "fr": "O",
+            "ar": "O"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle lettre manque dans « LA_T » ?",
+        "q_ar": "ما هو الحرف الناقص في « LA_T » ؟",
+        "options": [
+          {
+            "fr": "I",
+            "ar": "I"
+          },
+          {
+            "fr": "A",
+            "ar": "A"
+          },
+          {
+            "fr": "E",
+            "ar": "E"
+          },
+          {
+            "fr": "O",
+            "ar": "O"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le bon ordre des lettres pour écrire « VILLE » ?",
+        "q_ar": "ما هو الترتيب الصحيح لحروف كلمة « VILLE » ؟",
+        "options": [
+          {
+            "fr": "V-I-L-L-E",
+            "ar": "V-I-L-L-E"
+          },
+          {
+            "fr": "I-V-L-L-E",
+            "ar": "I-V-L-L-E"
+          },
+          {
+            "fr": "V-L-I-L-E",
+            "ar": "V-L-I-L-E"
+          },
+          {
+            "fr": "E-L-L-I-V",
+            "ar": "E-L-L-I-V"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le bon ordre des lettres pour écrire « LIVRE » ?",
+        "q_ar": "ما هو الترتيب الصحيح لحروف كلمة « LIVRE » ؟",
+        "options": [
+          {
+            "fr": "L-I-V-R-E",
+            "ar": "L-I-V-R-E"
+          },
+          {
+            "fr": "I-L-V-R-E",
+            "ar": "I-L-V-R-E"
+          },
+          {
+            "fr": "L-V-I-R-E",
+            "ar": "L-V-I-R-E"
+          },
+          {
+            "fr": "E-R-V-I-L",
+            "ar": "E-R-V-I-L"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le bon ordre des lettres pour écrire « NATTE » ?",
+        "q_ar": "ما هو الترتيب الصحيح لحروف كلمة « NATTE » ؟",
+        "options": [
+          {
+            "fr": "N-A-T-T-E",
+            "ar": "N-A-T-T-E"
+          },
+          {
+            "fr": "A-N-T-T-E",
+            "ar": "A-N-T-T-E"
+          },
+          {
+            "fr": "N-T-A-T-E",
+            "ar": "N-T-A-T-E"
+          },
+          {
+            "fr": "E-T-T-A-N",
+            "ar": "E-T-T-A-N"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le bon ordre des lettres pour écrire « MAISON » ?",
+        "q_ar": "ما هو الترتيب الصحيح لحروف كلمة « MAISON » ؟",
+        "options": [
+          {
+            "fr": "M-A-I-S-O-N",
+            "ar": "M-A-I-S-O-N"
+          },
+          {
+            "fr": "A-M-I-S-O-N",
+            "ar": "A-M-I-S-O-N"
+          },
+          {
+            "fr": "M-I-A-S-O-N",
+            "ar": "M-I-A-S-O-N"
+          },
+          {
+            "fr": "N-O-S-I-A-M",
+            "ar": "N-O-S-I-A-M"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le bon ordre des lettres pour écrire « ANIMAL » ?",
+        "q_ar": "ما هو الترتيب الصحيح لحروف كلمة « ANIMAL » ؟",
+        "options": [
+          {
+            "fr": "A-N-I-M-A-L",
+            "ar": "A-N-I-M-A-L"
+          },
+          {
+            "fr": "N-A-I-M-A-L",
+            "ar": "N-A-I-M-A-L"
+          },
+          {
+            "fr": "A-N-M-I-A-L",
+            "ar": "A-N-M-I-A-L"
+          },
+          {
+            "fr": "L-A-M-I-N-A",
+            "ar": "L-A-M-I-N-A"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le bon ordre des lettres pour écrire « MATIN » ?",
+        "q_ar": "ما هو الترتيب الصحيح لحروف كلمة « MATIN » ؟",
+        "options": [
+          {
+            "fr": "M-A-T-I-N",
+            "ar": "M-A-T-I-N"
+          },
+          {
+            "fr": "A-M-T-I-N",
+            "ar": "A-M-T-I-N"
+          },
+          {
+            "fr": "M-T-A-I-N",
+            "ar": "M-T-A-I-N"
+          },
+          {
+            "fr": "N-I-T-A-M",
+            "ar": "N-I-T-A-M"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de lettres y a-t-il dans le mot « TABLE » ?",
+        "q_ar": "كم عدد حروف كلمة « TABLE » ؟",
+        "options": [
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de lettres y a-t-il dans le mot « LIVRE » ?",
+        "q_ar": "كم عدد حروف كلمة « LIVRE » ؟",
+        "options": [
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de lettres y a-t-il dans le mot « MAISON » ?",
+        "q_ar": "كم عدد حروف كلمة « MAISON » ؟",
+        "options": [
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          },
+          {
+            "fr": "8",
+            "ar": "8"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de lettres y a-t-il dans le mot « ANIMAL » ?",
+        "q_ar": "كم عدد حروف كلمة « ANIMAL » ؟",
+        "options": [
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          },
+          {
+            "fr": "8",
+            "ar": "8"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de lettres y a-t-il dans le mot « NATTE » ?",
+        "q_ar": "كم عدد حروف كلمة « NATTE » ؟",
+        "options": [
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Combien de lettres y a-t-il dans le mot « VILLE » ?",
+        "q_ar": "كم عدد حروف كلمة « VILLE » ؟",
+        "options": [
+          {
+            "fr": "5",
+            "ar": "5"
+          },
+          {
+            "fr": "4",
+            "ar": "4"
+          },
+          {
+            "fr": "6",
+            "ar": "6"
+          },
+          {
+            "fr": "7",
+            "ar": "7"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle est la bonne orthographe ?",
+        "q_ar": "ما هي الكتابة الصحيحة ؟",
+        "options": [
+          {
+            "fr": "Maison",
+            "ar": "Maison"
+          },
+          {
+            "fr": "Maisson",
+            "ar": "Maisson"
+          },
+          {
+            "fr": "Maisonn",
+            "ar": "Maisonn"
+          },
+          {
+            "fr": "Meson",
+            "ar": "Meson"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quelle est la bonne orthographe ?",
+        "q_ar": "ما هي الكتابة الصحيحة ؟",
+        "options": [
+          {
+            "fr": "Animal",
+            "ar": "Animal"
+          },
+          {
+            "fr": "Animale",
+            "ar": "Animale"
+          },
+          {
+            "fr": "Anymal",
+            "ar": "Anymal"
+          },
+          {
+            "fr": "Animall",
+            "ar": "Animall"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le pluriel de « journal » ?",
+        "q_ar": "ما هو جمع كلمة « journal » ؟",
+        "options": [
+          {
+            "fr": "journaux",
+            "ar": "journaux"
+          },
+          {
+            "fr": "journals",
+            "ar": "journals"
+          },
+          {
+            "fr": "journales",
+            "ar": "journales"
+          },
+          {
+            "fr": "journal",
+            "ar": "journal"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm",
+        "q_fr": "Quel est le pluriel de « cheval » ?",
+        "q_ar": "ما هو جمع كلمة « cheval » ؟",
+        "options": [
+          {
+            "fr": "chevaux",
+            "ar": "chevaux"
+          },
+          {
+            "fr": "chevals",
+            "ar": "chevals"
+          },
+          {
+            "fr": "chevales",
+            "ar": "chevales"
+          },
+          {
+            "fr": "cheval",
+            "ar": "cheval"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "match",
+        "instruction_fr": "Touche un mot puis son pluriel.",
+        "instruction_ar": "المس كلمة ثم جمعها.",
+        "pairs": [
+          {
+            "left": "table",
+            "right": "tables"
+          },
+          {
+            "left": "livre",
+            "right": "livres"
+          },
+          {
+            "left": "natte",
+            "right": "nattes"
+          },
+          {
+            "left": "animal",
+            "right": "animaux"
+          }
         ]
       },
       {
-        "type": "trace",
-        "glyph": "L",
-        "instruction_fr": "Trace la lettre avec ton doigt.",
-        "instruction_ar": "ارسم الحرف بإصبعك.",
-        "template": [
-          [
-            30,
-            10
-          ],
-          [
-            30,
-            90
-          ],
-          [
-            75,
-            90
-          ]
+        "type": "match",
+        "instruction_fr": "Touche un chiffre puis son mot.",
+        "instruction_ar": "المس رقمًا ثم كلمته.",
+        "pairs": [
+          {
+            "left": "7",
+            "right": "Sept"
+          },
+          {
+            "left": "9",
+            "right": "Neuf"
+          },
+          {
+            "left": "13",
+            "right": "Treize"
+          },
+          {
+            "left": "19",
+            "right": "Dix-neuf"
+          }
         ]
       },
       {
-        "type": "trace",
-        "glyph": "T",
-        "instruction_fr": "Trace la lettre avec ton doigt.",
-        "instruction_ar": "ارسم الحرف بإصبعك.",
-        "template": [
-          [
-            15,
-            15
-          ],
-          [
-            85,
-            15
-          ],
-          [
-            50,
-            15
-          ],
-          [
-            50,
-            90
-          ]
+        "type": "match",
+        "instruction_fr": "Touche le mot à trous puis le mot complet.",
+        "instruction_ar": "المس الكلمة الناقصة ثم الكلمة كاملة.",
+        "pairs": [
+          {
+            "left": "T_BLE",
+            "right": "Table"
+          },
+          {
+            "left": "L_VRE",
+            "right": "Livre"
+          },
+          {
+            "left": "N_TTE",
+            "right": "Natte"
+          },
+          {
+            "left": "M_ISON",
+            "right": "Maison"
+          }
         ]
       },
       {
-        "type": "trace",
-        "glyph": "V",
-        "instruction_fr": "Trace la lettre avec ton doigt.",
-        "instruction_ar": "ارسم الحرف بإصبعك.",
-        "template": [
-          [
-            20,
-            15
-          ],
-          [
-            50,
-            90
-          ],
-          [
-            80,
-            15
-          ]
-        ]
-      },
-      {
-        "type": "trace",
-        "glyph": "E",
-        "instruction_fr": "Trace la lettre avec ton doigt.",
-        "instruction_ar": "ارسم الحرف بإصبعك.",
-        "template": [
-          [
-            70,
-            15
-          ],
-          [
-            30,
-            15
-          ],
-          [
-            30,
-            50
-          ],
-          [
-            60,
-            50
-          ],
-          [
-            30,
-            50
-          ],
-          [
-            30,
-            85
-          ],
-          [
-            70,
-            85
-          ]
-        ]
-      },
-      {
-        "type": "trace",
-        "glyph": "F",
-        "instruction_fr": "Trace la lettre avec ton doigt.",
-        "instruction_ar": "ارسم الحرف بإصبعك.",
-        "template": [
-          [
-            70,
-            15
-          ],
-          [
-            30,
-            15
-          ],
-          [
-            30,
-            50
-          ],
-          [
-            60,
-            50
-          ],
-          [
-            30,
-            50
-          ],
-          [
-            30,
-            85
-          ]
-        ]
-      },
-      {
-        "type": "trace",
-        "glyph": "H",
-        "instruction_fr": "Trace la lettre avec ton doigt.",
-        "instruction_ar": "ارسم الحرف بإصبعك.",
-        "template": [
-          [
-            25,
-            15
-          ],
-          [
-            25,
-            85
-          ],
-          [
-            25,
-            50
-          ],
-          [
-            75,
-            50
-          ],
-          [
-            75,
-            15
-          ],
-          [
-            75,
-            85
-          ]
-        ]
-      },
-      {
-        "type": "trace",
-        "glyph": "N",
-        "instruction_fr": "Trace la lettre avec ton doigt.",
-        "instruction_ar": "ارسم الحرف بإصبعك.",
-        "template": [
-          [
-            25,
-            85
-          ],
-          [
-            25,
-            15
-          ],
-          [
-            75,
-            85
-          ],
-          [
-            75,
-            15
-          ]
-        ]
-      },
-      {
-        "type": "trace",
-        "glyph": "M",
-        "instruction_fr": "Trace la lettre avec ton doigt.",
-        "instruction_ar": "ارسم الحرف بإصبعك.",
-        "template": [
-          [
-            20,
-            90
-          ],
-          [
-            20,
-            15
-          ],
-          [
-            50,
-            60
-          ],
-          [
-            80,
-            15
-          ],
-          [
-            80,
-            90
-          ]
-        ]
-      },
-      {
-        "type": "trace",
-        "glyph": "A",
-        "instruction_fr": "Trace la lettre avec ton doigt.",
-        "instruction_ar": "ارسم الحرف بإصبعك.",
-        "template": [
-          [
-            50,
-            10
-          ],
-          [
-            20,
-            90
-          ],
-          [
-            35,
-            55
-          ],
-          [
-            65,
-            55
-          ],
-          [
-            80,
-            90
-          ]
+        "type": "match",
+        "instruction_fr": "Touche un mot puis son nombre de lettres.",
+        "instruction_ar": "المس كلمة ثم عدد حروفها.",
+        "pairs": [
+          {
+            "left": "Table",
+            "right": "5"
+          },
+          {
+            "left": "Maison",
+            "right": "6"
+          },
+          {
+            "left": "Animal",
+            "right": "6"
+          },
+          {
+            "left": "Natte",
+            "right": "5"
+          }
         ]
       }
     ]
