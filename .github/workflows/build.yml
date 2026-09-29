@@ -25,7 +25,9 @@ jobs:
           cache: false
 
       - name: Repair Android project structure
-        run: flutter create --platforms=android --org com.taalimia .
+        run: |
+          rm -rf android
+          flutter create --platforms=android --org com.taalimia .
 
       - name: Create key.properties
         run: |
@@ -46,7 +48,7 @@ jobs:
         run: |
           flutter build apk --release > build_log.txt 2>&1 || true
           echo "----- ERROR SUMMARY -----"
-          grep -inE "FAILURE|error:|Exception|what went wrong" -A 5 build_log.txt || echo "No obvious error markers found, showing last 150 lines:"
+          grep -inE "FAILURE|error:|Exception|what went wrong" -A 5 build_log.txt || echo "No obvious error markers found."
           tail -150 build_log.txt
 
       - name: Upload full build log
