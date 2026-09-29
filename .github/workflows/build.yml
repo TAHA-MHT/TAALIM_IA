@@ -29,6 +29,9 @@ jobs:
           rm -rf android
           flutter create --platforms=android --org com.taalimia .
 
+      - name: Set minSdk to 24
+        run: sed -i 's/minSdk = flutter.minSdkVersion/minSdk = 24/' android/app/build.gradle.kts
+
       - name: Create key.properties
         run: |
           cat > android/key.properties <<EOF2
