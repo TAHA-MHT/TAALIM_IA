@@ -118,11 +118,7 @@ class Exercise {
     }
   }
 
-  int get points {
-    if (type == 'match') return pairs!.length;
-    if (type == 'match_lang') return langPairs!.length;
-    return 1;
-  }
+  int get points => 1;
 }
 
 /// ---------------------------------------------------------------
@@ -322,7 +318,6 @@ class BiLabel extends StatelessWidget {
   final FontWeight weight;
   final Color color;
   final TextAlign align;
-  final List<Shadow>? shadows;
 
   const BiLabel({
     super.key,
@@ -333,7 +328,6 @@ class BiLabel extends StatelessWidget {
     this.weight = FontWeight.w800,
     this.color = AppColors.ink,
     this.align = TextAlign.start,
-    this.shadows,
   });
 
   @override
@@ -342,11 +336,11 @@ class BiLabel extends StatelessWidget {
       crossAxisAlignment: align == TextAlign.center ? CrossAxisAlignment.center : CrossAxisAlignment.start,
       mainAxisSize: MainAxisSize.min,
       children: [
-        Text(fr, textAlign: align, style: TextStyle(fontWeight: weight, fontSize: frSize, color: color, shadows: shadows)),
+        Text(fr, textAlign: align, style: TextStyle(fontWeight: weight, fontSize: frSize, color: color)),
         const SizedBox(height: 2),
         Directionality(
           textDirection: TextDirection.rtl,
-          child: Text(ar, textAlign: align, style: TextStyle(fontWeight: weight, fontSize: arSize, color: color.withValues(alpha: 0.9), shadows: shadows)),
+          child: Text(ar, textAlign: align, style: TextStyle(fontWeight: weight, fontSize: arSize, color: color.withValues(alpha: 0.8))),
         ),
       ],
     );
@@ -551,25 +545,6 @@ class AppColors {
   static const error = Color(0xFFE84855);
   static const locked = Color(0xFFB7C3DA);
 
-  // Accents 3D des matières (assortis aux icônes)
-  static const accentLecture = Color(0xFF1E7BDB);
-  static const accentCalcul = Color(0xFFE5384F);
-  static const accentLangage = Color(0xFFF2A900);
-  static const accentEcriture = Color(0xFF17A589);
-
-  // Couleurs des 9 mois
-  static const monthAccents = [
-    Color(0xFF1E7BDB), // 1 bleu
-    Color(0xFFF2A900), // 2 jaune
-    Color(0xFFE5384F), // 3 rouge
-    Color(0xFF8CC63F), // 4 vert citron
-    Color(0xFFF57C1F), // 5 orange
-    Color(0xFF29B6F6), // 6 bleu ciel
-    Color(0xFF8E5CF0), // 7 violet
-    Color(0xFF6B8E23), // 8 vert olive
-    Color(0xFFEC5FA0), // 9 rose
-  ];
-
   // Couleurs du drapeau tchadien
   static const chadBlue = Color(0xFF002664);
   static const chadYellow = Color(0xFFFECB00);
@@ -584,7 +559,6 @@ class AppColors {
 class Subject {
   final String key;
   final String emoji;
-  final String imagePath;
   final String nameFr;
   final String nameAr;
   final Color color;
@@ -594,7 +568,6 @@ class Subject {
   const Subject({
     required this.key,
     required this.emoji,
-    required this.imagePath,
     required this.nameFr,
     required this.nameAr,
     required this.color,
@@ -604,10 +577,10 @@ class Subject {
 }
 
 const List<Subject> subjects = [
-  Subject(key: 'lecture', emoji: '🔤', imagePath: 'assets/icon/subj_lecture-1.jpg', nameFr: 'Lecture', nameAr: 'القراءة', color: AppColors.accentLecture, colorSoft: AppColors.lectureSoft),
-  Subject(key: 'calcul', emoji: '🔢', imagePath: 'assets/icon/subj_calcul-1.jpg', nameFr: 'Calcul', nameAr: 'الحساب', color: AppColors.accentCalcul, colorSoft: AppColors.calculSoft),
-  Subject(key: 'langage', emoji: '🖼️', imagePath: 'assets/icon/subj_langage-1.jpg', nameFr: 'Langage & images', nameAr: 'اللغة والصور', color: AppColors.accentLangage, colorSoft: AppColors.langageSoft),
-  Subject(key: 'ecriture', emoji: '✏️', imagePath: 'assets/icon/subj_ecriture-1.jpg', nameFr: 'Écriture', nameAr: 'الكتابة', color: AppColors.accentEcriture, colorSoft: AppColors.ecritureSoft),
+  Subject(key: 'lecture', emoji: '🔤', nameFr: 'Lecture', nameAr: 'القراءة', color: AppColors.lecture, colorSoft: AppColors.lectureSoft),
+  Subject(key: 'calcul', emoji: '🔢', nameFr: 'Calcul', nameAr: 'الحساب', color: AppColors.calcul, colorSoft: AppColors.calculSoft),
+  Subject(key: 'langage', emoji: '🖼️', nameFr: 'Langage & images', nameAr: 'اللغة والصور', color: AppColors.langage, colorSoft: AppColors.langageSoft),
+  Subject(key: 'ecriture', emoji: '✏️', nameFr: 'Écriture', nameAr: 'الكتابة', color: AppColors.ecriture, colorSoft: AppColors.ecritureSoft),
 ];
 
 Subject subjectByKey(String key) => subjects.firstWhere((s) => s.key == key, orElse: () => subjects.first);
@@ -731,7 +704,7 @@ class HomeScreen extends StatelessWidget {
                   Expanded(
                     child: _LevelCard(
                       color: AppColors.cp1,
-                      imagePath: 'assets/icon/cp1_bg-1.jpg',
+                      emoji: '🌱',
                       nameFr: B.cp1Fr,
                       nameAr: B.cp1Ar,
                       hintFr: B.cp1HintFr,
@@ -743,7 +716,7 @@ class HomeScreen extends StatelessWidget {
                   Expanded(
                     child: _LevelCard(
                       color: AppColors.cp2,
-                      imagePath: 'assets/icon/cp2_bg-1.jpg',
+                      emoji: '🌟',
                       nameFr: B.cp2Fr,
                       nameAr: B.cp2Ar,
                       hintFr: B.cp2HintFr,
@@ -763,13 +736,13 @@ class HomeScreen extends StatelessWidget {
 
 class _LevelCard extends StatelessWidget {
   final Color color;
-  final String imagePath;
+  final String emoji;
   final String nameFr, nameAr, hintFr, hintAr;
   final VoidCallback onTap;
 
   const _LevelCard({
     required this.color,
-    required this.imagePath,
+    required this.emoji,
     required this.nameFr,
     required this.nameAr,
     required this.hintFr,
@@ -779,38 +752,21 @@ class _LevelCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const textShadow = [
-      Shadow(color: Colors.white, blurRadius: 10),
-      Shadow(color: Colors.white, blurRadius: 4),
-    ];
     return Material(
-      color: Colors.white,
+      color: color,
       borderRadius: BorderRadius.circular(28),
-      clipBehavior: Clip.antiAlias,
       child: InkWell(
+        borderRadius: BorderRadius.circular(28),
         onTap: onTap,
-        child: Ink(
-          height: 190,
-          decoration: BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage(imagePath),
-              fit: BoxFit.cover,
-            ),
-          ),
-          child: Stack(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 26, horizontal: 14),
+          child: Column(
             children: [
-              Positioned(
-                top: 10,
-                left: 8,
-                right: 8,
-                child: BiLabel(fr: nameFr, ar: nameAr, frSize: 22, arSize: 18, color: AppColors.ink, align: TextAlign.center, shadows: textShadow),
-              ),
-              Positioned(
-                bottom: 8,
-                left: 8,
-                right: 8,
-                child: BiLabel(fr: hintFr, ar: hintAr, frSize: 13, arSize: 12, weight: FontWeight.w600, color: AppColors.ink, align: TextAlign.center, shadows: textShadow),
-              ),
+              Text(emoji, style: const TextStyle(fontSize: 38)),
+              const SizedBox(height: 10),
+              BiLabel(fr: nameFr, ar: nameAr, frSize: 22, arSize: 18, color: Colors.white, align: TextAlign.center),
+              const SizedBox(height: 4),
+              BiLabel(fr: hintFr, ar: hintAr, frSize: 13, arSize: 12, weight: FontWeight.w600, color: Colors.white70, align: TextAlign.center),
             ],
           ),
         ),
@@ -910,7 +866,7 @@ class _MonthScreenState extends State<MonthScreen> {
   }
 }
 
-class _MonthCard extends StatefulWidget {
+class _MonthCard extends StatelessWidget {
   final int month;
   final bool unlocked;
   final VoidCallback onTap;
@@ -918,69 +874,26 @@ class _MonthCard extends StatefulWidget {
   const _MonthCard({required this.month, required this.unlocked, required this.onTap});
 
   @override
-  State<_MonthCard> createState() => _MonthCardState();
-}
-
-class _MonthCardState extends State<_MonthCard> {
-  bool _pressed = false;
-
-  Color _darken(Color c, [double amount = 0.20]) {
-    final hsl = HSLColor.fromColor(c);
-    return hsl.withLightness((hsl.lightness - amount).clamp(0.0, 1.0)).toColor();
-  }
-
-  @override
   Widget build(BuildContext context) {
-    final accent = AppColors.monthAccents[(widget.month - 1) % AppColors.monthAccents.length];
-    final lip = _darken(accent);
-    // Texte foncé sur les couleurs claires (jaune, citron, orange...), blanc sur les foncées
-    final onAccent = accent.computeLuminance() > 0.23 ? AppColors.ink : Colors.white;
-    final double depth = _pressed ? 2 : 6;
-
-    return Opacity(
-      opacity: widget.unlocked ? 1.0 : 0.5,
-      child: GestureDetector(
-        behavior: HitTestBehavior.opaque,
-        onTapDown: (_) => setState(() => _pressed = true),
-        onTapUp: (_) => setState(() => _pressed = false),
-        onTapCancel: () => setState(() => _pressed = false),
-        onTap: widget.onTap,
-        child: AnimatedContainer(
-          duration: const Duration(milliseconds: 90),
-          curve: Curves.easeOut,
-          margin: EdgeInsets.only(top: 6 - depth, bottom: depth),
-          alignment: Alignment.center,
+    return Material(
+      color: unlocked ? AppColors.surface : AppColors.locked.withValues(alpha: 0.3),
+      borderRadius: BorderRadius.circular(20),
+      child: InkWell(
+        borderRadius: BorderRadius.circular(20),
+        onTap: onTap,
+        child: Container(
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(22),
-            gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: [Colors.white, Color.lerp(Colors.white, accent, 0.12)!],
-            ),
-            border: Border.all(color: accent.withValues(alpha: 0.45), width: 2),
-            boxShadow: [
-              BoxShadow(color: lip, offset: Offset(0, depth), blurRadius: 0),
-              BoxShadow(color: accent.withValues(alpha: 0.28), offset: Offset(0, depth + 6), blurRadius: 14, spreadRadius: -4),
-            ],
+            borderRadius: BorderRadius.circular(20),
+            border: Border.all(color: unlocked ? AppColors.ink.withValues(alpha: 0.08) : Colors.transparent, width: 2),
           ),
+          alignment: Alignment.center,
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Container(
-                width: 46,
-                height: 46,
-                alignment: Alignment.center,
-                decoration: BoxDecoration(
-                  color: accent,
-                  shape: BoxShape.circle,
-                  boxShadow: [BoxShadow(color: lip, offset: const Offset(0, 3), blurRadius: 0)],
-                ),
-                child: widget.unlocked
-                    ? Text('${widget.month}', style: TextStyle(fontWeight: FontWeight.w800, fontSize: 24, color: onAccent))
-                    : Icon(Icons.lock_rounded, color: onAccent, size: 22),
-              ),
-              const SizedBox(height: 8),
-              const Text(B.monthFr, style: TextStyle(fontSize: 12, fontWeight: FontWeight.w700, color: AppColors.inkSoft)),
+              if (!unlocked) const Icon(Icons.lock, color: AppColors.locked, size: 22),
+              if (unlocked) Text('$month', style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 26, color: AppColors.ink)),
+              const SizedBox(height: 4),
+              Text(B.monthFr, style: TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: unlocked ? AppColors.inkSoft : AppColors.locked)),
             ],
           ),
         ),
@@ -1050,8 +963,7 @@ class _SubjectScreenState extends State<SubjectScreen> {
                     final s = subjects[i];
                     final best = bestScores[s.key];
                     return _SubjectCard(
-                      accent: s.color,
-                      imagePath: s.imagePath,
+                      color: s.colorSoft,
                       emoji: s.emoji,
                       nameFr: s.nameFr,
                       nameAr: s.nameAr,
@@ -1090,103 +1002,51 @@ class _SubjectScreenState extends State<SubjectScreen> {
   }
 }
 
-class _SubjectCard extends StatefulWidget {
-  final Color accent;
-  final String imagePath;
+class _SubjectCard extends StatelessWidget {
+  final Color color;
   final String emoji;
   final String nameFr, nameAr, bestText;
   final VoidCallback onTap;
   final bool dimmed;
 
-  const _SubjectCard({required this.accent, required this.imagePath, required this.emoji, required this.nameFr, required this.nameAr, required this.bestText, required this.onTap, this.dimmed = false});
-
-  @override
-  State<_SubjectCard> createState() => _SubjectCardState();
-}
-
-class _SubjectCardState extends State<_SubjectCard> {
-  bool _pressed = false;
-
-  Color _darken(Color c, [double amount = 0.20]) {
-    final hsl = HSLColor.fromColor(c);
-    return hsl.withLightness((hsl.lightness - amount).clamp(0.0, 1.0)).toColor();
-  }
+  const _SubjectCard({required this.color, required this.emoji, required this.nameFr, required this.nameAr, required this.bestText, required this.onTap, this.dimmed = false});
 
   @override
   Widget build(BuildContext context) {
-    final accent = widget.accent;
-    final lip = _darken(accent);
-    final double depth = _pressed ? 2 : 7;
-
     return Opacity(
-      opacity: widget.dimmed ? 0.55 : 1.0,
-      child: GestureDetector(
-        behavior: HitTestBehavior.opaque,
-        onTapDown: (_) => setState(() => _pressed = true),
-        onTapUp: (_) => setState(() => _pressed = false),
-        onTapCancel: () => setState(() => _pressed = false),
-        onTap: widget.onTap,
-        child: AnimatedContainer(
-          duration: const Duration(milliseconds: 90),
-          curve: Curves.easeOut,
-          margin: EdgeInsets.only(top: 7 - depth, bottom: depth),
-          padding: const EdgeInsets.all(18),
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(28),
-            gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: [Colors.white, Color.lerp(Colors.white, accent, 0.10)!],
-            ),
-            border: Border.all(color: accent.withValues(alpha: 0.45), width: 2),
-            boxShadow: [
-              BoxShadow(color: lip, offset: Offset(0, depth), blurRadius: 0),
-              BoxShadow(color: accent.withValues(alpha: 0.30), offset: Offset(0, depth + 8), blurRadius: 18, spreadRadius: -4),
-            ],
-          ),
+      opacity: dimmed ? 0.55 : 1.0,
+      child: Material(
+      color: color,
+      borderRadius: BorderRadius.circular(28),
+      child: InkWell(
+        borderRadius: BorderRadius.circular(28),
+        onTap: onTap,
+        child: Padding(
+          padding: const EdgeInsets.all(22),
           child: Row(
             children: [
               Container(
-                width: 62,
-                height: 62,
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(18),
-                  border: Border.all(color: accent.withValues(alpha: 0.25), width: 2),
-                  boxShadow: [BoxShadow(color: accent.withValues(alpha: 0.25), offset: const Offset(0, 4), blurRadius: 0)],
-                ),
-                clipBehavior: Clip.antiAlias,
-                child: Image.asset(
-                  widget.imagePath,
-                  fit: BoxFit.cover,
-                  errorBuilder: (context, error, stack) => Center(child: Text(widget.emoji, style: const TextStyle(fontSize: 30))),
-                ),
+                width: 56,
+                height: 56,
+                decoration: BoxDecoration(color: Colors.white.withValues(alpha: 0.6), borderRadius: BorderRadius.circular(16)),
+                alignment: Alignment.center,
+                child: Text(emoji, style: const TextStyle(fontSize: 34)),
               ),
               const SizedBox(width: 16),
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    BiLabel(fr: widget.nameFr, ar: widget.nameAr, frSize: 19, arSize: 16),
+                    BiLabel(fr: nameFr, ar: nameAr, frSize: 19, arSize: 16),
                     const SizedBox(height: 2),
-                    Text(widget.bestText, style: const TextStyle(fontSize: 13, color: AppColors.inkSoft)),
+                    Text(bestText, style: const TextStyle(fontSize: 13, color: AppColors.inkSoft)),
                   ],
                 ),
-              ),
-              const SizedBox(width: 10),
-              Container(
-                width: 34,
-                height: 34,
-                decoration: BoxDecoration(
-                  color: accent,
-                  shape: BoxShape.circle,
-                  boxShadow: [BoxShadow(color: lip, offset: const Offset(0, 3), blurRadius: 0)],
-                ),
-                child: const Icon(Icons.chevron_right_rounded, color: Colors.white, size: 24),
               ),
             ],
           ),
         ),
+      ),
       ),
     );
   }
@@ -1266,8 +1126,10 @@ class _GameScreenState extends State<GameScreen> {
       setState(() {
         matchedIndices.add(i);
         selectedLeftIndex = null;
-        score++;
-        if (matchedIndices.length == total) answeredCurrent = true;
+        if (matchedIndices.length == total) {
+          answeredCurrent = true;
+          score++;
+        }
       });
     } else {
       setState(() => wrongFlashRight = [i]);
