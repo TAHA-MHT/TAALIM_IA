@@ -1437,368 +1437,345 @@
     "langage": [
       {
         "type": "qcm_image",
-        "q_emoji": "🔨",
+        "q_emoji": "🐛",
         "options": [
           {
-            "fr": "Balai",
-            "ar": "مكنسة"
+            "fr": "Fourmi",
+            "ar": "نملة"
           },
           {
-            "fr": "Marteau",
-            "ar": "مطرقة"
+            "fr": "Araignée",
+            "ar": "عنكبوت"
           },
           {
-            "fr": "Clé",
-            "ar": "مفتاح"
+            "fr": "Sauterelle",
+            "ar": "جرادة"
           },
           {
-            "fr": "Fil",
-            "ar": "خيط"
+            "fr": "Chenille",
+            "ar": "يرقة"
           }
         ],
-        "answer": 1
+        "answer": 3
       },
       {
         "type": "qcm_image",
-        "q_emoji": "🐫",
+        "q_emoji": "🍅",
         "options": [
           {
-            "fr": "Chameau",
-            "ar": "جمل"
+            "fr": "Tomate",
+            "ar": "طماطم"
           },
           {
-            "fr": "Zébu",
-            "ar": "ثور"
+            "fr": "Thé",
+            "ar": "شاي"
           },
           {
-            "fr": "Âne",
-            "ar": "حمار"
+            "fr": "Pomme de terre",
+            "ar": "بطاطا"
           },
           {
-            "fr": "Chèvre",
-            "ar": "عنزة"
+            "fr": "Viande",
+            "ar": "لحم"
           }
         ],
         "answer": 0
       },
       {
         "type": "qcm_image",
-        "q_emoji": "🦉",
+        "q_emoji": "🍌",
         "options": [
           {
-            "fr": "Perroquet",
-            "ar": "ببغاء"
+            "fr": "Banane",
+            "ar": "موز"
           },
           {
-            "fr": "Aigle",
-            "ar": "نسر"
+            "fr": "Miel",
+            "ar": "عسل"
           },
           {
-            "fr": "Corbeau",
-            "ar": "غراب"
+            "fr": "Carotte",
+            "ar": "جزرة"
           },
           {
-            "fr": "Hibou",
-            "ar": "بومة"
+            "fr": "Mangue",
+            "ar": "مانجو"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🚪",
+        "options": [
+          {
+            "fr": "Route",
+            "ar": "طريق"
+          },
+          {
+            "fr": "Mosquée",
+            "ar": "مسجد"
+          },
+          {
+            "fr": "Panier",
+            "ar": "سلة"
+          },
+          {
+            "fr": "Porte",
+            "ar": "باب"
           }
         ],
         "answer": 3
-      },
-      {
-        "type": "match",
-        "instruction_fr": "Touche une image puis son mot.",
-        "instruction_ar": "المس صورة ثم كلمتها.",
-        "pairs": [
-          {
-            "left": "🐫",
-            "right": "Chameau"
-          },
-          {
-            "left": "🥭",
-            "right": "Mangue"
-          },
-          {
-            "left": "🐐",
-            "right": "Chèvre"
-          },
-          {
-            "left": "🥁",
-            "right": "Tambour"
-          }
-        ]
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🧹",
-        "options": [
-          {
-            "fr": "Lampe torche",
-            "ar": "مصباح يدوي"
-          },
-          {
-            "fr": "Clé à molette",
-            "ar": "مفتاح ربط"
-          },
-          {
-            "fr": "Pioche",
-            "ar": "معول"
-          },
-          {
-            "fr": "Balai",
-            "ar": "مكنسة"
-          }
-        ],
-        "answer": 3
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🔧",
-        "options": [
-          {
-            "fr": "Marteau",
-            "ar": "مطرقة"
-          },
-          {
-            "fr": "Fil",
-            "ar": "خيط"
-          },
-          {
-            "fr": "Clé à molette",
-            "ar": "مفتاح ربط"
-          },
-          {
-            "fr": "Lampe torche",
-            "ar": "مصباح يدوي"
-          }
-        ],
-        "answer": 2
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🐑",
-        "options": [
-          {
-            "fr": "Chèvre",
-            "ar": "عنزة"
-          },
-          {
-            "fr": "Zébu",
-            "ar": "ثور"
-          },
-          {
-            "fr": "Mouton",
-            "ar": "خروف"
-          },
-          {
-            "fr": "Âne",
-            "ar": "حمار"
-          }
-        ],
-        "answer": 2
       },
       {
         "type": "qcm_image",
         "q_emoji": "🥁",
         "options": [
           {
-            "fr": "Livre",
-            "ar": "كتاب"
-          },
-          {
             "fr": "Tambour",
             "ar": "طبل"
           },
           {
-            "fr": "Natte",
-            "ar": "حصيرة"
+            "fr": "Pont",
+            "ar": "جسر"
           },
           {
-            "fr": "Ballon",
-            "ar": "كرة"
-          }
-        ],
-        "answer": 1
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🌳",
-        "options": [
-          {
-            "fr": "Baobab",
-            "ar": "باوباب"
+            "fr": "Usine",
+            "ar": "مصنع"
           },
           {
-            "fr": "Palmier",
-            "ar": "نخلة"
-          },
-          {
-            "fr": "Fleur",
-            "ar": "زهرة"
-          },
-          {
-            "fr": "Herbe",
-            "ar": "عشب"
+            "fr": "Boutique",
+            "ar": "دكان"
           }
         ],
         "answer": 0
       },
       {
         "type": "qcm_image",
-        "q_emoji": "📓",
+        "q_emoji": "💰",
         "options": [
           {
-            "fr": "Cahier",
-            "ar": "دفتر"
+            "fr": "Fête",
+            "ar": "احتفال"
           },
           {
-            "fr": "Livre",
-            "ar": "كتاب"
+            "fr": "Lit",
+            "ar": "سرير"
           },
           {
-            "fr": "Microscope",
-            "ar": "مجهر"
+            "fr": "Argent",
+            "ar": "مال"
           },
           {
-            "fr": "Règle",
-            "ar": "مسطرة"
-          }
-        ],
-        "answer": 0
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🐘",
-        "options": [
-          {
-            "fr": "Girafe",
-            "ar": "زرافة"
-          },
-          {
-            "fr": "Éléphant",
-            "ar": "فيل"
-          },
-          {
-            "fr": "Lion",
-            "ar": "أسد"
-          },
-          {
-            "fr": "Zèbre",
-            "ar": "حمار وحشي"
-          }
-        ],
-        "answer": 1
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🔑",
-        "options": [
-          {
-            "fr": "Marteau",
-            "ar": "مطرقة"
-          },
-          {
-            "fr": "Ciseaux",
-            "ar": "مقص"
-          },
-          {
-            "fr": "Pioche",
-            "ar": "معول"
-          },
-          {
-            "fr": "Clé",
-            "ar": "مفتاح"
-          }
-        ],
-        "answer": 3
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🐐",
-        "options": [
-          {
-            "fr": "Poisson",
-            "ar": "سمكة"
-          },
-          {
-            "fr": "Chameau",
-            "ar": "جمل"
-          },
-          {
-            "fr": "Âne",
-            "ar": "حمار"
-          },
-          {
-            "fr": "Chèvre",
-            "ar": "عنزة"
-          }
-        ],
-        "answer": 3
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🌾",
-        "options": [
-          {
-            "fr": "Fleur",
-            "ar": "زهرة"
-          },
-          {
-            "fr": "Riz",
-            "ar": "أرز"
-          },
-          {
-            "fr": "Mil",
-            "ar": "دخن"
-          },
-          {
-            "fr": "Herbe",
-            "ar": "عشب"
+            "fr": "Chaise",
+            "ar": "كرسي"
           }
         ],
         "answer": 2
       },
       {
         "type": "qcm_image",
-        "q_emoji": "✂️",
+        "q_emoji": "💨",
         "options": [
           {
-            "fr": "Ciseaux",
-            "ar": "مقص"
+            "fr": "Pluie",
+            "ar": "مطر"
           },
           {
-            "fr": "Lampe torche",
-            "ar": "مصباح يدوي"
+            "fr": "Vent",
+            "ar": "ريح"
           },
           {
-            "fr": "Hache",
-            "ar": "فأس"
+            "fr": "Montagne",
+            "ar": "جبل"
           },
           {
-            "fr": "Clé à molette",
-            "ar": "مفتاح ربط"
+            "fr": "Lune",
+            "ar": "قمر"
           }
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "type": "qcm_image",
-        "q_emoji": "✏️",
+        "q_emoji": "🚗",
         "options": [
           {
-            "fr": "Microscope",
-            "ar": "مجهر"
+            "fr": "Bateau",
+            "ar": "سفينة"
           },
           {
-            "fr": "Cartable",
-            "ar": "حقيبة مدرسية"
+            "fr": "Charrette",
+            "ar": "عربة"
           },
           {
-            "fr": "Globe",
-            "ar": "كرة أرضية"
+            "fr": "Moto",
+            "ar": "دراجة نارية"
           },
           {
-            "fr": "Crayon",
-            "ar": "قلم رصاص"
+            "fr": "Voiture",
+            "ar": "سيارة"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🍗",
+        "options": [
+          {
+            "fr": "Orange",
+            "ar": "برتقال"
+          },
+          {
+            "fr": "Raisin",
+            "ar": "عنب"
+          },
+          {
+            "fr": "Riz",
+            "ar": "أرز"
+          },
+          {
+            "fr": "Viande",
+            "ar": "لحم"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🍎",
+        "options": [
+          {
+            "fr": "Oignon",
+            "ar": "بصل"
+          },
+          {
+            "fr": "Mangue",
+            "ar": "مانجو"
+          },
+          {
+            "fr": "Riz",
+            "ar": "أرز"
+          },
+          {
+            "fr": "Pomme",
+            "ar": "تفاحة"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🍯",
+        "options": [
+          {
+            "fr": "Banane",
+            "ar": "موز"
+          },
+          {
+            "fr": "Riz",
+            "ar": "أرز"
+          },
+          {
+            "fr": "Thé",
+            "ar": "شاي"
+          },
+          {
+            "fr": "Miel",
+            "ar": "عسل"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "☁️",
+        "options": [
+          {
+            "fr": "Vent",
+            "ar": "ريح"
+          },
+          {
+            "fr": "Nuage",
+            "ar": "غيمة"
+          },
+          {
+            "fr": "Vague",
+            "ar": "موجة"
+          },
+          {
+            "fr": "Montagne",
+            "ar": "جبل"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🧄",
+        "options": [
+          {
+            "fr": "Citron",
+            "ar": "ليمون"
+          },
+          {
+            "fr": "Mil",
+            "ar": "دخن"
+          },
+          {
+            "fr": "Pain",
+            "ar": "خبز"
+          },
+          {
+            "fr": "Ail",
+            "ar": "ثوم"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🗺️",
+        "options": [
+          {
+            "fr": "Ballon",
+            "ar": "كرة"
+          },
+          {
+            "fr": "Cadeau",
+            "ar": "هدية"
+          },
+          {
+            "fr": "Carte",
+            "ar": "خريطة"
+          },
+          {
+            "fr": "Musique",
+            "ar": "موسيقى"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🛺",
+        "options": [
+          {
+            "fr": "Pirogue",
+            "ar": "زورق"
+          },
+          {
+            "fr": "Voiture",
+            "ar": "سيارة"
+          },
+          {
+            "fr": "Vélo",
+            "ar": "دراجة"
+          },
+          {
+            "fr": "Charrette",
+            "ar": "عربة"
           }
         ],
         "answer": 3
@@ -1808,322 +1785,345 @@
         "q_emoji": "💧",
         "options": [
           {
-            "fr": "Fleuve",
-            "ar": "نهر"
+            "fr": "Vague",
+            "ar": "موجة"
           },
           {
-            "fr": "Pluie",
-            "ar": "مطر"
+            "fr": "Eau",
+            "ar": "ماء"
           },
           {
-            "fr": "Mer",
-            "ar": "بحر"
+            "fr": "Feu",
+            "ar": "نار"
           },
           {
-            "fr": "Puits",
-            "ar": "بئر"
-          }
-        ],
-        "answer": 3
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🏥",
-        "options": [
-          {
-            "fr": "Marché",
-            "ar": "سوق"
-          },
-          {
-            "fr": "Hôpital",
-            "ar": "مستشفى"
-          },
-          {
-            "fr": "Case",
-            "ar": "كوخ"
-          },
-          {
-            "fr": "École",
-            "ar": "مدرسة"
+            "fr": "Montagne",
+            "ar": "جبل"
           }
         ],
         "answer": 1
       },
       {
         "type": "qcm_image",
-        "q_emoji": "🪓",
+        "q_emoji": "📻",
         "options": [
           {
-            "fr": "Clé à molette",
-            "ar": "مفتاح ربط"
-          },
-          {
-            "fr": "Balai",
-            "ar": "مكنسة"
-          },
-          {
-            "fr": "Hache",
-            "ar": "فأس"
-          },
-          {
-            "fr": "Ampoule",
-            "ar": "مصباح"
-          }
-        ],
-        "answer": 2
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🏥",
-        "options": [
-          {
-            "fr": "Hôpital",
-            "ar": "مستشفى"
-          },
-          {
-            "fr": "Case",
-            "ar": "كوخ"
-          },
-          {
-            "fr": "Marché",
-            "ar": "سوق"
-          },
-          {
-            "fr": "École",
-            "ar": "مدرسة"
-          }
-        ],
-        "answer": 0
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🐢",
-        "options": [
-          {
-            "fr": "Lézard",
-            "ar": "سحلية"
-          },
-          {
-            "fr": "Grenouille",
-            "ar": "ضفدع"
-          },
-          {
-            "fr": "Crocodile",
-            "ar": "تمساح"
-          },
-          {
-            "fr": "Tortue",
-            "ar": "سلحفاة"
-          }
-        ],
-        "answer": 3
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "⛏️",
-        "options": [
-          {
-            "fr": "Balai",
-            "ar": "مكنسة"
-          },
-          {
-            "fr": "Fil",
-            "ar": "خيط"
-          },
-          {
-            "fr": "Hache",
-            "ar": "فأس"
-          },
-          {
-            "fr": "Pioche",
-            "ar": "معول"
-          }
-        ],
-        "answer": 3
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "📖",
-        "options": [
-          {
-            "fr": "Règle",
-            "ar": "مسطرة"
-          },
-          {
-            "fr": "Livre",
-            "ar": "كتاب"
-          },
-          {
-            "fr": "Cartable",
-            "ar": "حقيبة مدرسية"
-          },
-          {
-            "fr": "Microscope",
-            "ar": "مجهر"
-          }
-        ],
-        "answer": 1
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🦉",
-        "options": [
-          {
-            "fr": "Corbeau",
-            "ar": "غراب"
-          },
-          {
-            "fr": "Aigle",
-            "ar": "نسر"
-          },
-          {
-            "fr": "Hibou",
-            "ar": "بومة"
-          },
-          {
-            "fr": "Perroquet",
-            "ar": "ببغاء"
-          }
-        ],
-        "answer": 2
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🧵",
-        "options": [
-          {
-            "fr": "Pioche",
-            "ar": "معول"
-          },
-          {
-            "fr": "Balai",
-            "ar": "مكنسة"
-          },
-          {
-            "fr": "Clé",
-            "ar": "مفتاح"
-          },
-          {
-            "fr": "Fil",
-            "ar": "خيط"
-          }
-        ],
-        "answer": 3
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "💡",
-        "options": [
-          {
-            "fr": "Ampoule",
-            "ar": "مصباح"
-          },
-          {
-            "fr": "Balai",
-            "ar": "مكنسة"
-          },
-          {
-            "fr": "Fil",
-            "ar": "خيط"
-          },
-          {
-            "fr": "Hache",
-            "ar": "فأس"
-          }
-        ],
-        "answer": 0
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🥁",
-        "options": [
-          {
-            "fr": "Livre",
-            "ar": "كتاب"
-          },
-          {
-            "fr": "Tambour",
-            "ar": "طبل"
+            "fr": "Réveil",
+            "ar": "منبه"
           },
           {
             "fr": "Ballon",
             "ar": "كرة"
           },
           {
-            "fr": "Natte",
-            "ar": "حصيرة"
+            "fr": "Chaise",
+            "ar": "كرسي"
+          },
+          {
+            "fr": "Radio",
+            "ar": "مذياع"
           }
         ],
-        "answer": 1
+        "answer": 3
       },
       {
         "type": "qcm_image",
-        "q_emoji": "🔦",
+        "q_emoji": "🧹",
         "options": [
           {
-            "fr": "Clé à molette",
-            "ar": "مفتاح ربط"
+            "fr": "Marteau",
+            "ar": "مطرقة"
           },
           {
-            "fr": "Fil",
-            "ar": "خيط"
+            "fr": "Balai",
+            "ar": "مكنسة"
           },
           {
-            "fr": "Lampe torche",
-            "ar": "مصباح يدوي"
+            "fr": "Ampoule",
+            "ar": "مصباح"
           },
           {
             "fr": "Hache",
             "ar": "فأس"
           }
         ],
+        "answer": 1
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🎵",
+        "options": [
+          {
+            "fr": "Ballon",
+            "ar": "كرة"
+          },
+          {
+            "fr": "Carte",
+            "ar": "خريطة"
+          },
+          {
+            "fr": "Musique",
+            "ar": "موسيقى"
+          },
+          {
+            "fr": "Radio",
+            "ar": "مذياع"
+          }
+        ],
         "answer": 2
       },
       {
         "type": "qcm_image",
-        "q_emoji": "🥭",
+        "q_emoji": "🦶",
         "options": [
+          {
+            "fr": "Pied",
+            "ar": "قدم"
+          },
+          {
+            "fr": "Bouche",
+            "ar": "فم"
+          },
+          {
+            "fr": "Cœur",
+            "ar": "قلب"
+          },
+          {
+            "fr": "Dent",
+            "ar": "سن"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐂",
+        "options": [
+          {
+            "fr": "Lapin",
+            "ar": "أرنب"
+          },
+          {
+            "fr": "Chat",
+            "ar": "قطة"
+          },
+          {
+            "fr": "Bœuf",
+            "ar": "ثور"
+          },
+          {
+            "fr": "Cheval",
+            "ar": "حصان"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐔",
+        "options": [
+          {
+            "fr": "Coq",
+            "ar": "ديك"
+          },
+          {
+            "fr": "Bœuf",
+            "ar": "ثور"
+          },
+          {
+            "fr": "Canard",
+            "ar": "بطة"
+          },
+          {
+            "fr": "Poule",
+            "ar": "دجاجة"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🦷",
+        "options": [
+          {
+            "fr": "Cerveau",
+            "ar": "دماغ"
+          },
+          {
+            "fr": "Main",
+            "ar": "يد"
+          },
+          {
+            "fr": "Cœur",
+            "ar": "قلب"
+          },
+          {
+            "fr": "Dent",
+            "ar": "سن"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🧺",
+        "options": [
+          {
+            "fr": "Panier",
+            "ar": "سلة"
+          },
+          {
+            "fr": "Case",
+            "ar": "كوخ"
+          },
+          {
+            "fr": "Jarre",
+            "ar": "جرة"
+          },
+          {
+            "fr": "Maison",
+            "ar": "منزل"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🕯️",
+        "options": [
+          {
+            "fr": "Carte",
+            "ar": "خريطة"
+          },
+          {
+            "fr": "Fête",
+            "ar": "احتفال"
+          },
+          {
+            "fr": "Cuillère",
+            "ar": "ملعقة"
+          },
+          {
+            "fr": "Bougie",
+            "ar": "شمعة"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌵",
+        "options": [
+          {
+            "fr": "Soleil",
+            "ar": "شمس"
+          },
+          {
+            "fr": "Herbe",
+            "ar": "عشب"
+          },
+          {
+            "fr": "Île",
+            "ar": "جزيرة"
+          },
+          {
+            "fr": "Cactus",
+            "ar": "صبار"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🍋",
+        "options": [
+          {
+            "fr": "Citron",
+            "ar": "ليمون"
+          },
           {
             "fr": "Mangue",
             "ar": "مانجو"
           },
           {
-            "fr": "Poisson",
-            "ar": "سمكة"
+            "fr": "Pomme de terre",
+            "ar": "بطاطا"
           },
           {
-            "fr": "Mil",
-            "ar": "دخن"
-          },
-          {
-            "fr": "Datte",
-            "ar": "تمرة"
+            "fr": "Orange",
+            "ar": "برتقال"
           }
         ],
         "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌧️",
+        "options": [
+          {
+            "fr": "Feu",
+            "ar": "نار"
+          },
+          {
+            "fr": "Pluie",
+            "ar": "مطر"
+          },
+          {
+            "fr": "Soleil",
+            "ar": "شمس"
+          },
+          {
+            "fr": "Vent",
+            "ar": "ريح"
+          }
+        ],
+        "answer": 1
       },
       {
         "type": "qcm_image",
         "q_emoji": "🐴",
         "options": [
           {
+            "fr": "Chèvre",
+            "ar": "عنزة"
+          },
+          {
+            "fr": "Canard",
+            "ar": "بطة"
+          },
+          {
+            "fr": "Mouton",
+            "ar": "خروف"
+          },
+          {
+            "fr": "Cheval",
+            "ar": "حصان"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐈",
+        "options": [
+          {
             "fr": "Cheval",
             "ar": "حصان"
           },
           {
-            "fr": "Âne",
-            "ar": "حمار"
+            "fr": "Chat",
+            "ar": "قطة"
           },
           {
-            "fr": "Zébu",
+            "fr": "Bœuf",
             "ar": "ثور"
           },
           {
-            "fr": "Chameau",
-            "ar": "جمل"
+            "fr": "Canard",
+            "ar": "بطة"
           }
         ],
-        "answer": 0
+        "answer": 1
       }
     ],
     "ecriture": [
@@ -4701,709 +4701,693 @@
     "langage": [
       {
         "type": "qcm_image",
-        "q_emoji": "🐫🌵",
-        "options": [
-          {
-            "fr": "L'oiseau vole dans le ciel.",
-            "ar": "يطير العصفور في السماء."
-          },
-          {
-            "fr": "Le chameau marche dans le désert.",
-            "ar": "يمشي الجمل في الصحراء."
-          },
-          {
-            "fr": "La chèvre broute l'herbe.",
-            "ar": "ترعى العنزة العشب."
-          },
-          {
-            "fr": "Le poisson nage dans l'eau.",
-            "ar": "تسبح السمكة في الماء."
-          }
-        ],
-        "answer": 1
-      },
-      {
-        "type": "qcm",
-        "q_fr": "Comment dit-on « خريطة » en français ?",
-        "q_ar": "كيف نقول « خريطة » بالفرنسية ؟",
-        "options": [
-          {
-            "fr": "Radio",
-            "ar": ""
-          },
-          {
-            "fr": "Fête",
-            "ar": ""
-          },
-          {
-            "fr": "Carte",
-            "ar": ""
-          },
-          {
-            "fr": "Télévision",
-            "ar": ""
-          }
-        ],
-        "answer": 2
-      },
-      {
-        "type": "qcm",
-        "q_fr": "Où est « Drapeau » ?",
-        "q_ar": "أين علم ؟",
-        "options": [
-          {
-            "fr": "💰",
-            "ar": ""
-          },
-          {
-            "fr": "📺",
-            "ar": ""
-          },
-          {
-            "fr": "🚩",
-            "ar": ""
-          },
-          {
-            "fr": "🎁",
-            "ar": ""
-          }
-        ],
-        "answer": 2
-      },
-      {
-        "type": "qcm",
-        "q_fr": "Où est « Réveil » ?",
-        "q_ar": "أين منبه ؟",
-        "options": [
-          {
-            "fr": "⏰",
-            "ar": ""
-          },
-          {
-            "fr": "🗺️",
-            "ar": ""
-          },
-          {
-            "fr": "🍽️",
-            "ar": ""
-          },
-          {
-            "fr": "🪑",
-            "ar": ""
-          }
-        ],
-        "answer": 0
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🏥👨‍⚕️",
-        "options": [
-          {
-            "fr": "Le médecin travaille à l'hôpital.",
-            "ar": "يعمل الطبيب في المستشفى."
-          },
-          {
-            "fr": "Le pêcheur travaille au fleuve.",
-            "ar": "يعمل الصياد في النهر."
-          },
-          {
-            "fr": "Le berger travaille au champ.",
-            "ar": "يعمل الراعي في الحقل."
-          },
-          {
-            "fr": "Le maître travaille à l'école.",
-            "ar": "يعمل المعلم في المدرسة."
-          }
-        ],
-        "answer": 0
-      },
-      {
-        "type": "qcm",
-        "q_fr": "Comment dit-on « طبق » en français ?",
-        "q_ar": "كيف نقول « طبق » بالفرنسية ؟",
-        "options": [
-          {
-            "fr": "Assiette",
-            "ar": ""
-          },
-          {
-            "fr": "Argent",
-            "ar": ""
-          },
-          {
-            "fr": "Télévision",
-            "ar": ""
-          },
-          {
-            "fr": "Musique",
-            "ar": ""
-          }
-        ],
-        "answer": 0
-      },
-      {
-        "type": "qcm",
-        "q_fr": "Comment dit-on « ملعقة » en français ?",
-        "q_ar": "كيف نقول « ملعقة » بالفرنسية ؟",
-        "options": [
-          {
-            "fr": "Cuillère",
-            "ar": ""
-          },
-          {
-            "fr": "Cadeau",
-            "ar": ""
-          },
-          {
-            "fr": "Argent",
-            "ar": ""
-          },
-          {
-            "fr": "Lit",
-            "ar": ""
-          }
-        ],
-        "answer": 0
-      },
-      {
-        "type": "qcm",
-        "q_fr": "Où est « Carte » ?",
-        "q_ar": "أين خريطة ؟",
-        "options": [
-          {
-            "fr": "🍽️",
-            "ar": ""
-          },
-          {
-            "fr": "🗺️",
-            "ar": ""
-          },
-          {
-            "fr": "⏰",
-            "ar": ""
-          },
-          {
-            "fr": "📻",
-            "ar": ""
-          }
-        ],
-        "answer": 1
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🥁🎉",
-        "options": [
-          {
-            "fr": "On vend au marché.",
-            "ar": "نبيع في السوق."
-          },
-          {
-            "fr": "On étudie à l'école le matin.",
-            "ar": "ندرس في المدرسة صباحًا."
-          },
-          {
-            "fr": "On célèbre la fête avec le tambour.",
-            "ar": "نحتفل بالعيد بالطبل."
-          },
-          {
-            "fr": "On pêche le soir au fleuve.",
-            "ar": "نصطاد مساءً في النهر."
-          }
-        ],
-        "answer": 2
-      },
-      {
-        "type": "qcm",
-        "q_fr": "Comment dit-on « Carte » en arabe ?",
-        "q_ar": "كيف نقول « Carte » بالعربية ؟",
-        "options": [
-          {
-            "fr": "",
-            "ar": "مال"
-          },
-          {
-            "fr": "",
-            "ar": "سرير"
-          },
-          {
-            "fr": "",
-            "ar": "تلفاز"
-          },
-          {
-            "fr": "",
-            "ar": "خريطة"
-          }
-        ],
-        "answer": 3
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🌳🐍",
-        "options": [
-          {
-            "fr": "Un enfant grimpe à l'arbre.",
-            "ar": "يتسلق طفل الشجرة."
-          },
-          {
-            "fr": "Une chèvre broute près de l'arbre.",
-            "ar": "ترعى عنزة قرب الشجرة."
-          },
-          {
-            "fr": "Un serpent se cache sous l'arbre.",
-            "ar": "يختبئ ثعبان تحت الشجرة."
-          },
-          {
-            "fr": "Un oiseau chante sur la branche.",
-            "ar": "يغني عصفور على الغصن."
-          }
-        ],
-        "answer": 2
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🐘🌍",
-        "options": [
-          {
-            "fr": "Le poisson vit dans le fleuve.",
-            "ar": "تعيش السمكة في النهر."
-          },
-          {
-            "fr": "L'éléphant vit dans la savane.",
-            "ar": "يعيش الفيل في السافانا."
-          },
-          {
-            "fr": "Le chameau vit dans le désert.",
-            "ar": "يعيش الجمل في الصحراء."
-          },
-          {
-            "fr": "L'oiseau vit dans le ciel.",
-            "ar": "يعيش العصفور في السماء."
-          }
-        ],
-        "answer": 1
-      },
-      {
-        "type": "qcm_image",
         "q_emoji": "🕯️",
         "options": [
           {
-            "fr": "Lit",
-            "ar": "سرير"
-          },
-          {
-            "fr": "Assiette",
-            "ar": "طبق"
-          },
-          {
-            "fr": "Bougie",
-            "ar": "شمعة"
-          },
-          {
-            "fr": "Cuillère",
-            "ar": "ملعقة"
-          }
-        ],
-        "answer": 2
-      },
-      {
-        "type": "qcm",
-        "q_fr": "Où est « Bougie » ?",
-        "q_ar": "أين شمعة ؟",
-        "options": [
-          {
-            "fr": "🍽️",
-            "ar": ""
-          },
-          {
-            "fr": "🚩",
-            "ar": ""
-          },
-          {
-            "fr": "⏰",
-            "ar": ""
-          },
-          {
-            "fr": "🕯️",
-            "ar": ""
-          }
-        ],
-        "answer": 3
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🏥👨‍⚕️",
-        "options": [
-          {
-            "fr": "Le pêcheur travaille au fleuve.",
-            "ar": "يعمل الصياد في النهر."
-          },
-          {
-            "fr": "Le médecin travaille à l'hôpital.",
-            "ar": "يعمل الطبيب في المستشفى."
-          },
-          {
-            "fr": "Le berger travaille au champ.",
-            "ar": "يعمل الراعي في الحقل."
-          },
-          {
-            "fr": "Le maître travaille à l'école.",
-            "ar": "يعمل المعلم في المدرسة."
-          }
-        ],
-        "answer": 1
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🐢🌊",
-        "options": [
-          {
-            "fr": "Le poisson nage vite.",
-            "ar": "تسبح السمكة بسرعة."
-          },
-          {
-            "fr": "La tortue nage lentement.",
-            "ar": "تسبح السلحفاة ببطء."
-          },
-          {
-            "fr": "L'oiseau vole haut.",
-            "ar": "يطير العصفور عاليًا."
-          },
-          {
-            "fr": "Le crocodile dort.",
-            "ar": "ينام التمساح."
-          }
-        ],
-        "answer": 1
-      },
-      {
-        "type": "qcm",
-        "q_fr": "Comment dit-on « Bougie » en arabe ?",
-        "q_ar": "كيف نقول « Bougie » بالعربية ؟",
-        "options": [
-          {
-            "fr": "",
-            "ar": "هدية"
-          },
-          {
-            "fr": "",
-            "ar": "ملعقة"
-          },
-          {
-            "fr": "",
-            "ar": "شمعة"
-          },
-          {
-            "fr": "",
-            "ar": "موسيقى"
-          }
-        ],
-        "answer": 2
-      },
-      {
-        "type": "qcm",
-        "q_fr": "Comment dit-on « Cuillère » en arabe ?",
-        "q_ar": "كيف نقول « Cuillère » بالعربية ؟",
-        "options": [
-          {
-            "fr": "",
-            "ar": "مال"
-          },
-          {
-            "fr": "",
-            "ar": "ملعقة"
-          },
-          {
-            "fr": "",
-            "ar": "كرسي"
-          },
-          {
-            "fr": "",
-            "ar": "موسيقى"
-          }
-        ],
-        "answer": 1
-      },
-      {
-        "type": "qcm",
-        "q_fr": "Comment dit-on « شمعة » en français ?",
-        "q_ar": "كيف نقول « شمعة » بالفرنسية ؟",
-        "options": [
-          {
-            "fr": "Cadeau",
-            "ar": ""
-          },
-          {
-            "fr": "Fête",
-            "ar": ""
-          },
-          {
-            "fr": "Bougie",
-            "ar": ""
-          },
-          {
-            "fr": "Carte",
-            "ar": ""
-          }
-        ],
-        "answer": 2
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🥁🎉",
-        "options": [
-          {
-            "fr": "On célèbre la fête avec le tambour.",
-            "ar": "نحتفل بالعيد بالطبل."
-          },
-          {
-            "fr": "On vend au marché.",
-            "ar": "نبيع في السوق."
-          },
-          {
-            "fr": "On étudie à l'école.",
-            "ar": "ندرس في المدرسة."
-          },
-          {
-            "fr": "On pêche au fleuve.",
-            "ar": "نصطاد في النهر."
-          }
-        ],
-        "answer": 0
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "⏰",
-        "options": [
-          {
-            "fr": "Musique",
-            "ar": "موسيقى"
-          },
-          {
-            "fr": "Réveil",
-            "ar": "منبه"
-          },
-          {
             "fr": "Fête",
             "ar": "احتفال"
           },
           {
-            "fr": "Radio",
-            "ar": "مذياع"
-          }
-        ],
-        "answer": 1
-      },
-      {
-        "type": "qcm_image",
-        "q_emoji": "🍽️",
-        "options": [
-          {
-            "fr": "Assiette",
-            "ar": "طبق"
-          },
-          {
-            "fr": "Ballon",
-            "ar": "كرة"
-          },
-          {
-            "fr": "Réveil",
-            "ar": "منبه"
-          },
-          {
             "fr": "Bougie",
             "ar": "شمعة"
-          }
-        ],
-        "answer": 0
-      },
-      {
-        "type": "qcm",
-        "q_fr": "Comment dit-on « منبه » en français ?",
-        "q_ar": "كيف نقول « منبه » بالفرنسية ؟",
-        "options": [
+          },
+          {
+            "fr": "Cadeau",
+            "ar": "هدية"
+          },
           {
             "fr": "Lit",
-            "ar": ""
-          },
-          {
-            "fr": "Réveil",
-            "ar": ""
-          },
-          {
-            "fr": "Ballon",
-            "ar": ""
-          },
-          {
-            "fr": "Téléphone",
-            "ar": ""
+            "ar": "سرير"
           }
         ],
         "answer": 1
       },
       {
         "type": "qcm_image",
-        "q_emoji": "🥄",
+        "q_emoji": "🥚",
         "options": [
           {
-            "fr": "Cuillère",
-            "ar": "ملعقة"
+            "fr": "Sel",
+            "ar": "ملح"
           },
           {
-            "fr": "Carte",
-            "ar": "خريطة"
+            "fr": "Citron",
+            "ar": "ليمون"
           },
           {
-            "fr": "Ballon",
-            "ar": "كرة"
+            "fr": "Pomme",
+            "ar": "تفاحة"
           },
           {
-            "fr": "Drapeau",
-            "ar": "علم"
-          }
-        ],
-        "answer": 0
-      },
-      {
-        "type": "qcm",
-        "q_fr": "Comment dit-on « Assiette » en arabe ?",
-        "q_ar": "كيف نقول « Assiette » بالعربية ؟",
-        "options": [
-          {
-            "fr": "",
-            "ar": "كرة"
-          },
-          {
-            "fr": "",
-            "ar": "منبه"
-          },
-          {
-            "fr": "",
-            "ar": "سرير"
-          },
-          {
-            "fr": "",
-            "ar": "طبق"
+            "fr": "Œuf",
+            "ar": "بيضة"
           }
         ],
         "answer": 3
       },
       {
         "type": "qcm_image",
-        "q_emoji": "🐑🌾",
+        "q_emoji": "🦔",
         "options": [
           {
-            "fr": "L'oiseau vole au-dessus du village.",
-            "ar": "يطير العصفور فوق القرية."
+            "fr": "Tortue",
+            "ar": "سلحفاة"
           },
           {
-            "fr": "Le poisson nage dans le fleuve.",
-            "ar": "تسبح السمكة في النهر."
+            "fr": "Hérisson",
+            "ar": "قنفذ"
           },
           {
-            "fr": "Le zébu boit l'eau du puits.",
-            "ar": "يشرب الثور ماء البئر."
+            "fr": "Crocodile",
+            "ar": "تمساح"
           },
           {
-            "fr": "Le mouton mange l'herbe du champ.",
-            "ar": "يأكل الخروف عشب الحقل."
+            "fr": "Éléphant",
+            "ar": "فيل"
           }
         ],
-        "answer": 3
+        "answer": 1
       },
       {
-        "type": "qcm",
-        "q_fr": "Où est « Cuillère » ?",
-        "q_ar": "أين ملعقة ؟",
+        "type": "qcm_image",
+        "q_emoji": "🐇",
         "options": [
           {
-            "fr": "🥄",
-            "ar": ""
+            "fr": "Lapin",
+            "ar": "أرنب"
           },
           {
-            "fr": "🪑",
-            "ar": ""
+            "fr": "Cheval",
+            "ar": "حصان"
           },
           {
-            "fr": "🎉",
-            "ar": ""
+            "fr": "Canard",
+            "ar": "بطة"
           },
           {
-            "fr": "🎵",
-            "ar": ""
+            "fr": "Poule",
+            "ar": "دجاجة"
           }
         ],
         "answer": 0
       },
       {
         "type": "qcm_image",
-        "q_emoji": "🗺️",
+        "q_emoji": "🐢",
+        "options": [
+          {
+            "fr": "Girafe",
+            "ar": "زرافة"
+          },
+          {
+            "fr": "Tortue",
+            "ar": "سلحفاة"
+          },
+          {
+            "fr": "Hérisson",
+            "ar": "قنفذ"
+          },
+          {
+            "fr": "Zèbre",
+            "ar": "حمار وحشي"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🔬",
+        "options": [
+          {
+            "fr": "Microscope",
+            "ar": "مجهر"
+          },
+          {
+            "fr": "Cartable",
+            "ar": "حقيبة مدرسية"
+          },
+          {
+            "fr": "Règle",
+            "ar": "مسطرة"
+          },
+          {
+            "fr": "Cahier",
+            "ar": "دفتر"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐄",
+        "options": [
+          {
+            "fr": "Vache",
+            "ar": "بقرة"
+          },
+          {
+            "fr": "Chat",
+            "ar": "قطة"
+          },
+          {
+            "fr": "Canard",
+            "ar": "بطة"
+          },
+          {
+            "fr": "Lapin",
+            "ar": "أرنب"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐙",
+        "options": [
+          {
+            "fr": "Coquillage",
+            "ar": "صدفة"
+          },
+          {
+            "fr": "Pieuvre",
+            "ar": "أخطبوط"
+          },
+          {
+            "fr": "Poisson",
+            "ar": "سمكة"
+          },
+          {
+            "fr": "Crabe",
+            "ar": "سرطان"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "💰",
         "options": [
           {
             "fr": "Argent",
             "ar": "مال"
           },
           {
-            "fr": "Carte",
-            "ar": "خريطة"
+            "fr": "Cadeau",
+            "ar": "هدية"
           },
           {
-            "fr": "Fête",
-            "ar": "احتفال"
+            "fr": "Télévision",
+            "ar": "تلفاز"
           },
           {
-            "fr": "Réveil",
-            "ar": "منبه"
+            "fr": "Chaise",
+            "ar": "كرسي"
           }
         ],
-        "answer": 1
+        "answer": 0
       },
       {
-        "type": "qcm",
-        "q_fr": "Où est « Assiette » ?",
-        "q_ar": "أين طبق ؟",
+        "type": "qcm_image",
+        "q_emoji": "⛏️",
         "options": [
           {
-            "fr": "🥄",
-            "ar": ""
+            "fr": "Lampe torche",
+            "ar": "مصباح يدوي"
           },
           {
-            "fr": "📱",
-            "ar": ""
+            "fr": "Fil",
+            "ar": "خيط"
           },
           {
-            "fr": "🍽️",
-            "ar": ""
+            "fr": "Hache",
+            "ar": "فأس"
           },
           {
-            "fr": "⚽",
-            "ar": ""
+            "fr": "Pioche",
+            "ar": "معول"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐌",
+        "options": [
+          {
+            "fr": "Escargot",
+            "ar": "حلزون"
+          },
+          {
+            "fr": "Papillon",
+            "ar": "فراشة"
+          },
+          {
+            "fr": "Fourmi",
+            "ar": "نملة"
+          },
+          {
+            "fr": "Abeille",
+            "ar": "نحلة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🦴",
+        "options": [
+          {
+            "fr": "Os",
+            "ar": "عظم"
+          },
+          {
+            "fr": "Pied",
+            "ar": "قدم"
+          },
+          {
+            "fr": "Oreille",
+            "ar": "أذن"
+          },
+          {
+            "fr": "Dent",
+            "ar": "سن"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🍯",
+        "options": [
+          {
+            "fr": "Riz",
+            "ar": "أرز"
+          },
+          {
+            "fr": "Orange",
+            "ar": "برتقال"
+          },
+          {
+            "fr": "Miel",
+            "ar": "عسل"
+          },
+          {
+            "fr": "Pomme de terre",
+            "ar": "بطاطا"
           }
         ],
         "answer": 2
       },
       {
-        "type": "qcm",
-        "q_fr": "Comment dit-on « Réveil » en arabe ?",
-        "q_ar": "كيف نقول « Réveil » بالعربية ؟",
+        "type": "qcm_image",
+        "q_emoji": "🍌",
         "options": [
           {
-            "fr": "",
-            "ar": "هدية"
+            "fr": "Thé",
+            "ar": "شاي"
           },
           {
-            "fr": "",
-            "ar": "كرسي"
+            "fr": "Œuf",
+            "ar": "بيضة"
           },
           {
-            "fr": "",
-            "ar": "ملعقة"
+            "fr": "Banane",
+            "ar": "موز"
           },
           {
-            "fr": "",
-            "ar": "منبه"
+            "fr": "Mangue",
+            "ar": "مانجو"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🕌",
+        "options": [
+          {
+            "fr": "Mosquée",
+            "ar": "مسجد"
+          },
+          {
+            "fr": "Marché",
+            "ar": "سوق"
+          },
+          {
+            "fr": "École",
+            "ar": "مدرسة"
+          },
+          {
+            "fr": "Case",
+            "ar": "كوخ"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🥜",
+        "options": [
+          {
+            "fr": "Mangue",
+            "ar": "مانجو"
+          },
+          {
+            "fr": "Thé",
+            "ar": "شاي"
+          },
+          {
+            "fr": "Arachide",
+            "ar": "فول سوداني"
+          },
+          {
+            "fr": "Maïs",
+            "ar": "ذرة"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🦎",
+        "options": [
+          {
+            "fr": "Zèbre",
+            "ar": "حمار وحشي"
+          },
+          {
+            "fr": "Éléphant",
+            "ar": "فيل"
+          },
+          {
+            "fr": "Lézard",
+            "ar": "سحلية"
+          },
+          {
+            "fr": "Girafe",
+            "ar": "زرافة"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🍇",
+        "options": [
+          {
+            "fr": "Citron",
+            "ar": "ليمون"
+          },
+          {
+            "fr": "Ail",
+            "ar": "ثوم"
+          },
+          {
+            "fr": "Raisin",
+            "ar": "عنب"
+          },
+          {
+            "fr": "Thé",
+            "ar": "شاي"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "👂",
+        "options": [
+          {
+            "fr": "Oreille",
+            "ar": "أذن"
+          },
+          {
+            "fr": "Os",
+            "ar": "عظم"
+          },
+          {
+            "fr": "Main",
+            "ar": "يد"
+          },
+          {
+            "fr": "Œil",
+            "ar": "عين"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🚗",
+        "options": [
+          {
+            "fr": "Pirogue",
+            "ar": "زورق"
+          },
+          {
+            "fr": "Charrette",
+            "ar": "عربة"
+          },
+          {
+            "fr": "Voiture",
+            "ar": "سيارة"
+          },
+          {
+            "fr": "Camion",
+            "ar": "شاحنة"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🏢",
+        "options": [
+          {
+            "fr": "Boutique",
+            "ar": "دكان"
+          },
+          {
+            "fr": "Immeuble",
+            "ar": "مبنى"
+          },
+          {
+            "fr": "Mosquée",
+            "ar": "مسجد"
+          },
+          {
+            "fr": "Maison",
+            "ar": "منزل"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🧑‍🍳",
+        "options": [
+          {
+            "fr": "Grand-père",
+            "ar": "جد"
+          },
+          {
+            "fr": "Ouvrier",
+            "ar": "عامل"
+          },
+          {
+            "fr": "Garçon",
+            "ar": "ولد"
+          },
+          {
+            "fr": "Cuisinier",
+            "ar": "طباخ"
           }
         ],
         "answer": 3
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🦓",
+        "options": [
+          {
+            "fr": "Zèbre",
+            "ar": "حمار وحشي"
+          },
+          {
+            "fr": "Hérisson",
+            "ar": "قنفذ"
+          },
+          {
+            "fr": "Grenouille",
+            "ar": "ضفدع"
+          },
+          {
+            "fr": "Tortue",
+            "ar": "سلحفاة"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🦁",
+        "options": [
+          {
+            "fr": "Écureuil",
+            "ar": "سنجاب"
+          },
+          {
+            "fr": "Serpent",
+            "ar": "ثعبان"
+          },
+          {
+            "fr": "Léopard",
+            "ar": "نمر"
+          },
+          {
+            "fr": "Lion",
+            "ar": "أسد"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🐆",
+        "options": [
+          {
+            "fr": "Tortue",
+            "ar": "سلحفاة"
+          },
+          {
+            "fr": "Léopard",
+            "ar": "نمر"
+          },
+          {
+            "fr": "Girafe",
+            "ar": "زرافة"
+          },
+          {
+            "fr": "Hippopotame",
+            "ar": "فرس النهر"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🥁",
+        "options": [
+          {
+            "fr": "Maison",
+            "ar": "منزل"
+          },
+          {
+            "fr": "Tambour",
+            "ar": "طبل"
+          },
+          {
+            "fr": "Usine",
+            "ar": "مصنع"
+          },
+          {
+            "fr": "Jarre",
+            "ar": "جرة"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🌧️",
+        "options": [
+          {
+            "fr": "Pluie",
+            "ar": "مطر"
+          },
+          {
+            "fr": "Arc-en-ciel",
+            "ar": "قوس قزح"
+          },
+          {
+            "fr": "Feuille",
+            "ar": "ورقة"
+          },
+          {
+            "fr": "Herbe",
+            "ar": "عشب"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🥛",
+        "options": [
+          {
+            "fr": "Pastèque",
+            "ar": "بطيخ"
+          },
+          {
+            "fr": "Lait",
+            "ar": "حليب"
+          },
+          {
+            "fr": "Raisin",
+            "ar": "عنب"
+          },
+          {
+            "fr": "Pomme",
+            "ar": "تفاحة"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "🏥",
+        "options": [
+          {
+            "fr": "Pont",
+            "ar": "جسر"
+          },
+          {
+            "fr": "Hôpital",
+            "ar": "مستشفى"
+          },
+          {
+            "fr": "Usine",
+            "ar": "مصنع"
+          },
+          {
+            "fr": "Tambour",
+            "ar": "طبل"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "type": "qcm_image",
+        "q_emoji": "❤️",
+        "options": [
+          {
+            "fr": "Os",
+            "ar": "عظم"
+          },
+          {
+            "fr": "Cœur",
+            "ar": "قلب"
+          },
+          {
+            "fr": "Cerveau",
+            "ar": "دماغ"
+          },
+          {
+            "fr": "Bouche",
+            "ar": "فم"
+          }
+        ],
+        "answer": 1
       }
     ],
     "ecriture": [
